@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg[binary]
+pgvector
+jinja2
+python-dotenv
+httpx
+pytest
+pytest-asyncio
+authlib
+itsdangerous
+google-auth
+google-api-python-client
+python-dateutil
+python-multipart
