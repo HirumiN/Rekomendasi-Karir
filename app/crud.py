@@ -140,6 +140,16 @@ def delete_todo(db: Session, todo_id: int):
     return db_todo
 
 # --- SEMESTER CRUD ---
+def check_semester_overlap(db: Session, user_id: int, start_date, end_date, exclude_semester_id: int = None) -> bool:
+    query = db.query(models.Semester).filter(
+        models.Semester.id_user == user_id,
+        models.Semester.tanggal_mulai <= end_date,
+        models.Semester.tanggal_selesai >= start_date
+    )
+    if exclude_semester_id:
+        query = query.filter(models.Semester.id_semester != exclude_semester_id)
+    return query.first() is not None
+
 def create_semester(db: Session, semester: schemas.SemesterCreate) -> models.Semester:
     db_semester = models.Semester(
         id_user=semester.id_user,
@@ -264,6 +274,47 @@ def delete_ukm(db: Session, ukm_id: int):
         db.delete(db_ukm)
         db.commit()
     return db_ukm
+
+
+# --- RUTINITAS CRUD ---
+def create_rutinitas(db: Session, rutinitas: schemas.RutinitasCreate) -> models.Rutinitas:
+    db_rutinitas = models.Rutinitas(
+        id_user=rutinitas.id_user,
+        nama=rutinitas.nama,
+        hari=rutinitas.hari,
+        jam_mulai=rutinitas.jam_mulai,
+        jam_selesai=rutinitas.jam_selesai,
+        deskripsi=rutinitas.deskripsi
+    )
+    db.add(db_rutinitas)
+    db.commit()
+    db.refresh(db_rutinitas)
+    return db_rutinitas
+
+def update_rutinitas(db: Session, rutinitas_id: int, rutinitas_update: schemas.RutinitasUpdate) -> Optional[models.Rutinitas]:
+    db_rutinitas = db.query(models.Rutinitas).filter(models.Rutinitas.id_rutinitas == rutinitas_id).first()
+    if db_rutinitas:
+        update_data = rutinitas_update.model_dump(exclude_unset=True, exclude_none=True)
+        if update_data:
+            for key, value in update_data.items():
+                setattr(db_rutinitas, key, value)
+        db.commit()
+        db.refresh(db_rutinitas)
+    return db_rutinitas
+
+def get_rutinitas(db: Session, rutinitas_id: int) -> Optional[models.Rutinitas]:
+    return db.query(models.Rutinitas).filter(models.Rutinitas.id_rutinitas == rutinitas_id).first()
+
+def get_rutinitas_by_user(db: Session, id_user: int, skip: int = 0, limit: int = 100) -> List[models.Rutinitas]:
+    return db.query(models.Rutinitas).filter(models.Rutinitas.id_user == id_user).offset(skip).limit(limit).all()
+
+def delete_rutinitas(db: Session, rutinitas_id: int):
+    db_rutinitas = db.query(models.Rutinitas).filter(models.Rutinitas.id_rutinitas == rutinitas_id).first()
+    if db_rutinitas:
+        db.delete(db_rutinitas)
+        db.commit()
+    return db_rutinitas
+
 
 def get_chat_history(db: Session, user_id: int, skip: int = 0, limit: int = 100):
     return db.query(models.AIChatHistory).filter(models.AIChatHistory.id_user == user_id).offset(skip).limit(limit).all()

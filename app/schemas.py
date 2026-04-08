@@ -207,6 +207,32 @@ class UKM(UKMBase):
 
     model_config = ConfigDict(from_attributes=True)
 
+# Rutinitas Schemas
+class RutinitasBase(BaseModel):
+    id_user: int
+    nama: str
+    hari: str
+    jam_mulai: Optional[time] = None
+    jam_selesai: Optional[time] = None
+    deskripsi: Optional[str] = None
+
+class RutinitasCreate(RutinitasBase):
+    pass
+
+class RutinitasUpdate(RutinitasBase):
+    id_user: Optional[int] = None
+    nama: Optional[str] = None
+    hari: Optional[str] = None
+
+    model_config = ConfigDict(from_attributes=True)
+
+class Rutinitas(RutinitasBase):
+    id_rutinitas: int
+    created_at: datetime
+
+    model_config = ConfigDict(from_attributes=True)
+
+
 # --- AI Career Schemas ---
 
 class CareerResultBase(BaseModel):

@@ -656,6 +656,88 @@ async def update_ukm_route(
 
 
 
+# --- RUTINITAS Endpoints ---
+@app.get("/rutinitas", response_model=List[schemas.Rutinitas])
+async def get_rutinitas_json(
+    id_user: Optional[int] = None,
+    db_session: Session = Depends(get_db)
+):
+    if id_user:
+        rutinitas = crud.get_rutinitas_by_user(db_session, id_user)
+    else:
+        rutinitas = []
+    return rutinitas
+
+@app.post("/add-rutinitas", response_class=RedirectResponse)
+async def add_rutinitas(
+    id_user: int = Form(...),
+    nama: str = Form(...),
+    hari: str = Form(...),
+    jam_mulai: Optional[str] = Form(None),
+    jam_selesai: Optional[str] = Form(None),
+    deskripsi: Optional[str] = Form(None),
+    db_session: Session = Depends(get_db)
+):
+    try:
+        jam_mulai_time = time.fromisoformat(jam_mulai) if jam_mulai else None
+        jam_selesai_time = time.fromisoformat(jam_selesai) if jam_selesai else None
+        rut_create = schemas.RutinitasCreate(
+            id_user=id_user,
+            nama=nama,
+            hari=hari,
+            jam_mulai=jam_mulai_time,
+            jam_selesai=jam_selesai_time,
+            deskripsi=deskripsi
+        )
+        db_rut = crud.create_rutinitas(db_session, rut_create)
+        
+        await rag_service.update_rutinitas_embedding(db_session, db_rut)
+        return RedirectResponse(url="/", status_code=303)
+    except Exception as e:
+        logger.error(f"Error in endpoint: {e}")
+        logger.error(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/delete-rutinitas/{rutinitas_id}", response_class=RedirectResponse)
+async def delete_rutinitas_route(rutinitas_id: int, db_session: Session = Depends(get_db)):
+    crud.delete_rutinitas(db_session, rutinitas_id)
+    crud.delete_rags_embedding_by_source_type_and_id(db_session, "rutinitas", str(rutinitas_id))
+    return RedirectResponse(url="/", status_code=303)
+
+@app.post("/update-rutinitas/{rutinitas_id}", response_class=RedirectResponse)
+async def update_rutinitas_route(
+    rutinitas_id: int,
+    id_user: Optional[int] = Form(None),
+    nama: Optional[str] = Form(None),
+    hari: Optional[str] = Form(None),
+    jam_mulai: Optional[str] = Form(None),
+    jam_selesai: Optional[str] = Form(None),
+    deskripsi: Optional[str] = Form(None),
+    db_session: Session = Depends(get_db)
+):
+    try:
+        jam_mulai_time = time.fromisoformat(jam_mulai) if jam_mulai else None
+        jam_selesai_time = time.fromisoformat(jam_selesai) if jam_selesai else None
+        rut_update_data = schemas.RutinitasUpdate(
+            id_user=id_user,
+            nama=nama,
+            hari=hari,
+            jam_mulai=jam_mulai_time,
+            jam_selesai=jam_selesai_time,
+            deskripsi=deskripsi
+        )
+        db_rut = crud.update_rutinitas(db_session, rutinitas_id, rut_update_data)
+
+        if db_rut:
+            await rag_service.update_rutinitas_embedding(db_session, db_rut)
+
+        return RedirectResponse(url="/", status_code=303)
+    except Exception as e:
+        logger.error(f"Error in endpoint: {e}")
+        logger.error(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 # POST /rag/query (Section 8)
 @app.post("/rag/query", response_model=schemas.RAGResponse)
 async def rag_query(query: schemas.RAGQuery, db_session: Session = Depends(get_db)):
@@ -711,18 +793,26 @@ async def add_semester(
          return RedirectResponse(url="/")
          
     try:
+        tanggal_mulai_date = date.fromisoformat(tanggal_mulai)
+        tanggal_selesai_date = date.fromisoformat(tanggal_selesai)
+        
+        if crud.check_semester_overlap(db_session, user.id_user, tanggal_mulai_date, tanggal_selesai_date):
+            raise HTTPException(status_code=400, detail="Periode semester tumpang tindih dengan semester yang sudah ada.")
+
         semester_create = schemas.SemesterCreate(
             id_user=user.id_user,
             tipe=tipe,
             tahun_ajaran=tahun_ajaran,
-            tanggal_mulai=date.fromisoformat(tanggal_mulai),
-            tanggal_selesai=date.fromisoformat(tanggal_selesai)
+            tanggal_mulai=tanggal_mulai_date,
+            tanggal_selesai=tanggal_selesai_date
         )
         new_sem = crud.create_semester(db_session, semester_create)
         
         # Auto-create calendar immediately
         calendar_service.create_semester_calendar(db_session, user, new_sem)
         
+    except HTTPException:
+        raise
     except Exception as e:
         logger.error(f"Error creating semester: {e}")
         logger.error(traceback.format_exc())

@@ -47,6 +47,7 @@ class User(Base):
     jadwal_matkul = relationship("JadwalMatkul", back_populates="owner", cascade="all, delete-orphan")
     ukm = relationship("UKM", back_populates="owner", cascade="all, delete-orphan")
     semesters = relationship("Semester", back_populates="owner", cascade="all, delete-orphan")
+    rutinitas = relationship("Rutinitas", back_populates="owner", cascade="all, delete-orphan")
 
     # Career Features
     career_results = relationship("CareerResult", back_populates="owner", cascade="all, delete-orphan")
@@ -264,3 +265,23 @@ class CareerProgress(Base):
 
     owner = relationship("User", back_populates="career_progress")
     roadmap_step = relationship("RoadmapStep", back_populates="progress")
+
+# ==========================
+# RUTINITAS (HABITS)
+# ==========================
+
+class Rutinitas(Base):
+    __tablename__ = "rutinitas"
+
+    id_rutinitas = Column(Integer, primary_key=True, index=True)
+    id_user = Column(Integer, ForeignKey("users.id_user", ondelete="CASCADE"), nullable=False)
+
+    nama = Column(String, nullable=False)
+    hari = Column(String, nullable=False) 
+    jam_mulai = Column(Time, nullable=True)
+    jam_selesai = Column(Time, nullable=True)
+    deskripsi = Column(Text, nullable=True)
+
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+    owner = relationship("User", back_populates="rutinitas")

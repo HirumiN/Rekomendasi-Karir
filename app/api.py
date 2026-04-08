@@ -253,6 +253,64 @@ def delete_todo(
     crud.delete_rags_embedding_by_source_type_and_id(db, "todo", str(todo_id))
     return {"message": "Todo deleted"}
 
+# --- RUTINITAS ---
+@router.get("/rutinitas", response_model=List[schemas.Rutinitas])
+def read_rutinitas(
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_active_user)
+):
+    return crud.get_rutinitas_by_user(db, current_user.id_user)
+
+@router.post("/rutinitas", response_model=schemas.Rutinitas)
+async def create_rutinitas(
+    rutinitas: schemas.RutinitasCreate, 
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_active_user)
+):
+    if rutinitas.id_user != current_user.id_user:
+        raise HTTPException(status_code=403, detail="Not authorized")
+        
+    db_rutinitas = crud.create_rutinitas(db, rutinitas)
+            
+    await rag_service.update_rutinitas_embedding(db, db_rutinitas)
+    return db_rutinitas
+
+@router.put("/rutinitas/{rutinitas_id}", response_model=schemas.Rutinitas)
+async def update_rutinitas(
+    rutinitas_id: int, 
+    rutinitas_update: schemas.RutinitasUpdate, 
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_active_user)
+):
+    db_rutinitas = crud.get_rutinitas(db, rutinitas_id)
+    if not db_rutinitas:
+        raise HTTPException(status_code=404, detail="Rutinitas not found")
+    if db_rutinitas.id_user != current_user.id_user:
+        raise HTTPException(status_code=403, detail="Not authorized")
+        
+    updated_rutinitas = crud.update_rutinitas(db, rutinitas_id, rutinitas_update)
+    
+    if updated_rutinitas:
+         await rag_service.update_rutinitas_embedding(db, updated_rutinitas)
+    
+    return updated_rutinitas
+
+@router.delete("/rutinitas/{rutinitas_id}")
+def delete_rutinitas(
+    rutinitas_id: int, 
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_active_user)
+):
+    db_rutinitas = crud.get_rutinitas(db, rutinitas_id)
+    if not db_rutinitas:
+        raise HTTPException(status_code=404, detail="Rutinitas not found")
+    if db_rutinitas.id_user != current_user.id_user:
+        raise HTTPException(status_code=403, detail="Not authorized")
+
+    crud.delete_rutinitas(db, rutinitas_id)
+    crud.delete_rags_embedding_by_source_type_and_id(db, "rutinitas", str(rutinitas_id))
+    return {"message": "Rutinitas deleted"}
+
 # --- ROADMAP ---
 @router.get("/roadmaps", response_model=List[schemas.Roadmap])
 def read_roadmaps(

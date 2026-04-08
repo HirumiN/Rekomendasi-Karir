@@ -170,3 +170,44 @@ async def update_ukm_embedding(db: Session, ukm: models.UKM):
 
     except Exception as e:
         logger.error(f"Failed to update UKM embedding: {e}")
+
+async def update_rutinitas_embedding(db: Session, rutinitas: models.Rutinitas):
+    """
+    Generates and updates the RAG embedding for a Rutinitas activity.
+    """
+    if not rutinitas:
+        return
+
+    rut_text = (
+        f"Rutinitas / Habit: {rutinitas.nama}. "
+        f"Hari Pelaksanaan: {rutinitas.hari}. "
+        f"Mulai: {rutinitas.jam_mulai or 'Kapan saja'}. "
+        f"Selesai: {rutinitas.jam_selesai or 'Kapan saja'}. "
+        f"Description: {rutinitas.deskripsi or ''}."
+    )
+
+    try:
+        embedding_vector = await rag.embed_text_with_gemini(rut_text)
+
+        existing_embedding = db.query(models.RAGSEmbedding).filter_by(
+            source_type="rutinitas", source_id=str(rutinitas.id_rutinitas)
+        ).first()
+
+        if existing_embedding:
+            existing_embedding.text_original = rut_text
+            existing_embedding.embedding = embedding_vector
+        else:
+            embedding_create = schemas.RAGSEmbeddingCreate(
+                id_user=rutinitas.id_user,
+                source_type="rutinitas",
+                source_id=str(rutinitas.id_rutinitas),
+                text_original=rut_text
+            )
+            crud.create_rags_embedding(db, embedding_create, embedding_vector)
+            
+        db.commit()
+        logger.info(f"Updated embedding for Rutinitas {rutinitas.id_rutinitas}")
+
+    except Exception as e:
+        logger.error(f"Failed to update Rutinitas embedding: {e}")
+
