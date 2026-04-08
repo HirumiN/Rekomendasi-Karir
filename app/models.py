@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Text, DateTime, ForeignKey, Time, Date, Enum as SAEnum
+from sqlalchemy import Column, Integer, String, Text, DateTime, ForeignKey, Time, Date, Boolean, Enum as SAEnum
 import enum
 
 from sqlalchemy.orm import relationship
@@ -112,6 +112,7 @@ class Todo(Base):
     tipe = Column(String, nullable=False)
     tenggat = Column(DateTime, nullable=True)
     deskripsi = Column(Text, nullable=True)
+    is_completed = Column(Boolean, default=False)
     
     # Calendar Sync
     google_event_id = Column(String, nullable=True)

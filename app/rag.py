@@ -140,7 +140,7 @@ Anda adalah penasihat karir AI (AI Career Advisor).
 
 Analisis data mahasiswa di bawah ini dan hasilkan:
 1. Rekomendasi Karir (Maksimal 3 rekomendasi karir potensial dengan konsekuensi dan kelebihannya)
-2. Roadmap Belajar Umum (General Learning roadmap)
+2. Roadmap Pembelajaran *Skill-Driven* (Buat SANGAT PANJANG, MENDETAIL, dan KOMPREHENSIF persis seperti roadmap.sh sungguhan. Hasilkan 4 hingga 7 Kategori/Topik Utama, di mana setiap topik berisi 5 hingga 10 nama Teknologi/Skill spesifik)
 3. Tugas yang bisa dilakukan (Actionable tasks)
 
 Konteks Mahasiswa:
@@ -148,7 +148,8 @@ Konteks Mahasiswa:
 
 Aturan:
 - Gunakan BAHASA INDONESIA untuk seluruh isi JSON.
-- Berikan saran yang spesifik berdasarkan data mahasiswa.
+- Berikan saran yang KONGKRET dan SPESIFIK. Jangan gunakan kata-kata umbrella abstrak.
+- Untuk roadmap, jadikan 'phase' sebagai Topik Kategori (Misal: "Fundamental Frontend"), dan setiap 'title' di dalam 'steps' WAJIB menyebut Spesifik Teknologi / Konsep Inti (Misal: "HTML Semantics", "CSS Flexbox", "React Hooks").
 - Hindari jawaban generik.
 - Jika ada 2/3 pilihan karir yang cocok, masukkan maksimal 3 dalam array 'careers'.
 

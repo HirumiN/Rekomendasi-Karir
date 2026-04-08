@@ -110,6 +110,7 @@ class TodoBase(BaseModel):
     tenggat: Optional[datetime] = None
     deskripsi: Optional[str] = None
     id_roadmap_step: Optional[int] = None
+    is_completed: bool = False
 
 class TodoCreate(TodoBase):
     pass
@@ -121,6 +122,7 @@ class TodoUpdate(TodoBase):
     tenggat: Optional[datetime] = None
     deskripsi: Optional[str] = None
     id_roadmap_step: Optional[int] = None
+    is_completed: Optional[bool] = None
 
     model_config = ConfigDict(from_attributes=True)
 

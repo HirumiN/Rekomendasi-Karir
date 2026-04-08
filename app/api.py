@@ -331,6 +331,18 @@ def read_roadmap_steps(
         raise HTTPException(status_code=404, detail="Roadmap not found")
     return crud.get_roadmap_steps_by_roadmap(db, roadmap_id)
 
+@router.delete("/roadmaps/{roadmap_id}", response_model=dict)
+def delete_roadmap_endpoint(
+    roadmap_id: int,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_active_user)
+):
+    roadmap = db.query(models.Roadmap).filter_by(id=roadmap_id, id_user=current_user.id_user).first()
+    if not roadmap:
+        raise HTTPException(status_code=404, detail="Roadmap not found")
+    crud.delete_roadmap(db, roadmap_id)
+    return {"message": "Roadmap deleted successfully"}
+
 @router.get("/career-progress", response_model=List[schemas.CareerProgress])
 def read_career_progress(
     db: Session = Depends(get_db),
