@@ -139,8 +139,8 @@ def build_career_prompt(context_str: str) -> str:
 Anda adalah penasihat karir AI (AI Career Advisor).
 
 Analisis data mahasiswa di bawah ini dan hasilkan:
-1. Rekomendasi Karir (Career recommendation)
-2. Roadmap Belajar (Learning roadmap)
+1. Rekomendasi Karir (Maksimal 3 rekomendasi karir potensial dengan konsekuensi dan kelebihannya)
+2. Roadmap Belajar Umum (General Learning roadmap)
 3. Tugas yang bisa dilakukan (Actionable tasks)
 
 Konteks Mahasiswa:
@@ -150,17 +150,19 @@ Aturan:
 - Gunakan BAHASA INDONESIA untuk seluruh isi JSON.
 - Berikan saran yang spesifik berdasarkan data mahasiswa.
 - Hindari jawaban generik.
-- Fokus pada skill, jadwal, dan aktivitas yang dimiliki mahasiswa.
+- Jika ada 2/3 pilihan karir yang cocok, masukkan maksimal 3 dalam array 'careers'.
 
 Kembalikan HANYA JSON:
 
 {{
-  "career": {{
-    "name": "",
-    "reason": "",
-    "strengths": [],
-    "weaknesses": []
-  }},
+  "careers": [
+    {{
+      "name": "",
+      "reason": "",
+      "strengths": [],
+      "weaknesses": []
+    }}
+  ],
   "roadmap": [
     {{
       "phase": "",

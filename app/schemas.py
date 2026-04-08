@@ -16,6 +16,9 @@ class UserBase(BaseModel):
     target_karir: Optional[str] = None
     gaya_belajar: Optional[str] = None
     waktu_luang: Optional[str] = None
+    universitas: Optional[str] = None
+    jurusan: Optional[str] = None
+    semester_sekarang: Optional[str] = None
     calendar_name: Optional[str] = "My Campus"
 
 class UserCreate(UserBase):
@@ -34,6 +37,9 @@ class UserUpdate(UserBase):
     target_karir: Optional[str] = None
     gaya_belajar: Optional[str] = None
     waktu_luang: Optional[str] = None
+    universitas: Optional[str] = None
+    jurusan: Optional[str] = None
+    semester_sekarang: Optional[str] = None
 
 class User(UserBase):
     id_user: int

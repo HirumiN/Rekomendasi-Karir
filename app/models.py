@@ -27,6 +27,11 @@ class User(Base):
     target_karir = Column(Text, nullable=True)
     gaya_belajar = Column(Text, nullable=True)
     waktu_luang = Column(Text, nullable=True)
+    
+    # Phase 3: Academic Profile
+    universitas = Column(String, nullable=True)
+    jurusan = Column(String, nullable=True)
+    semester_sekarang = Column(String, nullable=True)
 
     # OAuth Fields
     google_id = Column(String, unique=True, nullable=True, index=True)

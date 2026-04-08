@@ -25,6 +25,9 @@ async def update_user_embedding(db: Session, user: models.User):
         f"Target Karir: {user.target_karir or ''}. "
         f"Gaya Belajar: {user.gaya_belajar or ''}. "
         f"Waktu Luang: {user.waktu_luang or ''}. "
+        f"Universitas: {user.universitas or ''}. "
+        f"Jurusan: {user.jurusan or ''}. "
+        f"Semester Saat Ini: {user.semester_sekarang or ''}. "
     )
     
     try:

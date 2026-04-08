@@ -384,13 +384,27 @@ async def save_career_analysis_api(
         raise HTTPException(status_code=403, detail="Not authorized")
 
     # Save Career Result
-    career_id = crud.save_career_result(db, user_id, data)
+    careers_data = data.get("careers", [])
+    primary_career_id = None
+    career_name = "Kesuksesan Karir"
+    
+    if careers_data:
+        career_name = careers_data[0].get("name", career_name)
+        for c_idx, c_data in enumerate(careers_data):
+            c_id = crud.save_career_result(db, user_id, {"career": c_data})
+            if c_idx == 0:
+                primary_career_id = c_id
+    elif "career" in data:
+        # Fallback to old format
+        primary_career_id = crud.save_career_result(db, user_id, data)
+        career_name = data.get("career", {}).get("name", "Career Analysis")
+    else:
+        raise HTTPException(status_code=400, detail="Invalid generation data format")
 
     # Insert Roadmap + Steps + Progress
-    career_name = data.get("career", {}).get("name", "Career Analysis")
     db_roadmap = crud.create_roadmap(db, schemas.RoadmapCreate(
         id_user=user_id,
-        id_career=career_id,
+        id_career=primary_career_id,
         title=f"Roadmap for {career_name}"
     ))
 
