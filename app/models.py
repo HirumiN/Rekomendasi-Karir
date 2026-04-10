@@ -16,7 +16,9 @@ class User(Base):
 
     id_user = Column(Integer, primary_key=True, index=True)
     nama = Column(String, nullable=False)
+    username = Column(String, unique=True, index=True, nullable=True)
     email = Column(String, unique=True, index=True, nullable=False)
+    password_hash = Column(String, nullable=True)
     telepon = Column(String, nullable=True)
     bio = Column(Text, nullable=True)
     lokasi = Column(String, nullable=True)
@@ -28,21 +30,15 @@ class User(Base):
     gaya_belajar = Column(Text, nullable=True)
     waktu_luang = Column(Text, nullable=True)
     
-    # Phase 3: Academic Profile
+    # Academic Profile
     universitas = Column(String, nullable=True)
     jurusan = Column(String, nullable=True)
     semester_sekarang = Column(String, nullable=True)
 
-    # OAuth Fields
-    google_id = Column(String, unique=True, nullable=True, index=True)
+    # Profile picture (optional, uploaded manually)
     picture = Column(String, nullable=True)
-    access_token = Column(String, nullable=True)
-    refresh_token = Column(String, nullable=True)
     
-    # Phase 2: Todo Calendar
-    todo_calendar_id = Column(String, nullable=True)
-    
-    # Phase 3: Customization
+    # Customization
     calendar_name = Column(String, nullable=True, default="My Campus")
 
     # RELATIONSHIPS
@@ -58,6 +54,7 @@ class User(Base):
     career_results = relationship("CareerResult", back_populates="owner", cascade="all, delete-orphan")
     roadmaps = relationship("Roadmap", back_populates="owner", cascade="all, delete-orphan")
     career_progress = relationship("CareerProgress", back_populates="owner", cascade="all, delete-orphan")
+    skill_xp = relationship("UserSkillXP", back_populates="owner", cascade="all, delete-orphan")
 
 # ==========================
 # RAGS EMBEDDING
@@ -73,7 +70,7 @@ class RAGSEmbedding(Base):
     source_id = Column(String, nullable=True)
     text_original = Column(Text, nullable=False)
 
-    embedding = Column(Vector(768)) # Assuming Gemini embedding dimension is 768 as seen in rag.py
+    embedding = Column(Vector(768))
 
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
@@ -114,7 +111,6 @@ class Todo(Base):
     deskripsi = Column(Text, nullable=True)
     is_completed = Column(Boolean, default=False)
     
-    # Calendar Sync
     google_event_id = Column(String, nullable=True)
 
     # Roadmap Linking
@@ -127,7 +123,7 @@ class Todo(Base):
 
 
 # ==========================
-# SEMESTER (Phase 2)
+# SEMESTER
 # ==========================
 
 class Semester(Base):
@@ -136,8 +132,8 @@ class Semester(Base):
     id_semester = Column(Integer, primary_key=True, index=True)
     id_user = Column(Integer, ForeignKey("users.id_user"))
     
-    tipe = Column(String, nullable=False) # "Ganjil" / "Genap"
-    tahun_ajaran = Column(String, nullable=False) # "2025/2026"
+    tipe = Column(String, nullable=False)
+    tahun_ajaran = Column(String, nullable=False)
     tanggal_mulai = Column(Date, nullable=False)
     tanggal_selesai = Column(Date, nullable=False)
     
@@ -165,7 +161,7 @@ class JadwalMatkul(Base):
 
     id_jadwal = Column(Integer, primary_key=True, index=True)
     id_user = Column(Integer, ForeignKey("users.id_user"))
-    id_semester = Column(Integer, ForeignKey("semesters.id_semester"), nullable=True) # Optional for backward compat, but intended to be used
+    id_semester = Column(Integer, ForeignKey("semesters.id_semester"), nullable=True)
 
     hari = Column(SAEnum(HariEnum), nullable=False)
     nama = Column(String, nullable=False)
@@ -250,6 +246,8 @@ class RoadmapStep(Base):
     step_order = Column(Integer, nullable=False)
     title = Column(String, nullable=False)
     description = Column(Text, nullable=True)
+    skill_tags = Column(Text, nullable=True)  # JSON: ["Python","ML"]
+    xp_reward = Column(Integer, default=10)
 
     roadmap = relationship("Roadmap", back_populates="steps")
     todos = relationship("Todo", back_populates="roadmap_step")
@@ -291,3 +289,20 @@ class Rutinitas(Base):
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
     owner = relationship("User", back_populates="rutinitas")
+
+
+# ==========================
+# USER SKILL XP (Gamification)
+# ==========================
+
+class UserSkillXP(Base):
+    __tablename__ = "user_skill_xp"
+
+    id = Column(Integer, primary_key=True, index=True)
+    id_user = Column(Integer, ForeignKey("users.id_user", ondelete="CASCADE"), nullable=False)
+    skill_name = Column(String, nullable=False)
+    xp_points = Column(Integer, default=0)
+    level = Column(Integer, default=1)
+    updated_at = Column(DateTime(timezone=True), onupdate=func.now(), server_default=func.now())
+
+    owner = relationship("User", back_populates="skill_xp")

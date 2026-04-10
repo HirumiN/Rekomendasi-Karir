@@ -414,7 +414,9 @@ def create_roadmap_step(db: Session, step: schemas.RoadmapStepCreate) -> models.
         phase=step.phase,
         step_order=step.step_order,
         title=step.title,
-        description=step.description
+        description=step.description,
+        skill_tags=getattr(step, 'skill_tags', None),
+        xp_reward=getattr(step, 'xp_reward', 10)
     )
     db.add(db_step)
     db.commit()

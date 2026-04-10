@@ -426,12 +426,18 @@ async def save_career_analysis_api(
             phase_name = phase_data.get("phase", "")
             steps = phase_data.get("steps", [])
             for step in steps:
+                import json as _json
+                skill_tags_raw = step.get("skill_tags")
+                if isinstance(skill_tags_raw, list):
+                    skill_tags_raw = _json.dumps(skill_tags_raw)
                 db_step = crud.create_roadmap_step(db, schemas.RoadmapStepCreate(
                     id_roadmap=db_roadmap.id,
                     phase=phase_name,
                     step_order=step_global_order,
                     title=step.get("title", ""),
-                    description=step.get("description", "")
+                    description=step.get("description", ""),
+                    skill_tags=skill_tags_raw,
+                    xp_reward=step.get("xp_reward", 10)
                 ))
                 step_global_order += 1
                 
@@ -448,9 +454,16 @@ async def save_career_analysis_api(
             parsed_deadline = None
             if deadline_str:
                 try:
+                    # Try ISO datetime first (with Z or offset)
                     parsed_deadline = datetime.fromisoformat(deadline_str.replace("Z", "+00:00"))
                 except ValueError:
-                    pass
+                    try:
+                        # Try plain date string e.g. "2025-01-15"
+                        from datetime import date as _date
+                        d = _date.fromisoformat(deadline_str[:10])
+                        parsed_deadline = datetime(d.year, d.month, d.day)
+                    except Exception:
+                        pass  # Deadline cannot be parsed, leave as None
 
             db_todo = crud.create_todo(db, schemas.TodoCreate(
                 id_user=user_id,
@@ -460,12 +473,16 @@ async def save_career_analysis_api(
                 deskripsi=f"Dari Analisis Karir AI."
             ))
             
-            # Sync to calendar
+            # Sync to calendar — wrapped to prevent calendar errors from crashing the whole save
             if db_todo.tenggat:
-                event_id = calendar_service.create_todo_event(db, current_user, db_todo)
-                if event_id:
-                    db_todo.google_event_id = event_id
-                    db.commit()
+                try:
+                    event_id = calendar_service.create_todo_event(db, current_user, db_todo)
+                    if event_id:
+                        db_todo.google_event_id = event_id
+                        db.commit()
+                except Exception as cal_err:
+                    logger.warning(f"Calendar sync failed for todo {db_todo.id_todo}, skipping: {cal_err}")
+
             
             # Create Embedding
             await rag_service.update_todo_embedding(db, db_todo)
@@ -473,3 +490,250 @@ async def save_career_analysis_api(
     return {
         "message": "Career analysis saved successfully to database"
     }
+
+
+# ===================================================
+# ROADMAP STEPS — Edit / Add / Delete / Complete
+# ===================================================
+
+@router.patch("/roadmap/steps/{step_id}", response_model=dict)
+def edit_roadmap_step(
+    step_id: int,
+    update: schemas.RoadmapStepUpdate,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_active_user)
+):
+    step = db.query(models.RoadmapStep).join(models.Roadmap).filter(
+        models.RoadmapStep.id == step_id,
+        models.Roadmap.id_user == current_user.id_user
+    ).first()
+    if not step:
+        raise HTTPException(status_code=404, detail="Step not found")
+
+    for field, value in update.model_dump(exclude_none=True).items():
+        setattr(step, field, value)
+    db.commit()
+    db.refresh(step)
+    return {"message": "Step updated", "step_id": step.id}
+
+
+@router.post("/roadmap/steps", response_model=dict)
+def add_roadmap_step(
+    data: schemas.RoadmapStepCreate,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_active_user)
+):
+    roadmap = db.query(models.Roadmap).filter_by(id=data.id_roadmap, id_user=current_user.id_user).first()
+    if not roadmap:
+        raise HTTPException(status_code=404, detail="Roadmap not found or not authorized")
+
+    step = models.RoadmapStep(
+        id_roadmap=data.id_roadmap,
+        phase=data.phase,
+        step_order=data.step_order,
+        title=data.title,
+        description=data.description,
+        skill_tags=data.skill_tags,
+        xp_reward=data.xp_reward
+    )
+    db.add(step)
+    db.commit()
+    db.refresh(step)
+
+    # Create progress tracker
+    progress = models.CareerProgress(id_user=current_user.id_user, id_roadmap_step=step.id)
+    db.add(progress)
+    db.commit()
+
+    return {"message": "Step added", "step_id": step.id}
+
+
+@router.delete("/roadmap/steps/{step_id}")
+def delete_roadmap_step(
+    step_id: int,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_active_user)
+):
+    step = db.query(models.RoadmapStep).join(models.Roadmap).filter(
+        models.RoadmapStep.id == step_id,
+        models.Roadmap.id_user == current_user.id_user
+    ).first()
+    if not step:
+        raise HTTPException(status_code=404, detail="Step not found")
+    db.delete(step)
+    db.commit()
+    return {"message": "Step deleted"}
+
+
+@router.patch("/roadmap/steps/{step_id}/complete", response_model=schemas.XPGrantResponse)
+def complete_roadmap_step(
+    step_id: int,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_active_user)
+):
+    import json
+
+    step = db.query(models.RoadmapStep).join(models.Roadmap).filter(
+        models.RoadmapStep.id == step_id,
+        models.Roadmap.id_user == current_user.id_user
+    ).first()
+    if not step:
+        raise HTTPException(status_code=404, detail="Step not found")
+
+    # Mark progress as complete
+    progress = db.query(models.CareerProgress).filter_by(
+        id_roadmap_step=step_id, id_user=current_user.id_user
+    ).first()
+    if progress:
+        progress.status = "completed"
+        progress.completed_at = datetime.utcnow()
+        db.commit()
+
+    # Grant XP per skill tag
+    skills_raw = step.skill_tags or "[]"
+    try:
+        skill_list = json.loads(skills_raw)
+    except Exception:
+        skill_list = []
+
+    xp_per_skill = step.xp_reward or 10
+    updated_skills = []
+
+    for skill in skill_list:
+        existing = db.query(models.UserSkillXP).filter_by(
+            id_user=current_user.id_user, skill_name=skill
+        ).first()
+        if existing:
+            existing.xp_points += xp_per_skill
+            existing.level = 1 + (existing.xp_points // 100)
+        else:
+            existing = models.UserSkillXP(
+                id_user=current_user.id_user,
+                skill_name=skill,
+                xp_points=xp_per_skill,
+                level=1
+            )
+            db.add(existing)
+        db.commit()
+        db.refresh(existing)
+        updated_skills.append(existing)
+
+    return schemas.XPGrantResponse(
+        message=f"Step completed! +{xp_per_skill} XP per skill",
+        xp_granted=xp_per_skill,
+        skills_updated=[schemas.SkillXPResponse.model_validate(s) for s in updated_skills]
+    )
+
+
+# ===================================================
+# SKILL GAP
+# ===================================================
+
+@router.get("/skill-gap", response_model=schemas.SkillGapResponse)
+def get_skill_gap(
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_active_user)
+):
+    user_skills = db.query(models.UserSkillXP).filter_by(id_user=current_user.id_user).all()
+    skill_map = {s.skill_name: s for s in user_skills}
+
+    # Collect all unique skills required across all user's roadmap steps
+    steps = db.query(models.RoadmapStep).join(models.Roadmap).filter(
+        models.Roadmap.id_user == current_user.id_user
+    ).all()
+
+    import json
+    required_skills: dict[str, int] = {}
+    for step in steps:
+        try:
+            tags = json.loads(step.skill_tags or "[]")
+        except Exception:
+            tags = []
+        for tag in tags:
+            required_skills[tag] = required_skills.get(tag, 0) + (step.xp_reward or 10)
+
+    items = []
+    for skill, total_xp_needed in required_skills.items():
+        current = skill_map.get(skill)
+        current_xp = current.xp_points if current else 0
+        current_level = current.level if current else 0
+        gap_pct = round(min(100.0, (current_xp / max(total_xp_needed, 1)) * 100), 1)
+        needed = max(0, int((total_xp_needed - current_xp) / 10))
+        items.append(schemas.SkillGapItem(
+            skill=skill,
+            current_xp=current_xp,
+            current_level=current_level,
+            gap_pct=gap_pct,
+            needed_steps=needed
+        ))
+
+    items.sort(key=lambda x: x.gap_pct)
+    return schemas.SkillGapResponse(
+        target_karir=current_user.target_karir or "Belum ditentukan",
+        skills=items
+    )
+
+
+# ===================================================
+# ADAPTIVE ROADMAP — Preview + Apply
+# ===================================================
+
+@router.post("/roadmap/{roadmap_id}/adapt/preview", response_model=schemas.AdaptRoadmapPreview)
+async def adapt_roadmap_preview(
+    roadmap_id: int,
+    request: schemas.AdaptRoadmapRequest,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_active_user)
+):
+    roadmap = db.query(models.Roadmap).filter_by(id=roadmap_id, id_user=current_user.id_user).first()
+    if not roadmap:
+        raise HTTPException(status_code=404, detail="Roadmap not found")
+
+    steps = db.query(models.RoadmapStep).filter_by(id_roadmap=roadmap_id).order_by(
+        models.RoadmapStep.step_order
+    ).all()
+
+    preview = await rag.adapt_roadmap_preview(roadmap, steps, current_user, request.user_message)
+    return preview
+
+
+@router.post("/roadmap/{roadmap_id}/adapt/apply")
+async def adapt_roadmap_apply(
+    roadmap_id: int,
+    changes: list[schemas.AdaptedStep] = Body(...),
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_active_user)
+):
+    roadmap = db.query(models.Roadmap).filter_by(id=roadmap_id, id_user=current_user.id_user).first()
+    if not roadmap:
+        raise HTTPException(status_code=404, detail="Roadmap not found")
+
+    for change in changes:
+        if change.action == "remove" and change.id:
+            step = db.query(models.RoadmapStep).filter_by(id=change.id).first()
+            if step:
+                db.delete(step)
+        elif change.action == "edit" and change.id:
+            step = db.query(models.RoadmapStep).filter_by(id=change.id).first()
+            if step:
+                for f in ["title", "description", "skill_tags", "xp_reward", "phase", "step_order"]:
+                    v = getattr(change, f, None)
+                    if v is not None:
+                        setattr(step, f, v)
+        elif change.action == "add":
+            new_step = models.RoadmapStep(
+                id_roadmap=roadmap_id,
+                phase=change.phase or "Tambahan",
+                step_order=change.step_order or 999,
+                title=change.title or "Step Baru",
+                description=change.description,
+                skill_tags=change.skill_tags,
+                xp_reward=change.xp_reward or 10
+            )
+            db.add(new_step)
+            db.flush()
+            db.add(models.CareerProgress(id_user=current_user.id_user, id_roadmap_step=new_step.id))
+
+    db.commit()
+    return {"message": f"Applied {len(changes)} changes to roadmap"}
+

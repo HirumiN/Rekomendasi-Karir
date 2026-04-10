@@ -256,3 +256,65 @@ async def generate_career_analysis(db: Session, user_id: int):
         raise ValueError("Invalid JSON from Gemini")
 
     return data
+
+
+async def adapt_roadmap_preview(roadmap, steps, user, user_message: str):
+    """
+    Ask Gemini to suggest modifications to the roadmap based on user feedback.
+    Returns a preview (not saved) with proposed changes per step.
+    """
+    import json as _json
+
+    steps_summary = "\n".join([
+        f"[{s.id}] Phase={s.phase}, Order={s.step_order}, Title={s.title}, Tags={s.skill_tags or '[]'}"
+        for s in steps
+    ])
+
+    prompt = f"""
+Kamu adalah AI Career Coach yang membantu mahasiswa menyesuaikan roadmap belajar mereka.
+
+Berikut adalah daftar langkah roadmap saat ini milik pengguna (format: [id] Phase, Step, Judul, Skill Tags):
+---
+{steps_summary}
+---
+
+Target karir pengguna: {user.target_karir or 'Belum ditentukan'}
+
+Pesan dari pengguna:
+"{user_message}"
+
+Tugasmu: Analisis pesan pengguna dan sarankan perubahan roadmap agar lebih sesuai dengan keinginan/kebutuhan mereka.
+
+Kembalikan HANYA JSON berikut tanpa penjelasan apapun. action bisa: "keep" (tidak diubah), "edit" (ubah konten), "add" (step baru), "remove" (hapus):
+
+{{
+  "ai_message": "Penjelasan singkat perubahan yang kamu sarankan (Bahasa Indonesia)",
+  "proposed_changes": [
+    {{
+      "id": <integer atau null jika step baru>,
+      "action": "keep|edit|add|remove",
+      "phase": "<phase name>",
+      "step_order": <integer>,
+      "title": "<judul step>",
+      "description": "<deskripsi>",
+      "skill_tags": "<JSON array string e.g. ['Python','OOP']>",
+      "xp_reward": <integer>
+    }}
+  ]
+}}
+
+Sertakan semua step yang ADA (dengan action "keep" jika tidak ada perubahan) dan tambahkan action "add" untuk step baru.
+"""
+
+    raw = await generate_answer_with_gemini(prompt)
+
+    try:
+        if raw.startswith("```json"):
+            raw = raw[7:].strip()
+        if raw.endswith("```"):
+            raw = raw[:-3].strip()
+        data = _json.loads(raw)
+    except Exception:
+        raise ValueError(f"Invalid JSON from Gemini adapt: {raw[:200]}")
+
+    return data

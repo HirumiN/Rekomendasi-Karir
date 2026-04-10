@@ -6,6 +6,7 @@ from datetime import datetime, time, date
 class UserBase(BaseModel):
     nama: str
     email: str
+    username: Optional[str] = None
     telepon: Optional[str] = None
     bio: Optional[str] = None
     lokasi: Optional[str] = None
@@ -20,6 +21,7 @@ class UserBase(BaseModel):
     jurusan: Optional[str] = None
     semester_sekarang: Optional[str] = None
     calendar_name: Optional[str] = "My Campus"
+    picture: Optional[str] = None
 
 class UserCreate(UserBase):
     pass
@@ -27,24 +29,22 @@ class UserCreate(UserBase):
 class UserUpdate(UserBase):
     nama: Optional[str] = None
     email: Optional[str] = None
-    telepon: Optional[str] = None
-    bio: Optional[str] = None
-    lokasi: Optional[str] = None
-    umur: Optional[int] = None
-    minat: Optional[str] = None
-    keterampilan: Optional[str] = None
-    kepribadian: Optional[str] = None
-    target_karir: Optional[str] = None
-    gaya_belajar: Optional[str] = None
-    waktu_luang: Optional[str] = None
-    universitas: Optional[str] = None
-    jurusan: Optional[str] = None
-    semester_sekarang: Optional[str] = None
+    username: Optional[str] = None
 
 class User(UserBase):
     id_user: int
     model_config = ConfigDict(from_attributes=True)
 
+# --- Auth Schemas ---
+class UserRegister(BaseModel):
+    nama: str
+    username: str
+    email: str
+    password: str
+
+class UserLogin(BaseModel):
+    email: str
+    password: str
 
 # RAGSEmbedding Schemas
 class RAGSEmbeddingBase(BaseModel):
@@ -58,7 +58,7 @@ class RAGSEmbeddingCreate(RAGSEmbeddingBase):
 
 class RAGSEmbedding(RAGSEmbeddingBase):
     id_embedding: int
-    embedding: List[float] # This will be handled as a list of floats in Pydantic
+    embedding: List[float]
     created_at: datetime
 
     model_config = ConfigDict(from_attributes=True, arbitrary_types_allowed=True)
@@ -78,10 +78,6 @@ class AIChatHistory(AIChatHistoryBase):
 
     model_config = ConfigDict(from_attributes=True)
 
-# Request body for /add-activity
-class ActivityCreate(RAGSEmbeddingBase):
-    pass
-
 # Request body for /rag/query
 class RAGQuery(BaseModel):
     id_user: Optional[int] = None
@@ -94,7 +90,7 @@ class RAGResponse(BaseModel):
     answer: str
     context_docs: List[RAGSEmbedding]
 
-# Google Calendar Integration (Optional)
+# Google Calendar Integration (kept for compatibility)
 class CalendarEventCreate(BaseModel):
     summary: str
     description: Optional[str] = None
@@ -133,12 +129,11 @@ class Todo(TodoBase):
     model_config = ConfigDict(from_attributes=True)
 
 
-
 # Semester Schemas
 class SemesterBase(BaseModel):
     id_user: int
-    tipe: str # "Ganjil" / "Genap"
-    tahun_ajaran: str # "2025/2026"
+    tipe: str
+    tahun_ajaran: str
     tanggal_mulai: date
     tanggal_selesai: date
 
@@ -163,7 +158,7 @@ class Semester(SemesterBase):
 class JadwalMatkulBase(BaseModel):
     id_user: int
     id_semester: Optional[int] = None
-    hari: str # We accept string, validated by Enum in DB or logic
+    hari: str
     nama: str
     jam_mulai: time
     jam_selesai: time
@@ -278,12 +273,11 @@ class RoadmapStepBase(BaseModel):
     title: str
     description: Optional[str] = None
 
-class RoadmapStepCreate(RoadmapStepBase):
-    id_roadmap: int
-
 class RoadmapStep(RoadmapStepBase):
     id: int
     id_roadmap: int
+    skill_tags: Optional[str] = None
+    xp_reward: Optional[int] = 10
     model_config = ConfigDict(from_attributes=True)
 
 class CareerProgressBase(BaseModel):
@@ -303,3 +297,68 @@ class CareerProgress(CareerProgressBase):
     id_user: int
     id_roadmap_step: int
     model_config = ConfigDict(from_attributes=True)
+
+
+# --- Gamification / Skill Gap Schemas ---
+
+class SkillXPResponse(BaseModel):
+    skill_name: str
+    xp_points: int
+    level: int
+    model_config = ConfigDict(from_attributes=True)
+
+class SkillGapItem(BaseModel):
+    skill: str
+    current_xp: int
+    current_level: int
+    gap_pct: float
+    needed_steps: int
+
+class SkillGapResponse(BaseModel):
+    target_karir: str
+    skills: List[SkillGapItem]
+
+# --- Adaptive Roadmap Schemas ---
+
+class RoadmapStepUpdate(BaseModel):
+    title: Optional[str] = None
+    description: Optional[str] = None
+    skill_tags: Optional[str] = None
+    xp_reward: Optional[int] = None
+    phase: Optional[str] = None
+    step_order: Optional[int] = None
+
+class RoadmapStepCreate(BaseModel):
+    id_roadmap: int
+    phase: str
+    step_order: int
+    title: str
+    description: Optional[str] = None
+    skill_tags: Optional[str] = None
+    xp_reward: int = 10
+
+class AdaptRoadmapRequest(BaseModel):
+    user_message: str
+
+class AdaptedStep(BaseModel):
+    id: Optional[int] = None
+    action: str
+    phase: Optional[str] = None
+    step_order: Optional[int] = None
+    title: Optional[str] = None
+    description: Optional[str] = None
+    skill_tags: Optional[str] = None
+    xp_reward: Optional[int] = None
+
+class AdaptRoadmapPreview(BaseModel):
+    ai_message: str
+    proposed_changes: List[AdaptedStep]
+
+class XPGrantResponse(BaseModel):
+    message: str
+    xp_granted: int
+    skills_updated: List[SkillXPResponse]
+
+# Request body for activity
+class ActivityCreate(RAGSEmbeddingBase):
+    pass

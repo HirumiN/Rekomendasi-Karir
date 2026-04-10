@@ -1,9 +1,10 @@
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Depends, Request, Form, HTTPException
-from fastapi.responses import HTMLResponse, RedirectResponse
+from fastapi.responses import HTMLResponse, RedirectResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.exception_handlers import http_exception_handler
 from sqlalchemy.orm import Session
 from typing import List, Optional
 import os
@@ -44,6 +45,43 @@ app.add_middleware(SessionMiddleware, secret_key=auth.SECRET_KEY)
 
 app.include_router(api.router)
 
+ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+]
+
+@app.exception_handler(HTTPException)
+async def cors_aware_http_exception_handler(request: Request, exc: HTTPException):
+    """Custom handler that adds CORS headers to error responses.
+    This fixes the browser showing 'CORS error' when the real issue is 401/403.
+    """
+    origin = request.headers.get("origin", "")
+    response = JSONResponse(
+        status_code=exc.status_code,
+        content={"detail": exc.detail},
+    )
+    if origin in ALLOWED_ORIGINS:
+        response.headers["Access-Control-Allow-Origin"] = origin
+        response.headers["Access-Control-Allow-Credentials"] = "true"
+    return response
+
+@app.exception_handler(Exception)
+async def cors_aware_generic_exception_handler(request: Request, exc: Exception):
+    """Catch-all handler: covers ResponseValidationError (500) and any unhandled exceptions.
+    Ensures CORS headers are always present so the real error is visible in frontend.
+    """
+    import traceback
+    logger.error(f"Unhandled exception: {exc}\n{traceback.format_exc()}")
+    origin = request.headers.get("origin", "")
+    response = JSONResponse(
+        status_code=500,
+        content={"detail": str(exc)},
+    )
+    if origin in ALLOWED_ORIGINS:
+        response.headers["Access-Control-Allow-Origin"] = origin
+        response.headers["Access-Control-Allow-Credentials"] = "true"
+    return response
+
 
 # Mount static files
 app.mount("/static", StaticFiles(directory="app/static"), name="static")
@@ -55,121 +93,66 @@ templates = Jinja2Templates(directory="app/templates")
 def get_db():
     yield from db.get_db()
 
-# Root endpoint - Render HTML template (Section 8, 10)
+# Simple root for HTML (legacy, kept for compatibility)
 @app.get("/", response_class=HTMLResponse)
-async def read_root(request: Request, db_session: Session = Depends(get_db)):
-    rags_embeddings = crud.get_all_rags_embeddings(db_session)
-    users = crud.get_users(db_session)
-    todos = crud.get_all_todos(db_session)
-    jadwal_matkul = crud.get_all_jadwal_matkul(db_session)
-    jadwal_matkul = crud.get_all_jadwal_matkul(db_session)
-    ukm = crud.get_all_ukm(db_session)
-    
-    current_user = await auth.get_current_user(request, db_session)
-    semesters = []
-    if current_user:
-        semesters = crud.get_semesters_by_user(db_session, current_user.id_user)
-    
-    return templates.TemplateResponse(
-        request,
-        "index.html",
-        {
-            "request": request,
-            "rags_embeddings": rags_embeddings,
-            "users": users,
-            "todos": todos,
-            "jadwal_matkul": jadwal_matkul,
-            "jadwal_matkul": jadwal_matkul,
-            "ukm": ukm,
-            "current_user": current_user,
-            "semesters": semesters
-        }
+async def read_root(request: Request):
+    return HTMLResponse("<h1>Campus AI Backend Running</h1>")
+
+# --- AUTH ROUTES (Email/Password) ---
+
+@app.post("/auth/register")
+async def register(body: schemas.UserRegister, request: Request, db_session: Session = Depends(get_db)):
+    # Check duplicate email
+    if crud.get_user_by_email(db_session, body.email):
+        raise HTTPException(status_code=400, detail="Email sudah terdaftar.")
+    # Check duplicate username
+    existing_username = db_session.query(models.User).filter(models.User.username == body.username).first()
+    if existing_username:
+        raise HTTPException(status_code=400, detail="Username sudah digunakan.")
+
+    new_user = models.User(
+        nama=body.nama,
+        username=body.username,
+        email=body.email,
+        password_hash=auth.hash_password(body.password),
     )
+    db_session.add(new_user)
+    db_session.commit()
+    db_session.refresh(new_user)
 
-# --- AUTH ROUTES ---
-
-@app.get("/login")
-async def login(request: Request):
-    redirect_uri = request.url_for('auth_callback')
-    return await auth.oauth.google.authorize_redirect(
-        request, 
-        redirect_uri, 
-        access_type='offline', 
-        prompt='consent'
-    )
-
-@app.get("/auth", name="auth_callback")
-async def auth_callback(request: Request, db_session: Session = Depends(get_db)):
     try:
-        token = await auth.oauth.google.authorize_access_token(request)
+        await crud.create_user_embedding(db_session, new_user)
     except Exception as e:
-        # Handle cases where user cancels or error occurs
-        return RedirectResponse(url="/")
-        
-    user_info = token.get('userinfo')
-    if not user_info:
-        # Fallback if userinfo not in token (depends on scope/provider)
-        user_info = await auth.oauth.google.userinfo(token=token)
+        logger.warning(f"Embedding creation failed on register: {e}")
 
-    # user_info contains 'sub' (google_id), 'name', 'email', 'picture'
-    email = user_info.get('email')
-    nama = user_info.get('name')
-    picture = user_info.get('picture')
-    google_id = user_info.get('sub')
-    
-    # Check if user exists
-    db_user = crud.get_user_by_email(db_session, email)
-    
-    if not db_user:
-        # Create new user
-        # We need to handle the case where we don't have all fields required by UserCreate yet
-        # Ensure crud.create_user can handle this or do it manually here
-        new_user = models.User(
-            nama=nama,
-            email=email,
-            # Others optional
-            google_id=google_id,
-            picture=picture,
-            access_token=token.get('access_token'),
-            refresh_token=token.get('refresh_token')
-        )
-        db_session.add(new_user)
-        db_session.commit()
-        db_session.refresh(new_user)
-        
-        # Create embedding for new user automatically
-        try:
-             await crud.create_user_embedding(db_session, new_user)
-        except Exception as e:
-            logger.error(f"Failed to create embedding for new Google user: {e}")
+    request.session['user_id'] = new_user.id_user
+    return {"message": "Akun berhasil dibuat.", "user_id": new_user.id_user}
 
-        request.session['user_id'] = new_user.id_user
-        # Redirect to React Frontend Onboarding or Profile
-        return RedirectResponse(url="http://localhost:5173/")
-    else:
-        if not db_user.google_id:
-             db_user.google_id = google_id
-             db_user.picture = picture
-        db_user.access_token = token.get('access_token')
-        if token.get('refresh_token'):
-            db_user.refresh_token = token.get('refresh_token')
-        
-        db_session.commit()
-        request.session['user_id'] = db_user.id_user
-        # Redirect to React Frontend
-        return RedirectResponse(url="http://localhost:5173/")
+@app.post("/auth/login")
+async def login_email(body: schemas.UserLogin, request: Request, db_session: Session = Depends(get_db)):
+    db_user = crud.get_user_by_email(db_session, body.email)
+    if not db_user or not db_user.password_hash:
+        raise HTTPException(status_code=401, detail="Email atau password salah.")
+    if not auth.verify_password(body.password, db_user.password_hash):
+        raise HTTPException(status_code=401, detail="Email atau password salah.")
+    request.session['user_id'] = db_user.id_user
+    return {"message": "Login berhasil.", "user_id": db_user.id_user}
 
-@app.get("/logout")
+@app.post("/auth/logout")
 async def logout(request: Request):
     request.session.pop('user_id', None)
-    return RedirectResponse(url="http://localhost:5173/")
+    return {"message": "Logout berhasil."}
 
-@app.get("/onboarding", response_class=HTMLResponse)
-async def onboarding_page(request: Request, db_session: Session = Depends(get_db)):
-    user = await auth.get_current_user(request, db_session)
-    if not user:
-        return RedirectResponse(url="/")
-    return templates.TemplateResponse(request, "onboarding.html", {"user": user})
+# Legacy GET logout redirect (for safety)
+@app.get("/logout")
+async def logout_get(request: Request):
+    request.session.pop('user_id', None)
+    return JSONResponse({"message": "Logout berhasil."})
+
+
+
+
+
 
 @app.post("/onboarding", response_class=RedirectResponse)
 async def onboarding_submit(
