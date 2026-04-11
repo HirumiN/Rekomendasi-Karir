@@ -197,7 +197,8 @@ def create_jadwal_matkul(db: Session, jadwal: schemas.JadwalMatkulCreate) -> mod
         nama=jadwal.nama,
         jam_mulai=jadwal.jam_mulai,
         jam_selesai=jadwal.jam_selesai,
-        sks=jadwal.sks
+        sks=jadwal.sks,
+        semester_level=jadwal.semester_level
     )
     db.add(db_jadwal)
     db.commit()
@@ -231,6 +232,11 @@ def delete_jadwal_matkul(db: Session, jadwal_id: int):
         db.delete(db_jadwal)
         db.commit()
     return db_jadwal
+
+def delete_all_user_jadwal(db: Session, user_id: int):
+    """Delete ALL schedules for a specific user"""
+    db.query(models.JadwalMatkul).filter(models.JadwalMatkul.id_user == user_id).delete()
+    db.commit()
 
 def get_jadwal_matkul_by_semester(db: Session, id_semester: int, skip: int = 0, limit: int = 100) -> List[models.JadwalMatkul]:
     return db.query(models.JadwalMatkul).filter(models.JadwalMatkul.id_semester == id_semester).offset(skip).limit(limit).all()
@@ -462,3 +468,91 @@ def update_career_progress(db: Session, progress_id: int, progress_update: schem
     return db_progress
 
 
+
+# --- CURRICULUM SYSTEM CRUD ---
+
+def get_campuses(db: Session, skip: int = 0, limit: int = 100) -> List[models.Campus]:
+    return db.query(models.Campus).offset(skip).limit(limit).all()
+
+def create_campus(db: Session, campus: schemas.CampusCreate) -> models.Campus:
+    db_campus = models.Campus(name=campus.name)
+    db.add(db_campus)
+    db.commit()
+    db.refresh(db_campus)
+    return db_campus
+
+def get_campus_by_name(db: Session, name: str) -> Optional[models.Campus]:
+    return db.query(models.Campus).filter(models.Campus.name == name).first()
+
+def get_departments_by_campus(db: Session, campus_id: int) -> List[models.Department]:
+    return db.query(models.Department).filter(models.Department.campus_id == campus_id).all()
+
+def create_department(db: Session, dept: schemas.DepartmentCreate) -> models.Department:
+    db_dept = models.Department(campus_id=dept.campus_id, name=dept.name)
+    db.add(db_dept)
+    db.commit()
+    db.refresh(db_dept)
+    return db_dept
+
+def get_department_by_name_and_campus(db: Session, name: str, campus_id: int) -> Optional[models.Department]:
+    return db.query(models.Department).filter(
+        models.Department.name == name,
+        models.Department.campus_id == campus_id
+    ).first()
+
+def get_curricula_by_department(db: Session, department_id: int) -> List[models.Curriculum]:
+    return db.query(models.Curriculum).filter(models.Curriculum.department_id == department_id).all()
+
+def create_curriculum(db: Session, curr: schemas.CurriculumCreate) -> models.Curriculum:
+    db_curr = models.Curriculum(department_id=curr.department_id, semester=curr.semester)
+    db.add(db_curr)
+    db.commit()
+    db.refresh(db_curr)
+    return db_curr
+
+def get_curriculum_by_dept_and_semester(db: Session, department_id: int, semester: str) -> Optional[models.Curriculum]:
+    return db.query(models.Curriculum).filter(
+        models.Curriculum.semester == semester,
+        models.Curriculum.department_id == department_id
+    ).first()
+
+def get_courses_by_curriculum(db: Session, curriculum_id: int) -> List[models.Course]:
+    return db.query(models.Course).filter(models.Course.curriculum_id == curriculum_id).all()
+
+def create_course(db: Session, course: schemas.CourseCreate) -> models.Course:
+    db_course = models.Course(
+        curriculum_id=course.curriculum_id,
+        name=course.name,
+        sks=course.sks,
+        semester_target=course.semester_target,
+        is_elective=course.is_elective
+    )
+    db.add(db_course)
+    db.commit()
+    db.refresh(db_course)
+    return db_course
+
+def connect_curriculum_to_user(db: Session, user_id: int, curriculum_id: int, semester_id: Optional[int], target_semester: int):
+    """Populate user's schedule with courses from a curriculum for a specific semester level"""
+    courses = db.query(models.Course).filter(
+        models.Course.curriculum_id == curriculum_id,
+        models.Course.semester_target == target_semester
+    ).all()
+    
+    results = []
+    for course in courses:
+        db_jadwal = models.JadwalMatkul(
+            id_user=user_id,
+            id_semester=semester_id,
+            nama=course.name,
+            sks=course.sks,
+            semester_level=target_semester,
+            hari=None,
+            jam_mulai=None,
+            jam_selesai=None
+        )
+        db.add(db_jadwal)
+        results.append(db_jadwal)
+    
+    db.commit()
+    return results

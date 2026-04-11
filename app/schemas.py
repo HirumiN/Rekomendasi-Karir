@@ -149,7 +149,6 @@ class SemesterUpdate(SemesterBase):
 
 class Semester(SemesterBase):
     id_semester: int
-    google_calendar_id: Optional[str] = None
     
     model_config = ConfigDict(from_attributes=True)
 
@@ -158,11 +157,12 @@ class Semester(SemesterBase):
 class JadwalMatkulBase(BaseModel):
     id_user: int
     id_semester: Optional[int] = None
-    hari: str
+    hari: Optional[str] = None
     nama: str
-    jam_mulai: time
-    jam_selesai: time
+    jam_mulai: Optional[time] = None
+    jam_selesai: Optional[time] = None
     sks: int
+    semester_level: Optional[int] = None
 
 class JadwalMatkulCreate(JadwalMatkulBase):
     pass
@@ -365,3 +365,54 @@ class XPGrantResponse(BaseModel):
 # Request body for activity
 class ActivityCreate(RAGSEmbeddingBase):
     pass
+
+# --- Curriculum System Schemas ---
+
+class CourseBase(BaseModel):
+    name: str
+    sks: int
+    semester_target: int
+    is_elective: bool = False
+
+class CourseCreate(CourseBase):
+    curriculum_id: int
+
+class Course(CourseBase):
+    id: int
+    curriculum_id: int
+    model_config = ConfigDict(from_attributes=True)
+
+class CurriculumBase(BaseModel):
+    semester: Optional[str] = None # e.g. "Ganjil" or "Genap"
+
+class CurriculumCreate(CurriculumBase):
+    department_id: int
+
+class Curriculum(CurriculumBase):
+    id: int
+    department_id: int
+    courses: List[Course] = []
+    model_config = ConfigDict(from_attributes=True)
+
+class DepartmentBase(BaseModel):
+    name: str
+
+class DepartmentCreate(DepartmentBase):
+    campus_id: int
+
+class Department(DepartmentBase):
+    id: int
+    campus_id: int
+    curricula: List[Curriculum] = []
+    model_config = ConfigDict(from_attributes=True)
+
+class CampusBase(BaseModel):
+    name: str
+
+class CampusCreate(CampusBase):
+    pass
+
+class Campus(CampusBase):
+    id: int
+    departments: List[Department] = []
+    model_config = ConfigDict(from_attributes=True)

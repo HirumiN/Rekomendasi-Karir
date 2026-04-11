@@ -110,8 +110,6 @@ class Todo(Base):
     tenggat = Column(DateTime, nullable=True)
     deskripsi = Column(Text, nullable=True)
     is_completed = Column(Boolean, default=False)
-    
-    google_event_id = Column(String, nullable=True)
 
     # Roadmap Linking
     id_roadmap_step = Column(Integer, ForeignKey("roadmap_steps.id", ondelete="SET NULL"), nullable=True)
@@ -137,8 +135,6 @@ class Semester(Base):
     tanggal_mulai = Column(Date, nullable=False)
     tanggal_selesai = Column(Date, nullable=False)
     
-    google_calendar_id = Column(String, nullable=True)
-    
     owner = relationship("User", back_populates="semesters")
     jadwal_matkul = relationship("JadwalMatkul", back_populates="semester", cascade="all, delete-orphan")
 
@@ -163,13 +159,12 @@ class JadwalMatkul(Base):
     id_user = Column(Integer, ForeignKey("users.id_user"))
     id_semester = Column(Integer, ForeignKey("semesters.id_semester"), nullable=True)
 
-    hari = Column(SAEnum(HariEnum), nullable=False)
+    hari = Column(SAEnum(HariEnum), nullable=True)
     nama = Column(String, nullable=False)
-    jam_mulai = Column(Time, nullable=False)
-    jam_selesai = Column(Time, nullable=False)
+    jam_mulai = Column(Time, nullable=True)
+    jam_selesai = Column(Time, nullable=True)
     sks = Column(Integer, nullable=False)
-    
-    google_event_id = Column(String, nullable=True)
+    semester_level = Column(Integer, nullable=True) # 1-8
 
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
@@ -306,3 +301,52 @@ class UserSkillXP(Base):
     updated_at = Column(DateTime(timezone=True), onupdate=func.now(), server_default=func.now())
 
     owner = relationship("User", back_populates="skill_xp")
+
+
+# ==========================
+# CURRICULUM SYSTEM
+# ==========================
+
+class Campus(Base):
+    __tablename__ = "campuses"
+
+    id = Column(Integer, primary_key=True, index=True)
+    name = Column(String, nullable=False, unique=True)
+    
+    departments = relationship("Department", back_populates="campus", cascade="all, delete-orphan")
+
+
+class Department(Base):
+    __tablename__ = "departments"
+
+    id = Column(Integer, primary_key=True, index=True)
+    campus_id = Column(Integer, ForeignKey("campuses.id"), nullable=False)
+    name = Column(String, nullable=False)
+    
+    campus = relationship("Campus", back_populates="departments")
+    curricula = relationship("Curriculum", back_populates="department", cascade="all, delete-orphan")
+
+
+class Curriculum(Base):
+    __tablename__ = "curricula"
+
+    id = Column(Integer, primary_key=True, index=True)
+    department_id = Column(Integer, ForeignKey("departments.id"), nullable=False)
+    semester = Column(String, nullable=True) # e.g. "Ganjil" or "Genap"
+    
+    department = relationship("Department", back_populates="curricula")
+    courses = relationship("Course", back_populates="curriculum", cascade="all, delete-orphan")
+
+
+class Course(Base):
+    __tablename__ = "courses"
+
+    id = Column(Integer, primary_key=True, index=True)
+    curriculum_id = Column(Integer, ForeignKey("curricula.id"), nullable=False)
+    
+    name = Column(String, nullable=False)
+    sks = Column(Integer, nullable=False)
+    semester_target = Column(Integer, nullable=False)
+    is_elective = Column(Boolean, default=False)
+    
+    curriculum = relationship("Curriculum", back_populates="courses")

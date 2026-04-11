@@ -1,0 +1,8 @@
+universitas,jurusan,kurikulum,tahun,kode_mk,nama_mk,sks,semester,kategori
+PENS,Teknik Informatika,Kurikulum 2024,2024,TI101,Dasar Pemrograman,3,1,Wajib
+PENS,Teknik Informatika,Kurikulum 2024,2024,TI102,Matematika Diskrit,3,1,Wajib
+PENS,Teknik Informatika,Kurikulum 2024,2024,TI103,Bahasa Inggris,2,1,Wajib
+PENS,Teknik Informatika,Kurikulum 2024,2024,TI201,Struktur Data,4,2,Wajib
+PENS,Teknik Informatika,Kurikulum 2024,2024,TI202,Logika Informatika,3,2,Wajib
+PENS,Sistem Informasi,Kurikulum 2023,2023,SI101,Pengantar Bisnis,3,1,Wajib
+PENS,Sistem Informasi,Kurikulum 2023,2023,SI102,Dasar Akuntansi,3,1,Wajib

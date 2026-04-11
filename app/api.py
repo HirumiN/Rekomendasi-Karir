@@ -5,7 +5,7 @@ from datetime import datetime
 import logging
 logger = logging.getLogger(__name__)
 
-from . import models, schemas, crud, db, auth, calendar_service, rag_service, rag
+from . import models, schemas, crud, db, auth, rag_service, rag
 
 router = APIRouter(prefix="/api", tags=["api"])
 
@@ -19,13 +19,6 @@ async def get_current_user_api(
     """Get current logged in user"""
     return user
 
-@router.post("/manual-sync")
-def manual_sync(
-    db: Session = Depends(get_db),
-    current_user: models.User = Depends(auth.get_current_active_user)
-):
-    calendar_service.resync_all_user_calendars(db, current_user)
-    return {"message": "Sync triggered"}
 
 @router.get("/users", response_model=List[schemas.User])
 def read_users(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
@@ -47,8 +40,6 @@ def create_semester(
         raise HTTPException(status_code=403, detail="Not authorized")
     
     db_semester = crud.create_semester(db, semester)
-    # Sync with Calendar
-    calendar_service.create_semester_calendar(db, current_user, db_semester)
     return db_semester
 
 @router.put("/semesters/{semester_id}", response_model=schemas.Semester)
@@ -65,12 +56,6 @@ def update_semester(
         raise HTTPException(status_code=403, detail="Not authorized")
         
     updated_semester = crud.update_semester(db, semester_id, semester_update)
-    
-    # Sync with Calendar (Rename)
-    calendar_service.update_semester_calendar(db, current_user, updated_semester)
-    # Ghost update for matkuls
-    calendar_service.update_all_matkul_for_semester(db, current_user, updated_semester)
-    
     return updated_semester
 
 @router.delete("/semesters/{semester_id}")
@@ -85,9 +70,6 @@ def delete_semester(
     if db_semester.id_user != current_user.id_user:
         raise HTTPException(status_code=403, detail="Not authorized")
 
-    # Sync with Calendar (Delete)
-    calendar_service.delete_semester_calendar(db, current_user, db_semester)
-    
     crud.delete_semester(db, semester_id)
     return {"message": "Semester deleted"}
 
@@ -112,15 +94,6 @@ async def create_jadwal(
         raise HTTPException(status_code=403, detail="Not authorized")
         
     db_jadwal = crud.create_jadwal_matkul(db, jadwal)
-    
-    # Sync
-    if jadwal.id_semester:
-        db_semester = crud.get_semester(db, jadwal.id_semester)
-        if db_semester:
-            event_id = calendar_service.create_recurring_class_event(db, current_user, db_semester, db_jadwal)
-            if event_id:
-                db_jadwal.google_event_id = event_id
-                db.commit()
 
     # Create Embedding
     await rag_service.update_jadwal_embedding(db, db_jadwal)
@@ -142,12 +115,7 @@ async def update_jadwal(
         
     updated_jadwal = crud.update_jadwal_matkul(db, jadwal_id, jadwal_update)
     
-    # Sync Update
-    if updated_jadwal.id_semester and updated_jadwal.google_event_id:
-        db_semester = crud.get_semester(db, updated_jadwal.id_semester)
-        if db_semester:
-             calendar_service.update_recurring_event(db, current_user, db_semester, updated_jadwal)
-
+    # Update Embedding
     # Update Embedding
     await rag_service.update_jadwal_embedding(db, updated_jadwal)
 
@@ -165,11 +133,7 @@ def delete_jadwal(
     if db_jadwal.id_user != current_user.id_user:
         raise HTTPException(status_code=403, detail="Not authorized")
 
-    # Sync Delete
-    if db_jadwal.google_event_id and db_jadwal.id_semester:
-         db_semester = crud.get_semester(db, db_jadwal.id_semester)
-         if db_semester and db_semester.google_calendar_id:
-             calendar_service.delete_event(db, current_user, db_jadwal.google_event_id, calendar_id=db_semester.google_calendar_id)
+    crud.delete_jadwal_matkul(db, jadwal_id)
 
     crud.delete_jadwal_matkul(db, jadwal_id)
     crud.delete_rags_embedding_by_source_type_and_id(db, "jadwal", str(jadwal_id))
@@ -194,13 +158,7 @@ async def create_todo(
         
     db_todo = crud.create_todo(db, todo)
     
-    # Sync
-    if todo.tenggat:
-        event_id = calendar_service.create_todo_event(db, current_user, db_todo)
-        if event_id:
-            db_todo.google_event_id = event_id
-            db.commit()
-            
+
     # Create Embedding
     await rag_service.update_todo_embedding(db, db_todo)
 
@@ -221,13 +179,8 @@ async def update_todo(
         
     updated_todo = crud.update_todo(db, todo_id, todo_update)
     
-    # Update Sync
-    if updated_todo:
-         calendar_service.update_todo_event(db, current_user, updated_todo)
-         db.commit() # Commit the potential google_event_id change if create happened inside update logic
-         
-         # Update Embedding
-         await rag_service.update_todo_embedding(db, updated_todo)
+    # Update Embedding
+    await rag_service.update_todo_embedding(db, updated_todo)
     
     return updated_todo
 
@@ -242,11 +195,6 @@ def delete_todo(
         raise HTTPException(status_code=404, detail="Todo not found")
     if db_todo.id_user != current_user.id_user:
         raise HTTPException(status_code=403, detail="Not authorized")
-
-    # Sync Delete
-    if db_todo.google_event_id:
-        cal_id = current_user.todo_calendar_id if current_user.todo_calendar_id else 'primary'
-        calendar_service.delete_event(db, current_user, db_todo.google_event_id, calendar_id=cal_id)
 
     crud.delete_todo(db, todo_id)
     crud.delete_rags_embedding_by_source_type_and_id(db, "todo", str(todo_id))
@@ -483,15 +431,6 @@ async def save_career_analysis_api(
                 deskripsi=f"Dari Analisis Karir AI."
             ))
             
-            # Sync to calendar — handle errors gracefully
-            if db_todo.tenggat:
-                try:
-                    event_id = calendar_service.create_todo_event(db, current_user, db_todo)
-                    if event_id:
-                        db_todo.google_event_id = event_id
-                except Exception as cal_err:
-                    logger.warning(f"Calendar sync failed for todo {db_todo.id_todo}, skipping: {cal_err}")
-
             # Collect for parallel embedding generation
             todo_embedding_tasks.append(rag_service.update_todo_embedding(db, db_todo, commit=False))
 
@@ -807,9 +746,91 @@ def get_skill_gap(
     items.sort(key=lambda x: x.current_xp, reverse=True)
     
     return schemas.SkillGapResponse(
-        target_karir=current_user.target_karir or "Belum ditentukan",
+        target_karir=current_user.target_karir or "Karir Impian",
         skills=items
     )
+
+
+# --- CURRICULUM SYSTEM API ---
+
+@router.get("/campuses", response_model=List[schemas.Campus])
+def get_campuses(db: Session = Depends(get_db)):
+    return crud.get_campuses(db)
+
+@router.get("/campuses/{campus_id}/departments", response_model=List[schemas.Department])
+def get_departments_by_campus(campus_id: int, db: Session = Depends(get_db)):
+    return crud.get_departments_by_campus(db, campus_id)
+
+@router.get("/departments/{department_id}/curricula", response_model=List[schemas.Curriculum])
+def get_curricula_by_department(department_id: int, db: Session = Depends(get_db)):
+    return crud.get_curricula_by_department(db, department_id)
+
+@router.get("/curricula/{curriculum_id}/courses", response_model=List[schemas.Course])
+def get_courses_by_curriculum(curriculum_id: int, db: Session = Depends(get_db)):
+    return crud.get_courses_by_curriculum(db, curriculum_id)
+
+@router.post("/import-kurikulum")
+def import_kurikulum_batch(
+    data: List[dict], 
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_active_user)
+):
+    """Batch import curriculum data from CSV/Json"""
+    # Logic for batch import (used by import script or admin UI)
+    results = []
+    for item in data:
+        # 1. Campus
+        campus = crud.get_campus_by_name(db, item["universitas"])
+        if not campus:
+            campus = crud.create_campus(db, schemas.CampusCreate(name=item["universitas"]))
+        
+        # 2. Department
+        dept = crud.get_department_by_name_and_campus(db, item["jurusan"], campus.id)
+        if not dept:
+            dept = crud.create_department(db, schemas.DepartmentCreate(campus_id=campus.id, name=item["jurusan"]))
+        
+        # 3. Curriculum
+        curr_semester = item.get("semester_type") or item.get("semester") # Handle both possible keys
+        curr = crud.get_curriculum_by_dept_and_semester(db, dept.id, curr_semester)
+        if not curr:
+            curr = crud.create_curriculum(db, schemas.CurriculumCreate(department_id=dept.id, semester=curr_semester))
+        
+        # 4. Course
+        course = crud.create_course(db, schemas.CourseCreate(
+            curriculum_id=curr.id,
+            code=item["kode_mk"],
+            name=item["nama_mk"],
+            sks=int(item["sks"]),
+            semester_target=int(item["semester"]),
+            is_elective=(item.get("kategori", "").lower() == "pilihan")
+        ))
+        results.append(course.id)
+    
+    return {"message": f"Successfully imported {len(results)} courses", "ids": results}
+
+@router.post("/connect-curriculum")
+def connect_curriculum(
+    curriculum_id: int,
+    id_semester: int,
+    target_semester_level: int,
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_active_user)
+):
+    """Automatically populate schedule from curriculum courses"""
+    # Verify semester belongs to user
+    semester = crud.get_semester(db, id_semester)
+    if not semester or semester.id_user != current_user.id_user:
+        raise HTTPException(status_code=404, detail="Semester not found or not authorized")
+        
+    results = crud.connect_curriculum_to_user(
+        db, 
+        current_user.id_user, 
+        curriculum_id, 
+        id_semester, 
+        target_semester_level
+    )
+    
+    return {"message": f"Connected {len(results)} courses to your schedule", "count": len(results)}
 
 
 # ===================================================

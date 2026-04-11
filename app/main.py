@@ -12,7 +12,7 @@ from datetime import datetime, time, date
 import logging
 import traceback
 
-from . import models, schemas, crud, db, rag, auth, calendar_service, api, rag_service
+from . import models, schemas, crud, db, rag, auth, api, rag_service
 from starlette.middleware.sessions import SessionMiddleware
 from starlette.requests import Request
 from starlette.responses import RedirectResponse
@@ -234,6 +234,9 @@ async def update_user_route(
     target_karir: Optional[str] = Form(None),
     gaya_belajar: Optional[str] = Form(None),
     waktu_luang: Optional[str] = Form(None),
+    universitas: Optional[str] = Form(None),
+    jurusan: Optional[str] = Form(None),
+    semester_sekarang: Optional[str] = Form(None),
     calendar_name: Optional[str] = Form(None),
     db_session: Session = Depends(get_db)
 ):
@@ -252,23 +255,50 @@ async def update_user_route(
             target_karir=target_karir,
             gaya_belajar=gaya_belajar,
             waktu_luang=waktu_luang,
+            universitas=universitas,
+            jurusan=jurusan,
+            semester_sekarang=semester_sekarang,
             calendar_name=calendar_name
         )
         
-        # We need to know if calendar_name changed to trigger resync
+        # We need to know if academic fields changed to trigger auto-connect
         current_db_user = crud.get_user(db_session, user_id)
-        old_cal_name = current_db_user.calendar_name
+        academic_was_empty = not current_db_user.universitas or not current_db_user.jurusan
+        academic_changed = (
+            (universitas and universitas != current_db_user.universitas) or
+            (jurusan and jurusan != current_db_user.jurusan) or
+            (semester_sekarang and semester_sekarang != current_db_user.semester_sekarang)
+        )
         
         db_user = crud.update_user(db_session, user_id, user_update_data)
         
         # Trigger full resync if calendar name changed
-        if db_user and db_user.calendar_name != old_cal_name:
-             # This will rename all semester calendars
-             calendar_service.resync_all_user_calendars(db_session, db_user)
+        # if db_user and db_user.calendar_name != old_cal_name:
+        #      # This will rename all semester calendars
+        #      calendar_service.resync_all_user_calendars(db_session, db_user)
 
         if db_user:
             # Re-generate and update user embedding if user data was changed
             await rag_service.update_user_embedding(db_session, db_user)
+            
+            # Trigger auto-connect curriculum if academic data just filled or changed
+            if academic_changed and db_user.universitas and db_user.jurusan and db_user.semester_sekarang:
+                # Find matching curriculum
+                campus = db_session.query(models.Campus).filter(models.Campus.name == db_user.universitas).first()
+                if campus:
+                    dept = db_session.query(models.Department).filter(
+                        models.Department.campus_id == campus.id,
+                        models.Department.name == db_user.jurusan
+                    ).first()
+                    if dept:
+                        curr = db_session.query(models.Curriculum).filter(models.Curriculum.department_id == dept.id).first()
+                        if curr:
+                            # 1. Clear existing schedule first to prevent duplicates / mixed curricula
+                            crud.delete_all_user_jadwal(db_session, user_id)
+                            
+                            # 2. Auto connect for ALL semesters (1-8) to populate full program
+                            for s_l in range(1, 9):
+                                crud.connect_curriculum_to_user(db_session, user_id, curr.id, None, s_l)
 
         return RedirectResponse(url="/", status_code=303)
     except Exception as e:
@@ -409,13 +439,13 @@ async def add_todo(
         db_todo = crud.create_todo(db_session, todo_create)
         
         # Calendar Sync (Phase 2)
-        db_user = crud.get_user(db_session, id_user)
-        if db_user and db_user.access_token and tenggat_dt:
-             # Use the new service that handles dedicated calendar
-             event_id = calendar_service.create_todo_event(db_session, db_user, db_todo)
-             if event_id:
-                 db_todo.google_event_id = event_id
-                 db_session.commit()
+        # db_user = crud.get_user(db_session, id_user)
+        # if db_user and db_user.access_token and tenggat_dt:
+        #      # Use the new service that handles dedicated calendar
+        #      event_id = calendar_service.create_todo_event(db_session, db_user, db_todo)
+        #      if event_id:
+        #          db_todo.google_event_id = event_id
+        #          db_session.commit()
         
         await rag_service.update_todo_embedding(db_session, db_todo)
         return RedirectResponse(url="/", status_code=303)
@@ -431,15 +461,7 @@ async def delete_todo_route(todo_id: int, db_session: Session = Depends(get_db))
     if db_todo and db_todo.google_event_id:
          db_user = crud.get_user(db_session, db_todo.id_user)
          if db_user:
-             # Phase 2: Delete from custom calendar if exists, or primary default logic handled in service
-             # Check if we have calendar id stored or just try delete
-             # For Todo, we typically used primary before, but now custom.
-             # Service handles fetching the right calendar ID context if we update 'delete_event' 
-             # But 'delete_event' in service takes specific calendar_id.
-             
-             # Let's get the ID to delete from.
-             cal_id = db_user.todo_calendar_id if db_user.todo_calendar_id else 'primary'
-             calendar_service.delete_event(db_session, db_user, db_todo.google_event_id, calendar_id=cal_id)
+             pass
 
     crud.delete_todo(db_session, todo_id)
     crud.delete_rags_embedding_by_source_type_and_id(db_session, "todo", str(todo_id))
@@ -504,14 +526,14 @@ async def add_jadwal(
         db_jadwal = crud.create_jadwal_matkul(db_session, jadwal_create)
         
         # Calendar Sync (Phase 2: Recurring)
-        if id_semester:
-             db_semester = crud.get_semester(db_session, id_semester)
-             db_user = crud.get_user(db_session, id_user)
-             if db_semester and db_user and db_user.access_token:
-                 event_id = calendar_service.create_recurring_class_event(db_session, db_user, db_semester, db_jadwal)
-                 if event_id:
-                     db_jadwal.google_event_id = event_id
-                     db_session.commit()
+        # if id_semester:
+        #      db_semester = crud.get_semester(db_session, id_semester)
+        #      db_user = crud.get_user(db_session, id_user)
+        #      if db_semester and db_user and db_user.access_token:
+        #          event_id = calendar_service.create_recurring_class_event(db_session, db_user, db_semester, db_jadwal)
+        #          if event_id:
+        #              db_jadwal.google_event_id = event_id
+        #              db_session.commit()
         
         await rag_service.update_jadwal_embedding(db_session, db_jadwal)
         return RedirectResponse(url="/", status_code=303)
@@ -527,8 +549,8 @@ async def delete_jadwal_route(jadwal_id: int, db_session: Session = Depends(get_
         # Need semester to know calendar ID
         db_semester = crud.get_semester(db_session, db_jadwal.id_semester)
         db_user = crud.get_user(db_session, db_jadwal.id_user)
-        if db_semester and db_semester.google_calendar_id and db_user:
-            calendar_service.delete_event(db_session, db_user, db_jadwal.google_event_id, calendar_id=db_semester.google_calendar_id)
+        # if db_semester and db_semester.google_calendar_id and db_user:
+        #     calendar_service.delete_event(db_session, db_user, db_jadwal.google_event_id, calendar_id=db_semester.google_calendar_id)
 
     crud.delete_jadwal_matkul(db_session, jadwal_id)
     crud.delete_rags_embedding_by_source_type_and_id(db_session, "jadwal", str(jadwal_id))
@@ -565,11 +587,12 @@ async def update_jadwal_route(
             await rag_service.update_jadwal_embedding(db_session, db_jadwal)
             
             # Calendar Sync Update (Phase 2.5)
-            if db_jadwal.id_semester and db_jadwal.google_event_id:
-                 db_semester = crud.get_semester(db_session, db_jadwal.id_semester)
-                 db_user = crud.get_user(db_session, db_jadwal.id_user)
-                 if db_semester and db_user:
-                     calendar_service.update_recurring_event(db_session, db_user, db_semester, db_jadwal)
+            # if db_jadwal.id_semester and db_jadwal.google_event_id:
+            #      db_semester = crud.get_semester(db_session, db_jadwal.id_semester)
+            #      db_user = crud.get_user(db_session, db_jadwal.id_user)
+            # if db_semester and db_user:
+            #     calendar_service.update_recurring_event(db_session, db_user, db_semester, db_jadwal)
+            pass
 
         return RedirectResponse(url="/", status_code=303)
     except Exception as e:
@@ -753,9 +776,9 @@ async def rag_query(query: schemas.RAGQuery, db_session: Session = Depends(get_d
 # Optional: POST /calendar/create-event (Section 13)
 @app.post("/calendar/sync", response_class=RedirectResponse)
 async def manual_calendar_sync(request: Request, db_session: Session = Depends(get_db)):
-    user = await auth.get_current_user(request, db_session)
-    if user:
-        calendar_service.sync_todos_to_calendar(db_session, user)
+    # user = await auth.get_current_user(request, db_session)
+    # if user:
+    #     calendar_service.sync_todos_to_calendar(db_session, user)
     return RedirectResponse(url="/", status_code=303)
 
 
@@ -790,7 +813,7 @@ async def add_semester(
         new_sem = crud.create_semester(db_session, semester_create)
         
         # Auto-create calendar immediately
-        calendar_service.create_semester_calendar(db_session, user, new_sem)
+        # calendar_service.create_semester_calendar(db_session, user, new_sem)
         
     except HTTPException:
         raise
@@ -810,11 +833,11 @@ async def delete_semester(semester_id: int, request: Request, db_session: Sessio
     db_semester = crud.get_semester(db_session, semester_id)
     if db_semester:
         # 1. Delete Google Calendar if exists
-        if db_semester.google_calendar_id:
-            try:
-                calendar_service.delete_calendar(user, db_semester.google_calendar_id)
-            except Exception as e:
-                logger.error(f"Failed to delete Google Calendar: {e}")
+        # if db_semester.google_calendar_id:
+        #     try:
+        #         calendar_service.delete_calendar(user, db_semester.google_calendar_id)
+        #     except Exception as e:
+        #         logger.error(f"Failed to delete Google Calendar: {e}")
         
         # 2. Delete embeddings for all schedules in this semester
         for jadwal in db_semester.jadwal_matkul:
@@ -844,9 +867,9 @@ async def update_semester(
         db_session.commit()
         
         # Sync Calendar Name
-        if db_semester.google_calendar_id:
-            new_summary = f"My Campus - {tipe} {tahun_ajaran}"
-            calendar_service.update_calendar_metadata(user, db_semester.google_calendar_id, new_summary)
+        # if db_semester.google_calendar_id:
+        #     new_summary = f"My Campus - {tipe} {tahun_ajaran}"
+        #     calendar_service.update_calendar_metadata(user, db_semester.google_calendar_id, new_summary)
             
     return RedirectResponse(url="/", status_code=303)
 

@@ -13,11 +13,22 @@ from datetime import date, time, datetime, timedelta
 async def main():
     db = SessionLocal()
     try:
-        # Get the first user
+        # Get or create the first user
         user = db.query(models.User).first()
         if not user:
-            print("No user found in the DB. Please login through the app first to create a user.")
-            return
+            print("Creating default test user...")
+            user = models.User(
+                nama="Hirumi", 
+                username="hirumi", 
+                email="hirumi@example.com",
+                password_hash="password123", # Standard for dummy
+                semester_sekarang="4",
+                universitas="Institut Teknologi Sepuluh Nopember",
+                jurusan="Teknik Informatika"
+            )
+            db.add(user)
+            db.commit()
+            db.refresh(user)
             
         print(f"Adding massive dummy data for user: {user.nama} (ID: {user.id_user})")
         
@@ -37,17 +48,10 @@ async def main():
         await rag_service.update_user_embedding(db, user)
         print("- User profile updated & embedded for RAG.")
         
-        # 2. Add Semester
+        print("- User profile updated.")
+        
+        # 2. Skip Semester creation (we use semester_level now)
         now = datetime.now()
-        semester = schemas.SemesterCreate(
-            id_user=user.id_user,
-            tipe="Genap",
-            tahun_ajaran="2025/2026",
-            tanggal_mulai=now.date() - timedelta(days=30),
-            tanggal_selesai=now.date() + timedelta(days=120)
-        )
-        db_sem = crud.create_semester(db, semester)
-        print(f"- Semester {db_sem.tipe} added.")
         
         # 3. Add Jadwal Matkul (6 Mata Kuliah)
         jadwals = [
@@ -61,11 +65,15 @@ async def main():
         
         for hari, nama, start, end, sks in jadwals:
             j = schemas.JadwalMatkulCreate(
-                id_user=user.id_user, id_semester=db_sem.id_semester,
-                hari=hari, nama=nama, jam_mulai=start, jam_selesai=end, sks=sks
+                id_user=user.id_user, 
+                hari=hari, 
+                nama=nama, 
+                jam_mulai=start, 
+                jam_selesai=end, 
+                sks=sks,
+                semester_level=int(user.semester_sekarang or 1)
             )
             db_j = crud.create_jadwal_matkul(db, j)
-            await rag_service.update_jadwal_embedding(db, db_j)
         print(f"- {len(jadwals)} Jadwal Matkul added & embedded.")
         
         # 4. Add Todos (10 Various Tasks with proper priority tags)

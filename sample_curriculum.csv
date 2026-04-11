@@ -1,0 +1,1339 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Kewarganegaraan,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Matematika - 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Rangkaian Listrik 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Pengukuran Listrik dan Instrumentasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Piranti Elektronika,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Elektronika Digital 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Workshop Algoritma dan Pemrograman,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Gambar Teknik,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Praktikum Elektronika Digital 1,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Praktikum 1.1 : Rangkaian Listrik 1 dan Pengukuran Listrik,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Praktikum Piranti Elektronika,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Agama,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Matematika-2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Rangkaian Listrik 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Rangkaian Elektronika,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Elektronika Digital 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Fisika dan Elektromagnet,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Workshop Pemrograman Lanjut,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Proyek Elektronika 1,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Praktikum Elektronika Digital 2,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Praktikum Rangkaian Listrik 2,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Praktikum Rangkaian Elektronika,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Pengaturan Otomatis,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Rangkaian Linear Aktif,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Elektronika Industri 1,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Robotika,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Dasar Sistem Tenaga Listrik,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Praktikum 3.1 : Robotika dan DSTL,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Proyek Elektronika 2,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Workshop Sistem Mikroprosesor dan Antar Muka,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Praktikum 3.2: Pengaturan Otomatis dan Elektronika Industri 1,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Praktikum Rangkaian Linear Aktif,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,Metode Numerik,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Bahasa Indonesia,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Bahasa Inggris Teknik,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Proposal Proyek Akhir,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Pengolahan Sinyal,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Workshop Piranti Terprogram,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Elektronika Industri 2,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Instrumentasi Elektronika,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Workshop Manufaktur Terpadu,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Workshop Mikrokontroler,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Praktikum Elektronika Industri 2,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Praktikum 4.1 : Pengolahan Sinyal dan Instrumentasi Elektronika,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Ganjil,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Bahasa Inggris Profesional,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Workshop Proyek Akhir,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Proyek Akhir,3,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Kontrol Cerdas,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Elektronika,Genap,Statistik dan Probabilitas,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Agama,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Kewarganegaraan,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Matematika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Elektronika Digital 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Rangkaian Listrik 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Pengukuran Listrik & Instrumentasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Piranti Elektronika,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Fisika dan Elektro Magnet,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Workshop Gambar Teknik,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Prak. Elektronika Digital 1,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Praktik 1.1: Rangkaian Listrik 1 dan Peng. Listrik & Instrumentasi,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Praktik 1.2: Piranti Elektronika dan Fisika & Elektro Magnet,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Pancasila,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Matematika-2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Rangkaian Elektronika,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Rangkaian Listrik 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Elektronika Digital 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Dasar Sistem Tenaga Listrik,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Workshop Algoritma dan Pemrograman,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Prak. Rangkaian Elektronika,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Prak. Rangkaian Listrik 2,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Prak. Elektronika Digital 2,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Matematika 3,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Elektronika Industri 1,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Sistem Mikroprosesor,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Rangkaian Linier Aktif,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Pengaturan Otomatis,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Metode Numerik,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Workshop Pemrograman Lanjutan,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Prak. Elektronika Industri 1,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Praktik 3.1: Sistem Mikroprosesor dan Rank. Linear Aktif,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Workshop Elektronika 1,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Sensor dan Aktuator,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Instrumentasi Elektronika,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Elektronika Industri 2,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Workshop Pengaturan Otomatis,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Kontrol Cerdas,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Statistik dan Probabilitas,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Mikrokontroler,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Praktik 4.1: Sensor & Aktuator dan Elektronika Industri 2,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Praktik 4.2: Kontrol Cerdas dan Mikrokontroler,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Bahasa Inggris Teknik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,VLSI & Piranti Terprogram,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,IoT dan Jaringan Sensor,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Sistem Embeded,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Pengolahan Sinyal,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Robotika,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Workshop Komputer & Jaringan,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Praktik 5.1: Pengolahan Sinyal dan Robotika,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Prak. VLSI & Piranti terprogram,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Praktik 5.2: Sistem Embeded dan IoT & Jaringan Sensor,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,W. Mikrokontroler Lanjut & T. Antarmuka,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 4*,1,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Proposal Proyek Akhir,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,Proyek Akhir-1,3,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Ganjil,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Bahasa Indonesia,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Bahasa Inggris Profesional,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Elektronika,Genap,Proyek Akhir-2,8,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Kewarganegaraan,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Matematika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Sistem Logika,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Elektromagnetika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Rangkaian Listrik 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Elektronika Dasar,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Pemrograman Dasar,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Prak. Sistem Logika,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Prak. Elektronika Dasar,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Prak. Dasar Pemrograman,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Workshop Pengukuran Listrik,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Agama,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Matematika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Elektromagnetika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Rangkaian Listrik 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Rangkaian Elektronika,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Komunikasi Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Prak. Elektromagnetika,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Prak. Rangkaian Listrik,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Prak Rangkaian Elektronika,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Prak. Komunikasi Data,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,W. Pemrograman Lanjut,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Dasar Sistem Komunikasi,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Mikrokontroler,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Jaringan Komputer,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Saluran Transmisi Telekomunikasi,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Prak Dasar Sistem Komunikasi,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Praktikum Mikrokontroler,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Prak Jaringan komputer,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Prak Saluran Transmisi Telekomunikasi,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Workshop Metode Numerik,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Workshop Elektronika Komunikasi,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Sinyal Sistem,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,Prak Sinyal Sistem,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,B. Indonesia,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Bahasa Inggris Teknik,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,TPPA,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Antena Propagasi,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Rekayasa Trafik Telkom,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Komunikasi Optik,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Prak. Antena Propagasi,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Prak. Komunikasi Optik,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Workshop Pemrograman Jaringan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,W. Jaringan Telephoni,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,W. Aplikasi Komunikasi Seluler,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Ganjil,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Bahasa Inggris Profesional,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Proyek Akhir,4,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Telekomunikasi,Genap,Statistik dan Probabilitas,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Agama,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Matematika - 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Konsep Teknologi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Elektromagnetika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Rangkaian Listrik 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Piranti Elektronika,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Workshop Pengukuran Listrik,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Workshop Pemrograman 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Prak. Piranti Elektronika,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Kewarganegaraan,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Matematika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Elektromagnetika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Rangkaian Listrik 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Rangkaian Elektronika 1,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Elektronika Digital 1,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Workshop Pemrograman 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Prak. Elektronika Digital 1,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Prak. Elektromagnetika,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Prak. Rangkaian Elektronika 1,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Prak. Rangkaian Listrik,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Statistik dan Probabilitas,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Dasar Sistem Komunikasi,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Elektronika Digital 2,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Rangkaian Elektronika 2,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Workshop Metode Numerik,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Workshop Elektronika Komunikasi,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Prak. Dasar Sistem Komunikasi,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Prak. Elektronika Digital 2,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Prak. Rangkaian Elektronika 2,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Komunikasi Data,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Mikroprosesor dan Antar Muka,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Antena & Propagasi,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Sistem Telekomunikasi Digital,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Sinyal Sistem,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Workshop Rekayasa Trafik,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Prak. Komunikasi Data,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Prak. Antena & Propagasi,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Prak. Mikroprosesor dan Antar Muka,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Prak. Sistem Telekomunikasi Digital,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Prak. Sinyal Sistem,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Bahasa Inggris Teknik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Teknik Pengkodean,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Sistem Komunikasi Optik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Workshop Dasar Jaringan Komunikasi,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Workshop Sistem Komunikasi Seluler,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Workshop Jaringan Komputer,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Prak. Teknik Pengkodean,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Prak. Sistem Komunikasi Optik,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 4*,1,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Proposal Proyek Akhir,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,Proyek Akhir-1,3,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Ganjil,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Bahasa Indonesia,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Bahasa Inggris Profesional,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Proyek Akhir-2,8,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Sistem Komunikasi Radio & Satelit,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Telekomunikasi,Genap,Prak. Sistem Komunikasi Radio & Satelit,1,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Bahasa Inggris 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Matematika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Elektromagnetik,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Rangkaian Listrik 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Pengukuran Listrik Dan Instrumentasi 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Bahan Dan Komponen Listrik,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Gambar Teknik Kelistrikan,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Workshop Pemrograman Komputer,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Workshop Instalasi Listrik Penerangan,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Mekanik Dan Elektrik,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Praktik 1.1,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Bahasa Inggris 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Matematika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Agama,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Rangkaian Listrik 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Pengukuran Listrik Dan Instrumentasi 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Rangkaian Elektronika,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Elektronika Digital,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Transformator,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Workshop Instalasi Listrik Tenaga,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Praktik 1.2,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Praktik 2.2,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Bahasa Inggris 3,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Statistik Dan Probabilitas,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Etika Dan Profesi,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Teknik Kontrol,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Elektronika Daya,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Mesin Listrik,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Pembangkit Tenaga Listrik,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Dasar Sistem Mikrokontroller,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Praktik 1.3,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Praktik 2.3,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Praktik 3.3,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Praktik 4.3,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Bahasa Indonesia,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Manajemen Proyek Dan Bisnis Kelistrikan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Keselamatan Ketenagalistrikan Dan Keselamatan & Kesehatan Kerja,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Sistem Jaringan Distribusi Tenaga Listrik,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Dasar Kualitas Daya Listrik,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Sistem Mikrokontroller Dan Teknik Antar Muka,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Perawatan Perbaikan Mesin Listrik,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Workshop Proteksi Sistem Distribusi Tenaga Listrik,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Workshop Konverter Daya,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Workshop Transmisi Dan Gardu Induk,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Praktik 4.1,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Workshop Pengoperasian Dan Pemeliharaan Sistem Distribusi Tenaga Listrik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Workshop Alat Pembatas Dan Pengukur,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Workshop Simulasi Dan Koordinasi Proteksi Sistem Tenaga Listrik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Workshop Tegangan Tinggi,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Kerja Praktek,8,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Ganjil,Proposal Proyek Akhir,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Pancasila Dan Kewarganegaraan,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Penggunaan Dan Pengemudian Motor Listrik,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Sistem Smart Grid,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Workshop Energi Baru Terbarukan,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Workshop PLC Dan SCADA,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Praktik 1.6,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Elektro Industri,Genap,Proyek Akhir,4,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Bahasa Inggris 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Pancasila dan Kewarganegaraan,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Matematika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Rangkaian Listrik 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Pengukuran Listrik dan Instrumentasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Workshop Bahan dan Komponen Listrik,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Workshop Pemrograman Komputer 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Workshop Gambar Teknik,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Bengkel Elektromekanik,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Prak. Pengukuran Listrik dan Instrumentasi,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Prak. Rangkaian Listrik 1,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Agama,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Bahasa Inggris 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Matematika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Elektromagnetik,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Rangkaian Listrik 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Rangkaian Elektronika,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Workshop Pemrograman Komputer 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Workshop Instalasi Listrik Penerangan,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Prak. Rangkaian Elektronika,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Prak. Rangkaian Listrik 2,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Prak. Elektromagnetik,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Matematika 3,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Keselamatan dan Kesehatan Kerja,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Mesin Listrik 1,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Elektronika Digital,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Teknik Kontrol Industri,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Workshop Pengaturan Otomatis,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Workshop Instalasi Listrik Tenaga,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Bahasa Inggris 3,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Prak. Elektronika Digital,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Prak. Mesin Listrik 1,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Prak. Teknik Kontrol Industri,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Bahasa Indonesia dan Tata Tulis Karya Ilmiah,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Matematika 4,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Etika Profesi dan Komunikasi,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Elektronika Daya,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Mesin Listrik 2,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Workshop Perlengkapan Pembangkit Tenaga Listrik,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Workshop Mikrokontroler,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Bengkel Perawatan Perbaikan Mesin Listrik,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Bahasa Inggris 4,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Prak. Elektronika Daya,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Prak. Mesin Listrik 2,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Kewirausahaan,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Sistem Pengaman Tenaga Listrik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Transmisi dan Distribusi,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Penggunaan dan Pengemudian Motor Listrik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Workshop Komponen Magnetik dan Elektronika Daya,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Workshop Mikrokontroler dan Antar Muka Komputer,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Prak. Penggunaan dan Pengemudian Motor Listrik,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Prak. Transmisi dan Distribusi,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Prak. Sistem Pengaman Tenaga Listrik,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Proposal Proyek Akhir,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Mata Kuliah Pilihan 2 SKS (1 Workshop),2,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Analisa Sistem Tenaga,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Kualitas Daya,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Workshop Desain Sistem Tenaga Listrik,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Prak. Analisa Sistem Tenaga,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Prak. Kualitas Daya,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Proyek Akhir Tahap 1,4,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Mata Kuliah Pilihan 6 SKS (3 Workshop),6,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Proyek Akhir Tahap 2,8,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Mata Kuliah Pilihan 10 SKS (3 Teori dan 2 Workshop),10,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Kerja Praktek 1/Magang Industri,10,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Kerja Praktek 2/Magang Industri/Penelitian/Pengabdian Masyarakat,10,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Workshop Alat Pembatas dan Pengukur,2,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Workshop Energi Baru dan Terbarukan,2,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Workshop Management Energi,2,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Workshop Kendali Cerdas,2,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Workshop Pengoperasian dan Pemeliharaan Sistem Tenaga Listrik,2,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Workshop Pengolahan Sinyal Digital,2,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Genap,Workshop Otomasi Industri dan Instrumentasi,2,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Tegangan Tinggi,2,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Operasi Optimum Sistem Tenaga Listrik,2,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Manajemen Proyek Sistem Kelistrikan,2,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Keandalan dan Kestabilan Sistem Tenaga Listrik,2,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Workshop Smart Grid,2,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Workshop SCADA,2,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Elektro Industri,Ganjil,Workshop Sistem Transportasi Elektrik,2,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Agama,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Matematika-1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Algoritma dan Struktur Data,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Elektronika Digital 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Sistem Komunikasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Arsitektur Komputer,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Workshop Teknologi Web dan aplikasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Praktikum Algoritma dan Struktur Data,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Praktikum Elektronika Digital 1,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Praktikum Sistem Komunikasi,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Praktikum Arsitektur Komputer,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Pancasila,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Matematika-2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Dasar Pemrograman,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Elektronika Digital 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Komunikasi Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Arsitektur Jaringan dan Internet,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Workshop Basis data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Praktikum Dasar Pemrograman,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Praktikum Elektronika Digital 2,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Praktikum Komunikasi Data,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Praktikum Arsitektur Jaringan dan Internet,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Kewarganegaraan,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Statistika,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Sistem Komunikasi Nirkabel,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Jaringan Nirkabel,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Sistem dan Jaringan Komputer,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Workshop Embedded System,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Workshop Pemrograman Lanjut,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Praktikum Teknologi Komunikasi Nirkabel,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Praktikum Jaringan Nirkabel,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Praktikum Sistem dan Jaringan Komputer,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Workshop Sistem Pendukung Keputusan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Pengembangan Perangkat Lunak,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Komputasi Bergerak,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Sistem Terdistribusi,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Pemrograman Jaringan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Keamanan Jaringan dan Kriptografi,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Praktikum Pengembangan Perangkat Lunak,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Praktikum Komputasi Bergerak,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Praktikum Sistem Terdistribusi,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Praktikum Pemrograman Jaringan,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Praktikum Keamanan Jaringan dan Kriptografi,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Bahasa Inggris Teknik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Bahasa Indonesia (TTKI),2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Pemrograman Web dan Aplikasi,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Internet of Things (IoT),2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Administrasi Jaringan 1,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Dasar Komputasi Awan,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Mobile Ad-Hoc Network (MANET),2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Praktikum Pemrograman Web dan Aplikasi,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Praktikum Internet of Things,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Praktikum Administrasi Jaringan 1,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Praktikum Dasar Komputasi Awan,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,PraktikumMobile Ad-Hoc Network (MANET),1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 4*,1,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Proposal Proyek Akhir,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,Proyek Akhir-1,3,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Ganjil,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Bahasa Inggris Profesional,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Internet,Genap,Proyek Akhir-2,8,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Matematika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Agama,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Standar Internasional dan K3,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Konsep dan Wawasan Teknologi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Mekanika Material,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Perancangan Mekanika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Gambar Teknik,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Bengkel Manufaktur 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Matematika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Perancangan Mekanika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Statika dan Dinamika,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Praktikum Statika dan Dinamika,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Rangkaian Listrik,3,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Praktik Rangkaian Listrik,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Elektronika Analog,3,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Praktik Elektronika Analog,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Elektronika Digital,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Mesin CNC,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Mata Kuliah Pilihan / Kreatifitas Mahasiswa,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Sinyal dan Sistem,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Kinematika,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Kendali Otomatis 1,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Praktikum Kendali Otomatis 1,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Elektro Industri,3,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Praktikum Elektro Industri,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Bengkel Manufaktur 2,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Pemrograman Dasar,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Desain Sistem Elektronik,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Sistem Mikroprosesor,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Mata Kuliah Pilihan / Kreatifitas Mahasiswa,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Kendali Otomatis 2,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Praktikum Kendali Otomatis 2,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Robotika 1,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Praktikum Robotika 1,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Mikrokontroler dan Sistem Antarmuka,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Praktik Mikrokontroler dan Sistem Antarmuka,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Otomasi Industri 1,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Pemrograman Lanjut,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Mata Kuliah Pilihan / Kreatifitas Mahasiswa,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Bahasa Inggris Teknik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Bahasa Indonesia dan Tata Karya Tulis Ilmiah,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Robotika 2,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Praktikum Robotika 2,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Teknologi Sensor dan Aktuator,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Otomasi Industri 2,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Pemrograman Sistem Mekatronik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Proyek Robotika,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Mata Kuliah Pilihan / Kreatifitas Mahasiswa,1,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Proposal Proyek Akhir,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Mata Kuliah Pilihan / MBKM,20,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Proyek Akhir 1,3,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Ganjil,Mata Kuliah Pilihan / MBKM,20,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Bahasa Inggris Profesional,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Kewarganegaraan,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Kepemimpinan dan Manajemen Proyek,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Mekatronika,Genap,Proyek Akhir 2,8,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Matematika-1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Termodinamika-1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Rangkaian Listrik-1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Fisika Dasar dan Kimia Dasar,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Mekanika Struktur dan Getaran,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Workshop Ilmu Dasar,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Workshop Gambar Teknik,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Workshop Material,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Agama,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Kewarganegaraan,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Matematika-2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Termodinamika-2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Rangkaian Listrik-2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Mekanika Fluida-1,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Praktikum Rangkaian Listrik,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Workshop Kesetimbangan Energi,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Workshop Proses Produksi,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Mekanika Fluida-2,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Perpindahan Panas-1,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Bahan Bakar dan Proses Pembakaran,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Mesin Listrik,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Workshop Generator,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Workshop Elektronika Analog,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Workshop Fluida,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Workshop Pengukuran Teknik,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Perpindahan Panas-2,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Penukar Kalor-1,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Manajemen Operasional dan Technopreneurship,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Elemen Mesin,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Workshop Konduksi dan Konveksi,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Workshop Mikrokontroler dan SCADA,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Workshop Elektronika Daya,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Workshop Pengendalian Proses, Perpipaan, dan Instrumentasi,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Bahasa Indonesia,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Bahasa Inggris Teknik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Penukar Kalor-2,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Turbin, Pompa, dan Kompresor,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Manajemen Pemeliharaan,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Audit Energi,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Praktikum Penukar Kalor,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Workshop Komputasi Dinamika Fluida,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Workshop Energi Baru Terbarukan,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 4*,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Proposal Proyek Akhir,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,Proyek Akhir-1,3,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Ganjil,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Bahasa Inggris Profesional,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Applied Modelling and Statistics,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sistem Pembangkit Energi,Genap,Proyek Akhir-2,8,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Kewarganegaraan,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Matematika - 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Elektronika dan Instrumentasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Workshop Literasi Multimedia,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Fotografi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Workshop Menggambar,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Storytelling dan Storyboarding,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Praktikum Elektronika dan Instrumentasi,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Praktikum Fotografi,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Komunikasi Massa,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Agama,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Matematika - 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Elektronika Digital,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Kamera Studio dan Lighting,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,AV Production,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Digital Publishing,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Praktikum Elektronika Digital,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Praktikum Kamera Studio dan Lighting,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Praktikum AV Production,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Praktikum Digital Publishing,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Sistem Komunikasi,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Praktikum Sistem Komunikasi,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Sistem Pemancar,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Jaringan Komputer,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Animasi 2D,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Studio Radio,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Jurnalistik,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Praktikum Jurnalistik,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Praktikum Sistem Pemancar,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Praktikum Jaringan Komputer,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Praktikum Animasi 2D,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Studio TV 1,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Pemrograman Visual,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,Praktikum Pemrograman Visual,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Bahasa Indonesia,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Bahasa Inggris Teknik,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Antena dan Propagasi,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Desain Web,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Jaringan Multimedia,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Animasi 3D,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Praktikum Desain Web,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Praktikum Antena dan Propagasi,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Praktikum Jaringan Multimedia,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Praktikum Animasi 3D,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Studio TV 2,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Proposal Proyek Akhir,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Ganjil,MK MBKM / MK Kerja Praktik / MK Pilihan **,20,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Bahasa Inggris Profesional,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Statistik,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting,Genap,Proyek Akhir,4,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Kewarganegaraan,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Matematika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Dasar Pemrograman,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Praktikum Dasar Pemrograman,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Pengantar Psikologi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Workshop Dasar Menggambar,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Workshop Narasi Interaktif,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Workshop Produksi Game 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Workshop Review dan Analisa Game,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Agama,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Matematika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Basis Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Praktikum Basis Data,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Desain Mekanika Game,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Praktikum Desain Mekanika Game,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Algoritma dan Struktur Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Praktikum Algoritma dan Struktur Data,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Dasar Ekspresi Visual,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Workshop Produksi Game II,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Workshop Storyboard,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Interaksi Manusia Komputer,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Praktikum Interaksi Manusia Komputer,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Pemrograman Berorientasi Obyek,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Praktikum Pemrograman Berorientasi Obyek,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Desain Level,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Praktikum Desain Level,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Trend Teknologi Game,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Workshop Komposisi Musik,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Workshop Grafika Komputer,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Workshop Produksi Game III,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Desain 3D untuk Game,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Praktikum Desain 3D untuk Game,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Desain Riset Pengguna,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Praktikum Desain Riset Pengguna,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Design Pattern untuk Game,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Praktikum Design Pattern untuk Game,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Arsitektur Dan Jaringan Komputer,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Praktikum Arsitektur Dan Jaringan Komputer,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Workshop Produksi Game IV,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Bahasa Indonesia,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Bahasa Inggris Teknik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Teori Game Kombinatorial,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Piranti Interaksi,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Praktikum Piranti Interaksi,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Workshop Kecerdasan Buatan Untuk Game,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Workshop Metodologi Penelitian,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Pemrograman Jaringan Komputer,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Praktikum Pemrograman Jaringan Komputer,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 4*,1,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Proposal Proyek Akhir,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,Proyek Akhir-1,3,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Ganjil,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Bahasa Inggris Profesional,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Game,Genap,Proyek Akhir-2,8,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Agama,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Matematika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Fisika Multimedia 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Konsep Teknologi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Workshop Manajemen Produksi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Workshop Menggambar Digital,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Workshop Storytelling Digital,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Workshop Desain 2D,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Workshop Algoritma & Pemrograman,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Kewarganegaraan,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Matematika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Fisika Multimedia 1,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Basis Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Praktikum Basis Data,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Workshop Storytelling Interaktif,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Workshop Desain Kreatif,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Workshop Animasi 2D,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Workshop Pemrograman Struktur Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Matematika Multimedia,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Pemrograman Berbasis Objek,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Praktikum Pemrograman Berbasis Objek,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Teknologi Video,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Praktikum Teknologi Video,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Jaringan Komputer,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Praktikum Jaringan Komputer,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Workshop Audio Visual Media,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Workshop Animasi 3D,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Workshop Teknologi AR/VR,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Metode Penelitian,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Piranti Elektronika,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Pemrograman Mobile,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Praktikum Pemrograman Mobile,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Workshop Desain UI/UX,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Workshop Teknologi Web Multimedia,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Workshop Jaringan Multimedia,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Workshop Cloud Computing,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Workshop Teknologi MR,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Bahasa Indonesia / TTKI,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Bahasa Inggris Teknik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,UI/UX Teknologi Imersif,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Piranti Multimedia Interaktif,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Praktikum Piranti Multimedia Interaktif,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Workshop Kecerdasan Buatan,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Workshop Internet of Things,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Wokrshop Teknologi Blockchain,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 4*,1,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Proposal Proyek Akhir,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,Proyek Akhir 1,3,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Ganjil,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Bahasa Inggris Profesional,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknologi Rekayasa Multimedia,Genap,Proyek Akhir 2,8,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Agama (Religion),2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Matematika 1 (Mathematics 1),2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Pengantar Teknologi dan Bisnis Digital (Introduction to Digital Technology and Business),2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Pemrograman Dasar (Basic Programming),2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Komunikasi Bisnis (Business Communication),2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Publikasi Digital,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Algoritma dan Logika,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Inovasi Ide Bisnis Kreatif,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Praktikum Pemrograman Dasar,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Kewarganegaraan (Citizenship),2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Matematika 2 (Mathematics 2),2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Berfikir Komputasional (Computational Thinking),2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Basis Data (Database),2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Manajemen Bisnis (Business Management),2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Praktikum Manajemen Bisnis (Business Management Practicum),1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Workshop Desain Antarmuka dan Pengalaman Pengguna (User Interface and User Experience (UI/UX) Design Workshop),2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Workshop Pengembangan web (Web Development Workshop),2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Praktikum Basis Data (Database Practicum),1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,MK Pilihan,2,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Statistika (Statistics),2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Manajemen Pemasaran (Marketing Management),2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Analisa Perancangan Sistem / ADSI (System Analysis and Design),2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Matematika Bisnis (Business Mathematics),2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Pengembangan Produk (Product Development),2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Bisnis Rintisan (Startup Business Workshop),2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Rencana Bisnis (Business Planning Workshop),2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Praktikum Pengembangan Produk (Product Development Practicum),1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Praktikum Analisa Perancangan Sistem / ADSI (System Analysis and Design),1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Praktikum Manajemen Pemasaran (Marketing Management Practicum),1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Manajemen K3,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Kecerdasan Buatan (Artificial Intelligence),2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Psikologi Pemasaran (Marketing Psychology),2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Kemitraan Bisnis Rintisan (Startup Business Partnership),2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Workshop Pemasaran Digital (Digital Marketing Workshop),2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Workshop Riset Pasar (Market Research Workshop),2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Workshop E-Commerce dan Marketplace,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Workshop Ekspansi Bisnis,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Workshop Manajemen Sistem Informasi,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Bahasa Indonesia / TTKI,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Bahasa Inggris Teknik (Technical English),2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Etika dan Hukum Bisnis Digital,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Teknologi Keuangan (FinTech),2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Manajemen Proyek Bisnis Digital,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Manajemen Keamanan Informasi,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Kampanye Digital,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Manajemen Keuangan,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,MK Pilihan: Kreatifitas Mahasiswa 4*,1,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Proposal Proyek Akhir,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Proyek Akhir 1,3,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,MK MBKM / MK Pilihan **,20,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Bahasa Inggris Profesional,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Proyek Akhir 2,8,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Agama (Religion),2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Matematika 1 (Mathematics 1),2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Pengantar Teknologi dan Bisnis Digital (Introduction to Digital Technology and Business),2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Pemrograman Dasar (Basic Programming),2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Komunikasi Bisnis (Business Communication),2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Publikasi Digital,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Algoritma dan Logika,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Inovasi Ide Bisnis Kreatif,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Praktikum Pemrograman Dasar,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Kewarganegaraan (Citizenship),2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Matematika 2 (Mathematics 2),2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Berfikir Komputasional (Computational Thinking),2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Basis Data (Database),2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Manajemen Bisnis (Business Management),2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Praktikum Manajemen Bisnis (Business Management Practicum),1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Workshop Desain Antarmuka dan Pengalaman Pengguna (User Interface and User Experience (UI/UX) Design Workshop),2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Workshop Pengembangan web (Web Development Workshop),2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Praktikum Basis Data (Database Practicum),1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,MK Pilihan,2,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Statistika (Statistics),2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Manajemen Pemasaran (Marketing Management),2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Analisa Perancangan Sistem / ADSI (System Analysis and Design),2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Matematika Bisnis (Business Mathematics),2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Pengembangan Produk (Product Development),2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Bisnis Rintisan (Startup Business Workshop),2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Rencana Bisnis (Business Planning Workshop),2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Praktikum Pengembangan Produk (Product Development Practicum),1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Praktikum Analisa Perancangan Sistem / ADSI (System Analysis and Design),1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Praktikum Manajemen Pemasaran (Marketing Management Practicum),1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Manajemen K3,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Kecerdasan Buatan (Artificial Intelligence),2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Psikologi Pemasaran (Marketing Psychology),2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Kemitraan Bisnis Rintisan (Startup Business Partnership),2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Workshop Pemasaran Digital (Digital Marketing Workshop),2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Workshop Riset Pasar (Market Research Workshop),2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Workshop E-Commerce dan Marketplace,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Workshop Ekspansi Bisnis,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Workshop Manajemen Sistem Informasi,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Bahasa Indonesia / TTKI,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Bahasa Inggris Teknik (Technical English),2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Etika dan Hukum Bisnis Digital,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Teknologi Keuangan (FinTech),2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Manajemen Proyek Bisnis Digital,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Manajemen Keamanan Informasi,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Kampanye Digital,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Workshop Manajemen Keuangan,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,MK Pilihan: Kreatifitas Mahasiswa 4*,1,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Proposal Proyek Akhir,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,Proyek Akhir 1,3,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Ganjil,MK MBKM / MK Pilihan **,20,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Bahasa Inggris Profesional,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Bisnis Digital,Genap,Proyek Akhir 2,8,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Matematika - 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Bahasa Inggris Teknik,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Konsep Teknologi Informasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Logika dan Algoritma,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Dasar Sistem Informasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Konsep Pemrograman,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Praktek Konsep Pemrograman,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Workshop Desain Web,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Keterampilan Non Teknis,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Agama,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Kewarganegaraan,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Matematika - 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Basis Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Sistem Operasi,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Algoritma dan Struktur Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Praktek Basis Data,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Praktek Sistem Operasi,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Workshop Pemrograman Web,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Praktek Algoritma dan Struktur Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Statistik dan Probabilitas,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Pemrograman Berorientasi Obyek,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Konsep Jaringan,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Basis Data Lanjut,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Metodologi Agile,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Sistem Pendukung Keputusan,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Praktek Pemrograman Berorientasi Obyek,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Praktek Konsep Jaringan,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Praktek Basis Data Lanjut,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,Workshop Aplikasi Berbasis Web,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Bahasa Indonesia,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Kecerdasan Buatan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Praktek Kecerdasan Buatan,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Workshop Pemrograman Perangkat Bergerak,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Workshop Administrasi Basis Data,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Workshop Administrasi Jaringan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Workshop Pengembangan Perangkat Lunak berbasis Agile,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Workshop Pemrograman Framework,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Workshop Aplikasi dan Komputasi Awan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Workshop Desain Pengalaman Pengguna,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Proposal Proyek Akhir,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Ganjil,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Bahasa Inggris Profesional,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Topik Khusus Informatika,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Sistem Informasi Geografis,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika,Genap,Proyek Akhir,4,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Kewarganegaraan,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Matematika - 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Elektronika dan Instrumentasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Workshop Literasi Multimedia,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Fotografi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Workshop Menggambar,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Storytelling dan Storyboarding,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Praktikum Elektronika dan Instrumentasi,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Praktikum Fotografi,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Komunikasi Massa,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Agama,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Matematika - 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Elektronika Digital,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Kamera Studio dan Lighting,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,AV Production,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Digital Publishing,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Praktikum Elektronika Digital,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Praktikum Kamera Studio dan Lighting,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Praktikum AV Production,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Praktikum Digital Publishing,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Sistem Komunikasi,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Praktikum Sistem Komunikasi,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Sistem Pemancar,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Jaringan Komputer,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Animasi 2D,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Studio Radio,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Jurnalistik,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Praktikum Jurnalistik,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Praktikum Sistem Pemancar,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Praktikum Jaringan Komputer,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Praktikum Animasi 2D,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Studio TV 1,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Pemrograman Visual,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,Praktikum Pemrograman Visual,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Bahasa Indonesia,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Bahasa Inggris Teknik,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Antena dan Propagasi,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Desain Web,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Jaringan Multimedia,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Animasi 3D,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Praktikum Desain Web,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Praktikum Antena dan Propagasi,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Praktikum Jaringan Multimedia,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Praktikum Animasi 3D,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Studio TV 2,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Proposal Proyek Akhir,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Ganjil,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Bahasa Inggris Profesional,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Statistik,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknologi Multimedia dan Broadcasting - Kampus Sumenep,Genap,Proyek Akhir,4,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Agama,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Matematika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Konsep Teknologi Informasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Konsep Pemrograman,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Keterampilan Nonteknis,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Dasar Sistem Komputer,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Logika dan Algoritma,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Workshop Desain Web,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Praktikum Konsep Pemrograman,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Kewarganegaraan,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Matematika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Algoritma dan Struktur Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Sistem Operasi,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Basis Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Pemrograman Web,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Praktikum Algoritma dan Struktur Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Praktikum Sistem Operasi,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Praktikum Basis Data,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Praktikum Pemrograman Web,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Pemrograman Berorientasi Obyek,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Konsep Jaringan,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Basis Data Lanjut,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Metodologi Agile,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Statistik dan Probabilitas,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Workshop Pemrograman Framework,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Praktikum Pemrograman Berorientasi Obyek,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Praktikum Konsep Jaringan,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Praktikum Basis Data Lanjut,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Workshop Aplikasi dan Komputasi Awan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Workshop Sistem Informasi Geografis,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Kecerdasan Buatan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Aplikasi Berbasis Web,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Desain Pengalaman Pengguna,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Sistem Pendukung Keputusan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Workshop Pemrograman Perangkat Bergerak,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Workshop Administrasi Jaringan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Workshop Pola Desain Perangkat Lunak,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Praktikum Kecerdasan Buatan,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Bahasa Indonesia,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Bahasa Inggris Teknik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Pengembangan Perangkat Lunak berbasis Agile,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Pengujian dan Penjaminan Kualitas Perangkat Lunak,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Workshop Rekayasa Ulang Kode,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Workshop Administrasi Basis Data,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Workshop Data Mining,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Praktikum Pengembangan Perangkat Lunak berbasis Agile,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 4*,1,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Proposal Proyek Akhir,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,Proyek Akhir-1,3,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Ganjil,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Bahasa Inggris Profesional,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Informatika,Genap,Proyek Akhir-2,8,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Matematika - 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Bahasa Inggris Teknik,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Konsep Teknologi Informasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Logika dan Algoritma,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Dasar Sistem Informasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Konsep Pemrograman,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Praktek Konsep Pemrograman,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Workshop Desain Web,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Keterampilan Non Teknis,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Agama,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Kewarganegaraan,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Matematika - 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Basis Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Sistem Operasi,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Algoritma dan Struktur Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Praktek Basis Data,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Praktek Sistem Operasi,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Workshop Pemrograman Web,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Praktek Algoritma dan Struktur Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Statistik dan Probabilitas,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Pemrograman Berorientasi Obyek,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Konsep Jaringan,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Basis Data Lanjut,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Metodologi Agile,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Sistem Pendukung Keputusan,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Praktek Pemrograman Berorientasi Obyek,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Praktek Konsep Jaringan,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Praktek Basis Data Lanjut,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,Workshop Aplikasi Berbasis Web,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Bahasa Indonesia,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Kecerdasan Buatan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Praktek Kecerdasan Buatan,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Workshop Pemrograman Perangkat Bergerak,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Workshop Administrasi Basis Data,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Workshop Administrasi Jaringan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Workshop Pengembangan Perangkat Lunak berbasis Agile,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Workshop Pemrograman Framework,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Workshop Aplikasi dan Komputasi Awan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Workshop Desain Pengalaman Pengguna,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Proposal Proyek Akhir,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Ganjil,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Bahasa Inggris Profesional,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Topik Khusus Informatika,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Sistem Informasi Geografis,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika - Kampus Sumenep,Genap,Proyek Akhir,4,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Pancasila dan Kewarganegaraan,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Matematika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Konsep Teknologi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Struktur Diskrit dan Metode Formal,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Rangkaian Logika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Rangkaian Elektronika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Pemrograman Dasar 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Rangkaian Logika 1,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Rangkaian Elektronika 1,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Pemrograman Dasar 1,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Workshop Pengukuran Listrik,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Agama,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Matematika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Aljabar Linear,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Rangkaian Elektronika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Pemrograman Dasar 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Rangkaian Logika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Praktikum Elektronika 2,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Praktikum Rangkaian Logika 2,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Praktikum Pemrograman Dasar 2,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Workshop Basis Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Workshop Instrumentasi dan Telemetri,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Manajemen dan Kewirausahaan,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Matematika 3,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Organisasi Mesin & Bahasa Assembly,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Bahasa Pemrograman,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Algoritma dan Struktur Data,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Sinyal dan Sistem,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Sensor dan Aktuator,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Organisasi Mesin & Bahasa Assembly,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Algoritma dan Struktur Data,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Bahasa Pemrograman,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Sinyal dan Sistem,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Sensor dan Aktuator,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Workshop Sistem Analog,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Statistik dan Probabilitas,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Matematika 4,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Jaringan Komputer,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Desain dan Organisasi Komputer,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Alat Pengembangan Perangkat Lunak,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Pengolahan Sinyal dan Citra,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Praktikum Jaringan Komputer,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Praktikum Desain dan Organisasi Komputer,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Praktikum Alat Pengembangan Perangkat Lunak,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Praktikum Pengolahan Sinyal dan Citra,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Workshop Grafika Komputer,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Workshop Sistem Digital,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Bahasa Inggris 1,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Jaringan Komputer Lanjutan,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Sistem Embedded 1,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Sistem Operasi,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Sistem Pengaturan Komputer,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Rekayasa Perangkat Lunak,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Jaringan Komputer Lanjutan,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Sistem Embedded 1,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Sistem Operasi,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Sistem Pengaturan Komputer,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Rekayasa Perangkat Lunak,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Workshop Komputer Visi,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Workshop Pemodelan dan Simulasi,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Bahasa Inggris 2,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Bahasa Indonesia,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Topik Khusus,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Proposal Proyek Akhir,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Workshop Rekayasa Produk,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Kerja Praktek,3,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Bahasa Inggris 3,2,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Kemampuan Berkomunikasi,2,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Robotika dan Otomasi,2,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Sistem Cerdas,2,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Sistem Operasi Waktu Nyata,2,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Sistem Embedded 2,2,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Robotika dan Otomasi,1,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Sistem Cerdas,1,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Sistem Operasi Waktu Nyata,1,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Praktikum Sistem Embedded 2,1,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Workshop Teknik Kompilasi,2,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Ganjil,Proyek Akhir Tahap 1,2,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Bahasa Inggris 4,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Etika Profesi dan HAKI,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Interaksi Manusia Komputer,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Praktikum Interaksi Manusia Komputer,1,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Teknik Komputer,Genap,Tugas Akhir,6,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Agama,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Matematika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Aljabar Linier,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Statistika Dasar,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Prak. Statistika Dasar,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Pemrograman 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Prak. Pemrograman 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Logika dan Algoritma,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Basis Data,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Prak. Basis Data,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Kewarganegaraan,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Matematika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Pemodelan StatistikTerapan,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Prak. Pemodelaan Statistik Terapan,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Pemrograman 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Prak. Pemrograman 2,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Kecerdasan Buatan,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Prak. Kecerdasan Buatan,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Pemrosesan Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Prak. Pemrosesan Data,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Manajemen Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Prak. Manajemen Data,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Pancasila,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Matematika 3,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Analisa Statistika Terapan,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Prak. Analisa Statistika Terapan,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Pemrograman 3,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Prak. Pemrograman 3,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Mesin Pembelajaran,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Prak. Mesin Pembelajaran,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Text Mining,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Prak. Text Mining,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Eksplorasi dan Visualisasi Data,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Prak. Eksplorasi dan Visualisasi Data,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Data Mining,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Prak. Data Mining,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Teknologi Web Service,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Prak. Teknologi Web Service,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Machine Learning Ops,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Prak. Machine Learning Ops,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Infrastruktur dan Manajemen Big Data,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Prak. Infrastruktur dan Manajemen Big Data,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Data Warehouse,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Prak. Data Warehouse,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Bahasa Indonesia,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Bahasa Inggris Teknik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Neuro Computing,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Prak. Neuro Computing,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Workshop Analitika Data Terapan,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Workshop Analisis Sosial Media,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Ekonometrika Terapan,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Teknik Presentasi Data,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Technopreneur Sains Data,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 4*,1,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Proposal Proyek Akhir,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,Proyek Akhir-1,3,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Ganjil,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Bahasa Inggris Profesional,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 Sains Data Terapan,Genap,Proyek Akhir-2,8,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Agama,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Matematika - 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Konsep Teknologi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Elektromagnetika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Rangkaian Listrik 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Piranti Elektronika,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Workshop Pengukuran Listrik,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Workshop Pemrograman 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Prak. Piranti Elektronika,1,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Kewarganegaraan,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Matematika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Elektromagnetika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Rangkaian Listrik 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Rangkaian Elektronika 1,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Elektronika Digital 1,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Workshop Pemrograman 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Prak. Elektronika Digital 1,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Prak. Elektromagnetika,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Prak. Rangkaian Elektronika 1,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Prak. Rangkaian Listrik,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Statistik dan Probabilitas,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Dasar Sistem Komunikasi,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Elektronika Digital 2,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Rangkaian Elektronika 2,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Workshop Metode Numerik,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Workshop Elektronika Komunikasi,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Prak. Dasar Sistem Komunikasi,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Prak. Elektronika Digital 2,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Prak. Rangkaian Elektronika 2,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Komunikasi Data,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Mikroprosesor dan Antar Muka,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Antena & Propagasi,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Sistem Telekomunikasi Digital,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Sinyal Sistem,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Workshop Rekayasa Trafik,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Prak. Komunikasi Data,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Prak. Antena & Propagasi,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Prak. Mikroprosesor dan Antar Muka,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Prak. Sistem Telekomunikasi Digital,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Prak. Sinyal Sistem,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Bahasa Inggris Teknik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Teknik Pengkodean,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Sistem Komunikasi Optik,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Workshop Dasar Jaringan Komunikasi,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Workshop Sistem Komunikasi Seluler,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Workshop Jaringan Komputer,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Prak. Teknik Pengkodean,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Prak. Sistem Komunikasi Optik,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 4*,1,5,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Proposal Proyek Akhir,1,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,6,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,Proyek Akhir-1,3,7,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Ganjil,MK MBKM / MK Kerja Praktek / MK Pilihan **,20,7,Pilihan
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Bahasa Indonesia,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Bahasa Inggris Profesional,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Proyek Akhir-2,8,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Sistem Komunikasi Radio & Satelit,2,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D4 PJJ Teknik Telekomunikasi,Genap,Prak. Sistem Komunikasi Radio & Satelit,1,8,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Pancasila,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Matematika - 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Bahasa Inggris Teknik,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Konsep Teknologi Informasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Logika dan Algoritma,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Dasar Sistem Informasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Konsep Pemrograman,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Praktek Konsep Pemrograman,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Workshop Desain Web,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Keterampilan Non Teknis,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Agama,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Kewarganegaraan,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Matematika - 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Basis Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Sistem Operasi,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Algoritma dan Struktur Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Praktek Basis Data,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Praktek Sistem Operasi,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Workshop Pemrograman Web,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Praktek Algoritma dan Struktur Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,MK Pilihan : Kreatifitas Mahasiswa 1*,1,2,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Statistik dan Probabilitas,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Pemrograman Berorientasi Obyek,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Konsep Jaringan,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Basis Data Lanjut,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Metodologi Agile,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Sistem Pendukung Keputusan,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Praktek Pemrograman Berorientasi Obyek,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Praktek Konsep Jaringan,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Praktek Basis Data Lanjut,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,Workshop Aplikasi Berbasis Web,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Ganjil,MK Pilihan : Kreatifitas Mahasiswa 2*,1,3,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Bahasa Indonesia,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Kecerdasan Buatan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Praktek Kecerdasan Buatan,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Workshop Pemrograman Perangkat Bergerak,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Workshop Administrasi Basis Data,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Workshop Administrasi Jaringan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Workshop Pengembangan Perangkat Lunak berbasis Agile,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Workshop Pemrograman Framework,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Workshop Aplikasi dan Komputasi Awan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Workshop Desain Pengalaman Pengguna,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,Proposal Proyek Akhir,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 PJJ Teknik Informatika,Genap,MK Pilihan : Kreatifitas Mahasiswa 3*,1,4,Pilihan
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Matematika 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Matematika Diskrit,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Agama,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Bahasa Inggris 1,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Konsep Teknologi Informasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Logika & Algoritma,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Dasar Sistem Informasi,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Konsep Pemrograman,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Praktek Konsep Pemrograman,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Workshop Desain Web,2,1,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Matematika 2,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Bahasa Inggris 2,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Workshop Ketrampilan Komunikasi,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Basis Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Sistem Operasi,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Pemrograman Web,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Algoritma & Struktur Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Praktek Basis Data,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Praktek Sistem Operasi,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Praktek Pemrograman Web,1,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Praktek Algoritma & Struktur Data,2,2,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Statistik dan Probabilitas,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Bahasa Inggris 3,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Interaksi Manusia dan Komputer,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Pemrograman Berorientasi Obyek,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Konsep Jaringan,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Basis Data Lanjut,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Praktek Pemrograman Berorientasi Obyek,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Praktek Konsep Jaringan,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Praktek Basis Data Lanjut,1,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Workshop Sistem Informasi Geografis,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Workshop Aplikasi berbasis Web,2,3,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Bahasa Inggris 4,1,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Bahasa Indonesia (TTKI),2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Pemrograman Lanjut,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Rekayasa Perangkat Lunak,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Sistem Pendukung Keputusan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Workshop Administrasi Basis Data,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Workshop Administrasi & Manajemen Jaringan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Workshop Produksi Perangkat Lunak,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Workshop Kecerdasan Buatan,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Workshop Pemrograman Framework,2,4,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Manajemen Pengembangan Karakter,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Kewirausahaan,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Manajemen Proyek Sistem Informasi,2,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Praktikum Pemrograman Lanjut,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Proposal Proyek Akhir,1,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Ganjil,Kerja Praktek,10,5,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Etika Profesi TI,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Pancasila dan Kewarganegaraan,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Dokumentasi Aplikasi Project,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Workshop Keamanan Jaringan,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Topik Khusus,2,6,Wajib
+Politeknik Elektronika Negeri Surabaya,D3 Teknik Informatika PSDKU - Lamongan,Genap,Proyek Akhir,4,6,Wajib
