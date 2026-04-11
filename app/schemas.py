@@ -360,6 +360,7 @@ class XPGrantResponse(BaseModel):
     message: str
     xp_granted: int
     skills_updated: List[SkillXPResponse]
+    profile_updated: bool = False
 
 # Request body for activity
 class ActivityCreate(RAGSEmbeddingBase):

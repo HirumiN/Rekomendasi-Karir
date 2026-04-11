@@ -3,14 +3,13 @@ from sqlalchemy.orm import Session
 from typing import List, Optional
 from datetime import datetime
 import logging
+logger = logging.getLogger(__name__)
 
 from . import models, schemas, crud, db, auth, calendar_service, rag_service, rag
 
 router = APIRouter(prefix="/api", tags=["api"])
 
-# Dependency
-def get_db():
-    yield from db.get_db()
+from .db import get_db
 
 # --- USERS ---
 @router.get("/me", response_model=schemas.User)
@@ -399,7 +398,13 @@ async def save_career_analysis_api(
     # This ensures a fresh start whenever a new career is chosen
     db.query(models.Roadmap).filter_by(id_user=user_id).delete()
     db.query(models.CareerResult).filter_by(id_user=user_id).delete()
-    db.commit()
+    # DELETE old AI-generated tasks to ensure clean overwrite
+    db.query(models.Todo).filter(
+        models.Todo.id_user == user_id, 
+        models.Todo.deskripsi == "Dari Analisis Karir AI."
+    ).delete()
+    
+    # We don't commit here yet to maintain atomicity
 
     # Save Career Result
     careers_data = data.get("careers", [])
@@ -453,23 +458,22 @@ async def save_career_analysis_api(
                     id_roadmap_step=db_step.id
                 ))
 
-    # Insert Tasks as Todos
+    # 4. Insert Tasks as Todos
+    todo_embedding_tasks = []
     if "tasks" in data and isinstance(data["tasks"], list):
         for task in data["tasks"]:
             deadline_str = task.get("deadline", "")
             parsed_deadline = None
             if deadline_str:
                 try:
-                    # Try ISO datetime first (with Z or offset)
                     parsed_deadline = datetime.fromisoformat(deadline_str.replace("Z", "+00:00"))
                 except ValueError:
                     try:
-                        # Try plain date string e.g. "2025-01-15"
                         from datetime import date as _date
                         d = _date.fromisoformat(deadline_str[:10])
                         parsed_deadline = datetime(d.year, d.month, d.day)
                     except Exception:
-                        pass  # Deadline cannot be parsed, leave as None
+                        pass
 
             db_todo = crud.create_todo(db, schemas.TodoCreate(
                 id_user=user_id,
@@ -479,19 +483,25 @@ async def save_career_analysis_api(
                 deskripsi=f"Dari Analisis Karir AI."
             ))
             
-            # Sync to calendar — wrapped to prevent calendar errors from crashing the whole save
+            # Sync to calendar — handle errors gracefully
             if db_todo.tenggat:
                 try:
                     event_id = calendar_service.create_todo_event(db, current_user, db_todo)
                     if event_id:
                         db_todo.google_event_id = event_id
-                        db.commit()
                 except Exception as cal_err:
                     logger.warning(f"Calendar sync failed for todo {db_todo.id_todo}, skipping: {cal_err}")
 
-            
-            # Create Embedding
-            await rag_service.update_todo_embedding(db, db_todo)
+            # Collect for parallel embedding generation
+            todo_embedding_tasks.append(rag_service.update_todo_embedding(db, db_todo, commit=False))
+
+    # Perform all embeddings in parallel to speed up save
+    if todo_embedding_tasks:
+        import asyncio
+        await asyncio.gather(*todo_embedding_tasks)
+
+    # FINAL COMMIT for atomicity
+    db.commit()
 
     return {
         "message": "Career analysis saved successfully to database"
@@ -624,11 +634,81 @@ def complete_roadmap_step(
         db.refresh(existing)
         updated_skills.append(existing)
 
+    # Check if Phase is completed
+    phase_completed = False
+    all_steps_in_phase = db.query(models.RoadmapStep).filter_by(
+        id_roadmap=step.id_roadmap, phase=step.phase
+    ).all()
+    
+    step_ids = [s.id for s in all_steps_in_phase]
+    completed_progress = db.query(models.CareerProgress).filter(
+        models.CareerProgress.id_roadmap_step.in_(step_ids),
+        models.CareerProgress.id_user == current_user.id_user,
+        models.CareerProgress.status == "completed"
+    ).all()
+    
+    if len(completed_progress) == len(all_steps_in_phase):
+        phase_completed = True
+        # Profile string refresh will pick up all skills including ones from this phase
+        refresh_user_keterampilan_string(db, current_user)
+
     return schemas.XPGrantResponse(
-        message=f"Step completed! +{xp_per_skill} XP per skill",
+        message=f"Step completed!{ ' Fase Selesai & Profil diperbarui!' if phase_completed else '' }",
         xp_granted=xp_per_skill,
-        skills_updated=[schemas.SkillXPResponse.model_validate(s) for s in updated_skills]
+        skills_updated=[schemas.SkillXPResponse.model_validate(s) for s in updated_skills],
+        profile_updated=phase_completed
     )
+
+
+
+@router.post("/profile/sync-skills", response_model=schemas.XPGrantResponse)
+def sync_profile_skills(
+    db: Session = Depends(get_db),
+    current_user: models.User = Depends(auth.get_current_active_user)
+):
+    profile_updated = refresh_user_keterampilan_string(db, current_user)
+        
+    return schemas.XPGrantResponse(
+        message="Profil berhasil disinkronkan dengan level terbaru!" if profile_updated else "Profil sudah sesuai dengan progres terbaru.",
+        xp_granted=0,
+        skills_updated=[],
+        profile_updated=profile_updated
+    )
+
+def refresh_user_keterampilan_string(db: Session, user: models.User):
+    """Rebuilds User.keterampilan based on actual UserSkillXP levels"""
+    # 1. Get all earned XP for this user
+    user_skills_earned = db.query(models.UserSkillXP).filter_by(id_user=user.id_user).all()
+    
+    # 2. Get current baseline from profile
+    baseline_skills = parse_skill_string(user.keterampilan)
+    
+    # 3. Merge and update levels
+    final_skills = {}
+    
+    # Use baseline first
+    for name, xp in baseline_skills.items():
+        level_name, _, _, _ = get_level_info(xp)
+        final_skills[name] = level_name
+        
+    # Overwrite/Update with actual earned XP
+    for s_xp in user_skills_earned:
+        level_name, _, _, _ = get_level_info(s_xp.xp_points)
+        final_skills[s_xp.skill_name] = level_name
+        
+    if not final_skills:
+        return False
+
+    # 4. Rebuild the keterampilan string: "Skill A (Level), Skill B (Level)"
+    skill_parts = [f"{name} ({level})" for name, level in final_skills.items()]
+    new_keterampilan = ", ".join(skill_parts)
+    
+    if new_keterampilan != user.keterampilan:
+        user.keterampilan = new_keterampilan
+        db.commit()
+        db.refresh(user)
+        return True
+    return False
 
 
 # ===================================================

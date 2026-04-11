@@ -89,9 +89,7 @@ app.mount("/static", StaticFiles(directory="app/static"), name="static")
 # Configure Jinja2Templates
 templates = Jinja2Templates(directory="app/templates")
 
-# Dependency to get DB session
-def get_db():
-    yield from db.get_db()
+from .db import get_db
 
 # Simple root for HTML (legacy, kept for compatibility)
 @app.get("/", response_class=HTMLResponse)

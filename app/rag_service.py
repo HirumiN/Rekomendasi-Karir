@@ -4,7 +4,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-async def update_user_embedding(db: Session, user: models.User):
+async def update_user_embedding(db: Session, user: models.User, commit: bool = True):
     """
     Generates and updates the RAG embedding for a user.
     """
@@ -51,13 +51,14 @@ async def update_user_embedding(db: Session, user: models.User):
             )
             crud.create_rags_embedding(db, embedding_create, embedding_vector)
         
-        db.commit()
+        if commit:
+            db.commit()
         logger.info(f"Updated embedding for user {user.id_user}")
 
     except Exception as e:
         logger.error(f"Failed to update user embedding: {e}")
 
-async def update_todo_embedding(db: Session, todo: models.Todo):
+async def update_todo_embedding(db: Session, todo: models.Todo, commit: bool = True):
     """
     Generates and updates the RAG embedding for a todo item.
     """
@@ -90,13 +91,14 @@ async def update_todo_embedding(db: Session, todo: models.Todo):
             )
             crud.create_rags_embedding(db, embedding_create, embedding_vector)
             
-        db.commit()
+        if commit:
+            db.commit()
         logger.info(f"Updated embedding for todo {todo.id_todo}")
 
     except Exception as e:
         logger.error(f"Failed to update todo embedding: {e}")
 
-async def update_jadwal_embedding(db: Session, jadwal: models.JadwalMatkul):
+async def update_jadwal_embedding(db: Session, jadwal: models.JadwalMatkul, commit: bool = True):
     """
     Generates and updates the RAG embedding for a class schedule (jadwal matkul).
     """
@@ -130,13 +132,14 @@ async def update_jadwal_embedding(db: Session, jadwal: models.JadwalMatkul):
             )
             crud.create_rags_embedding(db, embedding_create, embedding_vector)
 
-        db.commit()
+        if commit:
+            db.commit()
         logger.info(f"Updated embedding for jadwal {jadwal.id_jadwal}")
 
     except Exception as e:
         logger.error(f"Failed to update jadwal embedding: {e}")
 
-async def update_ukm_embedding(db: Session, ukm: models.UKM):
+async def update_ukm_embedding(db: Session, ukm: models.UKM, commit: bool = True):
     """
     Generates and updates the RAG embedding for a UKM activity.
     """
@@ -168,13 +171,14 @@ async def update_ukm_embedding(db: Session, ukm: models.UKM):
             )
             crud.create_rags_embedding(db, embedding_create, embedding_vector)
             
-        db.commit()
+        if commit:
+            db.commit()
         logger.info(f"Updated embedding for UKM {ukm.id_ukm}")
 
     except Exception as e:
         logger.error(f"Failed to update UKM embedding: {e}")
 
-async def update_rutinitas_embedding(db: Session, rutinitas: models.Rutinitas):
+async def update_rutinitas_embedding(db: Session, rutinitas: models.Rutinitas, commit: bool = True):
     """
     Generates and updates the RAG embedding for a Rutinitas activity.
     """
@@ -208,7 +212,8 @@ async def update_rutinitas_embedding(db: Session, rutinitas: models.Rutinitas):
             )
             crud.create_rags_embedding(db, embedding_create, embedding_vector)
             
-        db.commit()
+        if commit:
+            db.commit()
         logger.info(f"Updated embedding for Rutinitas {rutinitas.id_rutinitas}")
 
     except Exception as e:
