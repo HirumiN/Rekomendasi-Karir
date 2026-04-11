@@ -134,22 +134,34 @@ def augment_prompt(question: str, context_docs: List[models.RAGSEmbedding], clie
         "Based on the context, provide a concise and actionable answer in Bahasa Indonesia."
     )
 
-def build_career_prompt(context_str: str) -> str:
+def build_career_prompt(context_str: str, current_skills: str = "") -> str:
     return f"""
 Anda adalah penasihat karir AI (AI Career Advisor).
-
 Analisis data mahasiswa di bawah ini dan hasilkan:
-1. Rekomendasi Karir (Maksimal 3 rekomendasi karir potensial dengan konsekuensi dan kelebihannya)
-2. Roadmap Pembelajaran *Skill-Driven* (Buat SANGAT PANJANG, MENDETAIL, dan KOMPREHENSIF persis seperti roadmap.sh sungguhan. Hasilkan 4 hingga 7 Kategori/Topik Utama, di mana setiap topik berisi 5 hingga 10 nama Teknologi/Skill spesifik)
+1. Rekomendasi Karir (Maksimal 3 rekomendasi karir potensial)
+2. Roadmap Pembelajaran *Skill-Driven* (SANGAT ADAPTIF: Sesuaikan dengan tingkat keahlian user saat ini)
 3. Tugas yang bisa dilakukan (Actionable tasks)
 
-Konteks Mahasiswa:
+Keahlian User Saat Ini:
+{current_skills if current_skills else "Belum ada data keahlian."}
+
+Konteks Mahasiswa Lainnya:
 {context_str}
+
+Aturan Ketat Adaptivitas:
+- Jika user sudah memiliki level 'Menengah' atau 'Lanjutan/Mahir' pada suatu skill, JANGAN mulai dari dasar. Langsung ke topik tingkat lanjut atau implementasi projek.
+- Jika user adalah 'Pemula', berikan panduan fundamental yang mendalam.
+- Untuk skill yang sudah dikuasai (Menengah+), roadmap harus fokus pada Arsitektur atau Best Practices.
 
 Aturan:
 - Gunakan BAHASA INDONESIA untuk seluruh isi JSON.
-- Berikan saran yang KONGKRET dan SPESIFIK. Jangan gunakan kata-kata umbrella abstrak.
-- Untuk roadmap, jadikan 'phase' sebagai Topik Kategori (Misal: "Fundamental Frontend"), dan setiap 'title' di dalam 'steps' WAJIB menyebut Spesifik Teknologi / Konsep Inti (Misal: "HTML Semantics", "CSS Flexbox", "React Hooks").
+- Berikan saran yang KONGKRET dan SPESIFIK pada deskripsi, namun untuk 'skill_tags' gunakan nama TEKNOLOGI UTAMA (Parent Tech).
+- Untuk 'skill_tags', JANGAN memasukkan library kecil atau sub-modul secara terpisah (Misal: Gunakan 'Python' daripada 'NumPy' atau 'Pandas'; Gunakan 'React' daripada 'Redux' atau 'Zustand').
+- Roadmap: jadikan 'phase' sebagai Topik Kategori (Misal: "Fundamental Frontend"), dan setiap 'title' di dalam 'steps' WAJIB menyebut Spesifik Teknologi / Konsep Inti (Misal: "HTML Semantics", "CSS Flexbox", "React Hooks").
+- Untuk setiap 'step', WAJIB sertakan 'skill_tags' (array of strings) berisi HANYA 1 (SATU) nama TEKNOLOGI UTAMA saja yang paling relevan.
+- JANGAN memberikan opsi/pilihan (Misal: JANGAN menulis 'React/Vue/Angular'). PILIH SALAH SATU teknologi yang paling standar industri atau paling cocok untuk profil user dan fokus pada itu saja di seluruh roadmap.
+- Untuk setiap 'step', sertakan 'xp_reward' berdasarkan kesulitan: '20' (Mudah/Fundamental), '50' (Menengah), atau '100' (Sulit/Projek Kompleks).
+- Aturan ini berlaku untuk SEMUA BIDANG (tidak hanya IT). Contoh: Jika di bidang desain, pilih salah satu antara 'Figma' atau 'Adobe XD', jangan dua-duanya.
 - Hindari jawaban generik.
 - Jika ada 2/3 pilihan karir yang cocok, masukkan maksimal 3 dalam array 'careers'.
 
@@ -170,7 +182,8 @@ Kembalikan HANYA JSON:
       "steps": [
         {{
           "title": "",
-          "description": ""
+          "description": "",
+          "skill_tags": []
         }}
       ]
     }}
@@ -230,18 +243,23 @@ async def generate_answer_with_gemini(augmented_prompt: str) -> str:
             raise
 
 async def generate_career_analysis(db: Session, user_id: int):
+    # 0. Ambil data user secara langsung untuk konteks utama
+    from . import models
+    user = db.query(models.User).filter_by(id_user=user_id).first()
+    current_skills = user.keterampilan if user else ""
+
     # 1. Ambil embedding user (dummy query text)
-    query_text = "career analysis based on student profile"
+    query_text = "career analysis based on profile"
     query_vector = await embed_text_with_gemini(query_text)
 
-    # 2. RAG retrieval
+    # 2. RAG retrieval (semester, ukm, dsb)
     docs = retrieve_similar_rags(db, query_vector, top_k=5, id_user=user_id)
 
     # 3. Build context
     context_str = "\n\n".join([doc.text_original for doc in docs])
 
-    # 4. Build prompt khusus career
-    prompt = build_career_prompt(context_str)
+    # 4. Build prompt khusus career dengan skill saat ini
+    prompt = build_career_prompt(context_str, current_skills)
 
     # 5. Call Gemini
     raw_response = await generate_answer_with_gemini(prompt)

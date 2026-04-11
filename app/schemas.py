@@ -310,8 +310,10 @@ class SkillXPResponse(BaseModel):
 class SkillGapItem(BaseModel):
     skill: str
     current_xp: int
-    current_level: int
-    gap_pct: float
+    level_name: str
+    next_level_name: str
+    progress_pct: float # Progress within current level level
+    next_level_xp: int
     needed_steps: int
 
 class SkillGapResponse(BaseModel):

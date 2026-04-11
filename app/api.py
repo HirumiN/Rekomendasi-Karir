@@ -395,6 +395,12 @@ async def save_career_analysis_api(
     if user_id != current_user.id_user:
         raise HTTPException(status_code=403, detail="Not authorized")
 
+    # ONE ROADMAP PER USER: Delete old roadmap data
+    # This ensures a fresh start whenever a new career is chosen
+    db.query(models.Roadmap).filter_by(id_user=user_id).delete()
+    db.query(models.CareerResult).filter_by(id_user=user_id).delete()
+    db.commit()
+
     # Save Career Result
     careers_data = data.get("careers", [])
     primary_career_id = None
@@ -629,45 +635,97 @@ def complete_roadmap_step(
 # SKILL GAP
 # ===================================================
 
+def parse_skill_string(s: Optional[str]) -> dict:
+    """Parses 'Skill (Level), Skill (Level)' into {Name: BaselineXP}"""
+    # New thresholds: Pemula (0), Menengah (101), Mahir (301)
+    level_map = {"Pemula": 20, "Menengah": 120, "Lanjutan": 320, "Mahir": 320}
+    result = {}
+    if not s: return result
+    parts = [p.strip() for p in s.split(",")]
+    for p in parts:
+        if "(" in p and ")" in p:
+            try:
+                name = p.split("(")[0].strip()
+                level = p.split("(")[1].split(")")[0].strip()
+                result[name] = level_map.get(level, 0)
+            except Exception:
+                pass
+        else:
+            result[p] = 0
+    return result
+
+def get_level_info(xp: int):
+    """Returns (current_level_name, next_level_name, progress_pct_in_level, next_level_xp)"""
+    THRESHOLDS = [
+        (0, 100, "Pemula", "Menengah"),
+        (101, 300, "Menengah", "Mahir"),
+        (301, 600, "Mahir", "Expert"),
+        (601, 1000, "Expert", "Master"),
+        (1001, 999999, "Master", "Legend")
+    ]
+    for min_xp, max_xp, current_name, next_name in THRESHOLDS:
+        if xp <= max_xp:
+            range_total = max_xp - min_xp + 1
+            progress = ((xp - min_xp) / range_total) * 100
+            return current_name, next_name, round(progress, 1), max_xp + 1
+    return "Legend", "Ultimate", 100.0, 999999
+
 @router.get("/skill-gap", response_model=schemas.SkillGapResponse)
 def get_skill_gap(
     db: Session = Depends(get_db),
     current_user: models.User = Depends(auth.get_current_active_user)
 ):
-    user_skills = db.query(models.UserSkillXP).filter_by(id_user=current_user.id_user).all()
-    skill_map = {s.skill_name: s for s in user_skills}
+    # 1. Earned XP from Database
+    user_skills_earned = db.query(models.UserSkillXP).filter_by(id_user=current_user.id_user).all()
+    earned_xp_map = {s.skill_name: s for s in user_skills_earned}
 
-    # Collect all unique skills required across all user's roadmap steps
+    # 2. Baseline XP from Onboarding Preference
+    pref_xp_map = parse_skill_string(current_user.keterampilan)
+
+    # 3. Roadmap Context (to see what skills are in play)
     steps = db.query(models.RoadmapStep).join(models.Roadmap).filter(
         models.Roadmap.id_user == current_user.id_user
     ).all()
 
     import json
-    required_skills: dict[str, int] = {}
+    roadmap_skills = set()
     for step in steps:
         try:
             tags = json.loads(step.skill_tags or "[]")
-        except Exception:
-            tags = []
-        for tag in tags:
-            required_skills[tag] = required_skills.get(tag, 0) + (step.xp_reward or 10)
+            for t in tags: roadmap_skills.add(t)
+        except Exception: pass
+
+    # 4. Merge all unique skills
+    all_skill_names = set(earned_xp_map.keys()) | set(pref_xp_map.keys()) | roadmap_skills
 
     items = []
-    for skill, total_xp_needed in required_skills.items():
-        current = skill_map.get(skill)
-        current_xp = current.xp_points if current else 0
-        current_level = current.level if current else 0
-        gap_pct = round(min(100.0, (current_xp / max(total_xp_needed, 1)) * 100), 1)
-        needed = max(0, int((total_xp_needed - current_xp) / 10))
+    for skill in all_skill_names:
+        earned = earned_xp_map.get(skill)
+        actual_earned_xp = earned.xp_points if earned else 0
+        baseline_xp = pref_xp_map.get(skill, 0)
+        
+        current_xp = max(actual_earned_xp, baseline_xp)
+        
+        # New Leveling Logic
+        level_name, next_level_name, progress_pct, next_xp_threshold = get_level_info(current_xp)
+        
+        # Calculate needed steps based on current level vs next
+        xp_to_next = next_xp_threshold - current_xp
+        needed_steps = max(1, int(xp_to_next / 20)) # Assuming 20 XP per step
+
         items.append(schemas.SkillGapItem(
             skill=skill,
             current_xp=current_xp,
-            current_level=current_level,
-            gap_pct=gap_pct,
-            needed_steps=needed
+            level_name=level_name,
+            next_level_name=next_level_name,
+            progress_pct=progress_pct,
+            next_level_xp=next_xp_threshold,
+            needed_steps=needed_steps
         ))
 
-    items.sort(key=lambda x: x.gap_pct)
+    # Sort by XP (highest first) or by progress
+    items.sort(key=lambda x: x.current_xp, reverse=True)
+    
     return schemas.SkillGapResponse(
         target_karir=current_user.target_karir or "Belum ditentukan",
         skills=items
