@@ -1,0 +1,75 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Studi Pembangunan,Ganjil,Pengantar Studi Pembangunan,3,1,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Pengantar Sosiologi dan Antropologi,3,1,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Dasar-Dasar Ilmu Politik,2,1,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Matematika,2,1,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Pengantar Administrasi Publik,2,1,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Pemikiran Ekonomi,2,1,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Demografi,2,1,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Design Thinking,2,1,Wajib
+ITS,S1 Studi Pembangunan,Genap,Pengantar Ilmu Lingkungan,2,2,Wajib
+ITS,S1 Studi Pembangunan,Genap,Ekonomi Mikro,2,2,Wajib
+ITS,S1 Studi Pembangunan,Genap,Dasar-Dasar Komunikasi,2,2,Wajib
+ITS,S1 Studi Pembangunan,Genap,TIK Dalam Pembangunan,2,2,Wajib
+ITS,S1 Studi Pembangunan,Genap,Sistem Hukum Indonesia,2,2,Wajib
+ITS,S1 Studi Pembangunan,Genap,Statistik Deskriptif,2,2,Wajib
+ITS,S1 Studi Pembangunan,Genap,Sosiologi Pembangunan,3,2,Wajib
+ITS,S1 Studi Pembangunan,Genap,Geografi Pembangunan,3,2,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Manusia dan Ruang Hidup,3,3,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Statistik Sosial,2,3,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Gender dan Pembangunan,3,3,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Infrastruktur Pembangunan,3,3,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Ekonomi Makro,2,3,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Komunikasi Pembangunan,2,3,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Kebijakan Publik dan Pembangunan,2,3,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Etika Pembangunan,2,3,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Dasar-Dasar Manajemen,2,3,Wajib
+ITS,S1 Studi Pembangunan,Genap,Pemetaan Sosial Dalam Pembangunan,3,4,Wajib
+ITS,S1 Studi Pembangunan,Genap,CSR dan CSV,3,4,Wajib
+ITS,S1 Studi Pembangunan,Genap,Pendidikan Masyarakat Dalam Pembangunan Berkelanjutan,3,4,Wajib
+ITS,S1 Studi Pembangunan,Genap,Manajemen Proyek,3,4,Wajib
+ITS,S1 Studi Pembangunan,Genap,Pengembangan Potensi Daerah,3,4,Wajib
+ITS,S1 Studi Pembangunan,Genap,Pengantar Analisis Dampak Lingkungan,3,4,Wajib
+ITS,S1 Studi Pembangunan,Genap,Berpikir Sistem Dalam Pengambilan Keputusan,3,4,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Metode Penelitian Kualitatif,2,5,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Metode Penelitian Kuantitatif,2,5,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Kebijakan Maritim,2,5,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Masyarakat Berkelanjutan Teori dan Praktek,3,5,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Manajemen Pariwisata Budaya dan Peninggalan Sejarah,3,5,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Ekonomi Publik,2,5,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Pembangunan dan Advokasi Masyarakat,3,5,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Pengembangan TTG,2,5,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Perencanaan Pembangunan,2,5,Wajib
+ITS,S1 Studi Pembangunan,Genap,Kerja Praktek Terintegrasi,3,6,Wajib
+ITS,S1 Studi Pembangunan,Genap,Metode Penulisan Ilmiah,2,6,Wajib
+ITS,S1 Studi Pembangunan,Genap,Kewirausahaan Sosial,3,6,Wajib
+ITS,S1 Studi Pembangunan,Genap,Bahasa Indonesia,2,6,Wajib
+ITS,S1 Studi Pembangunan,Genap,Kewarganegaraan,2,6,Wajib
+ITS,S1 Studi Pembangunan,Genap,Aplikasi Teknologi dan Transformasi Digital,3,6,Wajib
+ITS,S1 Studi Pembangunan,Genap,Pelibatan Masyarakat Prespektif Lintas Disiplin,3,6,Wajib
+ITS,S1 Studi Pembangunan,Genap,Mata Kuliah Pilihan,2,6,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Bahasa Inggris,2,7,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Teknopreneur,2,7,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Agama,2,7,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Pancasila,2,7,Wajib
+ITS,S1 Studi Pembangunan,Ganjil,Mata Kuliah Pilihan,2,7,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Mata Kuliah Pilihan,2,7,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Mata Kuliah Pilihan,2,7,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Mata Kuliah Pilihan,3,7,Pilihan
+ITS,S1 Studi Pembangunan,Genap,Tugas Akhir,6,8,Wajib
+ITS,S1 Studi Pembangunan,Genap,Mata Kuliah Pilihan,2,8,Pilihan
+ITS,S1 Studi Pembangunan,Genap,Manajemen Keuangan Daerah,2,6,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Kajian Agraria,2,7,Pilihan
+ITS,S1 Studi Pembangunan,Genap,Perdagangan Dan Keuangan Global,2,6,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Sosiologi Ekonomi,2,7,Pilihan
+ITS,S1 Studi Pembangunan,Genap,Manajemen Sumber Daya Manusia,2,6,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Manajemen Pariwisata Dan Lingkungan,2,7,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Pariwisata Dan Identitas Budaya,2,7,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Pengelolaan Budaya Maritim,2,7,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Manajemen Inovasi,2,7,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Perencanaan Tata Ruang Maritim Dan Pengembangan Kelautan,2,7,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Ekonomi Politik,2,7,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Isu-Isu Kontemporer Dalam Keadilan Sosial,2,7,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Organisasi Dan Kepemimpinan,2,7,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Komunikasi Antar Budaya,3,7,Pilihan
+ITS,S1 Studi Pembangunan,Ganjil,Isu-Isu Keberterimaan Teknologi Dan Dimensi Budaya,3,7,Pilihan

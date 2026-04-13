@@ -1,0 +1,63 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Akuntansi,Ganjil,Agama I,2,1,MKWU
+UNAIR,S1 Akuntansi,Ganjil,Pengantar Teori Ekonomi Makro,3,1,MKWF
+UNAIR,S1 Akuntansi,Ganjil,Pengantar Teori Ekonomi Mikro,3,1,MKWF
+UNAIR,S1 Akuntansi,Ganjil,Akuntansi Dasar,3,1,MKWP
+UNAIR,S1 Akuntansi,Ganjil,Pengantar Bisnis,3,1,MKWF
+UNAIR,S1 Akuntansi,Ganjil,Bahasa Indonesia,3,1,MKWU
+UNAIR,S1 Akuntansi,Ganjil,Filsafat Ilmu,2,1,MKWU
+UNAIR,S1 Akuntansi,Ganjil,Hukum Korporasi,3,1,MPK
+UNAIR,S1 Akuntansi,Genap,Pancasila,2,2,MKWU
+UNAIR,S1 Akuntansi,Genap,Kewarganegaraan,2,2,MKWU
+UNAIR,S1 Akuntansi,Genap,Komunikasi Bisnis,3,2,MKWP
+UNAIR,S1 Akuntansi,Genap,Pengantar Manajemen,3,2,MKWP
+UNAIR,S1 Akuntansi,Genap,Statistika I,3,2,MKWP
+UNAIR,S1 Akuntansi,Genap,Manajemen Keuangan I,3,2,MKWP
+UNAIR,S1 Akuntansi,Genap,Akuntansi Keuangan Menengah I,3,2,MKWP
+UNAIR,S1 Akuntansi,Genap,Kewirausahaan,3,2,MKWU
+UNAIR,S1 Akuntansi,Ganjil,Perpajakan I,3,3,MKWP
+UNAIR,S1 Akuntansi,Ganjil,Akuntansi Keuangan Menengah II,3,3,MKWP
+UNAIR,S1 Akuntansi,Ganjil,Akuntansi Sektor Publik,3,3,MKWP
+UNAIR,S1 Akuntansi,Ganjil,Sistem Informasi Akuntansi,3,3,MKWP
+UNAIR,S1 Akuntansi,Ganjil,Statistika II,3,3,MKWP
+UNAIR,S1 Akuntansi,Ganjil,Manajemen Keuangan II,3,3,MKWP
+UNAIR,S1 Akuntansi,Ganjil,Pengauditan I,3,3,MKWP
+UNAIR,S1 Akuntansi,Ganjil,Akuntansi Biaya,3,3,MKWP
+UNAIR,S1 Akuntansi,Genap,Perpajakan II,3,4,MKWP
+UNAIR,S1 Akuntansi,Genap,Akuntansi Keuangan Menengah III,3,4,MKWP
+UNAIR,S1 Akuntansi,Genap,Akuntansi Manajemen,3,4,MKWP
+UNAIR,S1 Akuntansi,Genap,Aplikasi Komputer Akuntansi,3,4,MKWP
+UNAIR,S1 Akuntansi,Genap,Internal Audit,3,4,MKWP
+UNAIR,S1 Akuntansi,Genap,Aspek Hukum dalam Keprofesian,3,4,MKWP
+UNAIR,S1 Akuntansi,Genap,Pengauditan II,3,4,MKWP
+UNAIR,S1 Akuntansi,Genap,Penganggaran Modern,3,4,MKP-PAK
+UNAIR,S1 Akuntansi,Genap,Manajemen Keuangan Pemerintah,3,4,MKP-PAK
+UNAIR,S1 Akuntansi,Genap,Audit Sistem Informasi,3,4,MKP-PAK
+UNAIR,S1 Akuntansi,Genap,Desain Sistem Informasi Akuntansi,3,4,MKP-PAK
+UNAIR,S1 Akuntansi,Genap,Manajemen Investasi,3,4,MKP-PNA
+UNAIR,S1 Akuntansi,Genap,Studi Kelayakan Bisnis,3,4,MKP-PNA
+UNAIR,S1 Akuntansi,Ganjil,Pengantar Praktek Pengauditan,3,5,MKWP
+UNAIR,S1 Akuntansi,Ganjil,Akuntansi Keuangan Lanjutan I,3,5,MKWP
+UNAIR,S1 Akuntansi,Ganjil,Akuntansi Manajemen Lanjutan,3,5,MKWP
+UNAIR,S1 Akuntansi,Ganjil,Sistem Informasi Manajemen,3,5,MKWP
+UNAIR,S1 Akuntansi,Ganjil,Manajemen Strategik,3,5,MKWP
+UNAIR,S1 Akuntansi,Ganjil,Praktek Perpajakan,3,5,MKWP
+UNAIR,S1 Akuntansi,Ganjil,Pengantar Pasar Modal,3,5,MKWP
+UNAIR,S1 Akuntansi,Ganjil,Pengelolaan Keuangan Publik,3,5,MKP-PAK
+UNAIR,S1 Akuntansi,Ganjil,Perencanaan Perpajakan,3,5,MKP-PAK
+UNAIR,S1 Akuntansi,Ganjil,Akuntansi Perpajakan,3,5,MKP-PAK
+UNAIR,S1 Akuntansi,Ganjil,Akuntansi Syariah,3,5,MKP-PAK
+UNAIR,S1 Akuntansi,Ganjil,Penilaian Aset,3,5,MKP-PAK
+UNAIR,S1 Akuntansi,Ganjil,Analisis Bisnis,3,5,MKP-PNA
+UNAIR,S1 Akuntansi,Ganjil,Pelaporan Keberlanjutan & Terintegrasi,3,5,MKP-PNA
+UNAIR,S1 Akuntansi,Genap,Akuntansi Keuangan Lanjutan II,3,6,MKWP
+UNAIR,S1 Akuntansi,Genap,Teori Akuntansi,3,6,MKWP
+UNAIR,S1 Akuntansi,Genap,Metodologi Penelitian,3,6,MKWF
+UNAIR,S1 Akuntansi,Genap,Etika Profesi dan Bisnis,3,6,MKWP
+UNAIR,S1 Akuntansi,Genap,Audit Forensik,3,6,MKP-PAK
+UNAIR,S1 Akuntansi,Genap,Manajemen Kinerja,3,6,MKP-PNA
+UNAIR,S1 Akuntansi,Genap,Manajemen Risiko,3,6,MKP-PNA
+UNAIR,S1 Akuntansi,Genap,Tata Kelola Perusahaan,3,6,MKP-PNA
+UNAIR,S1 Akuntansi,Ganjil,Agama II,2,7,MKWF
+UNAIR,S1 Akuntansi,Genap,KKN,3,8,MKWU
+UNAIR,S1 Akuntansi,Genap,Skripsi,6,8,MKWU

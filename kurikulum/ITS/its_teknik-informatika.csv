@@ -1,0 +1,104 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Teknik Informatika,Ganjil,Calculus 1,3,1,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Fundamental Programming,4,1,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Digital System,3,1,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Linear Algebra,3,1,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Database System,4,1,Wajib
+ITS,S1 Teknik Informatika,Genap,Data Structure,4,2,Wajib
+ITS,S1 Teknik Informatika,Genap,Operating System,4,2,Wajib
+ITS,S1 Teknik Informatika,Genap,Computer Organization,3,2,Wajib
+ITS,S1 Teknik Informatika,Genap,Numerical Computation,3,2,Wajib
+ITS,S1 Teknik Informatika,Genap,Calculus 2,3,2,Wajib
+ITS,S1 Teknik Informatika,Genap,Introduction to Intelligent Electrical and Informatics Technology,2,2,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Web Programming,3,3,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Object Oriented Programming,3,3,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Computer Network,4,3,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Graph Theory,3,3,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Discrete Mathematics,3,3,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Artificial Intelligence Concepts,3,3,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Software Development Principles,2,3,Wajib
+ITS,S1 Teknik Informatika,Genap,Network Programming,3,4,Wajib
+ITS,S1 Teknik Informatika,Genap,Probabilistic and Statistic,3,4,Wajib
+ITS,S1 Teknik Informatika,Genap,Automata,2,4,Wajib
+ITS,S1 Teknik Informatika,Genap,Database Management,3,4,Wajib
+ITS,S1 Teknik Informatika,Genap,Algorithm Design and Analysis,3,4,Wajib
+ITS,S1 Teknik Informatika,Genap,Machine Learning,3,4,Wajib
+ITS,S1 Teknik Informatika,Genap,Software Design,3,4,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Framework-based Programming,3,5,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Information Security,3,5,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Modeling and Simulation,3,5,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Computer Graphics,3,5,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Knowledge based Engineering,3,5,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Mata Kuliah Pilihan,3,5,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Mata Kuliah Pilihan,3,5,Pilihan
+ITS,S1 Teknik Informatika,Genap,English,2,6,Wajib
+ITS,S1 Teknik Informatika,Genap,Technopreneurship,2,6,Wajib
+ITS,S1 Teknik Informatika,Genap,Religion,2,6,Wajib
+ITS,S1 Teknik Informatika,Genap,Civics,2,6,Wajib
+ITS,S1 Teknik Informatika,Genap,Mobile Programming,3,6,Wajib
+ITS,S1 Teknik Informatika,Genap,Human and Computer Interaction,3,6,Wajib
+ITS,S1 Teknik Informatika,Genap,Capstone Project,3,6,Wajib
+ITS,S1 Teknik Informatika,Genap,Practical Work,4,6,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Indonesian,2,7,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Pancasila,2,7,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Applied Technology and Digital Transformation,3,7,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Professional Ethics,2,7,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Undergraduate Pre-Thesis,2,7,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Mata Kuliah Pilihan,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Mata Kuliah Pilihan,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Enrichment Course,3,7,Wajib
+ITS,S1 Teknik Informatika,Genap,Final Project,5,8,Wajib
+ITS,S1 Teknik Informatika,Ganjil,Inter-Network Technology,3,5,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Wireless Network,3,5,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Distributed System,3,5,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Competitive Programming,3,5,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Operations Research,3,5,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Game Development Techniques,3,5,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Enterprise Systems,3,5,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Information Technology Governance,3,5,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Software Project Management,3,5,Pilihan
+ITS,S1 Teknik Informatika,Genap,Requirements Engineering,3,4,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Image Processing and Computer Vision,3,5,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Data Mining,3,5,Pilihan
+ITS,S1 Teknik Informatika,Genap,Mobile Computing,3,6,Pilihan
+ITS,S1 Teknik Informatika,Genap,Pervasive Computing and Sensor Networks,3,6,Pilihan
+ITS,S1 Teknik Informatika,Genap,Network Security,3,6,Pilihan
+ITS,S1 Teknik Informatika,Genap,Application Security,3,6,Pilihan
+ITS,S1 Teknik Informatika,Genap,Interface Based Programming,3,6,Pilihan
+ITS,S1 Teknik Informatika,Genap,Dynamic Systems Simulation,3,6,Pilihan
+ITS,S1 Teknik Informatika,Genap,Agent Based Simulation,3,6,Pilihan
+ITS,S1 Teknik Informatika,Genap,Forecasting Techniques,3,6,Pilihan
+ITS,S1 Teknik Informatika,Genap,Computer Animation and 3D Modeling,3,6,Pilihan
+ITS,S1 Teknik Informatika,Genap,Educational and Simulation Games,3,6,Pilihan
+ITS,S1 Teknik Informatika,Genap,User Experience Design,3,6,Pilihan
+ITS,S1 Teknik Informatika,Genap,System Audit,3,6,Pilihan
+ITS,S1 Teknik Informatika,Genap,Distributed Database,3,6,Pilihan
+ITS,S1 Teknik Informatika,Genap,Geographic Information Systems,3,6,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Software Quality,3,5,Pilihan
+ITS,S1 Teknik Informatika,Genap,Software Construction,3,4,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Text Mining,3,5,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Deep Learning,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Game Engine,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,IoT Technology,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Cloud Computing,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Digital Forensics,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Signal Processing Programming,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Applied Science Data Programming,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Multivariate Data Analysis,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Object Oriented Simulation,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Intelligence Game,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Extended Reality,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Big Data,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Quantum Computing,3,7,Pilihan
+ITS,S1 Teknik Informatika,Genap,Software Architecture,3,4,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Software Evolution,3,5,Pilihan
+ITS,S1 Teknik Informatika,Genap,Robotics,3,6,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Special Topics in Algorithms and Programming,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Special Topics in Computer Architecture and Networks,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Special Topics in Graphics Interaction and Games,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Special Topics in Network-Based Computing,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Special Topics in Intelligent Computing and Vision,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Special Topics in Intelligent Information Management,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Special Topics in Modelling and Applied Computing,3,7,Pilihan
+ITS,S1 Teknik Informatika,Ganjil,Special Topics in Software Engineering,3,7,Pilihan
+ITS,S1 Teknik Informatika,Genap,Internship,6,8,Pilihan

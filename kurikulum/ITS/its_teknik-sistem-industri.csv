@@ -1,0 +1,51 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Fisika Mekanika,4,1,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Kalkulus 1,3,1,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Kimia,3,1,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Menggambar Teknik,2,1,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Pengantar Teknik Sistem dan Industri,2,1,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Statistika 1,3,1,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Biologi,2,1,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Ergonomi Industri,3,2,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Fisika Listrik dan Magnet,3,2,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Kalkulus 2,3,2,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Pengantar Ilmu Ekonomi,2,2,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Proses Manufaktur,3,2,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Statistika 2,3,2,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Algoritma dan Pemrograman Komputer,2,3,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Aljabar Linier,2,3,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Analisis dan Estimasi Biaya,3,3,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Keselamatan dan Kesehatan Kerja,2,3,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Penelitian Operasional 1,3,3,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Sistem Manufaktur,3,3,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Statistika 3,3,3,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Teknik Tata Cara dan Pengukuran Kerja,3,3,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Ekonomi Teknik,3,4,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Pemeliharaan dan Teknik Keandalan,2,4,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Penelitian Operasional 2,3,4,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Pengendalian dan Penjaminan Kualitas,3,4,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Perancangan dan Pengembangan Produk,3,4,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Perancangan Sistem Informasi Bisnis,3,4,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Perencanaan Produksi dan Pengendalian Persediaan,3,4,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Manajemen Proyek,2,5,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Otomasi Industri,3,5,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Perancangan Fasilitas,3,5,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Simulasi Sistem Industri,3,5,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Sistem Logistik,3,5,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Analitika Data,2,6,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Aplikasi Teknologi dan Transformasi Digital,3,6,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Kerja Praktek,2,6,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Kewarganegaraan,2,6,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Manajemen Organisasi dan Sumber Daya Manusia,3,7,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Manajemen Pemasaran,3,7,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Manufaktur Cerdas,3,7,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Pancasila,2,7,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Perancangan Industri,3,7,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Sistem Industri Berkelanjutan,2,7,Wajib
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Concurrent Engineering,3,7,Pilihan
+ITS,S1 Teknik Sistem dan Industri,Ganjil,Kewirausahaan Berbasis Teknologi,2,7,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Tugas Akhir,6,8,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Manajemen Keuangan,3,8,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Pemodelan Sistem,3,8,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Teori Permainan,3,8,Wajib
+ITS,S1 Teknik Sistem dan Industri,Genap,Bahasa Inggris,2,8,Wajib

@@ -1,0 +1,55 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Manajemen,Ganjil,Agama,2,1,Wajib
+UNAIR,S1 Manajemen,Ganjil,Bahasa Indonesia,2,1,Wajib
+UNAIR,S1 Manajemen,Ganjil,Pancasila,2,1,Wajib
+UNAIR,S1 Manajemen,Ganjil,Kewarganegaraan,2,1,Wajib
+UNAIR,S1 Manajemen,Ganjil,Data dan Pustaka,2,1,Wajib
+UNAIR,S1 Manajemen,Ganjil,Akuntansi Dasar,3,1,Wajib
+UNAIR,S1 Manajemen,Ganjil,Pengantar Bisnis,3,1,Wajib
+UNAIR,S1 Manajemen,Ganjil,Pengantar Teori Ekonomi,3,1,Wajib
+UNAIR,S1 Manajemen,Genap,Logika dan Pemikiran Kritis,2,2,Wajib
+UNAIR,S1 Manajemen,Genap,Pengantar Kolaborasi Keilmuan,2,2,Wajib
+UNAIR,S1 Manajemen,Genap,Komunikasi dan Pengembangan Diri,2,2,Wajib
+UNAIR,S1 Manajemen,Genap,Pengantar Manajemen,3,2,Wajib
+UNAIR,S1 Manajemen,Genap,Kewirausahaan,3,2,Wajib
+UNAIR,S1 Manajemen,Genap,Ekonomi Moneter,3,2,Wajib
+UNAIR,S1 Manajemen,Genap,Akuntansi Biaya,3,2,Wajib
+UNAIR,S1 Manajemen,Genap,Literasi Digital,2,2,Wajib
+UNAIR,S1 Manajemen,Ganjil,Manajemen Keuangan I,3,3,Wajib
+UNAIR,S1 Manajemen,Ganjil,Akuntansi Biaya,3,3,Wajib
+UNAIR,S1 Manajemen,Ganjil,Manajemen Kuantitatif,3,3,Wajib
+UNAIR,S1 Manajemen,Ganjil,Manajemen Operasi dan Rantai Pasok,3,3,Wajib
+UNAIR,S1 Manajemen,Ganjil,Manajemen Sumber Daya Manusia,3,3,Wajib
+UNAIR,S1 Manajemen,Ganjil,Manajemen Pemasaran,3,3,Wajib
+UNAIR,S1 Manajemen,Ganjil,Perilaku Keorganisasian,3,3,Wajib
+UNAIR,S1 Manajemen,Genap,Manajemen Keuangan II,3,4,Wajib
+UNAIR,S1 Manajemen,Genap,Bisnis Internasional,3,4,Wajib
+UNAIR,S1 Manajemen,Genap,Teori Organisasi,3,4,Wajib
+UNAIR,S1 Manajemen,Genap,Akuntansi Manajemen,3,4,Wajib
+UNAIR,S1 Manajemen,Genap,Peramalan Bisnis,3,4,Wajib
+UNAIR,S1 Manajemen,Genap,Keuangan Personal *,3,4,Wajib
+UNAIR,S1 Manajemen,Genap,Manajemen Usaha Kecil dan Menengah*,3,4,Wajib
+UNAIR,S1 Manajemen,Genap,Manajemen Bank Syariah*,3,4,Wajib
+UNAIR,S1 Manajemen,Genap,Perpajakan*,3,4,Wajib
+UNAIR,S1 Manajemen,Genap,Manajemen Pemasaran Jasa*,3,4,Wajib
+UNAIR,S1 Manajemen,Ganjil,Perencanaan Bisnis,3,5,Wajib
+UNAIR,S1 Manajemen,Ganjil,Sistim Informasi Manajemen,3,5,Wajib
+UNAIR,S1 Manajemen,Ganjil,Analisis Laporan Keuangan dan Penganggaran,3,5,Wajib
+UNAIR,S1 Manajemen,Ganjil,Kepemimpinan,3,5,Wajib
+UNAIR,S1 Manajemen,Ganjil,Manajemen Proses Bisnis,3,5,Wajib
+UNAIR,S1 Manajemen,Ganjil,Manajemen Pengambilan Keputusan*,3,5,Wajib
+UNAIR,S1 Manajemen,Ganjil,Pengukuran Kinerja*,3,5,Wajib
+UNAIR,S1 Manajemen,Ganjil,Manajemen Pemasaran Bisnis*,3,5,Wajib
+UNAIR,S1 Manajemen,Genap,Manajemen Strategik,3,6,Wajib
+UNAIR,S1 Manajemen,Genap,Metodologi Penelitian,3,6,Wajib
+UNAIR,S1 Manajemen,Genap,Seminar Manajemen Keuangan**,3,6,Wajib
+UNAIR,S1 Manajemen,Genap,Manajemen Investasi**,3,6,Wajib
+UNAIR,S1 Manajemen,Genap,Perbankan dan Lembaga Keuangan Lainnya**,3,6,Wajib
+UNAIR,S1 Manajemen,Genap,Manajemen Keuangan Internasional***,3,6,Wajib
+UNAIR,S1 Manajemen,Genap,Manajemen Keuangan Usaha Kecil & Menengah***,3,6,Wajib
+UNAIR,S1 Manajemen,Genap,Manajemen Risiko dan Keuangan Derivatif***,3,6,Wajib
+UNAIR,S1 Manajemen,Ganjil,Etika Bisnis dan Tanggung Jawab Sosial,2,7,Wajib
+UNAIR,S1 Manajemen,Ganjil,Aspek Hukum Dalam Bisnis,3,7,Wajib
+UNAIR,S1 Manajemen,Ganjil,Agama Lanjut,2,7,Wajib
+UNAIR,S1 Manajemen,Genap,KKN,3,8,Wajib
+UNAIR,S1 Manajemen,Genap,Skripsi,6,8,Wajib

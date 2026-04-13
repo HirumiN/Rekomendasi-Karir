@@ -1,0 +1,58 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Teknik Biomedik,Ganjil,Anatomi dan Fisiologi,3,1,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Pengantar Teknologi Elektro dan Informatika Cerdas,2,1,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Dasar Pemrograman,3,1,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Kalkulus 1,3,1,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Fisika 1,5,1,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Probabilitas dan Statistika,2,1,Wajib
+ITS,S1 Teknik Biomedik,Genap,Rangkaian Listrik,2,2,Wajib
+ITS,S1 Teknik Biomedik,Genap,Kalkulus 2,3,2,Wajib
+ITS,S1 Teknik Biomedik,Genap,Fisika Listrik dan Magnet,3,2,Wajib
+ITS,S1 Teknik Biomedik,Genap,Kimia,3,2,Wajib
+ITS,S1 Teknik Biomedik,Genap,Dasar Sistem Komunikasi dan Laboratorium,3,2,Wajib
+ITS,S1 Teknik Biomedik,Genap,Teknik Digital dan Laboratorium,4,2,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Dasar Bioelektrokimia,3,3,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Elektronika Dasar dan Laboratorium,4,3,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Matematika Teknik,3,3,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Dasar Pengolahan Sinyal,4,3,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Rangkaian Listrik Lanjut dan Laboratorium,3,3,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Metode Numerik,3,3,Wajib
+ITS,S1 Teknik Biomedik,Genap,Dasar Mikroprosesor dan Mikrokontroler,3,4,Wajib
+ITS,S1 Teknik Biomedik,Genap,Dasar Sistem Pengaturan dan Laboratorium,4,4,Wajib
+ITS,S1 Teknik Biomedik,Genap,Dasar Biomekanika,3,4,Wajib
+ITS,S1 Teknik Biomedik,Genap,Pengolahan Sinyal Biomedika dan Laboratorium,3,4,Wajib
+ITS,S1 Teknik Biomedik,Genap,Biomaterial,3,4,Wajib
+ITS,S1 Teknik Biomedik,Genap,Sistem Instrumentasi Biomedika dan Laboratorium,5,4,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Sistem Mikroelektronika Biomedika,3,5,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Pencitraan Biomedika,3,5,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Human-Machine Interaction,3,5,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Dasar Sistem Cerdas,3,5,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Teknik Biomagnetika,3,5,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Biomodeling,3,5,Wajib
+ITS,S1 Teknik Biomedik,Genap,Teknik Klinika,2,6,Wajib
+ITS,S1 Teknik Biomedik,Genap,Kelistrikan Biomedika,2,6,Wajib
+ITS,S1 Teknik Biomedik,Genap,Project Design,4,6,Wajib
+ITS,S1 Teknik Biomedik,Genap,Kerja Praktik,2,6,Wajib
+ITS,S1 Teknik Biomedik,Genap,Bahasa Inggris,2,6,Wajib
+ITS,S1 Teknik Biomedik,Genap,Kewirausahaan Berbasis Teknologi,2,6,Wajib
+ITS,S1 Teknik Biomedik,Genap,Bahasa Indonesia,2,6,Wajib
+ITS,S1 Teknik Biomedik,Genap,Pancasila,2,6,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Biocybernetics,3,7,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Analisis Sinyal Nonstasioner,3,7,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Pra Tugas Akhir,2,7,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Aplikasi Teknologi dan Transformasi Digital,3,7,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Agama,2,7,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Kewarganegaraan,2,7,Wajib
+ITS,S1 Teknik Biomedik,Genap,Tugas Akhir,4,8,Wajib
+ITS,S1 Teknik Biomedik,Ganjil,Rancangan Sistem Instrumentasi Biomedika Cerdas,3,5,Pilihan
+ITS,S1 Teknik Biomedik,Ganjil,Sistem Telemedicine,3,5,Pilihan
+ITS,S1 Teknik Biomedik,Ganjil,Sistem Diagnosis Berbasis Decision Support System,3,5,Pilihan
+ITS,S1 Teknik Biomedik,Ganjil,Assistive and Welfare Technologies,3,5,Pilihan
+ITS,S1 Teknik Biomedik,Ganjil,Robotika Medika,3,5,Pilihan
+ITS,S1 Teknik Biomedik,Ganjil,Teknik Rehabilitasi,3,5,Pilihan
+ITS,S1 Teknik Biomedik,Ganjil,Pencitraan Ultrasonik,3,5,Pilihan
+ITS,S1 Teknik Biomedik,Ganjil,Pengolahan Citra Medika,3,5,Pilihan
+ITS,S1 Teknik Biomedik,Ganjil,Multimodal Biomedical Data Analysis,3,5,Pilihan
+ITS,S1 Teknik Biomedik,Ganjil,Manajemen Informasi Medika,3,5,Pilihan
+ITS,S1 Teknik Biomedik,Ganjil,Database Medika dan Optimasi,3,5,Pilihan
+ITS,S1 Teknik Biomedik,Ganjil,Komputasi Genomik,3,5,Pilihan

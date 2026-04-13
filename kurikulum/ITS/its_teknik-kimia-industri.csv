@@ -1,0 +1,49 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,D4 Teknik Kimia Industri,Ganjil,Agama,2,1,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Fisika Terapan,3,1,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Kimia Analisa,4,1,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Matematika,3,1,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Pengenalan Teknik Kimia Industri,3,1,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Kimia Terapan,3,1,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Pancasila,2,2,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Dasar-dasar Proses,2,2,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Kimia Organik,4,2,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Matematika Teknik Kimia 1,2,2,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Mikrobiologi Industri,3,2,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Neraca Massa,3,2,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Program Komputer,2,2,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Bahasa Indonesia,2,3,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Thermodinamika Teknik Kimia,3,3,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Mekanika Fluida dan Partikel,4,3,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Matematika Teknik Kimia,2,3,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Bahan Konstruksi dan Korosi,3,3,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Neraca Energi,3,3,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Kesehatan Keselamatan Kerja dan Lingkungan,2,3,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Kewarganegaraan,2,4,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Teknik Reaksi Kimia 1,2,4,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Perpindahan Panas dan Peralatan,4,4,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Statistika Pengendalian Mutu,3,4,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Bioteknologi Industri,3,4,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Teknik Tenaga Listrik,2,4,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Proyek Inovasi,1,4,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Bahasa Inggris,2,5,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Teknik Reaksi Kimia 2,2,5,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Proses Pemisahan dan Peralatan,4,5,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Bejana dan Alat Penukar Panas,3,5,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Teknologi Material,3,5,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Pengolahan Limbah Industri,3,5,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Proyek Inovasi,2,5,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Teknopreneur,2,6,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Transport Phenomena,2,6,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Instrumentasi Pengendalian Proses,4,6,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Sistem Utilitas Pabrik,3,6,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Sintesa Proses,3,6,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Keselamatan Pabrik Kimia,2,6,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Proyek Inovasi,3,6,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Teknik Komunikasi Lanjut,2,7,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Manajemen Operasi,2,7,Wajib
+ITS,D4 Teknik Kimia Industri,Ganjil,Magang,14,7,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Aplikasi Teknologi dan Transformasi Digital,3,8,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Rekayasa Teknologi Cerdas,3,8,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Ekonomi Teknik,2,8,Wajib
+ITS,D4 Teknik Kimia Industri,Genap,Proyek Akhir,6,8,Wajib

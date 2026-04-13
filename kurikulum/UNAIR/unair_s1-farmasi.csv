@@ -1,0 +1,69 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Farmasi,Ganjil,Data and References,2,1,Wajib
+UNAIR,S1 Farmasi,Ganjil,Agama I,2,1,MKWU
+UNAIR,S1 Farmasi,Ganjil,Pancasila,2,1,MKWU
+UNAIR,S1 Farmasi,Ganjil,Civics Education,2,1,MKWU
+UNAIR,S1 Farmasi,Ganjil,Indonesian Language,2,1,MKWU
+UNAIR,S1 Farmasi,Ganjil,Health Communications and Basic Health Services,2,1,Wajib
+UNAIR,S1 Farmasi,Ganjil,Health Ethics and Law,2,1,Wajib
+UNAIR,S1 Farmasi,Ganjil,Cellular and Molecular Biology,2,1,Wajib
+UNAIR,S1 Farmasi,Ganjil,Basic Pharmaceutical Chemistry,2,1,Wajib
+UNAIR,S1 Farmasi,Ganjil,Basic Pharmaceutical Chemistry (practicum),1,1,Wajib
+UNAIR,S1 Farmasi,Genap,Logic and Critical Thinking,2,2,Wajib
+UNAIR,S1 Farmasi,Genap,Introduction to Scientific Collaboration,2,2,Wajib
+UNAIR,S1 Farmasi,Genap,Communication and Personal Development,2,2,Wajib
+UNAIR,S1 Farmasi,Genap,Fundamentals Pharmacy,2,2,Wajib
+UNAIR,S1 Farmasi,Genap,Biomedical Science,5,2,Wajib
+UNAIR,S1 Farmasi,Genap,Physical Chemistry,2,2,Wajib
+UNAIR,S1 Farmasi,Genap,Physical Chemistry (practicum),1,2,Wajib
+UNAIR,S1 Farmasi,Genap,Pharmaceutical Botany,1,2,Wajib
+UNAIR,S1 Farmasi,Genap,Pharmaceutical Botany (practicum),1,2,Wajib
+UNAIR,S1 Farmasi,Genap,Pharmaceutical Organic Chemistry I,2,2,Wajib
+UNAIR,S1 Farmasi,Ganjil,Pharmacy Practice I,2,3,Wajib
+UNAIR,S1 Farmasi,Ganjil,Pharmacy Practice I (practicum),1,3,Wajib
+UNAIR,S1 Farmasi,Ganjil,Pharmacology and Toxicology,2,3,Wajib
+UNAIR,S1 Farmasi,Ganjil,Pharmacology and Toxicology (practicum),1,3,Wajib
+UNAIR,S1 Farmasi,Ganjil,Biopharmaceuticals,2,3,Wajib
+UNAIR,S1 Farmasi,Ganjil,Physical Pharmacy,2,3,Wajib
+UNAIR,S1 Farmasi,Ganjil,Physical Pharmacy (practicum),2,3,Wajib
+UNAIR,S1 Farmasi,Ganjil,Analytical Chemistry,2,3,Wajib
+UNAIR,S1 Farmasi,Ganjil,Analytical Chemistry (practicum),2,3,Wajib
+UNAIR,S1 Farmasi,Ganjil,Pharmacognosy,2,3,Wajib
+UNAIR,S1 Farmasi,Ganjil,Pharmacognosy (practicum),1,3,Wajib
+UNAIR,S1 Farmasi,Ganjil,Pharmaceutical Organic Chemistry II,2,3,Wajib
+UNAIR,S1 Farmasi,Genap,Pharmacotherapy I,2,4,Wajib
+UNAIR,S1 Farmasi,Genap,Pharmacotherapy I Tutorials,1,4,Wajib
+UNAIR,S1 Farmasi,Genap,Pharmacokinetics,3,4,Wajib
+UNAIR,S1 Farmasi,Genap,Pharmacokinetics (practicum),1,4,Wajib
+UNAIR,S1 Farmasi,Genap,Drug Delivery Design and Technology I,2,4,Wajib
+UNAIR,S1 Farmasi,Genap,Drug Delivery Design and Technology I (practicum),2,4,Wajib
+UNAIR,S1 Farmasi,Genap,Pharmaceutical Analysis,3,4,Wajib
+UNAIR,S1 Farmasi,Genap,Pharmaceutical Analysis (practicum),2,4,Wajib
+UNAIR,S1 Farmasi,Genap,Pharmaceutical Biotechnology,2,4,Wajib
+UNAIR,S1 Farmasi,Genap,Preparative Organic Chemistry,2,4,Wajib
+UNAIR,S1 Farmasi,Ganjil,Social Pharmacy,1,5,Wajib
+UNAIR,S1 Farmasi,Ganjil,Social Pharmacy (practicum),2,5,Wajib
+UNAIR,S1 Farmasi,Ganjil,Pharmacotherapy II,2,5,Wajib
+UNAIR,S1 Farmasi,Ganjil,Pharmacotherapy II Tutorial,1,5,Wajib
+UNAIR,S1 Farmasi,Ganjil,Drug Delivery Design and Technology II,3,5,Wajib
+UNAIR,S1 Farmasi,Ganjil,Drug Delivery Design and Technology II (practicum),2,5,Wajib
+UNAIR,S1 Farmasi,Ganjil,Phytochemistry,2,5,Wajib
+UNAIR,S1 Farmasi,Ganjil,Phytochemistry (practicum),1,5,Wajib
+UNAIR,S1 Farmasi,Ganjil,Medicinal Chemistry,2,5,Wajib
+UNAIR,S1 Farmasi,Ganjil,Medicinal Chemistry (practicum),1,5,Wajib
+UNAIR,S1 Farmasi,Ganjil,Traditional and Complementary Medicine,1,5,Wajib
+UNAIR,S1 Farmasi,Genap,Field Application and Practices,3,6,Wajib
+UNAIR,S1 Farmasi,Genap,Pharmacy Practice II,2,6,Wajib
+UNAIR,S1 Farmasi,Genap,Pharmacotherapy III,2,6,Wajib
+UNAIR,S1 Farmasi,Genap,Pharmacotherapy III Tutorial,1,6,Wajib
+UNAIR,S1 Farmasi,Genap,Drug Delivery Design and Technology III,2,6,Wajib
+UNAIR,S1 Farmasi,Genap,Drug Delivery Design and Technology III (practicum),2,6,Wajib
+UNAIR,S1 Farmasi,Genap,Phytopharmacy,2,6,Wajib
+UNAIR,S1 Farmasi,Genap,Phytopharmacy (practicum),1,6,Wajib
+UNAIR,S1 Farmasi,Ganjil,Research Proposal,1,7,Wajib
+UNAIR,S1 Farmasi,Ganjil,Agama II,2,7,MKWU
+UNAIR,S1 Farmasi,Ganjil,Pharmacy Practice III,2,7,Wajib
+UNAIR,S1 Farmasi,Ganjil,Pharmacy Practice III (practicum),2,7,Wajib
+UNAIR,S1 Farmasi,Ganjil,Pharmaceutical Manufacture,2,7,Wajib
+UNAIR,S1 Farmasi,Genap,Final Project,6,8,Wajib
+UNAIR,S1 Farmasi,Genap,Pharmaceutical Management,2,8,Wajib

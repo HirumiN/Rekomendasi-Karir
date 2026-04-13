@@ -1,0 +1,112 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Teknik Mesin,Ganjil,Fisika Mekanika,4,1,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Fisika Statika,2,1,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Kalkulus 1,3,1,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Kimia,3,1,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Menggambar Mesin,3,1,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Pengantar Teknik Mesin,2,1,Wajib
+ITS,S1 Teknik Mesin,Genap,Algoritma Dasar,2,2,Wajib
+ITS,S1 Teknik Mesin,Genap,Fisika Listrik dan Magnet,4,2,Wajib
+ITS,S1 Teknik Mesin,Genap,Kalkulus 2,3,2,Wajib
+ITS,S1 Teknik Mesin,Genap,Kinematika dan Dinamika Teknik,3,2,Wajib
+ITS,S1 Teknik Mesin,Genap,Mekanika Kekuatan Material,4,2,Wajib
+ITS,S1 Teknik Mesin,Genap,Metalurgi I,3,2,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Dinamika Permesinan,3,3,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Elemen Mesin I,3,3,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Instrumentasi Pengukuran dan Metrologi,4,3,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Matematika Rekayasa,3,3,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Mekanika Fluida Dasar I,2,3,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Metalurgi II,3,3,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Termodinamika I,2,3,Wajib
+ITS,S1 Teknik Mesin,Genap,Elemen Mesin II,3,4,Wajib
+ITS,S1 Teknik Mesin,Genap,Mekanika Fluida Dasar II,3,4,Wajib
+ITS,S1 Teknik Mesin,Genap,Proses Manufaktur I,3,4,Wajib
+ITS,S1 Teknik Mesin,Genap,Sistem Dinamik dan Pengendalian,4,4,Wajib
+ITS,S1 Teknik Mesin,Genap,Statistik dan Perencanaan Eksperimen,4,4,Wajib
+ITS,S1 Teknik Mesin,Genap,Termodinamika II,3,4,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Analisa Numerik,3,5,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Capstone I,2,5,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Mekanika Getaran,3,5,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Mekatronika,3,5,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Mesin Konversi Energi,3,5,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Perpindahan Panas,4,5,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Proses Manufaktur II,3,5,Wajib
+ITS,S1 Teknik Mesin,Genap,Bahasa Inggris,2,6,Wajib
+ITS,S1 Teknik Mesin,Genap,Capstone II,3,6,Wajib
+ITS,S1 Teknik Mesin,Genap,Kewirausahaan Berbasis Teknologi,2,6,Wajib
+ITS,S1 Teknik Mesin,Genap,Manajemen Operasional,3,6,Wajib
+ITS,S1 Teknik Mesin,Genap,Pancasila,2,6,Wajib
+ITS,S1 Teknik Mesin,Genap,MK Pilihan 1,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,MK Pilihan 2,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,MK Pengayaan,3,6,Pilihan
+ITS,S1 Teknik Mesin,Ganjil,Agama,2,7,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Aplikasi Teknologi dan Transformasi Digital,3,7,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Bahasa Indonesia,2,7,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Kewarganegaraan,2,7,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Proposal Tugas Akhir,2,7,Wajib
+ITS,S1 Teknik Mesin,Ganjil,Teknik dan Manajemen Perawatan,3,7,Wajib
+ITS,S1 Teknik Mesin,Ganjil,MK Pilihan 3,3,7,Pilihan
+ITS,S1 Teknik Mesin,Ganjil,MK Pilihan 4,3,7,Pilihan
+ITS,S1 Teknik Mesin,Genap,Kerja Praktek,2,8,Wajib
+ITS,S1 Teknik Mesin,Genap,Tugas Akhir,4,8,Wajib
+ITS,S1 Teknik Mesin,Genap,Sumber Energi,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Proses Manufaktur Lanjut,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Pemindah Bahan,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Metode Matriks untuk Analisa Struktur,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Kekuatan Material Lanjut,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Getaran Sistem Mekanikal,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Pesawat Pemindah Bahan,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Teknologi dan Konstruksi Otomotif,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Konstruksi Plat dan Cangkang,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Tribologi dan Teori Gesek pada Pemesinan,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Teknologi Pemulihan Energi,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Analisa Kegagalan Berbasis Vibrasi,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Power and Drive Train Kendaraan,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Dinamika Kendaraan dan Pengendalian,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Mekanika Fluida Lanjut,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Mesin Fluida Kompresibel,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Motor Pembakaran Dalam,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Teknik Pendingin dan Pengkondisian Udara,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Energi Surya,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Manajemen dan Ekonomi Energi,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Metode Komputasi Fluida,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Sistem Tenaga Hidrolik dan Pneumatik,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Analisa Pencemaran Lingkungan,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Aerodinamika,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Teknik Pembakaran dan Bahan Bakar,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Bio Energi,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Sistem Pembangkit Tenaga,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Energi Terbarukan,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Mould Design,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Sistem Manufaktur Industri,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Simulasi Sistem Dinamis,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Perancangan Perkakas,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Rekayasa Kualitas,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Perancangan dan Pengembangan Produk,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Getaran Mesin Perkakas,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Toleransi Geometrik,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Proses Pemesinan,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Pengukuran Presisi,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Otomasi Industri,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Mekanisme Robot,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Mesin Perkakas CNC,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Mesin Fluida Inkompresibel,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Perancangan Pesawat Penukar Kalor,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Teknik Las,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Teknik Cor,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Perlakuan Panas,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Termodinamika Metalurgi,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Logam Paduan Industri,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Polimer dan Komposit,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Analisa Kegagalan Material,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Korosi,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Mekanika Patahan,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Riset Operasional,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Manajemen Proyek,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Computer Aided Design/Manufacturing (CAD/CAM),3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Sistem Kontrol Otomotif,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Sistem Pengendalian Linear,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Analisa Sistem Perpipaan,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Sistem Dinamis,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Sistem Injeksi Bahan Bakar,3,6,Pilihan
+ITS,S1 Teknik Mesin,Genap,Mengenal Hakikat Manusia,3,6,Pilihan

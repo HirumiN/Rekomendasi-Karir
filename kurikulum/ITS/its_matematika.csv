@@ -1,0 +1,97 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Matematika,Ganjil,Kalkulus 1,3,1,Wajib
+ITS,S1 Matematika,Ganjil,Fisika Mekanika,3,1,Wajib
+ITS,S1 Matematika,Ganjil,Geometri Analitik,3,1,Wajib
+ITS,S1 Matematika,Ganjil,Logika Matematika,3,1,Wajib
+ITS,S1 Matematika,Ganjil,Metode Statistika,3,1,Wajib
+ITS,S1 Matematika,Ganjil,Algoritma dan Pemrograman Komputer 1,3,1,Wajib
+ITS,S1 Matematika,Genap,Kalkulus 2,3,2,Wajib
+ITS,S1 Matematika,Genap,Fisika Listrik dan Magnet,3,2,Wajib
+ITS,S1 Matematika,Genap,Kimia,3,2,Wajib
+ITS,S1 Matematika,Genap,Matematika Diskrit,3,2,Wajib
+ITS,S1 Matematika,Genap,Aljabar Linier Elementer,3,2,Wajib
+ITS,S1 Matematika,Genap,Algoritma dan Pemrograman Komputer 2,3,2,Wajib
+ITS,S1 Matematika,Ganjil,Aljabar I,3,3,Wajib
+ITS,S1 Matematika,Ganjil,Analisis I,4,3,Wajib
+ITS,S1 Matematika,Ganjil,Riset Operasi I,4,3,Wajib
+ITS,S1 Matematika,Ganjil,Metode Numerik,3,3,Wajib
+ITS,S1 Matematika,Ganjil,Persamaan Diferensial Biasa,3,3,Wajib
+ITS,S1 Matematika,Ganjil,Kalkulus Peubah Banyak,3,3,Wajib
+ITS,S1 Matematika,Genap,Aljabar II,3,4,Wajib
+ITS,S1 Matematika,Genap,Analisis II,2,4,Wajib
+ITS,S1 Matematika,Genap,Metode Matematika,3,4,Wajib
+ITS,S1 Matematika,Genap,Teori Peluang,3,4,Wajib
+ITS,S1 Matematika,Genap,Analisis Vektor,3,4,Wajib
+ITS,S1 Matematika,Genap,Persamaan Diferensial Parsial,3,4,Wajib
+ITS,S1 Matematika,Genap,Fungsi Peubah Kompleks,3,4,Wajib
+ITS,S1 Matematika,Ganjil,Aljabar Linier,4,5,Wajib
+ITS,S1 Matematika,Ganjil,Teknik Simulasi,3,5,Wajib
+ITS,S1 Matematika,Ganjil,Matematika Statistika,3,5,Wajib
+ITS,S1 Matematika,Ganjil,Matematika Sistem,3,5,Wajib
+ITS,S1 Matematika,Ganjil,Pemodelan Matematika,4,5,Wajib
+ITS,S1 Matematika,Ganjil,Karier Matematika,2,5,Wajib
+ITS,S1 Matematika,Ganjil,Penulisan Ilmiah Matematika,2,5,Wajib
+ITS,S1 Matematika,Genap,Pancasila,2,6,Wajib
+ITS,S1 Matematika,Genap,Bahasa Indonesia,2,6,Wajib
+ITS,S1 Matematika,Genap,Bahasa Inggris,2,6,Wajib
+ITS,S1 Matematika,Genap,Kewirausahaan Berbasis Teknologi,2,6,Wajib
+ITS,S1 Matematika,Genap,MK Pengayaan,3,6,Wajib
+ITS,S1 Matematika,Ganjil,Kerja Praktek,3,7,Wajib
+ITS,S1 Matematika,Ganjil,Agama,2,7,Wajib
+ITS,S1 Matematika,Ganjil,Kewarganegaraan,2,7,Wajib
+ITS,S1 Matematika,Ganjil,Aplikasi Teknologi dan Transformasi Digital,3,7,Wajib
+ITS,S1 Matematika,Genap,Tugas Akhir,6,8,Wajib
+ITS,S1 Matematika,Genap,Analisis Kombinatorik,3,6,Pilihan
+ITS,S1 Matematika,Genap,Geometri Diferensial,2,6,Pilihan
+ITS,S1 Matematika,Genap,Pengantar Teori Graph,2,6,Pilihan
+ITS,S1 Matematika,Genap,Logika Formal,2,6,Pilihan
+ITS,S1 Matematika,Genap,Pengantar Analisis Fungsional,3,6,Pilihan
+ITS,S1 Matematika,Genap,Persamaan Diferensial Biasa Numerik,3,6,Pilihan
+ITS,S1 Matematika,Genap,Persamaan Diferensial Tak Linier,2,6,Pilihan
+ITS,S1 Matematika,Genap,Pengantar Komputasi Dinamika Fluida,3,6,Pilihan
+ITS,S1 Matematika,Genap,Pengantar Optimasi Dinamis,3,6,Pilihan
+ITS,S1 Matematika,Genap,Pemodelan Matematika Sistem,2,6,Pilihan
+ITS,S1 Matematika,Genap,Riset Operasi 2,3,6,Pilihan
+ITS,S1 Matematika,Genap,Metode Peramalan,2,6,Pilihan
+ITS,S1 Matematika,Genap,Proses Stokastik,2,6,Pilihan
+ITS,S1 Matematika,Genap,Pengantar Matematika Derivatif,2,6,Pilihan
+ITS,S1 Matematika,Genap,Pengantar Analisis Risiko,2,6,Pilihan
+ITS,S1 Matematika,Genap,Matematika Bisnis,2,6,Pilihan
+ITS,S1 Matematika,Genap,Kecerdasan Tiruan,2,6,Pilihan
+ITS,S1 Matematika,Genap,Sistem Basis Data,2,6,Pilihan
+ITS,S1 Matematika,Genap,Pengantar Bioinformatika,2,6,Pilihan
+ITS,S1 Matematika,Genap,Pengantar Sains Data,2,6,Pilihan
+ITS,S1 Matematika,Genap,Teori Fuzzy dan Aplikasi,2,6,Pilihan
+ITS,S1 Matematika,Genap,Perangkat Lunak Matematika,3,6,Pilihan
+ITS,S1 Matematika,Genap,Desain dan Analisis Algoritma,2,6,Pilihan
+ITS,S1 Matematika,Genap,Pengolahan Citra Digital,3,6,Pilihan
+ITS,S1 Matematika,Genap,Rekayasa Perangkat Lunak,2,6,Pilihan
+ITS,S1 Matematika,Genap,Pengantar Verifikasi Sistem,2,6,Pilihan
+ITS,S1 Matematika,Ganjil,Pengantar Aproksimasi,3,7,Pilihan
+ITS,S1 Matematika,Ganjil,Aljabar Fuzzy,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Kalkulus Quantum,3,7,Pilihan
+ITS,S1 Matematika,Ganjil,Pengantar Kalkulus Stokastik,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Kapita Selekta Aljabar,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Kapita Selekta Analisis,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Pengantar Sistem dan Kontrol,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Estimasi Optimum,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Persamaan Diferensial Parsial Numerik,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Pengantar Optimasi Numerik,3,7,Pilihan
+ITS,S1 Matematika,Ganjil,Kapita Selekta Pemodelan Sistem dan Simulasi,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Pengantar Matematika Keuangan,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Pengendalian Kualitas Statistika,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Kapita Selekta Matematika Industri,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Pengantar Pembelajaran Mesin,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Penambangan Data,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Pengembangan Aplikasi Web,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Teknologi Basis Data,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Sistem Pendukung Keputusan,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Kapita Selekta Sains Data,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Pengantar Komputasi Kuantum,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Kriptografi,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Struktur Data,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Komputasi Cloud,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Kapita Selekta Sains Komputasi,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Magang A,2,7,Pilihan
+ITS,S1 Matematika,Ganjil,Magang B,4,7,Pilihan
+ITS,S1 Matematika,Ganjil,Magang C,6,7,Pilihan

@@ -1,0 +1,48 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,D4 Teknik Instrumentasi,Ganjil,Pengantar Teknik Instrumentasi,2,1,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Dasar Sistem Instrumentasi,3,1,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Rangkaian Listrik,3,1,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Pancasila,2,1,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Matematika,3,1,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Fisika Terapan,3,1,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Kimia Terapan,3,1,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Teknologi Sensor dan Transmitter,3,2,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Standar Kode,2,2,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Elektronika Analog,3,2,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Matematika Terapan,3,2,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Algoritma Pemrograman,3,2,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Mekanika Fluida Terapan,3,2,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Agama,2,2,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Teknik Pengukuran,3,3,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Teknik Kalibrasi,3,3,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Elektronika Digital,3,3,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Dinamika Sistem,2,3,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Sistem Pengolahan Sinyal,3,3,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Termodinamika Terapan,3,3,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Kewarganegaraan,2,3,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Menggambar Instrumentasi,3,4,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Teknik Otomasi,3,4,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Interkoneksi Sistem Instrumentasi,3,4,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Teknologi Aktuator,3,4,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Pemrograman Kontroller,3,4,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Perpindahan Panas,3,4,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Bahasa Indonesia,2,4,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Sistem Kontrol Terdistribusi,3,5,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Reliability Availability Maintainability,3,5,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Process Safety,3,5,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Sistem Instrumentasi Industri,3,5,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Teknologi IoT,3,5,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Bahasa Inggris,2,5,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Engineering Commisioning,3,6,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Predictive Maintenance,3,6,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Proposal Proyek Akhir,2,6,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Rotating Equipment,3,6,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Perancangan Sistem Kontrol Proses,3,6,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Kewirausahaan Berbasis Teknologi,2,6,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Rekayasa Teknologi Cerdas,3,6,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Troubleshooting,3,7,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Proyek Akhir,6,7,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,SCADA,3,7,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Kapita Selekta Industri,2,7,Wajib
+ITS,D4 Teknik Instrumentasi,Ganjil,Aplikasi Teknologi dan Transformasi Digital,3,7,Wajib
+ITS,D4 Teknik Instrumentasi,Genap,Magang,14,8,Wajib

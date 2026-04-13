@@ -1,0 +1,48 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Agama,2,1,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Fisika Terapan,3,1,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Ilmu Bahari,2,1,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Matematika,3,1,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Menggambar Teknik,3,1,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Praktikum Manufaktur 1,3,1,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Statistika,2,1,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Bahasa Inggris,2,2,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Bahan Teknik,3,2,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Kimia Terapan,3,2,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Mekanika Kekuatan Material,2,2,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Mekanika Material dan CAD,3,2,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Proses Manufaktur 2,3,2,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Termodinamika,2,2,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Bahasa Indonesia,2,3,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,CAD-CAE,3,3,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Elemen Mesin 1,3,3,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Kinematika dan Dinamika,2,3,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Mekanika Fluida,3,3,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Metrologi dan Standardisasi,2,3,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,QHSSE,2,3,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Elemen Mesin 2,3,4,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Mesin Gerinda,3,4,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Mekatronika,3,4,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Menggambar Mesin dan CAD Lanjut,3,4,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Pemrosesan Non Konvensional,3,4,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Statistika Industri,2,4,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Forming Technology,3,5,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Material Handling,3,5,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Perencanaan Produksi dan Ekonomika Teknik,3,5,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Rekayasa Teknologi Cerdas,3,5,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Teknik Pemeliharaan dan Manajemen,3,5,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Teknologi Penyambungan,3,5,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Instrumentasi dan Otomasi Manufaktur,3,6,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Magang,14,6,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Manajemen Operasional Perencanaan Produksi dan Pengendalian Persediaan,3,6,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,CNC,3,7,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Manufaktur Additif,2,7,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Permesinan Thermal,3,7,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Pengolahan Panas,3,7,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Pneumatik dan Hidrolik,2,7,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Sistem Kendali,2,7,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Ganjil,Perancangan Alat,3,7,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Aplikasi Teknologi dan Transformasi Digital,3,8,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,CAD-CAM,2,8,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Kewirausahaan Berbasis Teknologi,2,8,Wajib
+ITS,D4 Teknik Rekayasa Manufaktur,Genap,Proyek Akhir,5,8,Wajib

@@ -1,0 +1,73 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Kalkulus 1,3,1,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Fisika Mekanika,3,1,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Kimia I,3,1,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Pengantar Teknik Material dan Metalurgi,2,1,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Gambar Teknik dan Mesin,2,1,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Pemrograman Komputer,2,1,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Kalkulus II,3,2,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Fisika Listrik dan Magnet,3,2,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Statistika,2,2,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Metalurgi I,3,2,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Diagram Fasa dan Transformasi,2,2,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Perilaku Mekanik Material,3,2,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Mesin Konversi Energi,2,2,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Kalkulus 3,3,3,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Fisika 3,3,3,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Kimia 2,2,3,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Biologi,2,3,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Metalurgi 2,3,3,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Termodinamika Material,3,3,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Analisis Numerik dan Permodelan,3,3,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Kimia Material,2,4,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Fenomena Transport,4,4,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Elemen Mesin,2,4,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Biomaterial,2,4,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Perlakuan Panas,3,4,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Proses Manufaktur 1,3,4,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Material Keramik dan Gelas,3,4,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Material Polimer,3,4,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Proses Pembuatan Besi dan Baja,3,5,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Teknologi Pengelasan,3,5,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Korosi dan Pengendalian,3,5,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Karakterisasi Material,3,5,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Mekanika Patahan dan Analisis Kegagalan,3,5,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Teknologi Pengecoran,3,5,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Pilihan 1,3,5,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Genap,Aplikasi Teknologi dan Transformasi Digital,3,6,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Bahasa Indonesia,2,6,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Kewarganegaraan,2,6,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Ekstraksi Metalurgi dan Proses Pemurnian,3,6,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Metode Elemen Hingga,3,6,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Proses Manufaktur 2,2,6,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Material Komposit,3,6,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Manajemen Produksi,3,6,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Bahasa Inggris,2,7,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Kewirausahaan Berbasis Teknologi,3,7,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Agama,2,7,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Pancasila,2,7,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Desain Proses Industri,3,7,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Metodologi Penelitian,3,7,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Kerja Praktek,2,7,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Pilihan 2 Pengayaan,3,7,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Genap,Tugas Akhir,4,8,Wajib
+ITS,S1 Teknik Material dan Metalurgi,Genap,Pilihan 3,3,8,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Inspeksi Tanpa Merusak dan Berbasis Resiko,3,5,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Korosi Temperatur Tinggi,3,5,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Material Elektronik,3,5,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Material Konversi dan Penyimpanan Energi,3,5,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Material Magnetik,3,5,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Teknologi Polimer,3,5,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Komposit Kayu,3,5,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Deformasi dan Proses Pembentukan,3,5,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Ganjil,Keselamatan dan Kesehatan Kerja,3,5,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Genap,Kekuatan Material Lanjut,3,8,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Genap,Komputasi Dinamika Fluida,3,8,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Genap,Mekanika Komposit,3,8,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Genap,Teknologi Pelapisan,3,8,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Genap,Teknologi Daur Ulang,3,8,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Genap,Material untuk Maritim,3,8,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Genap,Pengolahan Mineral,3,8,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Genap,Magang 1,3,8,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Genap,Magang 2,3,8,Pilihan
+ITS,S1 Teknik Material dan Metalurgi,Genap,Topik Khusus,3,8,Pilihan

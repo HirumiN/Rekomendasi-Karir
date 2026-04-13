@@ -1,0 +1,64 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Pendidikan Agama,2,1,MKWU
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Pendidikan Pancasila,2,1,MKWU
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Pendidikan Kewarganegaraan,2,1,MKWU
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Bahasa Indonesia,2,1,MKWU
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Data dan Pustaka,2,1,MKK
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Biologi Dasar,2,1,MBB
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Praktikum Biologi Dasar,1,1,MBB
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Kimia Dasar,2,1,MBB
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Praktikum Kimia Dasar,1,1,MBB
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Pengantar Ilmu dan Teknologi Lingkungan,2,1,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Logika dan Pemikiran Kritis,2,2,MKWU
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Pengantar Kolaborasi Keilmuan,2,2,MKWU
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Komunikasi dan Pengembangan Diri,2,2,MKWU
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Kalkulus,3,2,MBB
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Fisika Dasar,2,2,MBB
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Praktikum Fisika Dasar,1,2,MBB
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Ekologi Umum,2,2,MBB
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Praktikum Ekologi Umum,1,2,MBB
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Menggambar Teknik,2,2,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Praktikum Menggambar Teknik,1,2,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Bahasa Inggris I,2,2,MKWU
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Matematika Teknik Lingkungan I,2,3,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Mekanika Fluida,3,3,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Pengetahuan Struktur,2,3,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Kimia Lingkungan,2,3,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Praktikum Kimia Lingkungan,1,3,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Mikrobiologi Lingkungan,2,3,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Praktikum Mikrobiologi Lingkungan,1,3,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Metode Teknik Analisis Lingkungan,2,3,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Praktikum Metode Teknik Analisis Lingkungan,1,3,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Pengelolaan Sumber Daya Alam,2,3,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Matematika Teknik Lingkungan II,2,4,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Mekanika Tanah dan Hidrogeologi,2,4,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Satuan Operasi Teknik Lingkungan,3,4,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Praktikum Satuan Operasi,1,4,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Satuan Proses Teknik Lingkungan,3,4,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Praktikum Satuan Proses,1,4,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Ekotoksikologi,2,4,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Statistika Lingkungan,2,4,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Manajemen Perusahaan dan Organisasi,2,4,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Sistem Penyaluran Air Minum,2,5,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Praktikum Sistem Penyaluran Air Minum,1,5,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Sistem Penyaluran Air Limbah,2,5,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Praktikum Sistem Penyaluran Air Limbah,1,5,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Manajemen Limbah Padat,2,5,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Praktikum Manajemen Limbah Padat,1,5,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Pencegahan dan Pengendalian Pencemaran Udara,3,5,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Pengantar Dokumen Lingkungan,2,5,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Metode Penelitian,2,5,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Perancangan BPOAM,3,6,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Praktikum BPOAM,1,6,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Pengelolaan Limbah B3,2,6,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Manajemen Proyek,2,6,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Kesehatan dan Keselamatan Kerja,2,6,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Hukum Lingkungan,2,6,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Technopreneurship,2,6,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Agama 2,2,6,MKWU
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Perancangan BPOAL,3,7,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Praktikum BPOAL,1,7,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Praktik Kerja Lapangan,3,7,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Kuliah Kerja Nyata,3,7,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Ganjil,Proposal Skripsi,2,7,Wajib
+UNAIR,S1 Ilmu dan Teknologi Lingkungan,Genap,Skripsi,6,8,Wajib

@@ -134,36 +134,46 @@ def augment_prompt(question: str, context_docs: List[models.RAGSEmbedding], clie
         "Based on the context, provide a concise and actionable answer in Bahasa Indonesia."
     )
 
-def build_career_prompt(context_str: str, current_skills: str = "") -> str:
+def build_career_prompt(context_str: str, user_profile: dict, current_skills: str = "") -> str:
+    profile_str = f"""
+Nama: {user_profile.get('nama')}
+Universitas: {user_profile.get('universitas')}
+Jurusan: {user_profile.get('jurusan')}
+Semester: {user_profile.get('semester_sekarang')}
+Target Karir Fokus: {user_profile.get('target_karir')}
+"""
     return f"""
 Anda adalah penasihat karir AI (AI Career Advisor).
-Analisis data mahasiswa di bawah ini dan hasilkan:
-1. Rekomendasi Karir (Maksimal 3 rekomendasi karir potensial)
-2. Roadmap Pembelajaran *Skill-Driven* (SANGAT ADAPTIF: Sesuaikan dengan tingkat keahlian user saat ini)
-3. Tugas yang bisa dilakukan (Actionable tasks)
+Tugas Anda adalah menganalisis profil mahasiswa dan menghasilkan:
+1. Rekomendasi Karir: Berikan TEPAT 3 pilihan:
+   - 1 Karir Utama: Sesuai dengan Target Karir user.
+   - 1 Karir Alternatif 1: Karir yang LINIER dengan JURUSAN user saat ini (Wajib relevan dengan apa yang dipelajari di kampus).
+   - 1 Karir Alternatif 2: Karir lintas bidang yang masih relevan dengan skill user.
 
-Keahlian User Saat Ini:
-{current_skills if current_skills else "Belum ada data keahlian."}
+2. Roadmap Pembelajaran: Sangat adaptif terhadap level keahlian user.
+3. Actionable Tasks: Tugas spesifik (Actionable tasks) dengan deadline.
 
-Konteks Mahasiswa Lainnya:
+PENTING: Jangan hanya memberikan rekomendasi sesuai target karir. User juga ingin melihat peluang karir yang sesuai dengan latar belakang akademiknya (Jurusan). Hubungkan Jurusan user dengan target karirnya dalam "reason".
+
+Profil Mahasiswa:
+{profile_str}
+
+Keahlian Saat Ini:
+{current_skills if current_skills else "Belum ada data."}
+
+Konteks Akademik (RAG):
 {context_str}
 
 Aturan Ketat Adaptivitas:
 - Jika user sudah memiliki level 'Menengah' atau 'Lanjutan/Mahir' pada suatu skill, JANGAN mulai dari dasar. Langsung ke topik tingkat lanjut atau implementasi projek.
 - Jika user adalah 'Pemula', berikan panduan fundamental yang mendalam.
-- Untuk skill yang sudah dikuasai (Menengah+), roadmap harus fokus pada Arsitektur atau Best Practices.
 
-Aturan:
-- Gunakan BAHASA INDONESIA untuk seluruh isi JSON.
+Aturan Output:
+- WAJIB memberikan 3 rekomendasi karir dalam array 'careers'. 
+- Gunakan BAHASA INDONESIA.
 - Berikan saran yang KONGKRET dan SPESIFIK pada deskripsi, namun untuk 'skill_tags' gunakan nama TEKNOLOGI UTAMA (Parent Tech).
-- Untuk 'skill_tags', JANGAN memasukkan library kecil atau sub-modul secara terpisah (Misal: Gunakan 'Python' daripada 'NumPy' atau 'Pandas'; Gunakan 'React' daripada 'Redux' atau 'Zustand').
 - Roadmap: jadikan 'phase' sebagai Topik Kategori (Misal: "Fundamental Frontend"), dan setiap 'title' di dalam 'steps' WAJIB menyebut Spesifik Teknologi / Konsep Inti (Misal: "HTML Semantics", "CSS Flexbox", "React Hooks").
-- Untuk setiap 'step', WAJIB sertakan 'skill_tags' (array of strings) berisi HANYA 1 (SATU) nama TEKNOLOGI UTAMA saja yang paling relevan.
-- JANGAN memberikan opsi/pilihan (Misal: JANGAN menulis 'React/Vue/Angular'). PILIH SALAH SATU teknologi yang paling standar industri atau paling cocok untuk profil user dan fokus pada itu saja di seluruh roadmap.
-- Untuk setiap 'step', sertakan 'xp_reward' berdasarkan kesulitan: '20' (Mudah/Fundamental), '50' (Menengah), atau '100' (Sulit/Projek Kompleks).
-- Aturan ini berlaku untuk SEMUA BIDANG (tidak hanya IT). Contoh: Jika di bidang desain, pilih salah satu antara 'Figma' atau 'Adobe XD', jangan dua-duanya.
-- Hindari jawaban generik.
-- Jika ada 2/3 pilihan karir yang cocok, masukkan maksimal 3 dalam array 'careers'.
+- Untuk setiap 'step', sertakan 'xp_reward' berdasarkan kesulitan: '20' (Mudah), '50' (Menengah), atau '100' (Sulit).
 
 Kembalikan HANYA JSON:
 
@@ -183,7 +193,8 @@ Kembalikan HANYA JSON:
         {{
           "title": "",
           "description": "",
-          "skill_tags": []
+          "skill_tags": [],
+          "xp_reward": 20
         }}
       ]
     }}
@@ -255,11 +266,20 @@ async def generate_career_analysis(db: Session, user_id: int):
     # 2. RAG retrieval (semester, ukm, dsb)
     docs = retrieve_similar_rags(db, query_vector, top_k=5, id_user=user_id)
 
-    # 3. Build context
+    # 3. Build context from docs
     context_str = "\n\n".join([doc.text_original for doc in docs])
 
-    # 4. Build prompt khusus career dengan skill saat ini
-    prompt = build_career_prompt(context_str, current_skills)
+    # 4. Build profil data untuk konteks eksplisit
+    user_profile = {
+        "nama": user.nama,
+        "universitas": user.universitas,
+        "jurusan": user.jurusan,
+        "semester_sekarang": user.semester_sekarang,
+        "target_karir": user.target_karir
+    }
+
+    # 5. Build prompt khusus career dengan data profil lengkap
+    prompt = build_career_prompt(context_str, user_profile, current_skills)
 
     # 5. Call Gemini
     raw_response = await generate_answer_with_gemini(prompt)

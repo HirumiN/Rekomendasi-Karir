@@ -1,0 +1,50 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Kalkulus 1,3,1,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Dasar Pemrograman,3,1,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Sistem Digital dan Organisasi Komputer,3,1,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Aljabar Linier,3,1,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Sistem Basis Data,4,1,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Pengembangan Perangkat Lunak,2,1,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Pemrograman Berorientasi Obyek,3,2,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Struktur Data,3,2,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Matematika Diskrit,3,2,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Rekayasa Kebutuhan,3,2,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Komputasi Numerik,3,2,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Pengenalan Teknologi Elektro dan Informatika Cerdas,2,2,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Pemrograman Web,3,3,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Sistem Operasi dan Jaringan Komputer,3,3,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Perancangan Perangkat Lunak,3,3,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Teori Graf,3,3,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Perancangan dan Analisis Algoritma,3,3,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Konsep Kecerdasan Artifisial,3,3,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Pemrograman Perangkat Bergerak,3,3,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Interaksi Manusia dan Komputer,3,4,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Probabilistik dan Statistik,3,4,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Otomata,3,4,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Analisis dan Perancangan Sistem Informasi,3,4,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Konstruksi Perangkat Lunak,3,4,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Arsitektur Perangkat Lunak,3,4,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Pemrograman Berbasis Kerangka Kerja,3,4,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Metode Formal,3,5,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Pengujian Perangkat Lunak,3,5,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Kualitas Perangkat Lunak,3,5,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Manajemen Proyek Perangkat Lunak,3,5,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Evolusi Perangkat Lunak,3,5,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Mata Kuliah Pilihan,3,5,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Mata Kuliah Pilihan,3,5,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Bahasa Inggris,2,6,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Teknopreneur,2,6,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Agama,2,6,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Kewarganegaraan,2,6,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Proyek Perangkat Lunak,4,6,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Kerja Praktek,5,6,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Mata Kuliah Pilihan,3,6,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Pra Tugas Akhir,3,7,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Bahasa Indonesia,2,7,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Pancasila,2,7,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Aplikasi Teknologi dan Transformasi Digital,3,7,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Etika Profesi,2,7,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Mata Kuliah Pilihan,3,7,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Ganjil,Mata Kuliah Pilihan,3,7,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Tugas Akhir,4,8,Wajib
+ITS,S1 Rekayasa Perangkat Lunak,Genap,Mata Kuliah Pengayaan,3,8,Wajib

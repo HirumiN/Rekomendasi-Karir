@@ -1,0 +1,58 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Kalkulus 1,3,1,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Pengenalan Teknologi Elektro dan Informatika Cerdas,2,1,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Aljabar Linier,3,1,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Dasar Pemrograman,3,1,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Matematika Diskrit,2,1,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Sistem Operasi,3,1,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Basis Data,3,1,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Kalkulus 2,3,2,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Probabilitas dan Statistik,3,2,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Konsep Kecerdasan Artifisial,3,2,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Struktur Data,3,2,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Jaringan Komputer,3,2,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Teori Graf,2,2,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Keamanan Informasi,3,3,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Perancangan dan Analisis Algoritma,3,3,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Pemrograman Berorientasi Objek,3,3,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Pembelajaran Mesin,4,3,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Kecerdasan Komputasional,4,3,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Penambangan Data,4,3,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Konsep Pengembangan dan Perancangan Perangkat Lunak,3,4,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Grafika Komputer,3,4,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Interaksi Manusia dan Komputer,3,4,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Pemrograman Web,3,4,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Deep Learning,3,4,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Pengolahan Citra Digital,3,4,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Pemrosesan Bahasa Natural,3,4,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Pemodelan 3D,3,5,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Visi Komputer,3,5,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Gim Cerdas,3,5,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Realitas X,3,5,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Visualisasi Informasi,3,5,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Mata Kuliah Pilihan,3,5,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Mata Kuliah Pilihan,3,5,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Bahasa Inggris,2,6,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Kewirausahaan Berbasis Teknologi,2,6,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Agama,2,6,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Kewarganegaraan,2,6,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Capstone Project,4,6,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Etika Profesi,2,6,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Pengayaan 1,3,6,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Mata Kuliah Pilihan,3,6,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Kerja Praktik,4,7,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Bahasa Indonesia,2,7,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Pancasila,2,7,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Aplikasi Teknologi dan Transformasi Digital,3,7,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Proposal Tugas Akhir,3,7,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Pengayaan 2,3,7,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Mata Kuliah Pilihan,3,7,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Tugas Akhir,5,8,Wajib
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Komputasi Biomedik,3,5,Pilihan
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Kecerdasan Bisnis,3,5,Pilihan
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Temu Kembali Informasi,3,5,Pilihan
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Robotika,3,6,Pilihan
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Visi Komputer 3D,3,6,Pilihan
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Perancangan dan Pengembangan Gim,3,6,Pilihan
+ITS,S1 Rekayasa Kecerdasan Artifisial,Genap,Pemrograman XR,3,6,Pilihan
+ITS,S1 Rekayasa Kecerdasan Artifisial,Ganjil,Komputasi Sosial,3,7,Pilihan

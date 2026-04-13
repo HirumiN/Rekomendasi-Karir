@@ -1,0 +1,64 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Arsitektur,Ganjil,Fisika Dasar,3,1,Wajib
+ITS,S1 Arsitektur,Ganjil,Metode Riset Arsitektur,3,1,Wajib
+ITS,S1 Arsitektur,Ganjil,Dasar Perancangan Arsitektur 1,6,1,Wajib
+ITS,S1 Arsitektur,Ganjil,Pengantar Arsitektur,3,1,Wajib
+ITS,S1 Arsitektur,Ganjil,Ekologi Arsitektur,3,1,Wajib
+ITS,S1 Arsitektur,Genap,Matematika,3,2,Wajib
+ITS,S1 Arsitektur,Genap,Metode Perancangan Arsitektur,3,2,Wajib
+ITS,S1 Arsitektur,Genap,Dasar Perancangan Arsitektur 2,6,2,Wajib
+ITS,S1 Arsitektur,Genap,Dasar Struktur dan Konstruksi Bangunan,3,2,Wajib
+ITS,S1 Arsitektur,Genap,Sains dan Teknologi Arsitektur,3,2,Wajib
+ITS,S1 Arsitektur,Ganjil,Arsitektur Lansekap,3,3,Wajib
+ITS,S1 Arsitektur,Ganjil,Teori Arsitektur,3,3,Wajib
+ITS,S1 Arsitektur,Ganjil,Perancangan Arsitektur 1,6,3,Wajib
+ITS,S1 Arsitektur,Ganjil,Asas Perancangan Arsitektur,2,3,Wajib
+ITS,S1 Arsitektur,Ganjil,Struktur dan Konstruksi Arsitektural,3,3,Wajib
+ITS,S1 Arsitektur,Ganjil,Utilitas Bangunan,3,3,Wajib
+ITS,S1 Arsitektur,Genap,Arsitektur Setelah Pandemi,2,4,Wajib
+ITS,S1 Arsitektur,Genap,Perancangan Tanggap Bencana,3,4,Wajib
+ITS,S1 Arsitektur,Genap,Sejarah Arsitektur,3,4,Wajib
+ITS,S1 Arsitektur,Genap,Perancangan Arsitektur 2,6,4,Wajib
+ITS,S1 Arsitektur,Genap,Asas Perancangan Arsitektur Kontekstual,2,4,Wajib
+ITS,S1 Arsitektur,Genap,Dasar Perumahan dan Permukiman,2,4,Wajib
+ITS,S1 Arsitektur,Genap,Dasar Perancangan Kota,2,4,Wajib
+ITS,S1 Arsitektur,Ganjil,Arsitektur Kontemporer,3,5,Wajib
+ITS,S1 Arsitektur,Ganjil,Arsitektur Nusantara,3,5,Wajib
+ITS,S1 Arsitektur,Ganjil,Perancangan Arsitektur 3,6,5,Wajib
+ITS,S1 Arsitektur,Ganjil,Asas Perancangan Arsitektur Inovatif,2,5,Wajib
+ITS,S1 Arsitektur,Ganjil,Berpikir Merancang Digital,3,5,Wajib
+ITS,S1 Arsitektur,Ganjil,Dasar Manajemen Perancangan,3,5,Wajib
+ITS,S1 Arsitektur,Genap,Mata Kuliah Pengayaan/Perancangan Berkelanjutan,3,6,Wajib
+ITS,S1 Arsitektur,Genap,Bahasa Inggris,2,6,Wajib
+ITS,S1 Arsitektur,Genap,Kewirausahaan Berbasis Teknologi,2,6,Wajib
+ITS,S1 Arsitektur,Genap,Perancangan Arsitektur 4,6,6,Wajib
+ITS,S1 Arsitektur,Genap,Pancasila,2,6,Wajib
+ITS,S1 Arsitektur,Genap,Agama,2,6,Wajib
+ITS,S1 Arsitektur,Genap,Mata Kuliah Pilihan 1,3,6,Pilihan
+ITS,S1 Arsitektur,Ganjil,Aplikasi Teknologi dan Transformasi Digital,3,7,Wajib
+ITS,S1 Arsitektur,Ganjil,Proposal Tugas Akhir,4,7,Wajib
+ITS,S1 Arsitektur,Ganjil,Perancangan Arsitektur 5,6,7,Wajib
+ITS,S1 Arsitektur,Ganjil,Bahasa Indonesia,2,7,Wajib
+ITS,S1 Arsitektur,Ganjil,Kewarganegaraan,2,7,Wajib
+ITS,S1 Arsitektur,Ganjil,Mata Kuliah Pilihan 2,3,7,Pilihan
+ITS,S1 Arsitektur,Genap,Tugas Akhir,6,8,Wajib
+ITS,S1 Arsitektur,Genap,Etika dalam Arsitektur,2,8,Wajib
+ITS,S1 Arsitektur,Genap,Riset Arsitektur,3,6,Pilihan
+ITS,S1 Arsitektur,Genap,Estetika Arsitektur Nusantara,3,6,Pilihan
+ITS,S1 Arsitektur,Genap,Studi Perilaku Lingkungan Inklusif,3,6,Pilihan
+ITS,S1 Arsitektur,Genap,Arsitektur Kesehatan,3,6,Pilihan
+ITS,S1 Arsitektur,Genap,Pengantar Tektonika Arsitektur,3,6,Pilihan
+ITS,S1 Arsitektur,Genap,Modernisasi Arsitektur Nusantara,3,6,Pilihan
+ITS,S1 Arsitektur,Genap,Arsitektur Daur Ulang,3,6,Pilihan
+ITS,S1 Arsitektur,Genap,Perumahan Swadaya,3,6,Pilihan
+ITS,S1 Arsitektur,Genap,Teori Perancangan Kota,3,6,Pilihan
+ITS,S1 Arsitektur,Ganjil,Kerja Praktek,3,7,Pilihan
+ITS,S1 Arsitektur,Ganjil,Pemodelan Informasi Bangunan,3,7,Pilihan
+ITS,S1 Arsitektur,Ganjil,Iklim dan Geografi Arsitektur Nusantara,3,7,Pilihan
+ITS,S1 Arsitektur,Ganjil,Stilistika Arsitektur,3,7,Pilihan
+ITS,S1 Arsitektur,Ganjil,Arsitektur Biofilik,3,7,Pilihan
+ITS,S1 Arsitektur,Ganjil,Perumahan Formal,3,7,Pilihan
+ITS,S1 Arsitektur,Ganjil,Perancangan Ruang Luar,3,7,Pilihan
+ITS,S1 Arsitektur,Ganjil,Arsitektur Tropis Rendah Karbon,3,7,Pilihan
+ITS,S1 Arsitektur,Ganjil,Perencanaan dan Perancangan Permukiman,3,7,Pilihan
+ITS,S1 Arsitektur,Ganjil,Lansekap Inovatif,3,7,Pilihan

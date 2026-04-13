@@ -1,0 +1,43 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Agama,2,1,MKWU
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Kewarganegaraan,2,1,MKWU
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Komunikasi Bisnis,2,1,MKWU
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Pengantar Kimia Dasar 1,2,1,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Fisika Dasar,2,1,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Statistika Dasar,2,1,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Praktikum Biologi Dasar 1,1,1,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Praktikum Kimia Dasar 1,1,1,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Aljabar,2,2,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Kalkulus 1,2,2,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Kimia Analitik,2,2,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Persamaan Diferensial,2,2,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Pengantar Nanoteknologi 1,2,2,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Praktikum Kimia Dasar 2,1,2,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Praktikum Fisika Dasar 2,1,2,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Praktikum Biologi Dasar 2,1,2,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Logika dan Pemrograman (C++),2,2,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Pengantar Nanoteknologi 1,2,3,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Praktikum Nanoteknologi 2,2,3,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Kalkulus 2,2,3,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Fisika Mekanika,2,3,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Biologi Sel dan Molekul,2,3,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Biologi Komputasi,2,3,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Nanoteknologi dan Pemula,2,3,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Kimia Fisika Dasar,2,4,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Kimia Organik Dasar 2,2,4,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Spektroskopi Nanoteknologi,3,4,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Kimia Analitik Lanjutan,2,5,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Nanoteknologi Industri,2,5,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Aplikasi Nanoteknologi dalam Industri,2,5,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Nanoteknologi Material 1,2,5,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Nanoteknologi Material 2,2,5,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Kimia Anorganik Analitik dan Sensor,2,5,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Nanoteknologi Konversi dan Penyimpanan Energi,2,6,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Nanoteknologi Lingkungan,2,7,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Manajemen dan K3,2,7,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Magang/Praktikum,6,7,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Nanoteknologi Farmasi,2,8,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Nanoteknologi Tekstil,2,8,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Nanoteknologi dan Material,2,8,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Ganjil,Penelitian dan Pengembangan,2,9,Wajib
+Universitas Airlangga,S1 Rekayasa Nanoteknologi,Genap,Riset dan Publikasi (Skripsi),2,10,Wajib

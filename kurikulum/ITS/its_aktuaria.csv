@@ -1,0 +1,49 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Sains Aktuaria,Ganjil,Kalkulus I,3,1,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Program Komputer,3,1,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Metode Statistika,3,1,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Ekonomi,3,1,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Pengantar Ilmu Aktuaria,3,1,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Aljabar Linear Elementer,3,1,Wajib
+ITS,S1 Sains Aktuaria,Genap,Kalkulus II,3,2,Wajib
+ITS,S1 Sains Aktuaria,Genap,Komputasi Aktuaria,3,2,Wajib
+ITS,S1 Sains Aktuaria,Genap,Teori Peluang,3,2,Wajib
+ITS,S1 Sains Aktuaria,Genap,Akuntansi Aktuaria,3,2,Wajib
+ITS,S1 Sains Aktuaria,Genap,Manajemen Investasi dan Portofolio,3,2,Wajib
+ITS,S1 Sains Aktuaria,Genap,Persamaan Diferensial,3,2,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Model Linear,4,3,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Statistika Matematika I,3,3,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Keuangan Perusahaan,3,3,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Metode Nonparametrik,3,3,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Pengantar Asuransi Kelautan,3,3,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Matematika Finansial,3,3,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Aktuaria,3,3,Wajib
+ITS,S1 Sains Aktuaria,Genap,Metode Peramalan Finansial,3,4,Wajib
+ITS,S1 Sains Aktuaria,Genap,Teori Risiko Asuransi,3,4,Wajib
+ITS,S1 Sains Aktuaria,Genap,Proses Stokastik Aktuaria,3,4,Wajib
+ITS,S1 Sains Aktuaria,Genap,Analisis Data Finansial,3,4,Wajib
+ITS,S1 Sains Aktuaria,Genap,Pengantar Asuransi dan Keuangan Syariah,3,4,Wajib
+ITS,S1 Sains Aktuaria,Genap,Matematika Finansial Lanjut,3,4,Wajib
+ITS,S1 Sains Aktuaria,Genap,Aktuaria Lanjut,3,4,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Data Mining Aktuaria,3,5,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Teori Risiko Asuransi Lanjut,3,5,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Pengantar Asuransi Bencana,3,5,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Manajemen Aktuaria,3,5,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Analisis Survival,3,5,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Simulasi Aktuaria,3,5,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Konsultasi Aktuaria,3,5,Wajib
+ITS,S1 Sains Aktuaria,Genap,Kewirausahaan Berbasis Teknologi,2,6,Wajib
+ITS,S1 Sains Aktuaria,Genap,Pancasila,2,6,Wajib
+ITS,S1 Sains Aktuaria,Genap,Bahasa Indonesia,2,6,Wajib
+ITS,S1 Sains Aktuaria,Genap,Bahasa Inggris,2,6,Wajib
+ITS,S1 Sains Aktuaria,Genap,Pilihan I,3,6,Pilihan
+ITS,S1 Sains Aktuaria,Genap,Pilihan II,3,6,Pilihan
+ITS,S1 Sains Aktuaria,Genap,MK Pengayaan,3,6,Pilihan
+ITS,S1 Sains Aktuaria,Ganjil,Metode Penelitian,3,7,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Kerja Praktik,2,7,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Aplikasi Teknologi & Transformasi Digital,3,7,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Agama,2,7,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Kewarganegaraan,2,7,Wajib
+ITS,S1 Sains Aktuaria,Ganjil,Pilihan IV,3,7,Pilihan
+ITS,S1 Sains Aktuaria,Ganjil,Pilihan V,3,7,Pilihan
+ITS,S1 Sains Aktuaria,Genap,Tugas Akhir,6,8,Wajib

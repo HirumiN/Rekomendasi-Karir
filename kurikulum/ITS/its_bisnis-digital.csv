@@ -1,0 +1,58 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Bisnis Digital,Ganjil,Design Thinking,3,1,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Akuntansi Keuangan,3,1,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Pengantar Ekonomi,3,1,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Pengantar Bisnis,3,1,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Pengantar Sistem Digital,3,1,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Matematika,3,1,Wajib
+ITS,S1 Bisnis Digital,Genap,Manajemen Operasi,3,2,Wajib
+ITS,S1 Bisnis Digital,Genap,Manajemen Organisasi dan SDM,3,2,Wajib
+ITS,S1 Bisnis Digital,Genap,Manajemen Keuangan,3,2,Wajib
+ITS,S1 Bisnis Digital,Genap,Manajemen Pemasaran,3,2,Wajib
+ITS,S1 Bisnis Digital,Genap,New Venture Creation,3,2,Wajib
+ITS,S1 Bisnis Digital,Genap,System Thinking,3,2,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Aspek Hukum dalam Bisnis,3,3,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Komunikasi Bisnis,3,3,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Pemrograman untuk Bisnis,3,3,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Statistik untuk Bisnis,3,3,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Etika Bisnis,3,3,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Pengalaman Pengguna dan Desain Aplikasi,3,3,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Pemasaran Digital,3,3,Wajib
+ITS,S1 Bisnis Digital,Genap,Kecerdasan Buatan dan IoT,3,4,Wajib
+ITS,S1 Bisnis Digital,Genap,Sistem Basis Data,3,4,Wajib
+ITS,S1 Bisnis Digital,Genap,Pemodelan Kuantitatif untuk Bisnis,3,4,Wajib
+ITS,S1 Bisnis Digital,Genap,Bisnis Internasional,3,4,Wajib
+ITS,S1 Bisnis Digital,Genap,Manajemen Proyek,3,4,Wajib
+ITS,S1 Bisnis Digital,Genap,Manajemen Strategis,3,4,Wajib
+ITS,S1 Bisnis Digital,Genap,Akuntansi Manajerial,3,4,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Teknologi dan Penilaian Bisnis,3,5,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Ritel dan E-Commerce,3,5,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Komunikasi Pemasaran Terpadu,3,5,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Inovasi dan Pengembangan Produk Baru,3,5,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Pemrograman Web dan Seluler,3,5,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Teknologi Keuangan,3,5,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Metode Penelitian untuk Bisnis,3,5,Wajib
+ITS,S1 Bisnis Digital,Genap,Seminar,2,6,Wajib
+ITS,S1 Bisnis Digital,Genap,Konsultasi Bisnis,3,6,Wajib
+ITS,S1 Bisnis Digital,Genap,Bahasa Indonesia,2,6,Wajib
+ITS,S1 Bisnis Digital,Genap,Kewarganegaraan,2,6,Wajib
+ITS,S1 Bisnis Digital,Genap,Teknologi Terapan dan Transformasi Digital,3,6,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Kerja Praktik,3,7,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Agama,2,7,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Pancasila,2,7,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Bahasa Inggris,2,7,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Technopreneurship,3,7,Wajib
+ITS,S1 Bisnis Digital,Ganjil,Kursus Pengayaan ITS,2,7,Wajib
+ITS,S1 Bisnis Digital,Genap,Tugas Akhir,6,8,Wajib
+ITS,S1 Bisnis Digital,Genap,Manajemen Rantai Pasok,3,6,Pilihan
+ITS,S1 Bisnis Digital,Genap,Investasi dan Manajemen Portofolio,3,6,Pilihan
+ITS,S1 Bisnis Digital,Genap,Manajemen Merek,3,6,Pilihan
+ITS,S1 Bisnis Digital,Genap,Manajemen Perubahan,3,6,Pilihan
+ITS,S1 Bisnis Digital,Genap,Manajemen Keuangan Internasional,3,6,Pilihan
+ITS,S1 Bisnis Digital,Genap,Riset Pemasaran,3,6,Pilihan
+ITS,S1 Bisnis Digital,Genap,Manajemen Hubungan Pelanggan,3,6,Pilihan
+ITS,S1 Bisnis Digital,Genap,Manajemen Kinerja,3,6,Pilihan
+ITS,S1 Bisnis Digital,Genap,Manajemen Pengetahuan,3,6,Pilihan
+ITS,S1 Bisnis Digital,Genap,Manajemen Lintas Budaya,3,6,Pilihan
+ITS,S1 Bisnis Digital,Genap,Sociopreneurship,3,6,Pilihan
+ITS,S1 Bisnis Digital,Genap,Data Science,4,6,Pilihan

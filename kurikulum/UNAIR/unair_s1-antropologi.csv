@@ -1,0 +1,82 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Antropologi,Ganjil,Agama I,2,1,MPK
+UNAIR,S1 Antropologi,Ganjil,Bahasa Inggris,2,1,MKK
+UNAIR,S1 Antropologi,Ganjil,Bahasa Indonesia,2,1,MPK
+UNAIR,S1 Antropologi,Ganjil,Pancasila,2,1,MPK
+UNAIR,S1 Antropologi,Ganjil,Teknik Penulisan Ilmiah,2,1,MKK
+UNAIR,S1 Antropologi,Ganjil,Pengantar Antropologi,3,1,MKK
+UNAIR,S1 Antropologi,Ganjil,Antropobiologi,3,1,MKK
+UNAIR,S1 Antropologi,Ganjil,Pengantar Sosiologi,3,1,MKK
+UNAIR,S1 Antropologi,Genap,Etika Sosial dan Politik,2,2,MPK
+UNAIR,S1 Antropologi,Genap,Hukum Adat,2,2,MKK
+UNAIR,S1 Antropologi,Genap,Pengantar Statistika Sosial,3,2,MKK
+UNAIR,S1 Antropologi,Genap,Kewarganegaraan,2,2,MPK
+UNAIR,S1 Antropologi,Genap,Filsafat Ilmu,2,2,MKK
+UNAIR,S1 Antropologi,Genap,Prasejarah,3,2,MKK
+UNAIR,S1 Antropologi,Genap,Antropologi Ragawi I,3,2,MKK
+UNAIR,S1 Antropologi,Genap,Pengantar Ilmu Politik,3,2,MKK
+UNAIR,S1 Antropologi,Ganjil,Bahasa Inggris Lanjut,2,3,MKK
+UNAIR,S1 Antropologi,Ganjil,Statistik Sosial I (Inferens),3,3,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Dasar Metodologi Penelitian Sosial,3,3,MKK
+UNAIR,S1 Antropologi,Ganjil,Teori Antropologi I,3,3,MKK
+UNAIR,S1 Antropologi,Ganjil,Antropometri,2,3,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Osteologi,3,3,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Etnografi Indonesia,3,3,MKK
+UNAIR,S1 Antropologi,Ganjil,Pengantar Psikologi Sosial,3,3,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Etika Kepribadian,2,3,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Sistem Hukum di Indonesia,3,3,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Etnografi Madura,2,3,MKK
+UNAIR,S1 Antropologi,Ganjil,Kebudayan Klasik dan Islam Indonesia,3,3,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Folklor,2,3,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Sistem Sosial Budaya Indonesia,3,3,Pilihan
+UNAIR,S1 Antropologi,Genap,Statistik Sosial II (Non Parametrik),3,4,Pilihan
+UNAIR,S1 Antropologi,Genap,Teori Antropologi II,3,4,MKK
+UNAIR,S1 Antropologi,Genap,Antropogenese,2,4,Pilihan
+UNAIR,S1 Antropologi,Genap,Variasi Biologis Manusia,2,4,Pilihan
+UNAIR,S1 Antropologi,Genap,Organisasi Sosial dan Kekerabatan,3,4,MKK
+UNAIR,S1 Antropologi,Genap,Etnografi Bangsa-bangsa,3,4,MKK
+UNAIR,S1 Antropologi,Genap,Etnografi Bali,2,4,Pilihan
+UNAIR,S1 Antropologi,Genap,Etnografi Jawa,2,4,Pilihan
+UNAIR,S1 Antropologi,Genap,Fotografi,2,4,Pilihan
+UNAIR,S1 Antropologi,Genap,Antropologi Kognitif dan Linguistik,3,4,Pilihan
+UNAIR,S1 Antropologi,Genap,Antropologi Politik,3,4,Pilihan
+UNAIR,S1 Antropologi,Genap,Antropologi Hukum,3,4,Pilihan
+UNAIR,S1 Antropologi,Genap,Antropologi Agama,3,4,Pilihan
+UNAIR,S1 Antropologi,Genap,Kajian dan Penulisan Etnografi,3,4,MKK
+UNAIR,S1 Antropologi,Genap,Antropologi Maritim,3,4,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Metode Etnografi,3,5,MKK
+UNAIR,S1 Antropologi,Ganjil,Primatologi,2,5,Pilihan
+UNAIR,S1 Antropologi,Ganjil,PaleoAntropologi,3,5,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Sosial Biologi,3,5,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Perubahan Masyarakat dan Kebudayaan,3,5,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Antropologi Perdesaan,3,5,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Antropologi Kesehatan dan Gizi,3,5,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Antropologi Gender dan Seksualitas,3,5,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Hubungan Antar Suku Bangsa,3,5,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Antropologi Kependudukan,3,5,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Antropologi Pendidikan,3,5,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Antropologi Ekonomi dan Industri,3,5,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Antropologi Kesenian,3,5,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Media Antropologi,2,5,Pilihan
+UNAIR,S1 Antropologi,Genap,Variasi Populasi,2,6,Pilihan
+UNAIR,S1 Antropologi,Genap,Antropologi Pembangunan,3,6,Pilihan
+UNAIR,S1 Antropologi,Genap,Antropologi Perkotaan,3,6,Pilihan
+UNAIR,S1 Antropologi,Genap,Agama II,2,6,MPK
+UNAIR,S1 Antropologi,Genap,Antropologi Ragawi II,2,6,MKK
+UNAIR,S1 Antropologi,Genap,Antropologi Forensik,2,6,Pilihan
+UNAIR,S1 Antropologi,Genap,Antropologi Dental,2,6,Pilihan
+UNAIR,S1 Antropologi,Genap,Antropologi Arsitektur,2,6,Pilihan
+UNAIR,S1 Antropologi,Genap,Antropologi Pariwisata,3,6,Pilihan
+UNAIR,S1 Antropologi,Genap,Antropologi Ekologi,3,6,Pilihan
+UNAIR,S1 Antropologi,Genap,Antropologi Psikologi dan Psikiatri,3,6,Pilihan
+UNAIR,S1 Antropologi,Genap,Budaya Korporat,2,6,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Evolusi Penyakit Pada Manusia,2,7,Pilihan
+UNAIR,S1 Antropologi,Ganjil,KKN,3,7,MBB
+UNAIR,S1 Antropologi,Ganjil,Proposal Skripsi,3,7,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Komunikasi dan Multikulturalisme,3,7,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Keasistenan Antropologi,2,7,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Magang Antropologi,3,7,MBB
+UNAIR,S1 Antropologi,Ganjil,Antropologi Visual,2,7,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Pengembangan Komunitas,3,7,Pilihan
+UNAIR,S1 Antropologi,Ganjil,Pembangunan Masyarakat dan Tanggungjawab Sosial Perusahaan,3,7,Pilihan
+UNAIR,S1 Antropologi,Genap,Skripsi,6,8,Wajib

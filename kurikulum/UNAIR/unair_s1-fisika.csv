@@ -1,0 +1,79 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Fisika,Ganjil,Kalkulus,3,1,Wajib
+UNAIR,S1 Fisika,Ganjil,Fisika Dasar,2,1,Wajib
+UNAIR,S1 Fisika,Ganjil,Kimia Dasar,2,1,Wajib
+UNAIR,S1 Fisika,Ganjil,Biologi Dasar,2,1,Wajib
+UNAIR,S1 Fisika,Ganjil,Data dan Pustaka,2,1,Wajib
+UNAIR,S1 Fisika,Ganjil,Kewarganegaraan,2,1,Wajib
+UNAIR,S1 Fisika,Ganjil,Agama,2,1,Wajib
+UNAIR,S1 Fisika,Ganjil,Bahasa Indonesia,2,1,Wajib
+UNAIR,S1 Fisika,Ganjil,Pancasila,2,1,Wajib
+UNAIR,S1 Fisika,Genap,Logika dan Pemikiran Kritis,2,2,Wajib
+UNAIR,S1 Fisika,Genap,Komunikasi dan pengembangan diri,2,2,Wajib
+UNAIR,S1 Fisika,Genap,Pengantar Kolaborasi Ilmu,2,2,Wajib
+UNAIR,S1 Fisika,Genap,Fisika Dasar (Praktikum),1,2,Wajib
+UNAIR,S1 Fisika,Genap,Fisika Dasar Lanjut,4,2,Wajib
+UNAIR,S1 Fisika,Genap,Fisika Dasar Lanjut (Praktikum),1,2,Wajib
+UNAIR,S1 Fisika,Genap,Bengkel Fisika,2,2,Wajib
+UNAIR,S1 Fisika,Genap,Fisika Matematik I,4,2,Wajib
+UNAIR,S1 Fisika,Genap,Bahasa Inggris 1,2,2,Wajib
+UNAIR,S1 Fisika,Ganjil,Termodinamika,3,3,Wajib
+UNAIR,S1 Fisika,Ganjil,Elektronika I,3,3,Wajib
+UNAIR,S1 Fisika,Ganjil,Elektronika I (Praktikum),1,3,Wajib
+UNAIR,S1 Fisika,Ganjil,Biofisika,2,3,Wajib
+UNAIR,S1 Fisika,Ganjil,Fisika Gelombang,3,3,Wajib
+UNAIR,S1 Fisika,Ganjil,Fisika Modern,4,3,Wajib
+UNAIR,S1 Fisika,Ganjil,Fisika Matematik II,4,3,Wajib
+UNAIR,S1 Fisika,Genap,Mekanika,4,4,Wajib
+UNAIR,S1 Fisika,Genap,Mekanika (Praktikum),1,4,Wajib
+UNAIR,S1 Fisika,Genap,Elektronika II,2,4,Wajib
+UNAIR,S1 Fisika,Genap,Elektronika II (Praktikum),1,4,Wajib
+UNAIR,S1 Fisika,Genap,Fisika Matematik III,3,4,Wajib
+UNAIR,S1 Fisika,Genap,Fisika Komputasi I,3,4,Wajib
+UNAIR,S1 Fisika,Genap,Fisika Komputasi I (Praktikum),1,4,Wajib
+UNAIR,S1 Fisika,Genap,Fisika Kuantum,4,4,Wajib
+UNAIR,S1 Fisika,Genap,Fisika Material,3,4,Pilihan
+UNAIR,S1 Fisika,Genap,Fisika Radiologi & Dosimetri,2,4,Pilihan
+UNAIR,S1 Fisika,Genap,Radiobiologi,2,4,Pilihan
+UNAIR,S1 Fisika,Genap,Kapita Selekta Fisika Teori,2,4,Pilihan
+UNAIR,S1 Fisika,Genap,Biofotonik,2,4,Pilihan
+UNAIR,S1 Fisika,Ganjil,Listrik dan Magnet,4,5,Wajib
+UNAIR,S1 Fisika,Ganjil,Listrik dan Magnet (praktikum),1,5,Wajib
+UNAIR,S1 Fisika,Ganjil,Fisika Atomik dan Molekuler,2,5,Wajib
+UNAIR,S1 Fisika,Ganjil,Fisika Statistik,3,5,Wajib
+UNAIR,S1 Fisika,Ganjil,Fisika Komputasi II,3,5,Wajib
+UNAIR,S1 Fisika,Ganjil,Fisika  komputasi II (Praktikum),1,5,Wajib
+UNAIR,S1 Fisika,Ganjil,Fisika Kesehatan & Proteksi Radiasi,2,5,Pilihan
+UNAIR,S1 Fisika,Ganjil,Fisika Radioterapi,2,5,Pilihan
+UNAIR,S1 Fisika,Ganjil,Pengolahan Citra Digital,2,5,Pilihan
+UNAIR,S1 Fisika,Ganjil,Sistem Cerdas,2,5,Pilihan
+UNAIR,S1 Fisika,Ganjil,Sensor dan Pengukuran,2,5,Pilihan
+UNAIR,S1 Fisika,Ganjil,Sistem Pengaturan,2,5,Pilihan
+UNAIR,S1 Fisika,Ganjil,Optika Modern,3,5,Pilihan
+UNAIR,S1 Fisika,Ganjil,Biomaterial,2,5,Pilihan
+UNAIR,S1 Fisika,Ganjil,Analisis Material,3,5,Pilihan
+UNAIR,S1 Fisika,Genap,Fisika Zat Padat,3,6,Wajib
+UNAIR,S1 Fisika,Genap,Metodologi  Penelitian Fisika,3,6,Wajib
+UNAIR,S1 Fisika,Genap,Praktek Kerja Lapangan,2,6,Wajib
+UNAIR,S1 Fisika,Genap,Fisika Inti,3,6,Wajib
+UNAIR,S1 Fisika,Genap,Mekanika Fluida,2,6,Wajib
+UNAIR,S1 Fisika,Genap,Agama Lanjut,2,6,Wajib
+UNAIR,S1 Fisika,Genap,Anatomi dan Fisiologi,2,6,Pilihan
+UNAIR,S1 Fisika,Genap,Komputasi Atom dan Molekul,3,6,Pilihan
+UNAIR,S1 Fisika,Genap,Pemodelan Fisika,2,6,Pilihan
+UNAIR,S1 Fisika,Genap,Mikroprosesor Dan Mikrokontroler,2,6,Pilihan
+UNAIR,S1 Fisika,Genap,Perangkat Antar Muka,2,6,Pilihan
+UNAIR,S1 Fisika,Genap,Optika Laser dan Serat,3,6,Pilihan
+UNAIR,S1 Fisika,Ganjil,Kewirausahaan,2,7,Wajib
+UNAIR,S1 Fisika,Ganjil,Bahasa Inggris II,2,7,Wajib
+UNAIR,S1 Fisika,Ganjil,Proposal Skripsi,2,7,Wajib
+UNAIR,S1 Fisika,Ganjil,KKN-BBM,3,7,Wajib
+UNAIR,S1 Fisika,Ganjil,Fisika Partikel,2,7,Wajib
+UNAIR,S1 Fisika,Ganjil,Manajemen Industri,2,7,Wajib
+UNAIR,S1 Fisika,Ganjil,Komputasi Material,3,7,Pilihan
+UNAIR,S1 Fisika,Ganjil,Modalitas Citra Medis,2,7,Pilihan
+UNAIR,S1 Fisika,Ganjil,Instrumentasi Medis,2,7,Pilihan
+UNAIR,S1 Fisika,Ganjil,Instrumentasi industri,2,7,Pilihan
+UNAIR,S1 Fisika,Ganjil,Sensor Serat Optik,2,7,Pilihan
+UNAIR,S1 Fisika,Ganjil,Spektroskopi,2,7,Pilihan
+UNAIR,S1 Fisika,Genap,Skripsi,6,8,Wajib

@@ -1,0 +1,130 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Agama Budha I",2,1,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Agama Hindu I",2,1,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Agama Islam I",2,1,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Agama Katolik I",2,1,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Agama Kong Hu Chu I",2,1,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Agama Kristen Protestan I",2,1,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Bahasa Indonesia",2,1,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Bahasa Inggris",2,1,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Data dan Pustaka",2,1,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Kewarganegaraan",2,1,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Komunikasi dan Pengembangan Diri",2,1,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Logika dan Pemikiran Kritis",2,1,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Pancasila",2,1,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Pengantar Ilmu Budaya",2,1,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Pengantar Kolaborasi Keilmuan",2,1,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Filologi",3,2,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Komunikasi dan Pengembangan Diri",2,2,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Logika dan Pemikiran Kritis",2,2,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Pengantar Filsafat",3,2,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Pengantar Kolaborasi Keilmuan",2,2,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Pengantar Linguistik Umum",2,2,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Pengantar Penelitian dan Teori Kebudayaan",3,2,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Penulisan Ilmiah",3,2,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Sastra dan Ilmu Sastra",2,2,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Bahasa Jawa Kuno",2,3,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Bahasa Madura",2,3,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Bahasa Melayu Lama",2,3,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Bahasa Sanskerta",2,3,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Drama Indonesia",2,3,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Fonetik",2,3,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Fonologi",2,3,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Kodikologi",3,3,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Pengantar Kajian Budaya Urban",3,3,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Prosa Indonesia",2,3,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Puisi Indonesia",2,3,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Sastra Jawa",2,3,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Sastra Melayu Lama",2,3,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Statistik Linguistik",2,3,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Teori Sastra Struktural",2,3,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Analisis Wacana",3,4,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Bahasa Arab",2,4,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Bahasa Belanda",2,4,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Bahasa Jepang",2,4,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Bahasa Mandarin",2,4,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Bahasa Perancis",2,4,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Etika dan Estetika",3,4,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Folklor",3,4,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Morfologi Bahasa Indonesia",3,4,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Morfologi Bahasa Indonesia I",3,4,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Morfologi Bahasa Indonesia II",3,4,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Sastra Anak-Anak",2,4,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Sejarah Kajian Bahasa",2,4,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Sejarah Kesusastraan",2,4,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Semantik",2,4,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Sintaksis Bahasa Indonesia",3,4,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Tekstologi",3,4,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Teori Sastra Pascastruktural",2,4,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Filsafat Kebudayaan",2,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Kemahiran Berbahasa Indonesia",3,5,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Kesusastraan Bandingan",2,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Kesusastraan Indonesia Kontemporer",3,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Kuliah Kerja Nyata (KKN)",3,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Linguistik Bandingan",2,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Metode Penelitian Linguistik",3,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Metodologi Penelitian Filologi",3,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Metodologi Penelitian Sastra",3,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Pragmatik",2,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Psikolinguistik",2,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Psikologi Sastra",2,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Sastra Anak",2,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Sastra Cina Dalam Terjemahan",2,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Sastra Jepang Dalam Terjemahan",2,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Sastra Perancis Dalam Terjemahan",2,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Sastra Pesisiran",2,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Sastra Timur Tengah Dalam Terjemahan",2,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Semiotika",2,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Sosiolinguistik",3,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Sosiologi Sastra",3,5,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Agama Budha II",2,6,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Agama Hindu II",2,6,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Agama Islam II",2,6,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Agama Katolik II",2,6,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Agama Kong Hu Chu II",2,6,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Agama Kristen Protestan II",2,6,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Aksara dan Bahasa Naskah Nusantara",2,6,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Apresiasi Sastra",2,6,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Bahasa Indonesia Jurnalistik",3,6,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Dialektologi",3,6,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Dramaturgi",3,6,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Ekokritik",2,6,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Etnolinguistik",3,6,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Hermeneutik",2,6,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Linguistik Forensik",2,6,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Naskah Islam Nusantara",2,6,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Penulisan Kritik Sastra",3,6,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Penulisan Lakon",3,6,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Penyuntingan Bahasa",2,6,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Preservasi Naskah",2,6,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Problematika Bahasa Indonesia",3,6,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Proposal Skripsi",3,6,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Bahasa Indonesia Untuk Penutur Asing",3,7,MKWU
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Leksikografi",2,7,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Naskah Ilmu-Ilmu Tradisional",2,7,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Pengajaran Bahasa Dan Sastra Indonesia",3,7,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Penulisan Prosa",3,7,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Penulisan Puisi",3,7,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Retorika",2,7,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Sastra Sufi",2,7,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Ganjil,"Skripsi",6,7,Wajib
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Agama Budha I",2,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Agama Hindu I",2,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Agama Islam I",2,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Agama Katolik I",2,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Agama Kong Hu Chu I",2,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Agama Kristen Protestan I",2,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Aksara dan Bahasa Naskah Nusantara",2,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"APLIKASI KOMPUTER",2,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Bahasa Indonesia",2,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Bahasa Indonesia Untuk Penutur Asing (BIPA A1)",4,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Bahasa Indonesia Untuk Penutur Asing (BIPA A2)",4,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Bahasa Inggris",2,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Data dan Pustaka",2,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Folklor",3,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Kewarganegaraan",2,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Naskah Islam Nusantara",2,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Pancasila",2,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Pengantar Ilmu Budaya",3,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Penulisan Prosa",3,,Pilihan
+UNAIR,S1 Bahasa Dan Sastra Indonesia,Genap,"Penulisan Puisi",3,,Pilihan

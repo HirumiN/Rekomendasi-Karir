@@ -1,0 +1,56 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Ekonomi Syariah,Ganjil,Akuntansi Dasar,3,1,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Pendidikan Agama I,2,1,MKWU
+UNAIR,S1 Ekonomi Syariah,Ganjil,Pancasila,2,1,MKWU
+UNAIR,S1 Ekonomi Syariah,Ganjil,Kewarganegaraan,2,1,MKWU
+UNAIR,S1 Ekonomi Syariah,Ganjil,Data dan Pustaka,2,1,MKWU
+UNAIR,S1 Ekonomi Syariah,Ganjil,Bahasa Indonesia,2,1,MKWU
+UNAIR,S1 Ekonomi Syariah,Ganjil,Logika dan Pemikiran Kritis,2,1,MKWU
+UNAIR,S1 Ekonomi Syariah,Ganjil,Pengantar Kolaborasi Keilmuan,2,1,MKWU
+UNAIR,S1 Ekonomi Syariah,Ganjil,Komunikasi dan Pengembangan Diri,2,1,MKWU
+UNAIR,S1 Ekonomi Syariah,Genap,Pengantar Bisnis,3,2,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Pengantar Teori Ekonomi,3,2,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Fikih Muamalah,3,2,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Pengantar Manajemen Islam,3,2,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Lembaga Keuangan Syariah dan Regulator,3,2,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Al Qur'an Hadist Ekonomi,2,2,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Pengantar Ekonomi Islam,3,2,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Aspek Hukum dalam Bisnis,3,3,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Statistik Ekonomi dan Keuangan Islam,3,3,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Manajemen Pemasaran Syariah,3,3,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Hukum Zakat dan Perpajakan,3,3,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Manajemen Keuangan Islam,3,3,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Matematika Ekonomi dan Keuangan Islam,3,3,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Ekonomi Mikro Islam,3,3,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Ekonomi Makro Islam,3,3,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Manajemen Bank Syariah,3,4,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Akuntansi Keuangan Syariah,3,4,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Akuntansi Manajemen Bisnis Islam,3,4,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Ekonomi Moneter Islam,3,4,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Pasar Modal dan Manajemen Investasi Syariah,3,4,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Ushul Fiqh Ekonomi dan Keuangan,3,4,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Sejarah Pemikiran Ekonomi Islam,3,4,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Manajemen Asuransi Islam,3,4,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Ekonomi dan Manajemen ZISWAF,3,5,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Analisa Laporan Keuangan Syariah dan Penganggaran,3,5,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Ekonomi Pembangunan Islam,3,5,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Ekonometrika Terapan,3,5,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Perencanaan dan Permodelan Bisnis Islam,3,5,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Metode Penelitian,3,5,MKK
+UNAIR,S1 Ekonomi Syariah,Ganjil,Keuangan Publik Syariah,3,5,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Praktikum Keuangan Syariah,3,6,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Seminar Proposal,2,6,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,Skripsi,6,6,MKK
+UNAIR,S1 Ekonomi Syariah,Genap,KKN,3,6,MBB
+UNAIR,S1 Ekonomi Syariah,Genap,Manajemen Risiko Syariah,3,6,Pilihan
+UNAIR,S1 Ekonomi Syariah,Genap,Akuntansi Perbankan Syariah,3,6,Pilihan
+UNAIR,S1 Ekonomi Syariah,Genap,Fikih Ekonomi Syariah Kontemporer,3,6,Pilihan
+UNAIR,S1 Ekonomi Syariah,Genap,Tata Kelola Perbankan Syariah,3,6,Pilihan
+UNAIR,S1 Ekonomi Syariah,Genap,Perbankan Syariah Internasional,3,6,Pilihan
+UNAIR,S1 Ekonomi Syariah,Genap,Enterpreneurship Syariah,3,6,Pilihan
+UNAIR,S1 Ekonomi Syariah,Genap,Keuangan Mikro Syariah,3,6,Pilihan
+UNAIR,S1 Ekonomi Syariah,Genap,Ekonomi Digital Syariah,3,6,Pilihan
+UNAIR,S1 Ekonomi Syariah,Genap,Dana Pensiun Syariah,3,6,Pilihan
+UNAIR,S1 Ekonomi Syariah,Genap,Fintech Syariah,3,6,Pilihan
+UNAIR,S1 Ekonomi Syariah,Genap,Pasar Modal Syariah Lanjutan,3,6,Pilihan
+UNAIR,S1 Ekonomi Syariah,Genap,Perpajakan Syariah,3,6,Pilihan

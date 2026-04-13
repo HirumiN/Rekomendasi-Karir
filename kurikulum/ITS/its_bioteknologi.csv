@@ -1,0 +1,47 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Bioteknologi,Ganjil,Kalkulus 1,3,1,Wajib
+ITS,S1 Bioteknologi,Ganjil,Fisika Dasar,3,1,Wajib
+ITS,S1 Bioteknologi,Ganjil,Kimia,3,1,Wajib
+ITS,S1 Bioteknologi,Ganjil,Biologi Umum,2,1,Wajib
+ITS,S1 Bioteknologi,Ganjil,Pengantar Bioteknologi,3,1,Wajib
+ITS,S1 Bioteknologi,Ganjil,Manajemen Laboratorium,2,1,Wajib
+ITS,S1 Bioteknologi,Ganjil,Bioetik dan Regulasi GMO,2,1,Wajib
+ITS,S1 Bioteknologi,Genap,Biodiversitas,3,2,Wajib
+ITS,S1 Bioteknologi,Genap,Biokimia,4,2,Wajib
+ITS,S1 Bioteknologi,Genap,Biologi Sel,3,2,Wajib
+ITS,S1 Bioteknologi,Genap,Genetika,4,2,Wajib
+ITS,S1 Bioteknologi,Genap,Mikrobiologi,4,2,Wajib
+ITS,S1 Bioteknologi,Ganjil,Biologi Molekuler,3,3,Wajib
+ITS,S1 Bioteknologi,Ganjil,Bioteknologi Lingkungan,3,3,Wajib
+ITS,S1 Bioteknologi,Ganjil,Fisiologi Hewan,4,3,Wajib
+ITS,S1 Bioteknologi,Ganjil,Fisiologi Tumbuhan,4,3,Wajib
+ITS,S1 Bioteknologi,Ganjil,Nanobioteknologi,2,3,Wajib
+ITS,S1 Bioteknologi,Ganjil,Rekayasa Genetika,3,3,Wajib
+ITS,S1 Bioteknologi,Ganjil,Pengantar Bioinformatika,2,3,Wajib
+ITS,S1 Bioteknologi,Genap,Bioteknologi Industri,3,4,Wajib
+ITS,S1 Bioteknologi,Genap,Fisiologi Mikrobia,3,4,Wajib
+ITS,S1 Bioteknologi,Genap,Instrumentasi Bioteknologi,3,4,Wajib
+ITS,S1 Bioteknologi,Genap,Kultur Sel dan Jaringan Hewan,3,4,Wajib
+ITS,S1 Bioteknologi,Genap,Kultur Sel dan Jaringan Tumbuhan,3,4,Wajib
+ITS,S1 Bioteknologi,Genap,Monitoring dan Mitigasi GMO,2,4,Wajib
+ITS,S1 Bioteknologi,Genap,Teknologi Enzim,3,4,Wajib
+ITS,S1 Bioteknologi,Ganjil,Bioteknologi Bahan Alam,3,5,Wajib
+ITS,S1 Bioteknologi,Ganjil,Bioteknologi Medis,3,5,Wajib
+ITS,S1 Bioteknologi,Ganjil,Bioteknologi Pertanian,3,5,Wajib
+ITS,S1 Bioteknologi,Ganjil,Bioteknologi Pangan,3,5,Wajib
+ITS,S1 Bioteknologi,Ganjil,Bioteknologi Akuatik,3,5,Wajib
+ITS,S1 Bioteknologi,Ganjil,Teknologi Omics,3,5,Wajib
+ITS,S1 Bioteknologi,Ganjil,Metodologi Penelitian dan Biostatistika,3,5,Wajib
+ITS,S1 Bioteknologi,Genap,Bioteknopreneurship,2,6,Wajib
+ITS,S1 Bioteknologi,Genap,Bahasa Inggris,2,6,Wajib
+ITS,S1 Bioteknologi,Genap,Teknopreneur,2,6,Wajib
+ITS,S1 Bioteknologi,Genap,Bahasa Indonesia,2,6,Wajib
+ITS,S1 Bioteknologi,Genap,Pancasila,2,6,Wajib
+ITS,S1 Bioteknologi,Genap,Mata Kuliah Pilihan,10,6,Pilihan
+ITS,S1 Bioteknologi,Ganjil,Aplikasi Teknologi dan Transformasi Digital,3,7,Wajib
+ITS,S1 Bioteknologi,Ganjil,Agama,2,7,Wajib
+ITS,S1 Bioteknologi,Ganjil,Kewarganegaraan,2,7,Wajib
+ITS,S1 Bioteknologi,Ganjil,Seminar,2,7,Wajib
+ITS,S1 Bioteknologi,Ganjil,Kerja Praktik,2,7,Wajib
+ITS,S1 Bioteknologi,Ganjil,Mata Kuliah Pilihan,9,7,Pilihan
+ITS,S1 Bioteknologi,Genap,Tugas Akhir,6,8,Wajib

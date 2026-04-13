@@ -1,0 +1,84 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Matematika,Ganjil,Agama,2,1,Wajib
+UNAIR,S1 Matematika,Ganjil,Pancasila,2,1,Wajib
+UNAIR,S1 Matematika,Ganjil,Kewarganegaraan,2,1,Wajib
+UNAIR,S1 Matematika,Ganjil,Bahasa Indonesia,2,1,Wajib
+UNAIR,S1 Matematika,Ganjil,Data dan Pustaka,2,1,Wajib
+UNAIR,S1 Matematika,Ganjil,Biologi Dasar,2,1,Wajib
+UNAIR,S1 Matematika,Ganjil,Kimia Dasar,2,1,Wajib
+UNAIR,S1 Matematika,Ganjil,Kalkulus,3,1,Wajib
+UNAIR,S1 Matematika,Ganjil,Dasar Dasar Matematika I,2,1,Wajib
+UNAIR,S1 Matematika,Genap,Logika dan Pemikiran Kritis,2,2,Wajib
+UNAIR,S1 Matematika,Genap,Pengantar Kolaborasi Keilmuan,2,2,Wajib
+UNAIR,S1 Matematika,Genap,Komunikasi dan Pengembangan Diri,2,2,Wajib
+UNAIR,S1 Matematika,Genap,Dasar Dasar Matematika II,2,2,Wajib
+UNAIR,S1 Matematika,Genap,Kalkulus Lanjut,4,2,Wajib
+UNAIR,S1 Matematika,Genap,Aljabar Linier Elementer,3,2,Wajib
+UNAIR,S1 Matematika,Genap,Fisika Dasar,2,2,Wajib
+UNAIR,S1 Matematika,Genap,Bahasa Inggris,2,2,Wajib
+UNAIR,S1 Matematika,Genap,Matematika Bisnis,2,2,Pilihan
+UNAIR,S1 Matematika,Genap,Teori Bilangan,2,2,Pilihan
+UNAIR,S1 Matematika,Genap,Pengantar Geometri,2,2,Pilihan
+UNAIR,S1 Matematika,Ganjil,Algoritma dan Pemrograman,3,3,Wajib
+UNAIR,S1 Matematika,Ganjil,Algoritma dan Pemrograman (Praktikum),1,3,Wajib
+UNAIR,S1 Matematika,Ganjil,Statistika I,2,3,Wajib
+UNAIR,S1 Matematika,Ganjil,Program Linier,3,3,Wajib
+UNAIR,S1 Matematika,Ganjil,Matematika Diskrit,3,3,Wajib
+UNAIR,S1 Matematika,Ganjil,Persamaan Diferensial Biasa,3,3,Wajib
+UNAIR,S1 Matematika,Ganjil,Geometri Analitik,3,3,Wajib
+UNAIR,S1 Matematika,Ganjil,Kalkulus (Praktikum),1,3,Wajib
+UNAIR,S1 Matematika,Ganjil,Asuransi,2,3,Pilihan
+UNAIR,S1 Matematika,Ganjil,Aljabar Matriks,2,3,Pilihan
+UNAIR,S1 Matematika,Ganjil,Logika Fuzzy,2,3,Pilihan
+UNAIR,S1 Matematika,Ganjil,Manajemen Organisasi,2,3,Pilihan
+UNAIR,S1 Matematika,Genap,Statistika II,2,4,Wajib
+UNAIR,S1 Matematika,Genap,Statistika (Praktikum),1,4,Wajib
+UNAIR,S1 Matematika,Genap,Aljabar Linier,3,4,Wajib
+UNAIR,S1 Matematika,Genap,Kalkulus Peubah Banyak,4,4,Wajib
+UNAIR,S1 Matematika,Genap,Metode Numerik,3,4,Wajib
+UNAIR,S1 Matematika,Genap,Riset Operasi,2,4,Wajib
+UNAIR,S1 Matematika,Genap,Riset Operasi (Praktikum),1,4,Wajib
+UNAIR,S1 Matematika,Genap,Persamaan Diferensial Parsial,2,4,Wajib
+UNAIR,S1 Matematika,Genap,Dinamika Populasi,3,4,Pilihan
+UNAIR,S1 Matematika,Genap,Struktur Data dan Algoritma,3,4,Pilihan
+UNAIR,S1 Matematika,Genap,Persamaan Diferensial Numerik,2,4,Pilihan
+UNAIR,S1 Matematika,Genap,Basis Data,2,4,Pilihan
+UNAIR,S1 Matematika,Genap,Geometri Diskrit,2,4,Pilihan
+UNAIR,S1 Matematika,Genap,Program Linier Integer,3,4,Pilihan
+UNAIR,S1 Matematika,Ganjil,Struktur Aljabar,3,5,Wajib
+UNAIR,S1 Matematika,Ganjil,Simulasi,3,5,Wajib
+UNAIR,S1 Matematika,Ganjil,Aljabar (Praktikum),1,5,Wajib
+UNAIR,S1 Matematika,Ganjil,Analisis Real I,2,5,Wajib
+UNAIR,S1 Matematika,Ganjil,Statistika Matematika,4,5,Wajib
+UNAIR,S1 Matematika,Ganjil,Pengantar Peubah Kompleks,2,5,Wajib
+UNAIR,S1 Matematika,Ganjil,Pemodelan Matematika I,2,5,Wajib
+UNAIR,S1 Matematika,Ganjil,Kecerdasan Buatan,3,5,Pilihan
+UNAIR,S1 Matematika,Ganjil,Masalah Syarat Batas,2,5,Pilihan
+UNAIR,S1 Matematika,Ganjil,Geometri Diferensial,3,5,Pilihan
+UNAIR,S1 Matematika,Ganjil,Teori Graf,3,5,Pilihan
+UNAIR,S1 Matematika,Ganjil,Bahasa Inggris Lanjut,2,5,Pilihan
+UNAIR,S1 Matematika,Ganjil,Teori Koding,2,5,Pilihan
+UNAIR,S1 Matematika,Ganjil,Riset Operasi Lanjut,3,5,Pilihan
+UNAIR,S1 Matematika,Genap,Praktek Kerja Lapangan*,2,6,Wajib
+UNAIR,S1 Matematika,Genap,Pemodelan Matematika II,2,6,Wajib
+UNAIR,S1 Matematika,Genap,Metodologi Penelitian,2,6,Wajib
+UNAIR,S1 Matematika,Genap,KKN-BBM*,3,6,Wajib
+UNAIR,S1 Matematika,Genap,Analisis Real II,2,6,Wajib
+UNAIR,S1 Matematika,Genap,Kriptografi,2,6,Pilihan
+UNAIR,S1 Matematika,Genap,Teori Kontrol Linier,3,6,Pilihan
+UNAIR,S1 Matematika,Genap,Optimasi,3,6,Pilihan
+UNAIR,S1 Matematika,Genap,Data Mining,3,6,Pilihan
+UNAIR,S1 Matematika,Genap,Pemodelan Fraksional,3,6,Pilihan
+UNAIR,S1 Matematika,Genap,Agama Lanjut,2,6,Pilihan
+UNAIR,S1 Matematika,Genap,Peubah Kompleks,2,6,Pilihan
+UNAIR,S1 Matematika,Ganjil,Proposal Skripsi *,2,7,Wajib
+UNAIR,S1 Matematika,Ganjil,Kapita Selekta Analisis,2,7,Pilihan
+UNAIR,S1 Matematika,Ganjil,Kapita Selekta Aljabar,2,7,Pilihan
+UNAIR,S1 Matematika,Ganjil,Kapita Selekta Pemodelan Sistem,2,7,Pilihan
+UNAIR,S1 Matematika,Ganjil,Kapita Selekta Riset Operasi dan Komputasi,2,7,Pilihan
+UNAIR,S1 Matematika,Ganjil,Teori Kontrol Diskrit,2,7,Pilihan
+UNAIR,S1 Matematika,Ganjil,Kewirausahaan,2,7,Pilihan
+UNAIR,S1 Matematika,Ganjil,Aplikasi Kriptografi,2,7,Pilihan
+UNAIR,S1 Matematika,Ganjil,Jaringan Syaraf Tiruan,3,7,Pilihan
+UNAIR,S1 Matematika,Ganjil,Teori Ruang Metrik,3,7,Pilihan
+UNAIR,S1 Matematika,Genap,Skripsi*,6,8,Wajib

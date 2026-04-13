@@ -1,0 +1,69 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Psikologi,Ganjil,Agama I,2,1,MKWU
+UNAIR,S1 Psikologi,Ganjil,Pancasila,2,1,MKWU
+UNAIR,S1 Psikologi,Ganjil,Kewarganegaraan,2,1,MKWU
+UNAIR,S1 Psikologi,Ganjil,Bahasa Indonesia,2,1,MKWU
+UNAIR,S1 Psikologi,Ganjil,Data dan Pustaka,2,1,MKWU
+UNAIR,S1 Psikologi,Ganjil,Logika dan Pemikiran Kritis,2,1,MKWU
+UNAIR,S1 Psikologi,Ganjil,Inovasi dan Kolaborasi Bisnis,2,1,MKWU
+UNAIR,S1 Psikologi,Ganjil,Pengembangan Diri Kewirausahaan,2,1,MKWU
+UNAIR,S1 Psikologi,Ganjil,Bahasa Inggris,2,1,MKK
+UNAIR,S1 Psikologi,Ganjil,Sejarah dan Aliran Psikologi,2,1,MKK
+UNAIR,S1 Psikologi,Genap,Perilaku Individu dan Proses Mental,3,2,MKK
+UNAIR,S1 Psikologi,Genap,Biopsikologi Perilaku,4,2,MKK
+UNAIR,S1 Psikologi,Genap,Filsafat Manusia,2,2,MKK
+UNAIR,S1 Psikologi,Genap,Kognisi Sosial,2,2,MKK
+UNAIR,S1 Psikologi,Genap,Interaksi dan Pengaruh Sosial,2,2,MKK
+UNAIR,S1 Psikologi,Genap,Psikologi Kepribadian,4,2,MKK
+UNAIR,S1 Psikologi,Genap,Dinamika dan Proses Kelompok,2,2,MKK
+UNAIR,S1 Psikologi,Ganjil,Perkembangan Manusia Pendidikan dan Keluarga,4,3,MKK
+UNAIR,S1 Psikologi,Ganjil,Perilaku Sehat,2,3,MKK
+UNAIR,S1 Psikologi,Ganjil,Kesehatan Mental,3,3,MKK
+UNAIR,S1 Psikologi,Ganjil,Dasar-dasar Asesmen Psikologis,4,3,MKK
+UNAIR,S1 Psikologi,Ganjil,Dasar-dasar Intervensi Psikologis,4,3,MKK
+UNAIR,S1 Psikologi,Ganjil,Psikologi Belajar,2,3,MKK
+UNAIR,S1 Psikologi,Ganjil,Teori-teori Psikologi Perkembangan,3,3,MKK
+UNAIR,S1 Psikologi,Ganjil,Statistik,2,3,MKK
+UNAIR,S1 Psikologi,Genap,Psikologi Industri dan Organisasi,3,4,MKK
+UNAIR,S1 Psikologi,Genap,Psikopatologi,3,4,MKK
+UNAIR,S1 Psikologi,Genap,Metode Penelitian Kuantitatif,4,4,MKK
+UNAIR,S1 Psikologi,Genap,Metode Penelitian Kualitatif,4,4,MKK
+UNAIR,S1 Psikologi,Genap,Asesmen dan Intervensi Anak dan Remaja,4,4,MKK
+UNAIR,S1 Psikologi,Genap,Asesmen dan Intervensi Dewasa dan Lansia,4,4,MKK
+UNAIR,S1 Psikologi,Genap,Psikometri,2,4,MKK
+UNAIR,S1 Psikologi,Ganjil,Agama II,2,5,MKWU
+UNAIR,S1 Psikologi,Ganjil,Psikologi Pendidikan,3,5,MKK
+UNAIR,S1 Psikologi,Ganjil,Psikologi Ulayat,3,5,MKK
+UNAIR,S1 Psikologi,Ganjil,Kepemimpinan dan Pengambilan Keputusan,2,5,MKK
+UNAIR,S1 Psikologi,Genap,KKN,3,6,MBB
+UNAIR,S1 Psikologi,Genap,Desain Penelitian Psikologi,2,6,MKK
+UNAIR,S1 Psikologi,Genap,Kesehatan Mental Anak dan Remaja,2,6,Pilihan
+UNAIR,S1 Psikologi,Genap,Kesehatan Mental Dewasa dan Lansia,2,6,Pilihan
+UNAIR,S1 Psikologi,Genap,Psikologi Forensik,2,6,Pilihan
+UNAIR,S1 Psikologi,Genap,Psikologi Klinis Kontemporer,2,6,Pilihan
+UNAIR,S1 Psikologi,Genap,Perilaku Kerja dan Kinerja,2,6,Pilihan
+UNAIR,S1 Psikologi,Genap,Psikologi Kewirausahaan,2,6,Pilihan
+UNAIR,S1 Psikologi,Genap,Pelatihan dan Karir,2,6,Pilihan
+UNAIR,S1 Psikologi,Genap,Kesehatan Mental Komunitas,2,6,Pilihan
+UNAIR,S1 Psikologi,Genap,Psikologi Perdamain,2,6,Pilihan
+UNAIR,S1 Psikologi,Genap,Psikologi Ruang Siber,2,6,Pilihan
+UNAIR,S1 Psikologi,Genap,Psikologi Bencana,2,6,Pilihan
+UNAIR,S1 Psikologi,Genap,Pendidikan Anak Usia Dini,2,6,Pilihan
+UNAIR,S1 Psikologi,Genap,Pendidikan Orang Dewasa,2,6,Pilihan
+UNAIR,S1 Psikologi,Genap,Psikologi Keberbaktian,2,6,Pilihan
+UNAIR,S1 Psikologi,Genap,Psikologi Bermain,2,6,Pilihan
+UNAIR,S1 Psikologi,Ganjil,Kesehatan Mental Keluarga,2,7,Pilihan
+UNAIR,S1 Psikologi,Ganjil,Pengelolaan Stres,2,7,Pilihan
+UNAIR,S1 Psikologi,Ganjil,Konseling Terapeutik,2,7,Pilihan
+UNAIR,S1 Psikologi,Ganjil,Assessment Center,2,7,Pilihan
+UNAIR,S1 Psikologi,Ganjil,Perubahan dan Pengembangan Organisasi,2,7,Pilihan
+UNAIR,S1 Psikologi,Ganjil,Perilaku Konsumen,2,7,Pilihan
+UNAIR,S1 Psikologi,Ganjil,Ketahanan Keluarga,2,7,Pilihan
+UNAIR,S1 Psikologi,Ganjil,Psikologi Massa,2,7,Pilihan
+UNAIR,S1 Psikologi,Ganjil,Psikologi Olahraga,2,7,Pilihan
+UNAIR,S1 Psikologi,Ganjil,Psikologi Gender,2,7,Pilihan
+UNAIR,S1 Psikologi,Ganjil,Pendidikan Inklusif,2,7,Pilihan
+UNAIR,S1 Psikologi,Ganjil,Stimulasi Perkembangan Manusia,2,7,Pilihan
+UNAIR,S1 Psikologi,Ganjil,Psikologi Belajar Peserta Didik,2,7,Pilihan
+UNAIR,S1 Psikologi,Ganjil,Psikologi Belajar Pendidik,2,7,Pilihan
+UNAIR,S1 Psikologi,Genap,Skripsi,6,8,Wajib

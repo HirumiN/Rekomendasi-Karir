@@ -1,0 +1,103 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Biologi,Ganjil,Biologi Sel,2,1,Wajib
+UNAIR,S1 Biologi,Ganjil,Biologi Dasar,2,1,Wajib
+UNAIR,S1 Biologi,Ganjil,Biologi Dasar (Praktikum),1,1,Wajib
+UNAIR,S1 Biologi,Ganjil,Kimia Dasar,2,1,Wajib
+UNAIR,S1 Biologi,Ganjil,Kimia Dasar (Praktikum),1,1,Wajib
+UNAIR,S1 Biologi,Ganjil,Data dan Pustaka,2,1,Wajib
+UNAIR,S1 Biologi,Ganjil,Kewarganegaraan,2,1,Wajib
+UNAIR,S1 Biologi,Ganjil,Pancasila,2,1,Wajib
+UNAIR,S1 Biologi,Ganjil,Agama,2,1,Wajib
+UNAIR,S1 Biologi,Ganjil,Bahasa Indonesia,2,1,Wajib
+UNAIR,S1 Biologi,Genap,Struktur Tumbuhan,3,2,Wajib
+UNAIR,S1 Biologi,Genap,Struktur Tumbuhan (Praktikum),1,2,Wajib
+UNAIR,S1 Biologi,Genap,Genetika,2,2,Wajib
+UNAIR,S1 Biologi,Genap,Fisika Dasar,2,2,Wajib
+UNAIR,S1 Biologi,Genap,Kalkulus,3,2,Wajib
+UNAIR,S1 Biologi,Genap,Logika dan Pemikiran Kritis,2,2,Wajib
+UNAIR,S1 Biologi,Genap,Pengantar Kolaborasi Keilmuan,2,2,Wajib
+UNAIR,S1 Biologi,Genap,Komunikasi dan Pengembangan Diri,2,2,Wajib
+UNAIR,S1 Biologi,Genap,Anatomi Perbandingan Vertebrata,2,2,Wajib
+UNAIR,S1 Biologi,Genap,Anatomi Perbandingan Vertebrata (Praktikum),1,2,Wajib
+UNAIR,S1 Biologi,Ganjil,Ekologi Umum,2,3,Wajib
+UNAIR,S1 Biologi,Ganjil,Ekologi Umum (Praktikum),1,3,Wajib
+UNAIR,S1 Biologi,Ganjil,Fisiologi Tumbuhan,2,3,Wajib
+UNAIR,S1 Biologi,Ganjil,Fisiologi Tumbuhan (Praktikum),1,3,Wajib
+UNAIR,S1 Biologi,Ganjil,Genetika Molekuler,2,3,Wajib
+UNAIR,S1 Biologi,Ganjil,Ilmu Biokimia,2,3,Wajib
+UNAIR,S1 Biologi,Ganjil,Mikroteknik,2,3,Wajib
+UNAIR,S1 Biologi,Ganjil,Histologi Hewan,2,3,Wajib
+UNAIR,S1 Biologi,Ganjil,Histologi Hewan (Praktikum),1,3,Wajib
+UNAIR,S1 Biologi,Ganjil,Mikrobiologi Umum,2,3,Wajib
+UNAIR,S1 Biologi,Ganjil,Mikrobiologi Umum (Praktikum),1,3,Wajib
+UNAIR,S1 Biologi,Ganjil,Bahasa Inggris,2,3,Wajib
+UNAIR,S1 Biologi,Ganjil,Lingkungan Abiotik,2,3,Pilihan
+UNAIR,S1 Biologi,Ganjil,Kewirausahaan,2,3,Pilihan
+UNAIR,S1 Biologi,Ganjil,Mikroteknik (Praktikum),2,3,Pilihan
+UNAIR,S1 Biologi,Ganjil,Biologi Laut,2,3,Pilihan
+UNAIR,S1 Biologi,Ganjil,Karsinologi,2,3,Pilihan
+UNAIR,S1 Biologi,Genap,Biologi Konservasi,2,4,Wajib
+UNAIR,S1 Biologi,Genap,Ekologi Perilaku,2,4,Wajib
+UNAIR,S1 Biologi,Genap,Embriologi Tumbuhan,2,4,Wajib
+UNAIR,S1 Biologi,Genap,Embriologi Tumbuhan (Praktikum),1,4,Wajib
+UNAIR,S1 Biologi,Genap,Metode Analisis Molekuler,1,4,Wajib
+UNAIR,S1 Biologi,Genap,Metode Analisis Molekuler (Praktikum),1,4,Wajib
+UNAIR,S1 Biologi,Genap,Taksonomi,2,4,Wajib
+UNAIR,S1 Biologi,Genap,Taksonomi (Praktikum),1,4,Wajib
+UNAIR,S1 Biologi,Genap,"Biodiversitas Monera, Protista, dan Fungi",2,4,Wajib
+UNAIR,S1 Biologi,Genap,Fisiologi Hewan,2,4,Wajib
+UNAIR,S1 Biologi,Genap,Fisiologi Hewan (Praktikum),1,4,Wajib
+UNAIR,S1 Biologi,Genap,Metode Statistika,2,4,Wajib
+UNAIR,S1 Biologi,Genap,Entomologi,2,4,Pilihan
+UNAIR,S1 Biologi,Genap,Ekologi Terestrial,2,4,Pilihan
+UNAIR,S1 Biologi,Genap,Ekologi Terestrial (Praktikum),1,4,Pilihan
+UNAIR,S1 Biologi,Genap,Bakteriologi,2,4,Pilihan
+UNAIR,S1 Biologi,Genap,Bakteriologi (Praktikum),1,4,Pilihan
+UNAIR,S1 Biologi,Genap,Botani Ekonomi,2,4,Pilihan
+UNAIR,S1 Biologi,Ganjil,Biodiversitas Ekosistem,2,5,Wajib
+UNAIR,S1 Biologi,Ganjil,Biodiversitas Tumbuhan,2,5,Wajib
+UNAIR,S1 Biologi,Ganjil,Biodiversitas Tumbuhan (Praktikum),1,5,Wajib
+UNAIR,S1 Biologi,Ganjil,Bioinformatika,2,5,Wajib
+UNAIR,S1 Biologi,Ganjil,Bioinformatika (Praktikum),1,5,Wajib
+UNAIR,S1 Biologi,Ganjil,Kapita Selekta Bidang Khusus,2,5,Wajib
+UNAIR,S1 Biologi,Ganjil,Metodologi Penelitian,2,5,Wajib
+UNAIR,S1 Biologi,Ganjil,Biodiversitas Hewan,2,5,Wajib
+UNAIR,S1 Biologi,Ganjil,Biodiversitas Hewan (Praktikum),1,5,Wajib
+UNAIR,S1 Biologi,Ganjil,Embriologi Vertebrata,2,5,Wajib
+UNAIR,S1 Biologi,Ganjil,Embriologi Vertebrata (Praktikum),1,5,Wajib
+UNAIR,S1 Biologi,Ganjil,Ekologi Perairan,2,5,Pilihan
+UNAIR,S1 Biologi,Ganjil,Ekologi Perairan (Praktikum),1,5,Pilihan
+UNAIR,S1 Biologi,Ganjil,Mikologi,2,5,Pilihan
+UNAIR,S1 Biologi,Ganjil,Mikologi (Praktikum),1,5,Pilihan
+UNAIR,S1 Biologi,Ganjil,Imunobiologi,2,5,Pilihan
+UNAIR,S1 Biologi,Ganjil,Kultur Jaringan Tumbuhan,2,5,Pilihan
+UNAIR,S1 Biologi,Ganjil,Kultur Jaringan Tumbuhan (Praktikum),1,5,Pilihan
+UNAIR,S1 Biologi,Genap,Praktek Kerja Lapangan (MBKM dengan Institusi Non-PT),4,6,Wajib
+UNAIR,S1 Biologi,Genap,Pengetahuan Industri,4,6,Wajib
+UNAIR,S1 Biologi,Genap,Pengetahuan Teknologi Informasi,4,6,Wajib
+UNAIR,S1 Biologi,Genap,Evolusi,2,6,Wajib
+UNAIR,S1 Biologi,Genap,Biosistematika,2,6,Wajib
+UNAIR,S1 Biologi,Genap,Biosistematika (Praktikum),1,6,Wajib
+UNAIR,S1 Biologi,Genap,Agama Lanjut,2,6,Wajib
+UNAIR,S1 Biologi,Genap,Rekayasa Genetika,2,6,Pilihan
+UNAIR,S1 Biologi,Genap,Endokrinologi,2,6,Pilihan
+UNAIR,S1 Biologi,Genap,Spermatologi,1,6,Pilihan
+UNAIR,S1 Biologi,Genap,Spermatologi (Praktikum),1,6,Pilihan
+UNAIR,S1 Biologi,Genap,Mikrobiologi Terapan,2,6,Pilihan
+UNAIR,S1 Biologi,Genap,Mikrobiologi Terapan (Praktikum),1,6,Pilihan
+UNAIR,S1 Biologi,Ganjil,Seminar,2,7,Wajib
+UNAIR,S1 Biologi,Ganjil,Kuliah Kerja Nyata (MBKM dengan Institusi Non-PT),3,7,Wajib
+UNAIR,S1 Biologi,Ganjil,Teknologi Pengajaran (MBKM),4,7,Wajib
+UNAIR,S1 Biologi,Ganjil,Studi Independen (MBKM),4,7,Wajib
+UNAIR,S1 Biologi,Ganjil,Pengetahuan Biologi Masa Kini (MBKM),4,7,Wajib
+UNAIR,S1 Biologi,Ganjil,Reproduksi Hewan,2,7,Pilihan
+UNAIR,S1 Biologi,Ganjil,Kultur Sel Hewan,2,7,Pilihan
+UNAIR,S1 Biologi,Ganjil,Teratologi,2,7,Pilihan
+UNAIR,S1 Biologi,Ganjil,Adaptasi Jaringan Hewan,2,7,Pilihan
+UNAIR,S1 Biologi,Ganjil,Pengelolaan Lingkungan Hidup,2,7,Pilihan
+UNAIR,S1 Biologi,Ganjil,Reproduksi Spermatophyta,2,7,Pilihan
+UNAIR,S1 Biologi,Ganjil,Reproduksi Spermatophyta (Praktikum),1,7,Pilihan
+UNAIR,S1 Biologi,Ganjil,Mikrobiologi Lingkungan,2,7,Pilihan
+UNAIR,S1 Biologi,Ganjil,Orchidologi,2,7,Pilihan
+UNAIR,S1 Biologi,Ganjil,Bioteknologi Tanaman Tropis,2,7,Pilihan
+UNAIR,S1 Biologi,Genap,Skripsi,6,8,Wajib

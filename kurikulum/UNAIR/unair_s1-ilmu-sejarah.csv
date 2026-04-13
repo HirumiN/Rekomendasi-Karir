@@ -1,0 +1,112 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Agama Budha I",2,1,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Agama Hindu I",2,1,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Agama Islam I",2,1,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Agama Katolik I",2,1,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Agama Kong Hu Chu I",2,1,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Agama Kristen Protestan I",2,1,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Bahasa Indonesia",2,1,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Bahasa Inggris I",2,1,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Data dan Pustaka",2,1,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Kewarganegaraan",2,1,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Komunikasi dan Pengembangan Diri",2,1,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Logika dan Pemikiran Kritis",2,1,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Pancasila",2,1,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Pengantar Ilmu Sejarah",3,1,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Pengantar Kolaborasi Keilmuan",2,1,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Pengantar Sejarah Indonesia",3,1,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Bahasa Inggris I",2,2,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Bahasa Inggris II",2,2,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Filsafat Ilmu",2,2,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Geografi Kesejarahan",2,2,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Historiografi Umum",3,2,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Komunikasi dan Pengembangan Diri",2,2,MKWU
+UNAIR,S1 Ilmu Sejarah,Genap,"Logika dan Pemikiran Kritis",2,2,MKWU
+UNAIR,S1 Ilmu Sejarah,Genap,"Museologi/Permuseuman",2,2,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Pengantar Filsafat",3,2,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Pengantar Ilmu Budaya",2,2,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Pengantar Kolaborasi Keilmuan",2,2,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Pengantar Sejarah Indonesia",3,2,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Asia",3,2,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Indonesia Zaman Nirleka - Abad Xvi",4,2,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Antropologi Perkotaan",2,3,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Bahasa Belanda I",3,3,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Bahasa Inggris II",2,3,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Historiografi Indonesia",3,3,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Kearsipan",2,3,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Museologi/Permuseuman",2,3,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Pengantar Ilmu Politik",2,3,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Pengantar Penelitian dan Teori Kebudayaan",3,3,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Penulisan Kreatif dan Jurnalistik Sejarah",2,3,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Sejarah Asia",3,3,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Sejarah Eropa Klasik Sampai Abad Pertengahan",3,3,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Sejarah Indonesia  Abad XVII - XVIII",3,3,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Sejarah Indonesia Zaman Nirleka - Abad Xvi",4,3,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Bahasa Belanda II",3,4,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Demografi Sosial",2,4,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Historiografi Indonesia",3,4,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Historiografi Umum",3,4,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Manajemen Wisata Sejarah",2,4,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Metode Dan Praktek Penelitian Sejarah",4,4,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Asia Timur",2,4,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Eropa Modern",2,4,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Indonesia Abad XIX-XX",3,4,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Indonesia  Abad XVII - XVIII",3,4,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Lokal",2,4,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Masyarakat Dan Kebudayaan Jawa Timur",3,4,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Masyarakat Islam Di Indonesia",2,4,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Perkotaan",4,4,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Agama Budha II",2,5,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Agama Hindu II",2,5,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Agama Islam II",2,5,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Agama Katolik II",2,5,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Agama Kong Hu Chu II",2,5,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Agama Kristen Protestan II",2,5,MKWU
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Biografi",2,5,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Sejarah Agraria",2,5,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Sejarah Asia Selatan",2,5,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Sejarah Asia Tenggara",2,5,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Sejarah dan Kebudayaan Maritim",2,5,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Sejarah Lingkungan",2,5,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Sejarah Lisan",3,5,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Sejarah Pemerintahan Dan Ketatanegaraan Indonesia",2,5,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Sejarah Pergerakan Nasional Indonesia",2,5,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Sosiologi Perkotaan",2,5,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Teori Dan Metodologi Sejarah",4,5,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Visualisasi dan Sinematografi Sejarah",3,5,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Historiopreneurship",2,6,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Kuliah Kerja Nyata (KKN)",3,6,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Manajemen Warisan Budaya dan Aset Sejarah",2,6,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Metode Penelitian Sosial",2,6,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Afrika",2,6,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Amerika",2,6,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Asia Barat",2,6,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Ekonomi Perkotaan Indonesia",3,6,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Kesehatan",2,6,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Militer Indonesia",2,6,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Seni Pertunjukan Indonesia",2,6,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Seminar Sejarah",4,6,Wajib
+UNAIR,S1 Ilmu Sejarah,Ganjil,"Skripsi",6,7,Wajib
+UNAIR,S1 Ilmu Sejarah,Genap,"Apresiasi Sastra",2,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Bahasa Prancis Praktis",3,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Contemporary History of Indonesia",3,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Etika Politik",3,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Filsafat Ilmu",3,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Gerakan Sosial Politik dan Perubahan",3,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Kajian Budaya Perbatasan",3,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Kajian Lokalitas Sastra dan Budaya",3,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Migrasi dan Diaspora",3,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Modul Nusantara",4,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"New Media",3,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Pancasila",2,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Paradigma Kebudayaan",3,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Pariwisata Religi",3,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Penulisan Perjalanan Wisata",3,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Perkembangan Linguistik Indonesia",2,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Proses Perencanaan Pariwisata",2,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Australia dan Pasifik",3,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Intelektual",2,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Komunitas",2,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Sejarah Pedesaan Indonesia",3,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Suistainability : Issues, Challenges and Propspects",2,,Pilihan
+UNAIR,S1 Ilmu Sejarah,Genap,"Teori Sastra I : Dari Klasik Sampai Modernisme",3,,Pilihan

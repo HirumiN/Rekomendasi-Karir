@@ -1,0 +1,44 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Agama,2,1,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Probabilitas dan Statistik,2,1,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Material Listrik dan Elektronika,2,1,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Rangkaian dan Pengukuran Listrik,6,1,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Rangkaian Digital,3,1,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Matematika,3,1,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Listrik Magnet,3,2,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Rangkaian Elektronika,4,2,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Algoritma dan Pemrograman,2,2,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Analisis Sinyal dan Sistem,3,2,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Kimia Terapan,3,2,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Fisika Terapan,3,2,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Pancasila,2,3,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Kewarganegaraan,2,3,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Mesin Listrik dan Kontrol Gerak,4,3,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Mikroprosesor dan Sistem Embedded,5,3,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Instrumentasi Industri,4,3,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Proyek 1: Desain Sistem Kontrol,4,3,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Metode Numerik,2,4,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Pengolahan Citra Digital,3,4,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Sistem Kontrol Proses,3,4,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,DCS dan SCADA,3,4,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,PLC dan Aplikasinya,4,4,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Proyek 2: Bengkel Otomasi Industri,4,4,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Rekayasa Teknologi Cerdas,3,5,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Bahasa Indonesia,2,5,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Optimasi Industri,3,5,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Teknik Perawatan dan Perbaikan,3,5,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Sistem Kendaraan Cerdas,3,5,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Proyek 3: Robot Industri,4,5,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Proyek Industri: Magang,14,6,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Standar Regulasi dan Keselamatan Kerja,2,6,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Manajemen Kualitas Terpadu,3,6,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Aplikasi Teknologi dan Transformasi Digital,3,7,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Bahasa Inggris,2,7,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Kewirausahaan Berbasis Teknologi,2,7,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Sistem Kontrol Lanjut,3,7,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Industrial Internet of Things,4,7,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Ganjil,Proyek 4: Digitalisasi Industri,4,7,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Ergonomi Industri,3,8,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Manajemen Proyek,3,8,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Strategi Pemasaran Produk,2,8,Wajib
+ITS,D4 Teknik Rekayasa Otomasi,Genap,Proyek Akhir,6,8,Wajib

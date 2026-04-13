@@ -1,0 +1,51 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Teknik Kelautan,Ganjil,Pengantar Teknologi Kelautan,2,1,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Pancasila,2,1,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Bahasa Inggris,2,1,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Kimia,3,1,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Fisika 1,4,1,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Matematika 1,3,1,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Ilmu Bahan dan Teknologi Mekanik,3,1,Wajib
+ITS,S1 Teknik Kelautan,Genap,Agama,2,2,Wajib
+ITS,S1 Teknik Kelautan,Genap,Kewarganegaraan,2,2,Wajib
+ITS,S1 Teknik Kelautan,Genap,Mekanika Teknik 1,3,2,Wajib
+ITS,S1 Teknik Kelautan,Genap,Fisika 2,3,2,Wajib
+ITS,S1 Teknik Kelautan,Genap,Matematika 2,3,2,Wajib
+ITS,S1 Teknik Kelautan,Genap,Teori Bangunan Apung 1,2,2,Wajib
+ITS,S1 Teknik Kelautan,Genap,Bahasa Indonesia,2,2,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Statistika Rekayasa,2,3,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Analisa dan Pemodelan Numerik,4,3,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Oseanografi,3,3,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Teori Bangunan Apung 2,3,3,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Mekanika Teknik 2,3,3,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Mekanika Fluida,3,3,Wajib
+ITS,S1 Teknik Kelautan,Genap,Teknologi dan Inspeksi Las,4,4,Wajib
+ITS,S1 Teknik Kelautan,Genap,Mekanika Tanah dan Pondasi,4,4,Wajib
+ITS,S1 Teknik Kelautan,Genap,Proses Pantai,3,4,Wajib
+ITS,S1 Teknik Kelautan,Genap,Perancangan Dasar Struktur Terapung,3,4,Wajib
+ITS,S1 Teknik Kelautan,Genap,Metode Elemen Hingga,3,4,Wajib
+ITS,S1 Teknik Kelautan,Genap,Mekanika Gelombang Laut,3,4,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Struktur Perlindungan Pantai,3,5,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Dinamika Struktur,3,5,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Perancangan Struktur Pantai,2,5,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Kelelahan dan Mekanika Kepecahan,3,5,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Perencanaan Konstruksi Bangunan Laut 1,3,5,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Hidrodinamika Bangunan Laut,4,5,Wajib
+ITS,S1 Teknik Kelautan,Genap,Ekonomi Teknik dan Manajemen Proyek,3,6,Wajib
+ITS,S1 Teknik Kelautan,Genap,Teknologi Produksi dan Reparasi Bangunan Lepas Pantai,3,6,Wajib
+ITS,S1 Teknik Kelautan,Genap,Perancangan Struktur Lepas Pantai Terpancang,3,6,Wajib
+ITS,S1 Teknik Kelautan,Genap,Operasi dan K3 Sistem Kelautan,3,6,Wajib
+ITS,S1 Teknik Kelautan,Genap,Perencanaan dan Konstruksi Bangunan Laut 2,3,6,Wajib
+ITS,S1 Teknik Kelautan,Genap,Teknologi Migas dan Energi Laut,3,6,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Metodologi Penelitian,3,7,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Rekayasa Pipa Bawah Laut,3,7,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Perancangan Struktur Lepas Pantai Terapung,3,7,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Wawasan dan Aplikasi Teknologi,3,7,Wajib
+ITS,S1 Teknik Kelautan,Ganjil,Mata Kuliah Pilihan I (wajib bidang),3,7,Pilihan
+ITS,S1 Teknik Kelautan,Ganjil,Mata Kuliah Pilihan II (bebas),3,7,Pilihan
+ITS,S1 Teknik Kelautan,Genap,Riset Operasi dan Optimasi,2,8,Wajib
+ITS,S1 Teknik Kelautan,Genap,Analisis Resiko dan Keandalan,2,8,Wajib
+ITS,S1 Teknik Kelautan,Genap,Kerja Praktek,2,8,Wajib
+ITS,S1 Teknik Kelautan,Genap,Tugas Akhir,5,8,Wajib
+ITS,S1 Teknik Kelautan,Genap,Teknopreneur,2,8,Wajib
+ITS,S1 Teknik Kelautan,Genap,Mata Kuliah Pengayaan,3,8,Wajib

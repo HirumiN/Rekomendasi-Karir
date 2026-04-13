@@ -1,0 +1,820 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Teori Bangunan Kapal,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Gambar Teknik,5,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Pemrograman Komputer,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Bahasa Indonesia,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Dasar-dasar K3,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Matematika Dasar,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Pengantar Teknologi Kelautan,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Agama,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Perancangan Kapal,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Tugas Gambar Rencana Garis,4,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Praktek Bengkel,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Mekanika Terapan,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Matematika Teknik,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Bahasa Inggris Dasar,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Fisika,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Kimia,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Tugas Gambar Hidrostatik Bonjean dan Diagram Kebocoran,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Tugas Gambar Rencana Umum,4,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Teknologi Las dan Praktek,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Tahanan dan Propulsi,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Konstruksi Kapal,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Bahasa Inggris Teknik,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,TG Melintang dan Memanjang TG Bukaan Kulit,5,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Pesawat Angkat,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Kapal Non Baja,4,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Ekonomi Teknik,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Teknologi Reparasi Kapal,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Ilmu Bahan,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Sistem Kelistrikan Kapal,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,TG Denah Kamar Mesin dan Isometri,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,TG Kemudi dan Stern Tube,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Interior Kapal,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Galangan Kapal,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Kekuatan Kapal,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Metodologi Penelitian,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Metode Elemen Hingga,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Teknologi Bangunan Baru,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Kewarganegaraan,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Rule dan Regulasi,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Aplikasi Komputer Desain Gerak dan Manuver Kapal,5,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,TG Produksi Kapal,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Statistik,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,TG Stabilitas Trim dan Peluncuran,4,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Program Magang,20,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Etika Profesi,2,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Tugas Akhir,6,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Pancasila,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Kewirausahaan,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perancangan dan Konstruksi Kapal,Genap,Bahasa Inggris Profesi,3,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Matematika Dasar,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Dasar-dasar K3,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Teori Bangunan Kapal,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Teknologi Informasi & Komunikasi,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Gambar Teknik,4,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Teknologi Mekanik & Praktek,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Pengantar Teknologi Kelautan,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Bahasa Inggris Dasar,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Fisika,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Matematika Lanjut,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Teknologi Las & Praktek,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Perancangan Kapal,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,TG Rencana Garis,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Praktek Plat & Pipa,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Sistem Kelistrikan Kapal,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Manajemen Galangan,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Sistem Perlengkapan Kapal,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Mekanika Terapan,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Konstruksi Kapal,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Ilmu Bahan Korosi & Pelapisan Praktek Uji Bahan,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Kapal Non Baja,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,TG Hidrostatik Bonjean & Diagram Kebocoran,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Praktek Uji Kapal,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,TG Rencana Umum,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Bahasa Inggris Teknik,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,TG Memanjang Melintang & Bukaan Kulit,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,TG Produksi Kapal,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,TG Stabilitas Peluncuran & Trim,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Pesawat Angkat,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Teknologi Reparasi Kapal,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Aplikasi Komputer Desain Kapal,4,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Metodologi Penelitian,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Etika Profesi,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,OJT Wajib,20,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Kewirausahaan (WMK),2,5,Pilihan
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Ganjil,Aplikasi Gambar Produksi Kapal (WMK),8,5,Pilihan
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Kewarganegaraan,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Bahasa Indonesia,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Pancasila,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Agama,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Bahasa Inggris Profesi,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Perancangan dan Konstruksi Kapal,Genap,Tugas Akhir,5,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Ganjil,Teori Bangunan Kapal,0,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Ganjil,Gambar Teknik,0,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Ganjil,Teknologi Mekanik,0,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Ganjil,Dasar-dasar K3,0,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Ganjil,Matematika Terapan,0,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Ganjil,Fisika Terapan,0,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Ganjil,Bahasa Inggris Dasar,0,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,TG. Rencana Garis,0,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,Ilmu Bahan,0,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,Praktikum Perkakas,0,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,Praktikum Pelat-Pipa,0,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,Mekanika Terapan,0,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,Bahasa Inggris Lanjut,0,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Ganjil,TG. Rencana Umum,0,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Ganjil,Praktikum Uji Material,0,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Ganjil,Teknologi Pengelasan,0,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Ganjil,Praktikum Fabrikasi,0,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Ganjil,Teknologi Bangunan Baru,0,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,TG. Konstruksi Kapal,0,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,Survei dan Inspeksi Kapal,0,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,Praktikum Assembly,0,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,Teknologi Reparasi Kapal,0,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,Praktikum Stabilitas Kapal,0,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,Kapal Non Metal,0,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Ganjil,Etika Profesi,0,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Ganjil,Mata Kuliah Pilihan,0,5,Pilihan
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Ganjil,Kewirausahaan,0,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,Agama,0,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,Pancasila,0,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,Metodologi Penelitian,0,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,PROYEK AKHIR,0,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,Kewarganegaraan,0,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Bangunan Kapal,Genap,Bahasa Indonesia,0,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,Pengantar Teknologi Kelautan,0,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,Gambar Teknik,0,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,Dasar K3,0,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,Matematika Dasar,0,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,Fisika Terapan,0,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,T.I.K.,0,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,Kimia & Perlindungan Material,0,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Dasar Teknik Perkapalan,0,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,P. Logam Dasar,0,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,P. Perkakas,0,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Matematika Lanjut,0,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Mekanika Pesawat Angkat,0,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Statistika Teknik,0,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Bahasa Inggris Dasar,0,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,Gambar Rencana Garis,0,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,Teknologi Produksi Kapal,0,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,P. Teknologi Pengelasan,0,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,Perlengkapan Kapal,0,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,P. Uji Material,0,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,Permesinan dan Kelistrikan Kapal,0,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Gambar Rencana Umum,0,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,MANAJEMEN GALANGAN,0,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,P. Fabrikasi Assembly,0,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Regulasi Perkapalan,0,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Bahasa Inggris Lanjut,0,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,Gambar Konstruksi Kapal,0,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,Komputasi Pembangunan Kapal,0,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,MANAJEMEN PROYEK,0,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,Survei dan Inspeksi Kapal,0,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,Praktek Teknologi Non Metal,0,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Komputasi Struktur Kapal,0,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Gambar Produksi Kapal,0,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Praktikum Stabilitas Kapal,0,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,PRAKTEK MANUFAKTUR,0,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Metodologi Penelitian,0,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Kewirausahaan,0,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Bahasa Inggris Profesi,0,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,Etika Profesi,0,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Ganjil,OJT: Mata Kuliah Pilihan,0,7,Pilihan
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Agama,0,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Bahasa Indonesia,0,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,TUGAS AKHIR,0,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Pancasila,0,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Konstruksi Perkapalan,Genap,Kewarganegaraan,0,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Agama,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Kimia,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Matematika Dasar,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Dasar-dasar K3,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Gambar Teknik,4,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Ilmu Bahan,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Fabrikasi Dasar,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Pengantar Teknologi Kelautan,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Aplikasi Komputer,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Kewarganegaraan,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Bahasa Inggris I,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Fisika,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Matematika Teknik,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Teori Bangunan Kapal,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,P. Plat Dan Pipa,1,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Proses Manufaktur,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,P. Mesin Perkakas,1,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Mekanika Bahan,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Teknologi Las 1+ Praktek Las I,4,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Bahasa Indonesia,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Elemen Mesin,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Teori NDT,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Perpindahan Panas,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Penyambungan Non Logam,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,TP. Kapal: Rencana Garis,1,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,TP. Kapal: Rencana Umum,1,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Praktek Kelistrikan,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Gambar Isometri Pipa,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Bahasa Inggris II,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Konstruksi Kapal: Teori +TG,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Pesawat Angkat,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Metalurgi Las,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Perlakuan Panas,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Praktek DT-NDT I,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Metode Elemen Hingga,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Pancasila,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Bahasa Inggris III,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Praktek Manufaktur Dibantu Komputer,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Praktek Pengendalian Otomatis,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Korosi dan Pengendaliannya,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Metode Optimasi,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Metodologi Penelitian kuantitatif,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,DFKI KU & BT,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Manajemen Proyek,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Teknologi Las II,4,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Praktek Las II,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Praktek Fabrikasi I,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,DFKI Tangki & Pipa,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Perancangan Welding Prosedur,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Teknologi Bangunan Baru,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Inspeksi Las,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Praktek NDT,2,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Desain dan Fabrikasi Lanjut,4,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Inspeksi Las Lanjut,7,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Kualifikasi Las Lanjut,3,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Ganjil,Etika Profesi,2,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,DFKI Kapal,3,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Ekonomi Teknik,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Kewirausahaan,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Pengendalian Mutu (QA/QC),2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Studi Kasus Pengelasan + Teknologi Las Aplikasi,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Tugas Akhir,6,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Pengelasan,Genap,Kelelahan & Kepecahan,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Pendidikan Agama,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Pendidikan Pancasila,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Bahasa Inggris Dasar,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,"Kesehatan, Keselamatan Kerja dan Lingkungan (K3L)",2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Pengantar Ilmu Ekonomi,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Pengantar Bisnis,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Pengantar Teknologi Maritim,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Matematika Bisnis,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Pengantar Akuntansi Dasar,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Pendidikan Kewarganegaraan,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Bahasa Indonesia,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Bahasa Inggris Bisnis,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Statistika Bisnis,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Hukum Bisnis,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Aplikasi Komputer Bisnis,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Pengantar Akuntansi Lanjut,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Perencanaan & Operasi Pelabuhan,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Manajemen Sumber Daya Manusia,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Akuntansi Biaya,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Manajemen Pemasaran Dasar,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Manajemen Logistik Dasar,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Manajemen Risiko Bisnis,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Ekonomi Manajerial,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Inovasi & Desain Berpikir,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Bahasa Inggris Profesi,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Perilaku & Budaya Organisasi,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Manajemen Operasi Bisnis,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Manajemen Keuangan Dasar,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Riset Operasi Dasar,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Sistem Pengadaan & Kontrak,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Metodologi Riset Bisnis,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Akuntansi Manajemen Dasar,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Manajemen Keuangan Lanjut,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Ekspor & Impor Dasar,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Manajemen Logistik & Rantai Pasok,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Teknologi & Manajemen Operasi Kapal,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Sistem Informasi Manajemen,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Perpajakan Dasar,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,Hukum Perdagangan Maritim & Asuransi,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Manajemen Strategi Bisnis,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Penganggaran Perusahaan,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Pemasaran Maritim & Layanan Pelanggan,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Ekspor & Impor Lanjut,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Teknologi & Manajemen Logistik Lanjut,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Ship Chartering & Brokerage,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Pilihan 1: Bisnis Maritim Internasional,3,6,Pilihan
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Pilihan 1: Perdagangan & Manj. Logistik Internasional,3,6,Pilihan
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Pilihan 1: Kewirausahaan Digital,3,6,Pilihan
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Pilihan 1: Pengelolaan Portofolio & Investasi,3,6,Pilihan
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Ganjil,On the Job Training (OJT),20,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Tugas Akhir,6,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Bina Karir,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Manajemen Bisnis,Genap,Seminar,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Bahasa Indonesia,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Matematika Dasar,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Dasar K3,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Ilmu Pengetahuan Bahan,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Fisika Tearapan,4,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Teknologi Mekanik,4,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Bahasa Inggris I,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Mekanika Teknik,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Mesin Fluida,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Termodinamika,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Menggambar Teknik,4,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Kimia,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Mekanika Fluida,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Matematika Teknik,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Pengantar Teknologi Kelautan *,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Dasar Teknik Bangunan Kapal,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Sistem Perpipaan (Ship Piping System) *,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Dinamika dan kinematika permesinan,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Tahanan Propulsi dan Rencana Umum,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Teknologi Pengelasan dan Fabrikasi,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Kewirausahaan,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Bahasa Inggris II,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Pancasila,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Kewarganegaraan,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Sistem Kapal Khusus *,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Pneumatik dan hidrolik,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Manajemen Galangan,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Sistem Pendingin dan Saluran Udara,4,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Analisa Numerik,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,MECE (Marine External Cobustion Engine),3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Ekonomi Teknik,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Elemen Mesin,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Metodologi Penelitian,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Struktur Bangunan Laut (Marine Structure),2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Kebisingan dan Getaran (noise & vibration),2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Sistem Pengendalian Kelautan (Control),3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,MICE (Marine Internal Combustion Engine),3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Sistem Pondasi Permesinan,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Sistem Listrik Perkapalan,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Dinamika Struktur Terapung,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Metode Optimasi,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Praktek Kerja Permesinan dan Propulsi,4,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Praktek Kerja Piping Arrangement,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Praktek Kerja HVAC,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Praktek Kerja Manajemen Supervisi,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Praktek Kerja Sistem Kelistrikan,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Etika Profesi,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,TG. Poros Stem Tube Propeller dan allignment *,3,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,TR. Sistem HVAC,2,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,TR. Sistem Perpipaan,2,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Teknik pemeliharaan dan perbaikan Motor bakar,3,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Reliability dan manajemen perawatan,3,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Ganjil,Permesinan Geladak (Deck Machinery)*,3,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Agama,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Bahasa Inggris III,1,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Ilmu Komunikasi,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Project Work *,6,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,Inspeksi kapal,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Permesinan Kapal,Genap,T. Perancangan dan fabrikasi Kamar Mesin *,3,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Pengantar Teknologi Kelautan,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Dasar K3,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Matematika Dasar,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Fisika Terapan,4,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Bahasa Indonesia,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Gambar Teknik,4,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Teknologi Mekanik,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Bahasa Inggris I,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Termodinamika,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Dasar Teknik Bangunan Kapal,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Dinamika dan Kinematika Permesinan,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Mekanika Teknik,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Teknologi Pengelasan,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Mekanika Fluida,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Ilmu Pengetahuan Bahan,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Matematika Teknik,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Kewirausahaan,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Sistem Penggerak Kapal,5,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Mesin Fluida,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Elemen mesin,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,HVAC,4,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Sistem Perpipaan Kapal,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Pemeliharaan & Perbaikan Motor Bakar,4,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Metodologi penelitian,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,TR. Poros Propeller dan stern tube,4,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,TR. Sistem perpipaan Kapal,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,TR. Sistem HVAC,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,TR. Bongkar Muat,4,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Pneumatik dan Hidrolik,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Teknik sistem Listrik Perkapalan,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Praktek Kerja Permesinan dan Propulsi,4,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Praktek Kerja Piping Arrangement,4,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Praktek Kerja HVAC,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Praktek Kerja Manajemen Supervisi,4,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Praktek Kerja Sistem Listrik Kapal,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Ganjil,Etika Profesi,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Project Work,5,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Agama,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,TR. Denah Kamar Mesin,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Kewarganegaraan,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Pancasila,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Permesinan Kapal,Genap,Bahasa Inggris II,1,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Bahasa Inggris Dasar,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Matematika Dasar,4,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Kimia,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Dasar dasar K3,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Life Science,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Pengantar Teknologi Kelautan (PTK),2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Peraturan Perundangan K3,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Teknologi Informasi dan Komunikasi,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Gambar Teknik,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Matematika Lanjut,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Fisika,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Pertolongan Pertama pada Kecelakaan,4,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Ekonomi Teknik,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Higiene Industri,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,K3 Maritim,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Sistem Manajemen Lingkungan,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Pancasila,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Bahasa Indonesia,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Fluida dan Termal,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Mekanika Teknik,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Teknik Kontrol,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Statistika,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Kendali Mutu,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Ergonomi,4,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,K3 Listrik,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,K3 Lingkungan Kerja,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,K3 Kebakaran,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Sistem Manajemen Keselamatan dan Kesehatan Kerja (SMK3),2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,K3 Pesawat Uap dan Bejana Tekan,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,K3 Pertambangan,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,K3 Kimia,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,K3 Konstruksi,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,K3 Mekanik,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Agama,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Bahasa Inggris Lanjut,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Inspeksi K3,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Manajemen Risiko K3,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Tugas K3 Kebakaran,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Keselamatan dan Pengendalian Proses,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Investigasi dan Analisis Kecelakaan,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Komunikasi K3,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Digitalisasi K3,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Kewirausahaan,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Metodologi Penelitian,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Etika Profesi,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Psikologi Keselamatan Kerja,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,K3 Migas,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Kewarganegaraan,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Bahasa Inggris Profesi,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Ganjil,Kerja Praktek Industri,20,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Tugas Sistem Manajemen K3,4,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Keselamatan dan Kesehatan Kerja,Genap,Tugas Akhir,6,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Bahasa Inggris I,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Matematika Dasar,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Fisika Terapan,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Pengantar Teknologi Perpipaan,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,K3,1,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Teori Bangunan Kapal,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Pengantar Teknologi Pemesinan,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Gambar Teknik,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Pengantar Teknologi Kelautan,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Matematika Teknik,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Mekanika Fluida,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Termodinamika dan Perpindahan Panas,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Mekanika Teknik,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Gambar Piping General Arrangement dan Isometrik,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Ilmu Pengetahuan Bahan,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,P. Perancangan Dibantu Komputer,1,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Bahasa Indonesia,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Statistik,1,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Korosi,1,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Material Perpipaan,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Pneumatic dan Hidrolik,1,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Sistem Dalam Kapal,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Pompa dan Kompresor,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Teknik Pengelasan,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Sistim Pendingin dan Saluran Udara (HVAC),4,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Kode dan Standar Sistem Perpipaan,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Dasar Perpipaan Sekitar Equipment,1,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Kewirausahaan,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Sistem Pengolahan Limbah,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Tugas Pemodelan Jaringan Instalasi Perpipaan,1,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Dasar dasar Plotplan,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Kewarganegaraan,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Fabrikasi Perpipaan,4,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Metode Numerik,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Teknologi Proses,1,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Piping Manajemen,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Ekonomi Teknik,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Bahasa Inggris 2,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Manajemen Proyek,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Keandalan (Reliability) Perawatan dan manajemen Resiko,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Sistem Informasi Proyek Perpipaan,1,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Pipeline engineering,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,DFKI-Tangki dan Pipa,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Getaran Mekanis,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Metode Elemen Hingga,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Perancangan Bejana Tekan,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Metode Konstruksi,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Instalasi Perpipaan Pembangkit daya uap,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Sistem Plumbing,4,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Analisa Tegangan Perpipaan,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Tugas Perencanaan dan Pengendalian Proyek Perpipaan,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Inspeksi Perpipaan,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Tugas Gambar Perpipaan Tingkat Lanjut,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Metodologi Penelitian,1,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Sistem Pemadam Kebakaran,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Etika Profesi,2,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Praktek Kerja Analisa Tegangan Perpipaan,4,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Praktek Kerja Menggambar Perpipaan Tingkat Lanjut,4,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Praktek Kerja Inspeksi Perpipaan,4,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Ganjil,Praktek Kerja Tugas Perencanaan dan Pengendalian Proyek Perpipaan,4,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Agama,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Bahasa Inggris III,1,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Kapita Selekta,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Tugas Rancang Sistem Perpipaan,3,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Tugas Akhir,5,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Perpipaan,Genap,Pancasila,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Pengantar Teknologi Kelautan,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Dasar dasar K3,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Matematika Dasar,4,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Fisika,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Gambar Teknik,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Ilmu Bahan,1,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Teknologi Mekanik,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Praktek Pelat,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Praktek Kerja Bangku,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Perancangan dibantu Komputer,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Bahasa Inggris Dasar,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Matematika Lanjut,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Mekanika Terapan,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Sistem Perlengkapan Kapal,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Pemrograman Komputer,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Praktek Pemesinan,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Praktek Uji Bahan,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Kewarganegaraan,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Elemen Mesin,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Konstruksi Kapal,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Bahasa Indonesia,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Tugas Gambar Rencana Garis dan Umum,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Proses Manufaktur,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Gambar Mesin,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Perencanaan dan Pengendalian Produksi,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Elektronika Dasar,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Bahasa Inggris Teknik,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Teori dan Aplikasi CNC,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Praktek CAD/CAM 2D,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Dasar dasar Mekatronika,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Pengendalian Kualitas Statistik,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Teknologi Las,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Metode Elemen Hingga,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Tool Design,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Kewirausahaan,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Praktek CNC 2D,4,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Praktek CAD/CAM 3D,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Perancangan Eksperimen dan Optimasi,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Pesawat Angkat,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Mekatronika Lanjut,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,DFKI KU dan BT,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Praktek Pneumatik dan Hidrolik,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Praktek CNC 3D,4,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Praktek CAD/CAE,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Manajemen Operasi,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,TG. Perancangan dan Pengembangan Produk,4,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Metodologi Penelitian,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Perawatan dan Keandalan,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Design Product And Analysis,6,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Proses Manufaktur Terapan,6,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Ganjil,Manajemen dan Rekayasa Produksi,6,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Bahasa Inggris Profesi,3,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Tugas Akhir,6,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Etika Profesi,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Agama,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Desain dan Manufaktur,Genap,Pancasila,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Bahasa Indonesia,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Bahasa Inggris Dasar,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Dasar K3,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Fisika,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Gambar Teknik,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Material Teknik,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Kimia,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Matematika Dasar,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Pengantar Sistem Pembangkitan Energi,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Pengantar Teknologi Kelautan,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Gambar Mesin,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Matematika Lanjut,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Mekanika Fluida Teknik,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Mekanika Teknik,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Perpindahan Panas Dasar,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Teknik Pembakaran dan Bahan Bakar,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Teknik Tenaga Listrik Dasar,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Termodinamika Teknik,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Bahasa Inggris Teknik,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Elemen Mesin,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Mesin Fluida,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Sistem Pendinginan dan Pengkondisian Udara,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Perpindahan Panas Lanjut,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Boiler dan Pembangkitan Uap,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Teknik Tenaga Listrik,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Instrumentasi dan Pengukuran Teknik,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Elektronika Daya,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Pengantar Sistem Kendali,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Sistem Pembangkit Tenaga Uap dan Gas,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Motor Bakar Torak,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Teknik Penyimpanan Energi,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Teknologi Energi Geotermal dan Biomassa,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Teknologi dan Pengendalian Proses,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Audit dan Tata Kelola Energi,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Bahasa Inggris Profesi,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Ekonomi Energi,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Metode Numerik dan Pemrograman,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Sistem Kelistrikan Energi Terbarukan,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Optimasi Energi dan Pengelolaan Gas Buang,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Teknologi Energi Angin Air dan Lautan,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Teknologi Energi Surya dan Sel Bahan Bakar,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Etika Profesi,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Manajemen Operasi Pembangkit,4,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Praktikum Manajemen Perawatan,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Tugas Audit dan Manajemen Energi,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Praktikum Manajemen Lingkungan,4,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Kapita Selekta Energi Berkelanjutan,2,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Kewirausahaan,2,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Metodologi Penelitian,2,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Manajemen Perawatan Pembangkit,3,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Studi Kelayakan Pembangunan Pembangkit,4,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Teknologi Informasi dan Komunikasi,2,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Ganjil,Tugas Rancang Pembangkit Energi,6,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Agama,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Pancasila,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Kewarganegaraan,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Energi Berkelanjutan,Genap,Tugas Akhir,6,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Bahasa Indonesia,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Fisika,4,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Matematika Dasar,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Gambar Teknik,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Dasar-dasar K3,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Praktek Sheet Metal,1,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Dasar Teknik Listrik Kapal,4,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Teori Bangunan Kapal,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Kewarganegaraan,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Pancasila,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Bahasa Inggris I,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,CAD,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Matematika Teknik,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Tgs. Gambar Rencana Umum & Konstruksi,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Pemrograman Komputer,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Teknik Elektronika,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,K3 Listrik,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Metodologi Penelitian,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Pengantar Teknologi Kelautan,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Sistem dan Perlengkapan Kapal,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Sistem Permesinan Kapal,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Distribusi Tenaga Listrik dan Proteksi,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Instalasi Listrik I,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Mesin Listrik,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Teknik Pneumatik & Hidrolik,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Agama,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Proteksi Motor,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,PLC,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Instalasi Listrik II,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Praktikum Pemeliharaan Mesin Listrik,1,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Sistem Komukasi dan Navigasi,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Marine Power Plant,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Marine Control,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Elka Daya & Penggerak Listrik,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Praktek Kerja Managemen Energi,4,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Praktek Kerja Mesin Listrik,5,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Praktek Kerja Instalasi Listrik Industri,5,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Praktek Kerja Proteksi Motor,4,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Ganjil,Etika Profesi,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Tugas Akhir,6,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Bahasa Inggris II,1,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Kewirausahaan,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D3 Teknik Kelistrikan Kapal,Genap,Manajemen Proyek,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Bahasa Indonesia,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Pancasila,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Pengantar Teknologi Kelautan,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Matematika Dasar (1/1),2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Bahasa Inggris I (1/1),2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Gambar Teknik (1/1),3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Rangkaian Listrik (2/2),4,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Dasar Teknik Listrik Kapal (2/2),4,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Dasar Teknik Perkapalan,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Agama,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Pengantar HSE,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Sistem dan Perlengkapan Kapal,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Matematika Teknik (1/1),2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Bahasa Inggris II (1/1),2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Fisika Terapan (2/2),4,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Praktek Instalasi Listrik Kapal I,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Tugas Gambar Rencana Umum (1/1),2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Statistik (1/1),2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Elektronika dan Mikroprosesor (2/2),4,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Instrumentasi (1/1),2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Marine Automation (PLC) (1/2),3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Mesin Listrik (1/2),3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Sistem Distribusi dan Proteksi,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,CAD (1/1),2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Denah Kamar Mesin (1/1),2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Pemodelan dan Sistem Kontrol (3/2),5,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Elektronika Daya dan Penggerak Listrik (1/1),2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Rule dan Regulasi,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Praktikum Instalasi Listrik Kapal 2,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Pemrograman Komputer (1/1),2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Pneumatik dan Hidrolik (1/2),3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Manajemen dan Konservasi Energi (1/1),2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Sistem Pemrosesan Sinyal (1/1),2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Kewarganegaraan,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Praktikum Pemeliharaan Mesin Listrik,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Praktikum Kontrol dan Proteksi Motor,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Optimasi Sistem (1/1),2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Marine Power Plant (1/1),2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,HVAC (2/1),3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Praktek sistem komunikasi, radar dan navigasi,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Praktek Instalasi Listrik,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Praktek Mesin Listrik,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Praktek Sistem Kontrol,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Praktek Manajemen dan Konservasi Energi,4,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Etika Profesi (termasuk uji),2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Sistem Komunikasi Maritim (2/2),4,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Inspeksi Sistem Kelistrikan Kapal,2,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Gyrocompass dan Auto Pilot Kapal (1/1),2,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Tugas Rancang Listrik Kapal,4,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Metodologi Penulisan Ilmiah (1/0),1,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Electric Propulsion (1/1),2,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Ganjil,Bahasa Inggris III,2,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Manajemen Proyek (2/1),3,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Manajemen Energi (1/1),2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Tugas Akhir (Praktek),6,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Kelistrikan Kapal,Genap,Kewirausahaan (2/2),4,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Pengantar Teknologi Kelautan,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Dasar-dasar K3,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Pancasila,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Matematika Dasar,4,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Praktikum Menggambar Teknik,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Praktikum Rangkaian dan Pengukuran Listrik,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Rangkaian Digital,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Fisika,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Kewarganegaraan,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Agama,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Bahasa Inggris Dasar,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Teknologi Informasi dan Komunikasi,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Matematika Lanjut,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Sistem dan Perlengkapan Kapal,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Rangkaian Analog,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Praktikum Fisika,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Praktikum JIG dan Fixture,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Praktikum CNC,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Sistem Permesinan Kapal,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Praktikum Mesin Listrik,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Sensor dan Aktuator,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Praktikum Mikroprosesor dan Mikrokontroller,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Praktikum Kontrol dan Proteksi Mesin Listrik,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Praktikum Rangkaian Elektronika,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Praktikum Pemrograman Komputer,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Bahasa Indonesia,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Bahasa Inggris Lanjut,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Praktikum Elektronika Daya,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Praktikum Pneumatik dan Hidrolik,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Sistem Navigasi Maritim,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Praktikum Instrumentasi,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Optimasi Sistem Pengendalian,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Praktikum Otomasi Kelautan,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Manajemen Industri,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Praktikum Industrial Internet of Things,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Praktikum Statistika dan Data Mining,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Praktikum Kendali Cerdas,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,PLC dan Aplikasinya,4,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Praktikum Optimasi Sistem Pengendalian,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,DCS dan SCADA,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Praktikum Telemetri dan Jaringan komunikasi,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Metodologi Penelitian,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Bahasa Inggris Profesi,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Praktikum DCS dan SCADA,4,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Praktikum Otomasi dan Robotika,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Praktikum Computer Vision,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Praktikum Interfacing,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Etika Profesi,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Praktikum Mobile Computing,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Ganjil,Praktik Kerja Industri / MBKM,20,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Manajemen Perawatan dan Perbaikan Perangkat,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Kewirausahaan,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Manajemen Proyek,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknik Otomasi,Genap,Tugas Akhir,6,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Bahasa Indonesia,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Fisika,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Matematika Dasar,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Gambar Teknik,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Rangkaian Listrik,3,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Pengantar Teknologi Kelautan,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Pancasila,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Agama,2,1,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Tugas Gambar Rencana Umum & Konstruksi,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Matematika Lanjut,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Teknologi Sensor,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Teknologi Informasi dan Komunikasi,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Kewarganegaraan,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Dasar-dasar K3,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Bahasa Inggris Dasar,3,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Dasar Sistem Instrumentasi,2,2,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Sistem dan Perlengkapan Kapal,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Teknik Pengukuran,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Praktikum Embedded System,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Sensor dan Aktuator,3,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Distribusi dan Proteksi Tenaga Listrik,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Praktikum Mesin Listrik,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Praktikum Mekanika Fluida,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Kimia,2,3,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Praktikum Pneumatik dan Hidrolik,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Praktikum Instrumentasi,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Elektronika Analog dan Digital,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Bahasa Inggris Lanjut,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Sistem Pengolahan Sinyal,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Sistem Kendali Kapal,2,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Praktikum Elektronika Daya,3,4,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Praktikum PLC,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Praktikum Kalibrasi,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Big Data,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Sistem Instrumentasi Industri,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Statistik,2,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Tugas Gambar Instrumentasi,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,Sistem Komunikasi dan Navigasi,3,5,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Etika Profesi,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Metodologi Penelitian,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Praktikum DCS dan SCADA,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Praktikum Kendali Cerdas,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Predictive Maintenance,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Perancangan Sistem Kontrol Proses,2,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Engineering Commissioning,3,6,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Ganjil,On The Job Training,20,7,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Tugas Akhir,6,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Bahasa Inggris Profesi,3,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Kewirausahaan,2,8,Wajib
+Politeknik Perkapalan Negeri Surabaya,D4 Teknologi Rekayasa Instrumentasi,Genap,Manajemen Proyek,2,8,Wajib

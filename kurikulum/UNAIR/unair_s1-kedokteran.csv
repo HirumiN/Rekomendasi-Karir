@@ -1,0 +1,68 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Agama Budha I",2,1,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Agama Kong Hu Chu I",2,1,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Agama Hindu I",2,1,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Agama Islam I",2,1,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Agama Katolik I",2,1,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Agama Kristen Protestan I",2,1,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Bahasa Indonesia",2,1,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Etika Dan Hukum Kesehatan",2,1,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Komunikasi Kesehatan dan Layanan Dasar Kesehatan",2,1,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Pancasila",2,1,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Kewarganegaraan",2,1,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Data dan Pustaka",2,1,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Ilmu Anatomi Kedokteran",4,2,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Biologi Kedokteran",3,2,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Ilmu Faal Kedokteran",5,2,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Histologi Kedokteran",3,2,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Medico Socio Entrepreneurship",2,2,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Keterampilan Medik 1",2,2,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Komunikasi dan Pengembangan Diri",2,2,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Pengantar Kolaborasi Keilmuan",2,2,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Logika dan Pemikiran Kritis",2,2,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Ilmu Biokimia",5,3,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Farmakologi dan Terapi",5,3,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Sistem Reproduksi",4,3,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Patologi Anatomi",3,3,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Patologi Klinik",3,3,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Mikrobiologi Kedokteran",3,3,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Parasitologi Kedokteran",3,3,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Ilmu Kesehatan Masyarakat-Kedokteran Pencegahan I",2,3,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Keterampilan Medik 2",2,4,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Penelitian I",2,4,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Social Aspect of Medicine",2,4,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Growth and Development",2,4,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Sistem Muskuloskeletal",4,4,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Sistem Gastrointestinal, Hepatobilier dan Pankreas",4,4,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Sistem Endokrin, Metabolik dan Nutrisi",4,4,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Sistem Kardiorespirasi",4,4,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Modul General Emergency Life Support I",2,5,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Keterampilan Medik 3",2,5,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Sistem Ginjal dan Saluran Kemih",4,5,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Sistem Imunologi dan Hematologi",4,5,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Neuropsikiatri",4,5,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Sistem Indra",4,5,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Agama Budha II",2,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Agama Kong Hu Chu II",2,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Agama Hindu II",2,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Agama Islam II",2,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Agama Katolik II",2,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Agama Kristen Protestan II",2,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Ilmu Penyakit Dalam",2,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Modul General Emergency Life Support II",2,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Ilmu Kedokteran Tropis",3,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Keterampilan Medik 4",2,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Neuropsikiatri dan Rehabilitasi",3,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Ilmu Kesehatan Anak",2,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Ilmu Kesehatan Masyarakat Dan Pencegahan II",2,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"KKN",3,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Kuliah Kerja Nyata (KKN)",3,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Genap,"Manajemen Pelayanan Kesehatan",2,6,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Ilmu Bedah",2,7,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Penelitian II",6,7,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Comprehensive Clinical Skills",2,7,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Elektif",4,7,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Ilmu Penyakit Indra (Mata, THT-KL, Dermatologi dan Venerologi)",3,7,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Ilmu Penunjang Klinik (Radiologi dan Anestesi dan Reanimasi)",2,7,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Obstetri dan Ginekologi",2,7,Wajib
+Universitas Airlangga,S1 Kedokteran,Ganjil,"Ilmu Kedokteran Forensik dan Medikolegal",2,7,Wajib

@@ -1,0 +1,117 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Teknik Elektro,Ganjil,Kalkulus 1,3,1,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Fisika 1,5,1,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Pengantar Teknologi Elektro,2,1,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Aljabar Linier dan Variabel Kompleks,3,1,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Rangkaian Listrik 1,3,1,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Dasar Pemrograman,3,1,Wajib
+ITS,S1 Teknik Elektro,Genap,Kalkulus 2,3,2,Wajib
+ITS,S1 Teknik Elektro,Genap,Fisika 2,5,2,Wajib
+ITS,S1 Teknik Elektro,Genap,Kimia,3,2,Wajib
+ITS,S1 Teknik Elektro,Genap,Persamaan Diferensial,3,2,Wajib
+ITS,S1 Teknik Elektro,Genap,Rangkaian Listrik 2,3,2,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Matematika Diskrit,3,3,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Probabilitas dan Statistik,2,3,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Elektromagnetika,3,3,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Pengukuran Besaran Listrik,2,3,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Sinyal dan Sistem,3,3,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Rangkaian Elektronika,3,3,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Sistem Digital,2,3,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Lab. Sistem Digital, Pengukuran dan Rangk. Listrik,3,3,Wajib
+ITS,S1 Teknik Elektro,Genap,Metode Numerik,2,4,Wajib
+ITS,S1 Teknik Elektro,Genap,Dasar Sistem dan Jaringan Telekomunikasi,2,4,Wajib
+ITS,S1 Teknik Elektro,Genap,Proses Stokastik,2,4,Wajib
+ITS,S1 Teknik Elektro,Genap,Dasar Sistem Tenaga Listrik,3,4,Wajib
+ITS,S1 Teknik Elektro,Genap,Dasar Sistem Kontrol,3,4,Wajib
+ITS,S1 Teknik Elektro,Genap,Rangkaian Analog,3,4,Wajib
+ITS,S1 Teknik Elektro,Genap,Sistem Mikroprosesor dan Mikrokontroler,3,4,Wajib
+ITS,S1 Teknik Elektro,Genap,Lab. Elektronika, DST dan SP,3,4,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Pengolahan Sinyal Digital,2,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Elektronika Daya,3,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Instrumentasi Sistem Kontrol,3,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Teknologi IoT,2,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Analisis Sistem Tenaga,4,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Mesin Listrik,3,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Teknik Tegangan Tinggi,3,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Analisis dan Desain Sistem Kontrol,3,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Otomasi Sistem,3,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Sistem Kontrol Digital,2,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Teknik Optimisasi,2,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Dasar Sistem Elektronika Cerdas,2,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Elektronika Industri dan Robotika,3,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Perancangan Komponen Terprogram,2,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Perancangan Sistem Elektronika Analog,3,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Antena dan Propagasi Radio,4,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Elektronika Telekomunikasi,3,5,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Sistem Komunikasi 1,3,5,Wajib
+ITS,S1 Teknik Elektro,Genap,Agama,2,6,Wajib
+ITS,S1 Teknik Elektro,Genap,Aplikasi Teknologi dan Transformasi Digital,3,6,Wajib
+ITS,S1 Teknik Elektro,Genap,Kewarganegaraan,2,6,Wajib
+ITS,S1 Teknik Elektro,Genap,Mata Kuliah Pengayaan,3,6,Wajib
+ITS,S1 Teknik Elektro,Genap,Kerja Praktik,2,6,Wajib
+ITS,S1 Teknik Elektro,Genap,Capstone Design,4,6,Wajib
+ITS,S1 Teknik Elektro,Genap,Lab. Sistem Tenaga,2,6,Wajib
+ITS,S1 Teknik Elektro,Genap,Pembangkitan Tenaga Listrik,2,6,Wajib
+ITS,S1 Teknik Elektro,Genap,Lab. Kontrol Digital dan Otomasi,2,6,Wajib
+ITS,S1 Teknik Elektro,Genap,Komputasi Sistem Linier,2,6,Wajib
+ITS,S1 Teknik Elektro,Genap,Divais Semikonduktor dan Rangkaian Terintegrasi,4,6,Wajib
+ITS,S1 Teknik Elektro,Genap,Etika Profesi, Standar dan Regulasi Telekomunikasi,2,6,Wajib
+ITS,S1 Teknik Elektro,Genap,Manajemen Proyek Telekomunikasi,3,6,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Pancasila,2,7,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Bahasa Inggris,2,7,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Teknopreneur,2,7,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Bahasa Indonesia,2,7,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Pra Tugas Akhir,2,7,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Transmisi dan Distribusi,4,7,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Kontrol dan Pengolahan Sinyal Optimal,4,7,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Sistem Elektronika Tertanam,4,7,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Lab. Telekomunikasi,3,7,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Rekayasa Internet,3,7,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Jaringan Komunikasi Nir-Kabel,3,7,Wajib
+ITS,S1 Teknik Elektro,Genap,Tugas Akhir,6,8,Wajib
+ITS,S1 Teknik Elektro,Ganjil,Desain Sistem Kelistrikan Industri,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Dinamika dan Stabilitas Sistem Tenaga Listrik,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Energi Baru dan Terbarukan,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Fenomena Transien Tegangan Tinggi,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Instalasi Tenaga Listrik,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Kecerdasan Artifisial dalam Sistem Tenaga Listrik,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Kualitas Daya Listrik,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Manajemen Proyek dan Keselamatan Kerja,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Pengoperasian Sistem Tenaga Listrik,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Pemeliharaan Peralatan Listrik,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Pengendalian Modern SKBB,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Pengaman Sistem Tenaga Listrik,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Pengemudian Motor Listrik,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Peralatan Tegangan Tinggi,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Perencanaan Sistem Tenaga Listrik,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Analisis Jaringan,2,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Kontrol Penggerak Elektrik,2,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Robotika,2,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Sistem Kontrol Adaptif,2,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Sistem Kontrol Cerdas,2,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Sistem Kontrol Tertanam,2,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Sistem Kontrol Proses,2,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Sistem Multi Agen,2,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Sistem Otonom,2,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Teknik Keandalan Sistem,2,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Divais Optoelektronika,2,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Penginderaan Visual Elektronika,2,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Sistem Kontrol Elektronika,2,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Sistem Robot Otonom,2,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Topik Khusus,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Pengolahan Sinyal Multimedia,3,5,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Kapita Selekta Telekomunikasi,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Topik Khusus Telekomunikasi,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Layanan dalam Jaringan,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Sekuriti dan Kriptografi,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Sistem Broadcast,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Rangkaian Gelombang Mikro,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Rekayasa Sistem Radar,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Jaringan Satelit, Penginderaan Jauh, & Navigasi,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Teknologi Komunikasi Generasi Baru,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Komputasi Kuantum & Informasi Kuantum,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Pengkodean Kanal,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Sistem Komunikasi Wahana Nirawak,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Radio berbasis Perangkat Lunak,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Jaringan berbasis Perangkat Lunak,3,7,Pilihan
+ITS,S1 Teknik Elektro,Ganjil,Komputasi dalam Jaringan,3,7,Pilihan

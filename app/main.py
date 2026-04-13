@@ -291,14 +291,15 @@ async def update_user_route(
                         models.Department.name == db_user.jurusan
                     ).first()
                     if dept:
-                        curr = db_session.query(models.Curriculum).filter(models.Curriculum.department_id == dept.id).first()
-                        if curr:
+                        curricula = db_session.query(models.Curriculum).filter(models.Curriculum.department_id == dept.id).all()
+                        if curricula:
                             # 1. Clear existing schedule first to prevent duplicates / mixed curricula
                             crud.delete_all_user_jadwal(db_session, user_id)
                             
-                            # 2. Auto connect for ALL semesters (1-8) to populate full program
-                            for s_l in range(1, 9):
-                                crud.connect_curriculum_to_user(db_session, user_id, curr.id, None, s_l)
+                            # 2. Auto connect for ALL semesters (1-8) walking through all curriculum types (Ganjil/Genap)
+                            for curr_obj in curricula:
+                                for s_l in range(1, 9):
+                                    crud.connect_curriculum_to_user(db_session, user_id, curr_obj.id, None, s_l)
 
         return RedirectResponse(url="/", status_code=303)
     except Exception as e:

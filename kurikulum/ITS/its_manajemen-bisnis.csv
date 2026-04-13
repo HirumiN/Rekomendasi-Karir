@@ -1,0 +1,66 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Manajemen Bisnis,Ganjil,Pengantar Manajemen,3,1,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Ekonomi Mikro,3,1,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Pengantar Akuntansi,3,1,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Matematika,2,1,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Kewarganegaraan,2,1,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Agama,2,1,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Bahasa Inggris,2,1,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Manajemen Sumber Daya Manusia,3,2,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Akuntansi Finansial,3,2,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Ekonomi Makro,3,2,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Analisa Data,3,2,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Design Thinking,3,2,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Pancasila,2,2,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Bahasa Indonesia,2,2,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Manajemen Pemasaran,3,3,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Manajemen Operasional,3,3,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Manajemen Keuangan,3,3,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Metode Kuantitatif Bisnis,3,3,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Statistik Bisnis,3,3,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Penciptaan Usaha Baru,4,3,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Manajemen Investasi dan Portofolio,3,4,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Komunikasi Bisnis,3,4,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Etika Bisnis dan CSR,3,4,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Desain dan Perilaku Organisasi,3,4,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Perilaku Konsumen,3,4,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Kewirausahaan Sosial,4,4,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Sistem Informasi Bisnis,3,5,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Akuntansi Manajerial,3,5,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Metode Penelitian untuk Bisnis,3,5,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Manajemen Risiko dan Tata Kelola,3,5,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Aspek Hukum dalam Bisnis,2,5,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Bisnis Internasional,3,5,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Kerja Praktik,3,6,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Manajemen Proyek,3,6,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Perpajakan,3,6,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Valuasi Bisnis,3,6,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Technopreneurship,2,6,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Seminar,3,6,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Manajemen Strategis,3,7,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Business Consulting Project,3,7,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Wawasan Teknologi,3,7,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,MK Pengayaan ITS,3,7,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,Manajemen Inovasi dan Pengembangan Produk,3,7,Wajib
+ITS,S1 Manajemen Bisnis,Ganjil,MK Wajib Konsentrasi,3,7,Pilihan
+ITS,S1 Manajemen Bisnis,Genap,Pemasaran untuk Produk Canggih,3,8,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Skripsi,6,8,Wajib
+ITS,S1 Manajemen Bisnis,Genap,MK Wajib Konsentrasi,3,8,Pilihan
+ITS,S1 Manajemen Bisnis,Genap,MK Pilihan,3,8,Pilihan
+ITS,S1 Manajemen Bisnis,Genap,Manajemen Kinerja,3,8,Wajib
+ITS,S1 Manajemen Bisnis,Genap,Pemasaran Jasa,3,6,Pilihan
+ITS,S1 Manajemen Bisnis,Genap,Pemasaran Strategik,3,6,Pilihan
+ITS,S1 Manajemen Bisnis,Genap,Manajemen Merk,3,6,Pilihan
+ITS,S1 Manajemen Bisnis,Genap,Riset Pemasaran,3,6,Pilihan
+ITS,S1 Manajemen Bisnis,Genap,Manajemen Logistik dan Rantai Pasok,3,6,Pilihan
+ITS,S1 Manajemen Bisnis,Genap,Manajemen Proses Bisnis,3,6,Pilihan
+ITS,S1 Manajemen Bisnis,Genap,Pengambilan Keputusan Multi Kriteria,3,6,Pilihan
+ITS,S1 Manajemen Bisnis,Genap,Permodelan dan Aplikasi E-Bisnis,3,6,Pilihan
+ITS,S1 Manajemen Bisnis,Ganjil,Pembiayaan Proyek,3,7,Pilihan
+ITS,S1 Manajemen Bisnis,Ganjil,Metode Penilaian Bisnis,3,7,Pilihan
+ITS,S1 Manajemen Bisnis,Ganjil,Manajemen Keuangan Internasional,3,7,Pilihan
+ITS,S1 Manajemen Bisnis,Ganjil,Manajemen Perbankan,3,7,Pilihan
+ITS,S1 Manajemen Bisnis,Ganjil,Manajemen Kompensasi,3,7,Pilihan
+ITS,S1 Manajemen Bisnis,Ganjil,Perubahan dan Pengembangan Organisasi,3,7,Pilihan
+ITS,S1 Manajemen Bisnis,Ganjil,Kepemimpinan Kewirausahaan,3,7,Pilihan
+ITS,S1 Manajemen Bisnis,Ganjil,Hubungan Industrial,3,7,Pilihan

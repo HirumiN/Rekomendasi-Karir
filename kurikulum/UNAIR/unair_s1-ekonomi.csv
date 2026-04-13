@@ -1,0 +1,58 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Ekonomi,Ganjil,Pendidikan Agama I,2,1,MKWU
+UNAIR,S1 Ekonomi,Ganjil,Pancasila,2,1,MKWU
+UNAIR,S1 Ekonomi,Ganjil,Kewarganegaraan,2,1,MKWU
+UNAIR,S1 Ekonomi,Ganjil,Bahasa Indonesia,2,1,MKWU
+UNAIR,S1 Ekonomi,Ganjil,Data dan Pustaka,2,1,MKWU
+UNAIR,S1 Ekonomi,Ganjil,Logika dan Pemikiran Kritis,2,1,MKWU
+UNAIR,S1 Ekonomi,Ganjil,Pengantar Kolaborasi Keilmuan,2,1,MKWU
+UNAIR,S1 Ekonomi,Ganjil,Komunikasi dan Pengembangan Diri,2,1,MKWU
+UNAIR,S1 Ekonomi,Ganjil,Matematika Ekonomi I,3,1,MKK
+UNAIR,S1 Ekonomi,Genap,Pengantar Teori Ekonomi Makro,3,2,MKK
+UNAIR,S1 Ekonomi,Genap,Pengantar Teori Ekonomi Mikro,3,2,MKK
+UNAIR,S1 Ekonomi,Genap,Pengantar Bisnis,3,2,MKK
+UNAIR,S1 Ekonomi,Genap,Akuntansi Dasar,3,2,MKK
+UNAIR,S1 Ekonomi,Genap,Matematika Ekonomi II,3,2,MKK
+UNAIR,S1 Ekonomi,Genap,Statistika I,3,2,MKK
+UNAIR,S1 Ekonomi,Genap,Literasi Akademik Ilmu Ekonomi,2,2,MKK
+UNAIR,S1 Ekonomi,Ganjil,Teori Ekonomi Makro I,3,3,MKK
+UNAIR,S1 Ekonomi,Ganjil,Teori Ekonomi Mikro I,3,3,MKK
+UNAIR,S1 Ekonomi,Ganjil,Statistika II,3,3,MKK
+UNAIR,S1 Ekonomi,Ganjil,Ekonometrika I,3,3,MKK
+UNAIR,S1 Ekonomi,Ganjil,Perekonomian Indonesia,3,3,MKK
+UNAIR,S1 Ekonomi,Ganjil,Ekonomi Pembangunan I,3,3,MKK
+UNAIR,S1 Ekonomi,Ganjil,Teori Ekonomi Terapan,3,3,MKK
+UNAIR,S1 Ekonomi,Genap,Teori Ekonomi Makro II,3,4,MKK
+UNAIR,S1 Ekonomi,Genap,Teori Ekonomi Mikro II,3,4,MKK
+UNAIR,S1 Ekonomi,Genap,Ekonometrika II,3,4,MKK
+UNAIR,S1 Ekonomi,Genap,Ekonomi Moneter I,3,4,MKK
+UNAIR,S1 Ekonomi,Genap,Ekonomi Publik I,3,4,MKK
+UNAIR,S1 Ekonomi,Genap,Ekonomi Internasional I,3,4,MKK
+UNAIR,S1 Ekonomi,Genap,Ekonomi Maritim,3,4,MKK
+UNAIR,S1 Ekonomi,Ganjil,Pendidikan Agama II,2,5,MKWU
+UNAIR,S1 Ekonomi,Ganjil,KKN,3,5,MBB
+UNAIR,S1 Ekonomi,Ganjil,Metodologi Penelitian,3,5,MKK
+UNAIR,S1 Ekonomi,Ganjil,Kebanksentralan,3,5,MKK
+UNAIR,S1 Ekonomi,Ganjil,Evaluasi Proyek Pembangunan,3,5,MKK
+UNAIR,S1 Ekonomi,Ganjil,Ekonomi Pemodelan,3,5,MKK
+UNAIR,S1 Ekonomi,Ganjil,Ekonomi Sumber Daya Alam dan Lingkungan,3,5,Pilihan
+UNAIR,S1 Ekonomi,Ganjil,Ekonomi Moneter II,3,5,Pilihan
+UNAIR,S1 Ekonomi,Ganjil,Ekonomi Publik II,3,5,Pilihan
+UNAIR,S1 Ekonomi,Ganjil,Ekonomi Internasional II,3,5,Pilihan
+UNAIR,S1 Ekonomi,Genap,Seminar Proposal,2,6,MKK
+UNAIR,S1 Ekonomi,Genap,Skripsi,6,6,MKK
+UNAIR,S1 Ekonomi,Genap,Ekonomi Keuangan Daerah,3,6,Pilihan
+UNAIR,S1 Ekonomi,Genap,Ekonomi Pembangunan II,3,6,Pilihan
+UNAIR,S1 Ekonomi,Genap,Ekonomi Digital,3,6,Pilihan
+UNAIR,S1 Ekonomi,Genap,Perdagangan Internasional,3,6,Pilihan
+UNAIR,S1 Ekonomi,Genap,Hukum Bisnis,3,6,Pilihan
+UNAIR,S1 Ekonomi,Genap,Manajemen Risiko,3,6,Pilihan
+UNAIR,S1 Ekonomi,Genap,Bank dan Lembaga Keuangan Non-Bank,3,6,Pilihan
+UNAIR,S1 Ekonomi,Genap,Ekonomi Politik,3,6,Pilihan
+UNAIR,S1 Ekonomi,Genap,Ekonomi Transportasi,3,6,Pilihan
+UNAIR,S1 Ekonomi,Genap,Ekonomi Pertanian,3,6,Pilihan
+UNAIR,S1 Ekonomi,Genap,Ekonomi Industri,3,6,Pilihan
+UNAIR,S1 Ekonomi,Genap,Etika Bisnis dan Tanggung Jawab Sosial,3,6,Pilihan
+UNAIR,S1 Ekonomi,Genap,Aspek Hukum dalam Bisnis,3,6,Pilihan
+UNAIR,S1 Ekonomi,Genap,Ekonomi Koperasi,3,6,Pilihan
+UNAIR,S1 Ekonomi,Genap,Manajemen Investasi,3,6,Pilihan

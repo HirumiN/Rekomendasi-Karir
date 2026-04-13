@@ -1,0 +1,41 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Sistem Informasi,Ganjil,Pengantar Ilmu Komputer,3,1,MKWU
+UNAIR,S1 Sistem Informasi,Ganjil,Pengantar Sistem Informasi,3,1,MKK
+UNAIR,S1 Sistem Informasi,Ganjil,Matematika Dasar I,3,1,MKK
+UNAIR,S1 Sistem Informasi,Ganjil,Bahasa Indonesia,2,1,MKWU
+UNAIR,S1 Sistem Informasi,Ganjil,Agama,2,1,MKWU
+UNAIR,S1 Sistem Informasi,Genap,Pemrograman Dasar,4,2,MKK
+UNAIR,S1 Sistem Informasi,Genap,Matematika Dasar II,3,2,MKK
+UNAIR,S1 Sistem Informasi,Genap,Kalkulus I,3,2,MKK
+UNAIR,S1 Sistem Informasi,Genap,Fisika Dasar,3,2,MKK
+UNAIR,S1 Sistem Informasi,Genap,Kewarganegaraan,2,2,MKWU
+UNAIR,S1 Sistem Informasi,Ganjil,Struktur Data,4,3,MKK
+UNAIR,S1 Sistem Informasi,Ganjil,Pemrograman Berorientasi Objek,4,3,MKK
+UNAIR,S1 Sistem Informasi,Ganjil,Statistika dan Probabilitas,3,3,MKK
+UNAIR,S1 Sistem Informasi,Ganjil,Sistem Basis Data I,4,3,MKK
+UNAIR,S1 Sistem Informasi,Ganjil,Bahasa Inggris,2,3,MKWU
+UNAIR,S1 Sistem Informasi,Genap,Pemrograman Web,4,4,MKK
+UNAIR,S1 Sistem Informasi,Genap,Sistem Operasi,3,4,MKK
+UNAIR,S1 Sistem Informasi,Genap,Analisis dan Perancangan Sistem Informasi,4,4,MKK
+UNAIR,S1 Sistem Informasi,Genap,Sistem Basis Data II,4,4,MKK
+UNAIR,S1 Sistem Informasi,Genap,Pancasila,2,4,MKWU
+UNAIR,S1 Sistem Informasi,Ganjil,Manajemen Proyek Sistem Informasi,3,5,MKK
+UNAIR,S1 Sistem Informasi,Ganjil,Jaringan Komputer,3,5,MKK
+UNAIR,S1 Sistem Informasi,Ganjil,Pemrograman Mobile,4,5,MKK
+UNAIR,S1 Sistem Informasi,Ganjil,Manajemen Sistem Informasi,3,5,MKK
+UNAIR,S1 Sistem Informasi,Ganjil,Etika,2,5,MKWU
+UNAIR,S1 Sistem Informasi,Genap,Sistem Informasi Manajemen,4,6,MKK
+UNAIR,S1 Sistem Informasi,Genap,Keamanan Sistem Informasi,3,6,MKK
+UNAIR,S1 Sistem Informasi,Genap,Pemrograman Berbasis Platform,4,6,MKK
+UNAIR,S1 Sistem Informasi,Genap,Manajemen Data,3,6,MKK
+UNAIR,S1 Sistem Informasi,Genap,Kewarganegaraan Lanjut,2,6,MKWU
+UNAIR,S1 Sistem Informasi,Ganjil,Sistem Informasi Akuntansi,4,7,MKK
+UNAIR,S1 Sistem Informasi,Ganjil,Sistem Informasi Pemasaran,4,7,MKK
+UNAIR,S1 Sistem Informasi,Ganjil,Sistem Informasi Operasional,4,7,MKK
+UNAIR,S1 Sistem Informasi,Ganjil,Sistem Informasi Keuangan,4,7,MKK
+UNAIR,S1 Sistem Informasi,Ganjil,Agama II,2,7,MKWU
+UNAIR,S1 Sistem Informasi,Genap,Sistem Informasi Strategis,4,8,MKK
+UNAIR,S1 Sistem Informasi,Genap,Sistem Informasi Manajemen Sumber Daya Manusia,4,8,MKK
+UNAIR,S1 Sistem Informasi,Genap,Sistem Informasi Logistik,4,8,MKK
+UNAIR,S1 Sistem Informasi,Genap,Sistem Informasi Produksi,4,8,MKK
+UNAIR,S1 Sistem Informasi,Genap,Skripsi,6,8,Wajib

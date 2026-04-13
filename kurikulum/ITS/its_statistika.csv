@@ -1,0 +1,71 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Statistika,Ganjil,Pengantar Metode Statistika,3,1,Wajib
+ITS,S1 Statistika,Ganjil,Bahasa Inggris,3,1,Wajib
+ITS,S1 Statistika,Ganjil,Fisika I,3,1,Wajib
+ITS,S1 Statistika,Ganjil,Matematika I,3,1,Wajib
+ITS,S1 Statistika,Ganjil,Kimia,3,1,Wajib
+ITS,S1 Statistika,Genap,Teknik Sampling & Survei,3,2,Wajib
+ITS,S1 Statistika,Genap,Matematika II,3,2,Wajib
+ITS,S1 Statistika,Genap,Fisika II,4,2,Wajib
+ITS,S1 Statistika,Genap,Bahasa Indonesia,2,2,Wajib
+ITS,S1 Statistika,Genap,Agama,2,2,Wajib
+ITS,S1 Statistika,Ganjil,Matriks,3,3,Wajib
+ITS,S1 Statistika,Ganjil,Matematika III,3,3,Wajib
+ITS,S1 Statistika,Ganjil,Analisis Regresi,3,3,Wajib
+ITS,S1 Statistika,Ganjil,Teori Peluang,3,3,Wajib
+ITS,S1 Statistika,Ganjil,Pancasila,2,3,Wajib
+ITS,S1 Statistika,Genap,Desain Eksperimen,3,4,Wajib
+ITS,S1 Statistika,Genap,Matematika IV,3,4,Wajib
+ITS,S1 Statistika,Genap,Statistika Matematika I,3,4,Wajib
+ITS,S1 Statistika,Ganjil,Statistika Non Parametrik,3,5,Wajib
+ITS,S1 Statistika,Ganjil,Statistika Matematika II,3,5,Wajib
+ITS,S1 Statistika,Ganjil,Proses Stokastik,3,5,Wajib
+ITS,S1 Statistika,Ganjil,Technopreneurship,3,5,Wajib
+ITS,S1 Statistika,Genap,Analisis Multivariat,4,6,Wajib
+ITS,S1 Statistika,Genap,Analisis Data Kategori,3,6,Wajib
+ITS,S1 Statistika,Genap,Analisis Deret Waktu,3,6,Wajib
+ITS,S1 Statistika,Genap,Metodologi Penelitian,2,6,Wajib
+ITS,S1 Statistika,Genap,MK Pengayaan,3,6,Wajib
+ITS,S1 Statistika,Ganjil,Kerja Praktek,2,7,Wajib
+ITS,S1 Statistika,Genap,Tugas Akhir,6,8,Wajib
+ITS,S1 Statistika,Genap,Statistical Consulting,3,8,Wajib
+ITS,S1 Statistika,Genap,Kewarganegaraan,3,8,Wajib
+ITS,S1 Statistika,Genap,Wawasan & Aplikasi Teknologi,3,8,Wajib
+ITS,S1 Statistika,Ganjil,Pengantar Teori Ekonomi,3,1,Pilihan
+ITS,S1 Statistika,Genap,Pemrograman Komputer,4,2,Pilihan
+ITS,S1 Statistika,Ganjil,Analisis Numerik,3,3,Pilihan
+ITS,S1 Statistika,Genap,Analisis Data Eksploratif,2,4,Pilihan
+ITS,S1 Statistika,Genap,Komputasi Statistika,3,4,Pilihan
+ITS,S1 Statistika,Genap,Manajemen Operasi,3,4,Pilihan
+ITS,S1 Statistika,Ganjil,Struktur Data dan Algoritma,2,5,Pilihan
+ITS,S1 Statistika,Ganjil,Riset Operasi,3,5,Pilihan
+ITS,S1 Statistika,Ganjil,Manajemen Mutu,3,5,Pilihan
+ITS,S1 Statistika,Ganjil,Analisis Keputusan Bisnis,3,5,Pilihan
+ITS,S1 Statistika,Ganjil,Matematika Keuangan,3,5,Pilihan
+ITS,S1 Statistika,Ganjil,Akuntansi,3,5,Pilihan
+ITS,S1 Statistika,Ganjil,Pengendalian Kualitas Statistika,4,5,Pilihan
+ITS,S1 Statistika,Ganjil,Studi Kependudukan,3,5,Pilihan
+ITS,S1 Statistika,Ganjil,Biostatistika,3,5,Pilihan
+ITS,S1 Statistika,Genap,Regresi Nonparametrik,3,6,Pilihan
+ITS,S1 Statistika,Genap,Analisis Bayesian,3,6,Pilihan
+ITS,S1 Statistika,Genap,Six Sigma,3,6,Pilihan
+ITS,S1 Statistika,Genap,Perancangan Kualitas,3,6,Pilihan
+ITS,S1 Statistika,Genap,Analisis Reliabilitas,3,6,Pilihan
+ITS,S1 Statistika,Genap,Analisis Finansial,3,6,Pilihan
+ITS,S1 Statistika,Genap,Data Mining,3,6,Pilihan
+ITS,S1 Statistika,Genap,Sistem Informasi Manajemen,3,6,Pilihan
+ITS,S1 Statistika,Genap,Analisis Risiko,3,6,Pilihan
+ITS,S1 Statistika,Genap,Metode Riset Sosial,3,6,Pilihan
+ITS,S1 Statistika,Genap,Statistika Spasial,3,6,Pilihan
+ITS,S1 Statistika,Ganjil,Statistika Offisial,3,7,Pilihan
+ITS,S1 Statistika,Ganjil,Ekonometrika,3,7,Pilihan
+ITS,S1 Statistika,Ganjil,Manajemen Logistik dan Rantai Pasok,3,7,Pilihan
+ITS,S1 Statistika,Ganjil,Metode Riset Pemasaran,3,7,Pilihan
+ITS,S1 Statistika,Ganjil,Teknik Simulasi,3,7,Pilihan
+ITS,S1 Statistika,Ganjil,Analisis Data,3,7,Pilihan
+ITS,S1 Statistika,Ganjil,Statistical Machine Learning,3,7,Pilihan
+ITS,S1 Statistika,Ganjil,Bisnis Analitik,3,7,Pilihan
+ITS,S1 Statistika,Ganjil,Aktuaria,3,7,Pilihan
+ITS,S1 Statistika,Ganjil,Analisis Meta,3,7,Pilihan
+ITS,S1 Statistika,Genap,Ekonometrika Deret Waktu,3,8,Pilihan
+ITS,S1 Statistika,Genap,Analisis Survival,3,8,Pilihan

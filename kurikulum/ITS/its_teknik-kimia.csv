@@ -1,0 +1,66 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Teknik Kimia,Ganjil,Calculus 1,3,1,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Physics 1,5,1,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Chemistry,3,1,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Introduction to Chemical Engineering,3,1,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Analytical Chemistry,4,1,Wajib
+ITS,S1 Teknik Kimia,Genap,Calculus 2,3,2,Wajib
+ITS,S1 Teknik Kimia,Genap,Physics of Electricity and Magnetic,3,2,Wajib
+ITS,S1 Teknik Kimia,Genap,Introduction to Chemical Industries,2,2,Wajib
+ITS,S1 Teknik Kimia,Genap,Organic Chemistry,4,2,Wajib
+ITS,S1 Teknik Kimia,Genap,Physical Chemistry,4,2,Wajib
+ITS,S1 Teknik Kimia,Genap,Statistics,2,2,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Chemical Engineering Thermodynamics,3,3,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Microbiology,3,3,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Chemical Engineering Principles 1,3,3,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Construction Materials,2,3,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Momentum Transfer,3,3,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Chemical Engineering Mathematics,4,3,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Plant Utility System,2,3,Wajib
+ITS,S1 Teknik Kimia,Genap,Chemical Engineering Unit Operation 1,4,4,Wajib
+ITS,S1 Teknik Kimia,Genap,Chemical Engineering Thermodynamics 2,3,4,Wajib
+ITS,S1 Teknik Kimia,Genap,Mass and Heat Transfer,4,4,Wajib
+ITS,S1 Teknik Kimia,Genap,Chemical Engineering Principles 2,3,4,Wajib
+ITS,S1 Teknik Kimia,Genap,Chemical Reaction Engineering 1,3,4,Wajib
+ITS,S1 Teknik Kimia,Genap,Chemical Engineering Numerical Computation,3,4,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Chemical Equipment Design,4,5,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Chemical Engineering Unit Operations 2,4,5,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Chemical Engineering Unit Operations 3,4,5,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Chemical Plant Safety,3,5,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Industrial Waste Treatment,3,5,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Chemical Reaction Engineering 2,3,5,Wajib
+ITS,S1 Teknik Kimia,Genap,English,2,6,Wajib
+ITS,S1 Teknik Kimia,Genap,Technology Application and Digital Transformation,3,6,Wajib
+ITS,S1 Teknik Kimia,Genap,Indonesian,2,6,Wajib
+ITS,S1 Teknik Kimia,Genap,Civics,2,6,Wajib
+ITS,S1 Teknik Kimia,Genap,Process Control,4,6,Wajib
+ITS,S1 Teknik Kimia,Genap,Engineering Economics,2,6,Wajib
+ITS,S1 Teknik Kimia,Genap,Membrane Technology,3,6,Pilihan
+ITS,S1 Teknik Kimia,Genap,Aerosol Technology,3,6,Pilihan
+ITS,S1 Teknik Kimia,Genap,Lipids Technology,3,6,Pilihan
+ITS,S1 Teknik Kimia,Genap,Project Management,3,6,Pilihan
+ITS,S1 Teknik Kimia,Genap,Introduction to Combustion Engineering,3,6,Pilihan
+ITS,S1 Teknik Kimia,Genap,Supercritical Technology,3,6,Pilihan
+ITS,S1 Teknik Kimia,Genap,Air Pollution Control,3,6,Pilihan
+ITS,S1 Teknik Kimia,Genap,Separation Column Design,3,6,Pilihan
+ITS,S1 Teknik Kimia,Genap,Energy Technology,3,6,Pilihan
+ITS,S1 Teknik Kimia,Genap,Enrichment Lecture,3,6,Pilihan
+ITS,S1 Teknik Kimia,Ganjil,Technopreneurship,2,7,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Religion,2,7,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Pancasila,2,7,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Practical Field Work,2,7,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Plant Design,3,7,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Synthesis and Process Simulation,3,7,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Research Project,4,7,Wajib
+ITS,S1 Teknik Kimia,Ganjil,Separation Technology,3,7,Pilihan
+ITS,S1 Teknik Kimia,Ganjil,Solid and Toxic and Hazardous Waste Management,3,7,Pilihan
+ITS,S1 Teknik Kimia,Ganjil,Essential Oil Processing,3,7,Pilihan
+ITS,S1 Teknik Kimia,Ganjil,Heterogeneous Catalyst,3,7,Pilihan
+ITS,S1 Teknik Kimia,Ganjil,Polymer Technology,3,7,Pilihan
+ITS,S1 Teknik Kimia,Ganjil,Biorefinery & Bioconversion of Biomass,3,7,Pilihan
+ITS,S1 Teknik Kimia,Ganjil,Natural Gas Processing Technology & HYSYS Application,3,7,Pilihan
+ITS,S1 Teknik Kimia,Ganjil,Biochemical and Food Technology,3,7,Pilihan
+ITS,S1 Teknik Kimia,Ganjil,Process Design and Integration,3,7,Pilihan
+ITS,S1 Teknik Kimia,Ganjil,Fluid Mixing Technology,3,7,Pilihan
+ITS,S1 Teknik Kimia,Ganjil,Electrochemical and Nanomaterial Technology,3,7,Pilihan
+ITS,S1 Teknik Kimia,Genap,Plant Design Project,5,8,Wajib

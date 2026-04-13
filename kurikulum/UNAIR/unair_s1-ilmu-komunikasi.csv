@@ -1,0 +1,99 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Agama Islam 1,2,1,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Agama Kristen Protestan 1,2,1,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Agama Kristen Katolik 1,2,1,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Agama Hindu 1,2,1,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Agama Buddha 1,2,1,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Agama Kong Hu Chu 1,2,1,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Pancasila,2,1,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Kewarganegaraan,2,1,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Bahasa Indonesia,2,1,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Data dan Pustaka,2,1,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Logika dan Pemikiran Kritis,2,1,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Komunikasi dan Pengembangan Diri,2,1,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Pengantar Kolaborasi Keilmuan,2,1,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Teknik Penulisan Ilmiah,2,1,Wajib Fakultas
+UNAIR,S1 Ilmu Komunikasi,Genap,Pengantar Metode Penelitian Sosial,2,2,Wajib Fakultas
+UNAIR,S1 Ilmu Komunikasi,Genap,Pengantar Ilmu Komunikasi,3,2,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Genap,Dasar Teori Sosial,3,2,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Genap,Dasar Public Relations,3,2,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Genap,Dasar Komunikasi Antar Persona,3,2,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Genap,Dasar Jurnalistik,3,2,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Genap,Dasar Kajian Media,3,2,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Public Speaking,2,3,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Dasar Komunikasi dan Psikologi,3,3,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Dasar Komunikasi Pemasaran,2,3,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Dasar Fotografi,2,3,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Teknologi Komunikasi dan Masyarakat,3,3,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Desain Komunikasi Visual,3,3,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Teori Komunikasi,3,3,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Creative Writing,2,3,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Komunikasi Organisasi,2,3,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Komunikasi Antar Budaya,2,3,Pilihan Minat Komunikasi Pemberdayaan
+UNAIR,S1 Ilmu Komunikasi,Genap,Kebijakan dan Regulasi Komunikasi,3,4,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Genap,Industri Kreatif Komunikasi,3,4,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Genap,Riset Komunikasi Kuantitatif,3,4,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Genap,Sinematografi,3,4,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Genap,Scriptwriting,2,4,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Genap,Industri Media Massa,3,4,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Genap,Teori Media,3,4,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Genap,Fotografi Jurnalistik,4,4,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Genap,Jurnalisme Online,4,4,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Genap,Komunikasi dan Budaya Korporat,2,4,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Genap,Strategic Public Relations,4,4,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Genap,Public Relations and Business Writing,3,4,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Genap,Digital Public Relations,3,4,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Genap,Komunikasi Keluarga,3,4,Pilihan Minat Komunikasi Pemberdayaan
+UNAIR,S1 Ilmu Komunikasi,Genap,Komunikasi Kelompok,3,4,Pilihan Minat Komunikasi Pemberdayaan
+UNAIR,S1 Ilmu Komunikasi,Genap,Komunikasi dan Konseling,3,4,Pilihan Minat Komunikasi Pemberdayaan
+UNAIR,S1 Ilmu Komunikasi,Genap,Informasi dan Kelompok Khusus (IIP),2,4,Pilihan Minat Komunikasi Pemberdayaan
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Komunikasi Politik,3,5,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Riset Komunikasi Kualitatif,3,5,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Komunikasi dan Modernitas,4,5,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Academic English for Communication,2,5,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Media Identitas dan Multikulturalisme,3,5,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Jurnalisme Penyiaran,4,5,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Fotografi Komersial,4,5,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Produksi Film Fiksi,4,5,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Komunikasi dan Perilaku Konsumen,3,5,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Komunikasi Pemasaran Online,3,5,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Pencitraan Merk,3,5,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Komunikasi Kesehatan,4,5,Pilihan Minat Komunikasi Pemberdayaan
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Komunikasi Pemberdayaan Gender,3,5,Pilihan Minat Komunikasi Pemberdayaan
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Pengembangan Masyarakat (SOS),3,5,Pilihan Minat Komunikasi Pemberdayaan
+UNAIR,S1 Ilmu Komunikasi,Genap,Agama Islam 2,2,6,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Genap,Agama Kristen Protestan 2,2,6,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Genap,Agama Kristen Katolik 2,2,6,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Genap,Agama Hindu 2,2,6,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Genap,Agama Buddha 2,2,6,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Genap,Agama Kong Hu Chu 2,2,6,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Genap,Kuliah Kerja Nyata (KKN),3,6,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Genap,Proposal Tugas Akhir (Kom),3,6,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Genap,Media Antropologi,3,6,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Genap,Media dan Globalisasi,3,6,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Genap,Internet dan Budaya Siber,3,6,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Genap,Budaya Visual,3,6,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Genap,Media dan Budaya Konsumen,3,6,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Genap,Produksi Film Dokumenter,4,6,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Genap,Kajian Kritis CSR,3,6,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Genap,Komunikasi Pemasaran Sosial,3,6,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Genap,Komunikasi Pemasaran Politik,3,6,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Genap,Komunikasi dan Aktivisme Komunitas,4,6,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Genap,Komunikasi dan Lingkungan,3,6,Pilihan Minat Komunikasi Pemberdayaan
+UNAIR,S1 Ilmu Komunikasi,Genap,Media dan Promosi Kesehatan,3,6,Pilihan Minat Komunikasi Pemberdayaan
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Tugas Akhir,6,7,Wajib Universitas
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Magang Profesi Komunikasi,6,7,Wajib Program Studi
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Produksi Program Audio,3,7,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Kajian Jurnalisme,3,7,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Kajian Sinema Indonesia,3,7,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Human Fotografi,4,7,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Perencanaan Media Periklanan,3,7,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Industri Kreatif Periklanan,3,7,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Perencanaan Event,5,7,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Komunikasi Risiko dan Kebencanaan,4,7,Pilihan Minat Komunikasi Pemberdayaan
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Aktivisme Transnasional dan Perubahan Sosial (HI),3,7,Pilihan Minat Komunikasi Pemberdayaan
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Asistensi Perkuliahan Komunikasi,3,7,Pilihan Bebas
+UNAIR,S1 Ilmu Komunikasi,Ganjil,Media and Communications Entrepreneurship,4,7,Pilihan Bebas
+UNAIR,S1 Ilmu Komunikasi,Genap,Produksi Film Animasi,4,8,Pilihan Minat Produksi Media Kreatif
+UNAIR,S1 Ilmu Komunikasi,Genap,UX dan Desain Media Interaktif,3,8,Pilihan Minat Komunikasi Korporat
+UNAIR,S1 Ilmu Komunikasi,Genap,Advokasi Perubahan Kebijakan Publik,3,8,Pilihan Minat Komunikasi Pemberdayaan

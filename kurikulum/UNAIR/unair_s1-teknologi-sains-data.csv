@@ -1,0 +1,52 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Agama,2,1,MKWU
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Bahasa Indonesia,2,1,MKWU
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Bahasa Inggris,2,1,MKWU
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Dasar Pemrograman,4,1,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Matematika Dasar,4,1,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Pengantar Sains Data,4,1,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Bahasa Inggris Teknis,2,2,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Matematika Diskrit,4,2,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Pemrograman Berorientasi Objek,4,2,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Probabilitas dan Statistika,4,2,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Struktur Data dan Algoritma,4,2,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Aljabar Linear,3,3,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Basis Data,4,3,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Kecerdasan Buatan,4,3,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Metode Numerik,4,3,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Statistika Inferensial,4,3,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Data Mining,4,4,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Jaringan Syaraf Tiruan,4,4,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Manajemen Informasi,3,4,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Pemrosesan Bahasa Alami,4,4,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Sistem Operasi,4,4,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Analisis Regresi,3,5,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Data Warehouse,4,5,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Machine Learning,4,5,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Pengenalan Pola,4,5,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Sistem Pakar,4,5,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Big Data,4,6,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Data Visualization,4,6,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Kecerdasan Komputasional,4,6,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Manajemen Proyek,3,6,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Metode Penelitian,4,6,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Bisnis Inteligensi,4,7,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Deep Learning,4,7,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Etika Profesi,2,7,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Ganjil,Statistika Multivariat,4,7,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Kerja Praktek,6,8,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Genap,Skripsi,6,8,Wajib
+Universitas Airlangga,S1 Teknologi Sains Data,Pilihan,Analisis Deret Waktu,3,,Pilihan
+Universitas Airlangga,S1 Teknologi Sains Data,Pilihan,Analisis Sentimen,3,,Pilihan
+Universitas Airlangga,S1 Teknologi Sains Data,Pilihan,Data Science for Business,3,,Pilihan
+Universitas Airlangga,S1 Teknologi Sains Data,Pilihan,Data Science for Health,3,,Pilihan
+Universitas Airlangga,S1 Teknologi Sains Data,Pilihan,Data Science for Social,3,,Pilihan
+Universitas Airlangga,S1 Teknologi Sains Data,Pilihan,Data Science for Sports,3,,Pilihan
+Universitas Airlangga,S1 Teknologi Sains Data,Pilihan,Data Science for Tourism,3,,Pilihan
+Universitas Airlangga,S1 Teknologi Sains Data,Pilihan,Geospatial Data Science,3,,Pilihan
+Universitas Airlangga,S1 Teknologi Sains Data,Pilihan,Internet of Things,3,,Pilihan
+Universitas Airlangga,S1 Teknologi Sains Data,Pilihan,Machine Learning Advanced,3,,Pilihan
+Universitas Airlangga,S1 Teknologi Sains Data,Pilihan,Pengolahan Bahasa Alami Lanjut,3,,Pilihan
+Universitas Airlangga,S1 Teknologi Sains Data,Pilihan,Pengolahan Citra Digital,3,,Pilihan
+Universitas Airlangga,S1 Teknologi Sains Data,Pilihan,Pengolahan Data Geospasial,3,,Pilihan
+Universitas Airlangga,S1 Teknologi Sains Data,Pilihan,Statistika Nonparametrik,3,,Pilihan

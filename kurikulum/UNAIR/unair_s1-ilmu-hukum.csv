@@ -1,0 +1,144 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Ilmu Hukum,Ganjil,Pendidikan Agama I,2,1,MKWU
+UNAIR,S1 Ilmu Hukum,Ganjil,Bahasa Indonesia,2,1,MKWU
+UNAIR,S1 Ilmu Hukum,Ganjil,Pancasila,2,1,MKWU
+UNAIR,S1 Ilmu Hukum,Ganjil,Kewarganegaraan,2,1,MKWU
+UNAIR,S1 Ilmu Hukum,Ganjil,Data dan Pustaka,2,1,MKWU
+UNAIR,S1 Ilmu Hukum,Ganjil,Ilmu Negara,2,1,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Pengantar Ilmu Hukum,4,1,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Pengantar Hukum Indonesia,4,1,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Hak Asasi Manusia,2,2,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Hukum Perdata,4,2,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Hukum Pidana,4,2,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Hukum Administrasi,4,2,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Logika dan Pemikiran Kritis,2,2,MKWU
+UNAIR,S1 Ilmu Hukum,Genap,Komunikasi dan Pengembangan Diri,2,2,MKWU
+UNAIR,S1 Ilmu Hukum,Genap,Pengantar Kolaborasi Keilmuan,2,2,MKWU
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Acara Perdata,4,3,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Acara Pidana,4,3,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Dagang,4,3,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Internasional,4,3,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Tata Negara,4,3,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Hukum Acara Peradilan Agama,2,4,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Hukum Acara Peradilan Tata Usaha Negara,4,4,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Hukum Adat,2,4,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Hukum Islam,2,4,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Hukum Perikatan,4,4,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Agraria,2,5,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Laut,2,5,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Perburuhan,2,5,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Perseroan,2,5,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Kejahatan Terhadap Nyawa Dan Harta Kekayaan,4,5,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Kuliah Kerja Nyata (KKN),3,5,MBB
+UNAIR,S1 Ilmu Hukum,Ganjil,Legal Analytical and Critical Thinking Skill,2,5,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Legal Problem Solving,2,5,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Legal Research,2,5,MBKM
+UNAIR,S1 Ilmu Hukum,Ganjil,Pembuatan Dokumen-Dokumen Hukum,2,5,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Perumusan Masalah Hukum,2,5,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Kemampuan Beradaptasi,2,5,MBKM
+UNAIR,S1 Ilmu Hukum,Ganjil,Kepemimpinan,2,5,MBKM
+UNAIR,S1 Ilmu Hukum,Ganjil,Kerja Keras,2,5,MBKM
+UNAIR,S1 Ilmu Hukum,Ganjil,Kerjasama,2,5,MBKM
+UNAIR,S1 Ilmu Hukum,Ganjil,Komunikasi,2,5,MBKM
+UNAIR,S1 Ilmu Hukum,Ganjil,Kreativitas,2,5,MBKM
+UNAIR,S1 Ilmu Hukum,Ganjil,Negotiation Skill,2,5,MBKM
+UNAIR,S1 Ilmu Hukum,Ganjil,Public Speaking,2,5,MBKM
+UNAIR,S1 Ilmu Hukum,Genap,Hukum Lingkungan,2,6,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Hukum Perundang-Undangan,2,6,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Klinik Pro-Bono,2,6,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Klinik Strategic Sosial Justice,2,6,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Penyelesaian Sengketa Alternatif,2,6,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Praktek Kerja Lapangan,3,6,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Praktik Peradilan Pidana Dan Perdata,2,6,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Etika Profesi Hukum,2,7,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Kontrak,4,7,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Perdagangan Internasional,4,7,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Penelitian Hukum,2,7,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Pengantar Filsafat Hukum,2,7,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Hukum Pidana Siber,2,8,MKK
+UNAIR,S1 Ilmu Hukum,Genap,Skripsi,4,8,MKK
+UNAIR,S1 Ilmu Hukum,Ganjil,Akuntansi Profesi Hukum,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Antropologi Hukum dan Pluralisme Hukum,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Arbitrase Internasional,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Arbitrase Syariah,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Argumentasi Hukum,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hak Asasi Manusia Internasional,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hak Kekayaan Intelektual,4,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Acara Mahkamah Konstitusi,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Acara Pengadilan Pajak,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum ASEAN,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Asuransi,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Bisnis Teknologi dan Globalisasi,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum dan Dinamika Sosial,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum dan Perancangan Perjanjian Internasional,4,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Diplomatik Dan Konsuler,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Humaniter Internasional,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Investasi,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Jaminan,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Kejahatan Internasional,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Kejahatan Transnasional,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Kepailitan,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Kepegawaian,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Kesehatan,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Keuangan Negara,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Kewarganegaraan,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Lingkungan Internasional,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Maritim,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Migran,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Nuklir,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Organisasi Internasional,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pajak,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pasar Modal,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pelayanan Publik,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pembiayaan,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pemilihan Umum,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Penataan Ruang,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pengadilan Dan Pendaftaran Hak Atas Tanah,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pengangkutan,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pengungsi,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Perbankan,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Perdata Internasional,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Perizinan,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Perlindungan Konsumen,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Persaingan Usaha,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pertambangan,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Perumahan dan Permukiman,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pidana Anak,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pidana Ekonomi,4,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pidana Korporasi,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pidana Korupsi,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pidana Militer,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pidana Narkotika Psikotropika dan Zat Adiktif,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pidana Pers,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Pidana Politik,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Siber,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Surat Berharga,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Udara Dan Angkasa,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Uni Eropa,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Wakaf Dan Zakat,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Hukum Waris,4,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Ilmu Kedokteran Kehakiman,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Klinik Anti Korupsi,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Klinik Lingkungan,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Kriminologi,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Manajemen Kredit,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Pemerintahan Daerah,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Pengantar Asuransi Syariah,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Pengantar Fiqh Muamalat,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Pengantar Hukum Pengadaan Barang Dan Jasa,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Pengantar Ilmu Fiqh,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Pengantar Kontrak Syariah,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Pengantar Lembaga Keuangan Syariah,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Pengantar Perbandingan Hukum Pidana,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Pengantar Perbankan Syariah,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Pengantar Perdagangan Syariah,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Pengantar Perusahaan Syariah,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Penyelesaian Sengketa Internasional,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Perancangan Perundang-Undangan,4,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Perbandingan Hukum Tata Negara,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Perjanjian Dagang Internasional,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Perselisihan Hubungan Industrial,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Psikiatri Kehakiman,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Sosiologi Hukum,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Teori Konstitusi,2,7,Pilihan
+UNAIR,S1 Ilmu Hukum,Ganjil,Viktimologi,2,7,Pilihan

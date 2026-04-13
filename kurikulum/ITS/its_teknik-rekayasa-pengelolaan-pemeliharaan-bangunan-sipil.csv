@@ -1,0 +1,49 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Fisika Terapan,3,1,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Gambar Teknik,2,1,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Kimia Terapan,3,1,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Matematika,3,1,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Mekanika Teknik Statis Tertentu,3,1,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Pancasila,2,1,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Pemetaan,3,1,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Agama,2,2,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Gambar Teknik dengan Komputer,2,2,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Mekanika Bahan,2,2,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Mekanika Tanah,3,2,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Praktikum Pemetaan,2,2,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Rekayasa Lalu Lintas dan Perkerasan Jalan,4,2,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Teknologi Beton dan Bahan Bangunan,2,2,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Analisa Struktur Bangunan Sipil dan BIM 3D,4,3,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Desain Elemen Struktur Baja,2,3,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Desain Elemen Struktur Beton,2,3,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Dinamika Struktur dan Rekayasa Gempaan,2,3,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Geometrik Jalan Raya,3,3,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Kewarganegaraan,2,3,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Mekanika Teknik Statis Tak Tentu,2,3,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Rekayasa Pondasi,3,3,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Aplikasi Teknologi Cerdas,3,4,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Bahasa Indonesia,2,4,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Dinamika Struktur dan Rekayasa Kegempaan,2,4,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Durabilitas dan Degradasi Material Bangunan,2,4,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Proyek Rekayasa Jalan Raya,2,4,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Rekayasa Struktur Bangunan Baja,2,4,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Rekayasa Struktur Gedung Beton,2,4,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Teknologi Pelaksanaan dan Alat Berat,3,4,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Bahasa Inggris,2,5,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Desain Gedung Beton dan Baja,4,5,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Evaluasi dan Rehabilitasi Struktur Bangunan Sipil,4,5,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Rekayasa Jembatan,3,5,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,SMK3L,3,5,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Struktur Beton Pracetak dan Pratekan,4,5,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Aplikasi Teknologi dan Transformasi Digital,3,6,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Desain Evaluasi dan Rehabilitasi Struktur Bangunan Sipil,3,6,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Kewirausahaan Berbasis Teknologi,2,6,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Proyek DED Jembatan,4,6,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Rekayasa Bangunan Gedung Tinggi,2,6,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Rekayasa Dermaga,3,6,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Rekayasa Jembatan Bentang Panjang,2,6,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Magang Internship,14,7,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Ganjil,Penulisan Laporan Teknik,3,7,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Aspek Hukum dalam Industri Konstruksi,2,8,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Manajemen Pengelolaan Bangunan Sipil,3,8,Wajib
+ITS,D4 Teknik Rekayasa Pengelolaan dan Pemeliharaan Bangunan Sipil,Genap,Proyek Akhir,6,8,Wajib

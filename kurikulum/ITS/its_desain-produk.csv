@@ -1,0 +1,56 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+ITS,S1 Desain Produk,Ganjil,Creativity of Product,3,1,Wajib
+ITS,S1 Desain Produk,Ganjil,Design History,3,1,Wajib
+ITS,S1 Desain Produk,Ganjil,Design Thinking,2,1,Wajib
+ITS,S1 Desain Produk,Ganjil,Drawing of Product 1,5,1,Wajib
+ITS,S1 Desain Produk,Ganjil,Fundamental of Product Design 1,5,1,Wajib
+ITS,S1 Desain Produk,Genap,Technical Drawing,3,2,Wajib
+ITS,S1 Desain Produk,Genap,Scientific Writing,2,2,Wajib
+ITS,S1 Desain Produk,Genap,Drawing of Product 2,5,2,Wajib
+ITS,S1 Desain Produk,Genap,Fundamental of Product Design 2,5,2,Wajib
+ITS,S1 Desain Produk,Genap,Mathematics,3,2,Wajib
+ITS,S1 Desain Produk,Ganjil,Design Methods,3,3,Wajib
+ITS,S1 Desain Produk,Ganjil,Ergonomics,3,3,Wajib
+ITS,S1 Desain Produk,Ganjil,Product Design Semantics,3,3,Wajib
+ITS,S1 Desain Produk,Ganjil,Computer Aided Design,3,3,Wajib
+ITS,S1 Desain Produk,Ganjil,Prototype and Model,3,3,Wajib
+ITS,S1 Desain Produk,Ganjil,Product Design Studio 1,5,3,Wajib
+ITS,S1 Desain Produk,Genap,Interaction Design,3,4,Wajib
+ITS,S1 Desain Produk,Genap,Material and Process,3,4,Wajib
+ITS,S1 Desain Produk,Genap,Design Appreciation,3,4,Wajib
+ITS,S1 Desain Produk,Genap,Computer Aided Engineering and Rendering,3,4,Wajib
+ITS,S1 Desain Produk,Genap,System Design Engineering,3,4,Wajib
+ITS,S1 Desain Produk,Genap,Product Design Studio 2,5,4,Wajib
+ITS,S1 Desain Produk,Ganjil,Design and Lifestyle,3,5,Wajib
+ITS,S1 Desain Produk,Ganjil,Presentation Techniques,3,5,Wajib
+ITS,S1 Desain Produk,Ganjil,Computer Aided Manufacturing,4,5,Wajib
+ITS,S1 Desain Produk,Ganjil,Product Design Studio 3,6,5,Wajib
+ITS,S1 Desain Produk,Ganjil,Mata Kuliah Pilihan,3,5,Pilihan
+ITS,S1 Desain Produk,Genap,Bahasa Indonesia,2,6,Wajib
+ITS,S1 Desain Produk,Genap,Kewarganegaraan,2,6,Wajib
+ITS,S1 Desain Produk,Genap,Aplikasi Teknologi dan Transformasi Digital,3,6,Wajib
+ITS,S1 Desain Produk,Genap,Product Planning (enrichments),2,6,Wajib
+ITS,S1 Desain Produk,Genap,Product Design Studio 4,7,6,Wajib
+ITS,S1 Desain Produk,Genap,Mata Kuliah Pilihan,3,6,Pilihan
+ITS,S1 Desain Produk,Ganjil,Agama,2,7,Wajib
+ITS,S1 Desain Produk,Ganjil,Pancasila,2,7,Wajib
+ITS,S1 Desain Produk,Ganjil,Bahasa Inggris,2,7,Wajib
+ITS,S1 Desain Produk,Ganjil,Kewirausahaan Berbasis Teknologi,2,7,Wajib
+ITS,S1 Desain Produk,Ganjil,Design Management,3,7,Wajib
+ITS,S1 Desain Produk,Ganjil,Professional Ethics,2,7,Wajib
+ITS,S1 Desain Produk,Ganjil,Internships,5,7,Wajib
+ITS,S1 Desain Produk,Ganjil,Pre Final Project,2,7,Wajib
+ITS,S1 Desain Produk,Genap,Seminar,2,8,Wajib
+ITS,S1 Desain Produk,Genap,Final Project,8,8,Wajib
+ITS,S1 Desain Produk,Ganjil,Apparel,3,5,Pilihan
+ITS,S1 Desain Produk,Ganjil,Furniture,3,5,Pilihan
+ITS,S1 Desain Produk,Ganjil,Car Styling,3,5,Pilihan
+ITS,S1 Desain Produk,Ganjil,Jewelry,3,5,Pilihan
+ITS,S1 Desain Produk,Ganjil,Toys,3,5,Pilihan
+ITS,S1 Desain Produk,Ganjil,Medical Equipments,3,5,Pilihan
+ITS,S1 Desain Produk,Genap,User Experience Design,3,6,Pilihan
+ITS,S1 Desain Produk,Genap,Design and Metaverse,3,6,Pilihan
+ITS,S1 Desain Produk,Genap,Military Product,3,6,Pilihan
+ITS,S1 Desain Produk,Genap,Product Photography,3,6,Pilihan
+ITS,S1 Desain Produk,Genap,Marketing and Design Business,3,6,Pilihan
+ITS,S1 Desain Produk,Genap,Design and Etnography,3,6,Pilihan

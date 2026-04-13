@@ -1,0 +1,148 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Bahasa Indonesia",2,1,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Biomedik I",3,1,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Etika Dan Hukum Kesehatan",2,1,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Pengantar Ilmu Kesehatan Masyarakat",2,1,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Komunikasi Kesehatan dan Layanan Dasar Kesehatan",2,1,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Pancasila",2,1,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Kewarganegaraan",2,1,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Data dan Pustaka",2,1,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Biomedik II",3,2,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Promosi Kesehatan dan Pendidikan Kesehatan",2,2,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Administrasi Dan Kebijakan Kesehatan",2,2,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Studi Kependudukan",2,2,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Dasar Epidemiologi",2,2,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Pengantar Kolaborasi Keilmuan",2,2,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Logika dan Pemikiran Kritis",2,2,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Sosiologi Dan Antropologi Kesehatan",3,2,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Agama Budha II",2,3,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Agama Kong Hu Chu II",2,3,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Agama Hindu II",2,3,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Agama Islam II",2,3,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Agama Katolik II",2,3,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Agama Kristen Protestan II",2,3,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Dasar Administrasi Rumah Sakit Dan Puskesmas",2,3,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Kesehatan Reproduksi Masyarakat",2,3,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Epidemiologi Penyakit Menular",2,3,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Dasar Kesehatan dan Keselamatan Kerja",2,3,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Dasar Kesehatan Lingkungan",2,3,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Dasar Biostatistika",2,3,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Dasar Ilmu Gizi",2,3,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Pengembangan Kelompok Kesehatan Masyarakat",2,3,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Komunikasi Kesehatan Masyarakat",3,3,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Surveilans Kesehatan Masyarakat (integrasi)",3,4,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Epidemiologi Penyakit Tidak Menular",2,4,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Analisis Kualitas Lingkungan Pengendalian Vektor dan Rodent",2,4,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Biostatistika Inferensial",2,4,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Kepemimpinan dan Berfikir Sistem Kesehatan Masyarakat",2,4,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Manajemen Sumber Daya Manusia dan Produktivitas Bidang Kesehatan",2,4,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Kewirausahaan Integrasi",2,4,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Pengantar Gizi Masyarakat",2,4,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Pemberdayaan Masyarakat dibidang Kesehatan I",2,4,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Sistem Informasi Kesehatan",2,4,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Bahasa Inggris Untuk Kesehatan Masyarakat",2,5,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Ekonomi Kesehatan",3,5,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Praktek Kerja Lapangan",6,5,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Manajemen Kejadian Luar Biasa dan Bencana (Integrasi)",2,5,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Perencanaan Dan Evaluasi Program Kesehatan (Integrasi)",3,5,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Metodologi Penelitian Kuantitatif dan Kualitatif",3,5,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Aplikasi Komputer Kesehatan Masyarakat",2,5,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Antropologi Gizi",2,5,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Dasar Media Komunikasi, Informasi, dan Edukasi",2,5,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Promosi Kesehatan di Institusi (Praktikum)",3,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Pendidikan Dan Penyuluhan Gizi",3,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Pendidikan Gizi",3,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Toksikologi Industri I",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Kelangsungan Hidup Anak (Child Survival)",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Kesehatan Reproduksi Remaja",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Kesehatan dan Keselamatan Ibu",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Fertilitas Penduduk dan Keluarga Berencana",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Mortalitas Penduduk",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Teknik Demografi",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Kesehatan Reproduksi Pekerja",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Kesehatan Reproduksi Lansia",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Epidemiologi Penyakit Kanker",3,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Epidemiologi Gizi",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Epidemiologi Penyakit Tropis",3,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Riset Epidemiologi",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Epidemiologi Kecelakaan",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Pengukuran Kesehatan",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Epidemiologi Pencegahan dan Penanggulangan Penyakit Jantung dan Stroke (P3JS)",3,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Keselamatan Kerja",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Higiene Industri I",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Ergonomi dan Faal Kerja I",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Kesehatan Kerja",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Kuliah Kerja Nyata (KKN)",3,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Pengendalian Vektor dan Rodent",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Sanitasi Makanan",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Pengelolaan Limbah",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Pengelolaan Air",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Instrumentasi dan Observasi Lingkungan",3,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Pengendalian Penyakit yang Ditularkan oleh Binatang",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Biostatistika Parametrik",3,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Biostatistika Data Semi Kuantitatif",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Biostatistika Data Kategori",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Pembiayaan Dan Penganggaran Program Kesehatan",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Manajemen Mutu Jasa Bidang Kesehatan",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Manajemen Logistik Obat, Alat dan Fasilitas Kesehatan",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Indikator dan Pengukuran Promkes",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Program Promosi Kesehatan",3,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Teknik dan Piranti Manajemen di Bidang Kesehatan",4,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Manajemen Puskesmas",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Manajemen Rumah Sakit",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Sanitasi Makanan",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Teknologi Pangan dan Gizi",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Gizi Urban",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Ketahanan Dan Keamanan Pangan",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Gizi (Praktikum)",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Rancangan Penelitian Kesehatan",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Psikologi Kesehatan",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Psikologi Industri",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Pengembangan Organisasi",2,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Pengembangan Media Promosi Kesehatan",3,6,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Politik Kesehatan",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Toksikologi Lingkungan",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Toksikologi Industri II",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Analisis Kebijakan Kesehatan",3,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Seks, Gender, Dan Seksualitas",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Teknik Pengukuran Fertilitas, KB, Dan Mortalitas",3,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Penilaian Kritis Kesehatan Reproduksi dan KIA",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Epidemiologi Penyakit yang Dapat Dicegah Dengan Imunisasi (PD3I)",3,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Manajemen Data Epidemiologi (Praktikum)",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Skrining (Praktikum)",3,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Pemetaan Pola Penyakit dan Risiko",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Aspek Kesehatan Lingkungan dalam Penanganan Bencana",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Ergonomi Dan Faal Kerja II",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Higiene Industri 2",3,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Penyakit Akibat Kerja",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Manajemen Resiko K3",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Implementasi K3 (Praktikum)",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Sanitasi Lingkungan",3,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Pengelolaan Lingkungan Hidup",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Dasar Analisis Multivariat",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Penilaian Kritis Biostatistika dan Kependudukan",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Pemasaran Jasa Bidang Kesehatan",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Penilaian Risiko Kesehatan Lingkungan",3,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Asuransi Kesehatan",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Manajemen Stratejik di Bidang Kesehatan",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Ekonomi Pangan Dan Gizi",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Ketahanan Pangan",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Manajemen Industri Pelayanan Makanan Dan Gizi",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Seminar Gizi",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Gizi Dan Produktivitas",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Seminar Gizi Mutakhir",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Teknik Sampling dan Penentuan Besar Sampel",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Metode Sampling Bidang Kependudukan",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Metodologi Penelitian (Aplikasi) - (Praktikum)",3,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Perilaku Organisasi",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Pemberdayaan Masyarakat di Bidang Kesehatan II",3,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Sistem Informasi Geografis",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Sistem Informasi Geografis (Praktikum)",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Sistem Informasi Manajemen Kesehatan dan Rumah Sakit",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Aplikasi Komputer Analisis Kependudukan",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Aplikasi Komputer Biostatistika",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Aplikasi Komputer Analisis Kependudukan (Praktikum)",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Komunikasi Pemasaran Kesehatan Terintegrasi",2,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Ganjil,"Determinan Sosial Kesehatan Masyarakat",3,7,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Magang",3,8,Wajib
+Universitas Airlangga,S1 Kesehatan Masyarakat,Genap,"Skripsi",4,8,Wajib

@@ -1,0 +1,91 @@
+universitas,jurusan,semester_type,nama_mk,sks,semester,kategori
+UNAIR,S1 Kimia,Ganjil,General Chemistry I,2,1,Wajib
+UNAIR,S1 Kimia,Ganjil,General Chemistry I (Practical),1,1,Wajib
+UNAIR,S1 Kimia,Ganjil,General Biology,2,1,Wajib
+UNAIR,S1 Kimia,Ganjil,General Biology (Practical),1,1,Wajib
+UNAIR,S1 Kimia,Ganjil,Calculus,3,1,Wajib
+UNAIR,S1 Kimia,Ganjil,Agama,2,1,Wajib
+UNAIR,S1 Kimia,Ganjil,Indonesian Language,2,1,Wajib
+UNAIR,S1 Kimia,Ganjil,Data and References,2,1,Wajib
+UNAIR,S1 Kimia,Ganjil,Five Principles of Indonesia,2,1,Wajib
+UNAIR,S1 Kimia,Ganjil,Civic,2,1,Wajib
+UNAIR,S1 Kimia,Genap,General Chemistry II,2,2,Wajib
+UNAIR,S1 Kimia,Genap,General Chemistry II (Practical),1,2,Wajib
+UNAIR,S1 Kimia,Genap,Chemical Mathematics,3,2,Wajib
+UNAIR,S1 Kimia,Genap,Elementary Chemistry,2,2,Wajib
+UNAIR,S1 Kimia,Genap,Inorganic Structural Chemistry,3,2,Wajib
+UNAIR,S1 Kimia,Genap,Logic and Critical Thinking,2,2,Wajib
+UNAIR,S1 Kimia,Genap,Introduction to Scientific Collaboration,2,2,Wajib
+UNAIR,S1 Kimia,Genap,Communication and Self Development,2,2,Wajib
+UNAIR,S1 Kimia,Genap,Basic Physics,2,2,Wajib
+UNAIR,S1 Kimia,Genap,Basic Physics (Practical),1,2,Wajib
+UNAIR,S1 Kimia,Ganjil,Qualitative Analytical Chemistry,2,3,Wajib
+UNAIR,S1 Kimia,Ganjil,Qualitative Analytical Chemistry (Practical),2,3,Wajib
+UNAIR,S1 Kimia,Ganjil,Organic Chemistry I,3,3,Wajib
+UNAIR,S1 Kimia,Ganjil,Physical Chemistry I,3,3,Wajib
+UNAIR,S1 Kimia,Ganjil,Physical Chemistry I (Practical),1,3,Wajib
+UNAIR,S1 Kimia,Ganjil,Biochemistry I,2,3,Wajib
+UNAIR,S1 Kimia,Ganjil,Biochemistry I (Practical),1,3,Wajib
+UNAIR,S1 Kimia,Ganjil,Fundamentals of Inorganic Reactions,2,3,Wajib
+UNAIR,S1 Kimia,Ganjil,Inorganic Chemitry (Practical),1,3,Wajib
+UNAIR,S1 Kimia,Ganjil,English Language I,2,3,Wajib
+UNAIR,S1 Kimia,Ganjil,Mineralogy,2,3,Pilihan
+UNAIR,S1 Kimia,Ganjil,General Microbiology,2,3,Pilihan
+UNAIR,S1 Kimia,Ganjil,General Microbiology (Practical),1,3,Pilihan
+UNAIR,S1 Kimia,Ganjil,Fundamentals of Fermentation,2,3,Pilihan
+UNAIR,S1 Kimia,Genap,Quantitative Analytical Chemistry,3,4,Wajib
+UNAIR,S1 Kimia,Genap,Quantitative Analytical Chemistry (Practical),2,4,Wajib
+UNAIR,S1 Kimia,Genap,Separation Technique,2,4,Wajib
+UNAIR,S1 Kimia,Genap,Organic Chemistry I (Practical),2,4,Wajib
+UNAIR,S1 Kimia,Genap,Organic Chemistry II,3,4,Wajib
+UNAIR,S1 Kimia,Genap,Physical Chemistry II,3,4,Wajib
+UNAIR,S1 Kimia,Genap,Physical Chemistry II (Practical),1,4,Wajib
+UNAIR,S1 Kimia,Genap,Biochemistry II,3,4,Wajib
+UNAIR,S1 Kimia,Genap,Biochemistry II (Practical),1,4,Wajib
+UNAIR,S1 Kimia,Genap,Coordination Compounds,2,4,Pilihan
+UNAIR,S1 Kimia,Genap,Management Organization,2,4,Pilihan
+UNAIR,S1 Kimia,Ganjil,Spektrometry and Elektrometry,3,5,Wajib
+UNAIR,S1 Kimia,Ganjil,Laboratory Management,2,5,Wajib
+UNAIR,S1 Kimia,Ganjil,Organic Chemistry II (Practical),2,5,Wajib
+UNAIR,S1 Kimia,Ganjil,Physical Organic Chemistry,3,5,Wajib
+UNAIR,S1 Kimia,Ganjil,Inorganic Reaction Mechanisms,2,5,Wajib
+UNAIR,S1 Kimia,Ganjil,Physical Chemistry III,3,5,Wajib
+UNAIR,S1 Kimia,Ganjil,Fundamentals of Metabolism,3,5,Wajib
+UNAIR,S1 Kimia,Ganjil,Research Methodology,2,5,Wajib
+UNAIR,S1 Kimia,Ganjil,Organometalic Compounds,2,5,Pilihan
+UNAIR,S1 Kimia,Ganjil,Environment Chemistry,2,5,Pilihan
+UNAIR,S1 Kimia,Ganjil,Environment Chemistry (Practical),1,5,Pilihan
+UNAIR,S1 Kimia,Ganjil,Bioinformatics,2,5,Pilihan
+UNAIR,S1 Kimia,Ganjil,Industrial Biotechnology,2,5,Pilihan
+UNAIR,S1 Kimia,Genap,Instrumental Analysis (Practical),1,6,Wajib
+UNAIR,S1 Kimia,Genap,Organic Structure Determination,3,6,Wajib
+UNAIR,S1 Kimia,Genap,Organic Structure Determination (Practical),1,6,Wajib
+UNAIR,S1 Kimia,Genap,Computational Chemistry,2,6,Wajib
+UNAIR,S1 Kimia,Genap,SinSkripsi Organic Synthesis,2,6,Wajib
+UNAIR,S1 Kimia,Genap,Physical Chemistry IV,3,6,Wajib
+UNAIR,S1 Kimia,Genap,Characteristics of Inorganic Compounds,2,6,Wajib
+UNAIR,S1 Kimia,Genap,Characteristics of Inorganic Compounds (Practical),2,6,Wajib
+UNAIR,S1 Kimia,Genap,SinSkripsi Inorganic Synthesis,2,6,Pilihan
+UNAIR,S1 Kimia,Genap,Enzymology,2,6,Pilihan
+UNAIR,S1 Kimia,Genap,Polymers Chemistry,2,6,Pilihan
+UNAIR,S1 Kimia,Genap,Chemical Industrial Process,2,6,Pilihan
+UNAIR,S1 Kimia,Ganjil,Seminar,2,7,Wajib
+UNAIR,S1 Kimia,Ganjil,Community Study,3,7,Wajib
+UNAIR,S1 Kimia,Ganjil,Field Study,2,7,Wajib
+UNAIR,S1 Kimia,Ganjil,Agama Lanjut,2,7,Wajib
+UNAIR,S1 Kimia,Ganjil,Applied Analytical Chemistry,3,7,Pilihan
+UNAIR,S1 Kimia,Ganjil,Advance Topics in Inorganic Chemistry,2,7,Pilihan
+UNAIR,S1 Kimia,Ganjil,Advance Topics in Analytical Chemistry,2,7,Pilihan
+UNAIR,S1 Kimia,Ganjil,Forensic Chemistry and Toxicology,2,7,Pilihan
+UNAIR,S1 Kimia,Ganjil,Medicinal Chemistry,2,7,Pilihan
+UNAIR,S1 Kimia,Ganjil,Natural Product Chemistry,3,7,Pilihan
+UNAIR,S1 Kimia,Ganjil,Phytochemistry Method (Practical),2,7,Pilihan
+UNAIR,S1 Kimia,Ganjil,Advance Topics in Organic Chemistry,2,7,Pilihan
+UNAIR,S1 Kimia,Ganjil,Advance Topics in Physical Chemistry,2,7,Pilihan
+UNAIR,S1 Kimia,Ganjil,Biochemistry III,2,7,Pilihan
+UNAIR,S1 Kimia,Ganjil,Biochemistry III (Practical),2,7,Pilihan
+UNAIR,S1 Kimia,Ganjil,Physical Biochemistry,2,7,Pilihan
+UNAIR,S1 Kimia,Ganjil,Advance Topics in Biochemistry Chemistry,2,7,Pilihan
+UNAIR,S1 Kimia,Ganjil,Engliah Language II,2,7,Pilihan
+UNAIR,S1 Kimia,Ganjil,Innovative Materials,2,7,Pilihan
+UNAIR,S1 Kimia,Genap,Final Project,6,8,Wajib
