@@ -103,14 +103,9 @@ async def register(body: schemas.UserRegister, request: Request, db_session: Ses
     # Check duplicate email
     if crud.get_user_by_email(db_session, body.email):
         raise HTTPException(status_code=400, detail="Email sudah terdaftar.")
-    # Check duplicate username
-    existing_username = db_session.query(models.User).filter(models.User.username == body.username).first()
-    if existing_username:
-        raise HTTPException(status_code=400, detail="Username sudah digunakan.")
 
     new_user = models.User(
         nama=body.nama,
-        username=body.username,
         email=body.email,
         password_hash=auth.hash_password(body.password),
     )

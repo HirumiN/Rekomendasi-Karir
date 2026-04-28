@@ -16,7 +16,6 @@ class User(Base):
 
     id_user = Column(Integer, primary_key=True, index=True)
     nama = Column(String, nullable=False)
-    username = Column(String, unique=True, index=True, nullable=True)
     email = Column(String, unique=True, index=True, nullable=False)
     password_hash = Column(String, nullable=True)
     telepon = Column(String, nullable=True)

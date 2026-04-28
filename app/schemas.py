@@ -6,7 +6,6 @@ from datetime import datetime, time, date
 class UserBase(BaseModel):
     nama: str
     email: str
-    username: Optional[str] = None
     telepon: Optional[str] = None
     bio: Optional[str] = None
     lokasi: Optional[str] = None
@@ -29,7 +28,6 @@ class UserCreate(UserBase):
 class UserUpdate(UserBase):
     nama: Optional[str] = None
     email: Optional[str] = None
-    username: Optional[str] = None
 
 class User(UserBase):
     id_user: int
@@ -38,7 +36,6 @@ class User(UserBase):
 # --- Auth Schemas ---
 class UserRegister(BaseModel):
     nama: str
-    username: str
     email: str
     password: str
 
