@@ -14,3 +14,5 @@ google-auth
 google-api-python-client
 python-dateutil
 python-multipart
+psycopg2
+bcrypt
