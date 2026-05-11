@@ -4,7 +4,7 @@ from app import db
 from import_csv import import_from_csv
 
 def seed_all():
-    base_dir = "/home/hirumi/Documents/TAAI/fastapi-simple-rag/kurikulum"
+    base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "kurikulum")
     
     print(f"Starting bulk seeding from {base_dir}...")
     
