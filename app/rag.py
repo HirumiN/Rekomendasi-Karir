@@ -171,7 +171,7 @@ Aturan Ketat Adaptivitas:
 Aturan Output:
 - WAJIB memberikan 3 rekomendasi karir dalam array 'careers'. 
 - Gunakan BAHASA INDONESIA.
-- Berikan saran yang KONGKRET dan SPESIFIK pada deskripsi, namun untuk 'skill_tags' gunakan nama TEKNOLOGI UTAMA (Parent Tech).
+- Berikan saran yang KONGKRET dan SPESIFIK pada deskripsi, namun untuk 'skill_tags' gunakan sekitar 3-6 nama TEKNOLOGI UTAMA (Parent Tech).
 - Roadmap: jadikan 'phase' sebagai Topik Kategori (Misal: "Fundamental Frontend"), dan setiap 'title' di dalam 'steps' WAJIB menyebut Spesifik Teknologi / Konsep Inti (Misal: "HTML Semantics", "CSS Flexbox", "React Hooks").
 - Untuk setiap 'step', sertakan 'xp_reward' berdasarkan kesulitan: '20' (Mudah), '50' (Menengah), atau '100' (Sulit).
 
@@ -335,13 +335,13 @@ Kembalikan HANYA JSON berikut tanpa penjelasan apapun. action bisa: "keep" (tida
       "step_order": <integer>,
       "title": "<judul step>",
       "description": "<deskripsi>",
-      "skill_tags": "<JSON array string e.g. ['Python','OOP']>",
+      "skill_tags": "<JSON array string of 3-6 items e.g. ['Python','OOP']>",
       "xp_reward": <integer>
     }}
   ]
 }}
 
-Sertakan semua step yang ADA (dengan action "keep" jika tidak ada perubahan) dan tambahkan action "add" untuk step baru.
+Sertakan semua step yang ADA (dengan action "keep" jika tidak ada perubahan) dan tambahkan action "add" untuk step baru. Batasi 'skill_tags' sekitar 3-6 tag penting per step.
 """
 
     raw = await generate_answer_with_gemini(prompt)
