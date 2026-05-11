@@ -20,23 +20,43 @@ def import_from_csv(file_path: str):
             count = 0
             for row in reader:
                 try:
+                    # Robust parsing to handle unescaped commas in nama_mk
+                    if None in row:
+                        # Reconstruct all values in order
+                        values = [
+                            row["universitas"], row["jurusan"], row["semester_type"], 
+                            row["nama_mk"], row["sks"], row["semester"], row["kategori"]
+                        ] + row[None]
+                        
+                        campus_name = values[0].strip()
+                        dept_name = values[1].strip()
+                        curr_semester = values[2].strip()
+                        course_name = ",".join(values[3:-3]).strip()
+                        sks_str = values[-3].strip()
+                        semester_str = values[-2].strip()
+                        kategori_str = values[-1].strip()
+                    else:
+                        campus_name = row["universitas"].strip()
+                        dept_name = row["jurusan"].strip()
+                        curr_semester = row.get("semester_type", row.get("semester", "Ganjil")).strip()
+                        course_name = row["nama_mk"].strip()
+                        sks_str = row["sks"].strip()
+                        semester_str = row["semester"].strip()
+                        kategori_str = row.get("kategori", "").strip()
+
                     # 1. Campus
-                    campus_name = row["universitas"].strip()
                     campus = crud.get_campus_by_name(session, campus_name)
                     if not campus:
                         campus = crud.create_campus(session, schemas.CampusCreate(name=campus_name))
                         print(f"Created Campus: {campus_name}")
                     
                     # 2. Department
-                    dept_name = row["jurusan"].strip()
                     dept = crud.get_department_by_name_and_campus(session, dept_name, campus.id)
                     if not dept:
                         dept = crud.create_department(session, schemas.DepartmentCreate(campus_id=campus.id, name=dept_name))
                         print(f"Created Department: {dept_name} at {campus_name}")
                     
                     # 3. Curriculum
-                    curr_semester = row.get("semester_type", row.get("semester", "Ganjil")).strip()
-                    
                     curr = crud.get_curriculum_by_dept_and_semester(session, dept.id, curr_semester)
                     if not curr:
                         curr = crud.create_curriculum(session, schemas.CurriculumCreate(
@@ -45,10 +65,9 @@ def import_from_csv(file_path: str):
                         ))
                     
                     # 4. Course
-                    course_name = row["nama_mk"].strip()
-                    sks = int(row["sks"])
-                    semester = int(row["semester"])
-                    is_elective = (row.get("kategori", "").lower() == "pilihan")
+                    sks = int(sks_str)
+                    semester = int(semester_str)
+                    is_elective = (kategori_str.lower() == "pilihan")
                     
                     # Check if course already exists in this curriculum to avoid duplicates
                     existing_course = session.query(models.Course).filter_by(
