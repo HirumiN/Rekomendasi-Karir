@@ -352,6 +352,9 @@ async def save_career_analysis_api(
         models.Todo.deskripsi == "Dari Analisis Karir AI."
     ).delete()
     
+    # DELETE old skill XP so tags from old roadmap are wiped out
+    db.query(models.UserSkillXP).filter_by(id_user=user_id).delete()
+    
     # We don't commit here yet to maintain atomicity
 
     # Save Career Result
@@ -878,15 +881,22 @@ async def adapt_roadmap_apply(
                 for f in ["title", "description", "skill_tags", "xp_reward", "phase", "step_order"]:
                     v = getattr(change, f, None)
                     if v is not None:
+                        import json as _json
+                        if f == "skill_tags" and isinstance(v, list):
+                            v = _json.dumps(v)
                         setattr(step, f, v)
         elif change.action == "add":
+            import json as _json
+            st_val = change.skill_tags
+            if isinstance(st_val, list):
+                st_val = _json.dumps(st_val)
             new_step = models.RoadmapStep(
                 id_roadmap=roadmap_id,
                 phase=change.phase or "Tambahan",
                 step_order=change.step_order or 999,
                 title=change.title or "Step Baru",
                 description=change.description,
-                skill_tags=change.skill_tags,
+                skill_tags=st_val,
                 xp_reward=change.xp_reward or 10
             )
             db.add(new_step)

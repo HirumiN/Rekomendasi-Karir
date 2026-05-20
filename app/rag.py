@@ -171,7 +171,7 @@ Aturan Ketat Adaptivitas:
 Aturan Output:
 - WAJIB memberikan 3 rekomendasi karir dalam array 'careers'. 
 - Gunakan BAHASA INDONESIA.
-- Berikan saran yang KONGKRET dan SPESIFIK pada deskripsi, namun untuk 'skill_tags' gunakan sekitar 3-6 nama TEKNOLOGI UTAMA (Parent Tech).
+- SANGAT PENTING: Untuk 'skill_tags', PILIH MAKSIMAL 6 CORE HARD SKILLS (seperti framework, database, atau tools krusial yang BERNILAI TINGGI/SPESIFIK, misal: "React", "PostgreSQL", "Docker", "TensorFlow"). DILARANG KERAS menggunakan soft skills, istilah abstrak, atau skill yang TERLALU DASAR/UMUM (seperti "HTML", "CSS", "Web Programming", "Dasar-dasar", "Teamwork"). Gunakan ulang 6 skill teknis spesifik tersebut di semua step!
 - Roadmap: jadikan 'phase' sebagai Topik Kategori (Misal: "Fundamental Frontend"), dan setiap 'title' di dalam 'steps' WAJIB menyebut Spesifik Teknologi / Konsep Inti (Misal: "HTML Semantics", "CSS Flexbox", "React Hooks").
 - Untuk setiap 'step', sertakan 'xp_reward' berdasarkan kesulitan: '20' (Mudah), '50' (Menengah), atau '100' (Sulit).
 
@@ -193,7 +193,7 @@ Kembalikan HANYA JSON:
         {{
           "title": "",
           "description": "",
-          "skill_tags": [],
+          "skill_tags": ["<tag1>", "<tag2>", "<tag3>"], // STRICT RULE: 3-6 TAGS, MAX 6 TAGS
           "xp_reward": 20
         }}
       ]
@@ -290,6 +290,30 @@ async def generate_career_analysis(db: Session, user_id: int):
         if raw_response.startswith("```json"):
             raw_response = raw_response[7:-3].strip()
         data = json.loads(raw_response)
+        
+        # Enforce max 6 UNIQUE skill tags ACROSS THE ENTIRE ROADMAP programmatically
+        if "roadmap" in data and isinstance(data["roadmap"], list):
+            from collections import Counter
+            all_tags = []
+            for phase in data["roadmap"]:
+                if "steps" in phase and isinstance(phase["steps"], list):
+                    for step in phase["steps"]:
+                        tags = step.get("skill_tags")
+                        if isinstance(tags, list):
+                            all_tags.extend(tags)
+            
+            tag_counts = Counter(all_tags)
+            allowed_tags = set([t for t, c in tag_counts.most_common(6)])
+            
+            for phase in data["roadmap"]:
+                if "steps" in phase and isinstance(phase["steps"], list):
+                    for step in phase["steps"]:
+                        tags = step.get("skill_tags")
+                        if isinstance(tags, list):
+                            filtered = [t for t in tags if t in allowed_tags]
+                            if not filtered and allowed_tags:
+                                filtered = [list(allowed_tags)[0]]
+                            step["skill_tags"] = filtered[:3]
     except:
         raise ValueError("Invalid JSON from Gemini")
 
@@ -335,13 +359,13 @@ Kembalikan HANYA JSON berikut tanpa penjelasan apapun. action bisa: "keep" (tida
       "step_order": <integer>,
       "title": "<judul step>",
       "description": "<deskripsi>",
-      "skill_tags": "<JSON array string of 3-6 items e.g. ['Python','OOP']>",
+      "skill_tags": ["<tag1>", "<tag2>", "<tag3>"], // STRICT RULE: 3-6 TAGS, MAX 6 TAGS
       "xp_reward": <integer>
     }}
   ]
 }}
 
-Sertakan semua step yang ADA (dengan action "keep" jika tidak ada perubahan) dan tambahkan action "add" untuk step baru. Batasi 'skill_tags' sekitar 3-6 tag penting per step.
+Sertakan semua step yang ADA (dengan action "keep" jika tidak ada perubahan) dan tambahkan action "add" untuk step baru. SANGAT PENTING: Batasi 'skill_tags' SEKITAR 3-6 TAGS per step! JANGAN PERNAH LEBIH DARI 6 TAGS!
 """
 
     raw = await generate_answer_with_gemini(prompt)
@@ -352,6 +376,13 @@ Sertakan semua step yang ADA (dengan action "keep" jika tidak ada perubahan) dan
         if raw.endswith("```"):
             raw = raw[:-3].strip()
         data = _json.loads(raw)
+        
+        # Enforce max 6 tags programmatically
+        if "proposed_changes" in data and isinstance(data["proposed_changes"], list):
+            for change in data["proposed_changes"]:
+                tags = change.get("skill_tags")
+                if isinstance(tags, list):
+                    change["skill_tags"] = tags[:6]
     except Exception:
         raise ValueError(f"Invalid JSON from Gemini adapt: {raw[:200]}")
 

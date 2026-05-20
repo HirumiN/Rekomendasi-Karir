@@ -1,5 +1,5 @@
 from pydantic import BaseModel, ConfigDict
-from typing import List, Optional
+from typing import List, Optional, Union, Any
 from datetime import datetime, time, date
 
 # User Schemas
@@ -31,7 +31,7 @@ class UserUpdate(UserBase):
 
 class User(UserBase):
     id_user: int
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 # --- Auth Schemas ---
 class UserRegister(BaseModel):
@@ -40,7 +40,7 @@ class UserRegister(BaseModel):
     password: str
 
 class UserLogin(BaseModel):
-    email: str
+    identifier: str
     password: str
 
 # RAGSEmbedding Schemas
@@ -58,7 +58,7 @@ class RAGSEmbedding(RAGSEmbeddingBase):
     embedding: List[float]
     created_at: datetime
 
-    model_config = ConfigDict(from_attributes=True, arbitrary_types_allowed=True)
+    model_config = {"from_attributes": True, "arbitrary_types_allowed": True}
 
 # AI Chat History Schemas
 class AIChatHistoryBase(BaseModel):
@@ -73,7 +73,7 @@ class AIChatHistory(AIChatHistoryBase):
     id_chat: int
     created_at: datetime
 
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 # Request body for /rag/query
 class RAGQuery(BaseModel):
@@ -117,13 +117,13 @@ class TodoUpdate(TodoBase):
     id_roadmap_step: Optional[int] = None
     is_completed: Optional[bool] = None
 
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 class Todo(TodoBase):
     id_todo: int
     created_at: datetime
 
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 
 # Semester Schemas
@@ -147,7 +147,7 @@ class SemesterUpdate(SemesterBase):
 class Semester(SemesterBase):
     id_semester: int
     
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 
 # JadwalMatkul Schemas
@@ -173,14 +173,14 @@ class JadwalMatkulUpdate(JadwalMatkulBase):
     jam_selesai: Optional[time] = None
     sks: Optional[int] = None
 
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 class JadwalMatkul(JadwalMatkulBase):
     id_jadwal: int
     google_event_id: Optional[str] = None
     created_at: datetime
 
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 
 # UKM Schemas
@@ -199,13 +199,13 @@ class UKMUpdate(UKMBase):
     jabatan: Optional[str] = None
     deskripsi: Optional[str] = None
 
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 class UKM(UKMBase):
     id_ukm: int
     created_at: datetime
 
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 # Rutinitas Schemas
 class RutinitasBase(BaseModel):
@@ -224,13 +224,13 @@ class RutinitasUpdate(RutinitasBase):
     nama: Optional[str] = None
     hari: Optional[str] = None
 
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 class Rutinitas(RutinitasBase):
     id_rutinitas: int
     created_at: datetime
 
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 
 # --- AI Career Schemas ---
@@ -248,7 +248,7 @@ class CareerResult(CareerResultBase):
     id: int
     id_user: int
     created_at: datetime
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 class RoadmapBase(BaseModel):
     title: str
@@ -262,7 +262,7 @@ class Roadmap(RoadmapBase):
     id_user: int
     id_career: int
     created_at: datetime
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 class RoadmapStepBase(BaseModel):
     phase: str
@@ -275,7 +275,7 @@ class RoadmapStep(RoadmapStepBase):
     id_roadmap: int
     skill_tags: Optional[str] = None
     xp_reward: Optional[int] = 10
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 class CareerProgressBase(BaseModel):
     status: str = "pending"
@@ -293,7 +293,7 @@ class CareerProgress(CareerProgressBase):
     id: int
     id_user: int
     id_roadmap_step: int
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 
 # --- Gamification / Skill Gap Schemas ---
@@ -302,7 +302,7 @@ class SkillXPResponse(BaseModel):
     skill_name: str
     xp_points: int
     level: int
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 class SkillGapItem(BaseModel):
     skill: str
@@ -322,7 +322,7 @@ class SkillGapResponse(BaseModel):
 class RoadmapStepUpdate(BaseModel):
     title: Optional[str] = None
     description: Optional[str] = None
-    skill_tags: Optional[str] = None
+    skill_tags: Optional[Union[str, List[str]]] = None
     xp_reward: Optional[int] = None
     phase: Optional[str] = None
     step_order: Optional[int] = None
@@ -333,7 +333,7 @@ class RoadmapStepCreate(BaseModel):
     step_order: int
     title: str
     description: Optional[str] = None
-    skill_tags: Optional[str] = None
+    skill_tags: Optional[Union[str, List[str]]] = None
     xp_reward: int = 10
 
 class AdaptRoadmapRequest(BaseModel):
@@ -346,7 +346,7 @@ class AdaptedStep(BaseModel):
     step_order: Optional[int] = None
     title: Optional[str] = None
     description: Optional[str] = None
-    skill_tags: Optional[str] = None
+    skill_tags: Optional[Union[str, List[str]]] = None
     xp_reward: Optional[int] = None
 
 class AdaptRoadmapPreview(BaseModel):
@@ -377,7 +377,7 @@ class CourseCreate(CourseBase):
 class Course(CourseBase):
     id: int
     curriculum_id: int
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 class CurriculumBase(BaseModel):
     semester: Optional[str] = None # e.g. "Ganjil" or "Genap"
@@ -389,7 +389,7 @@ class Curriculum(CurriculumBase):
     id: int
     department_id: int
     courses: List[Course] = []
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 class DepartmentBase(BaseModel):
     name: str
@@ -401,7 +401,7 @@ class Department(DepartmentBase):
     id: int
     campus_id: int
     curricula: List[Curriculum] = []
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}
 
 class CampusBase(BaseModel):
     name: str
@@ -412,4 +412,4 @@ class CampusCreate(CampusBase):
 class Campus(CampusBase):
     id: int
     departments: List[Department] = []
-    model_config = ConfigDict(from_attributes=True)
+    model_config = {"from_attributes": True}

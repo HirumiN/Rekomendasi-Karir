@@ -123,11 +123,16 @@ async def register(body: schemas.UserRegister, request: Request, db_session: Ses
 
 @app.post("/auth/login")
 async def login_email(body: schemas.UserLogin, request: Request, db_session: Session = Depends(get_db)):
-    db_user = crud.get_user_by_email(db_session, body.email)
+    db_user = None
+    if "@" in body.identifier:
+        db_user = crud.get_user_by_email(db_session, body.identifier)
+    else:
+        db_user = crud.get_user_by_nama(db_session, body.identifier)
+        
     if not db_user or not db_user.password_hash:
-        raise HTTPException(status_code=401, detail="Email atau password salah.")
+        raise HTTPException(status_code=401, detail="Username/Email atau password salah.")
     if not auth.verify_password(body.password, db_user.password_hash):
-        raise HTTPException(status_code=401, detail="Email atau password salah.")
+        raise HTTPException(status_code=401, detail="Username/Email atau password salah.")
     request.session['user_id'] = db_user.id_user
     return {"message": "Login berhasil.", "user_id": db_user.id_user}
 
