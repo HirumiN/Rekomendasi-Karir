@@ -367,8 +367,8 @@ class ActivityCreate(RAGSEmbeddingBase):
 
 class CourseBase(BaseModel):
     name: str
-    sks: int
-    semester_target: int
+    sks: Optional[int] = None
+    semester_target: Optional[int] = None
     is_elective: bool = False
 
 class CourseCreate(CourseBase):

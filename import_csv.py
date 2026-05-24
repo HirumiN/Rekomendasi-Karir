@@ -65,8 +65,16 @@ def import_from_csv(file_path: str):
                         ))
                     
                     # 4. Course
-                    sks = int(sks_str)
-                    semester = int(semester_str)
+                    try:
+                        sks = int(sks_str) if sks_str else None
+                    except ValueError:
+                        sks = None
+                    
+                    try:
+                        semester = int(semester_str) if semester_str else None
+                    except ValueError:
+                        semester = None
+                        
                     is_elective = (kategori_str.lower() == "pilihan")
                     
                     # Check if course already exists in this curriculum to avoid duplicates

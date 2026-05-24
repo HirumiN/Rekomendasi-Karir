@@ -344,8 +344,8 @@ class Course(Base):
     curriculum_id = Column(Integer, ForeignKey("curricula.id"), nullable=False)
     
     name = Column(String, nullable=False)
-    sks = Column(Integer, nullable=False)
-    semester_target = Column(Integer, nullable=False)
+    sks = Column(Integer, nullable=True)
+    semester_target = Column(Integer, nullable=True)
     is_elective = Column(Boolean, default=False)
     
     curriculum = relationship("Curriculum", back_populates="courses")
