@@ -72,8 +72,9 @@ async def embed_text_with_gemini(text: str) -> List[float]:
                     continue
                 raise # Re-raise if all retries fail
             except httpx.HTTPStatusError as e:
-                logger.error(f"HTTP error occurred while calling Gemini Embedding API: {e.response.text}")
-                raise
+                error_detail = f"Gemini Embedding API Error: {e.response.text}"
+                logger.error(error_detail)
+                raise ValueError(error_detail)
             except Exception as e:
                 logger.error(f"An unexpected error occurred while calling Gemini Embedding API: {e}")
                 raise
@@ -210,7 +211,7 @@ Kembalikan HANYA JSON:
 """
 
 async def generate_answer_with_gemini(augmented_prompt: str) -> str:
-    """Calls the Gemini generation model to get an answer based on the prompt."""
+    """Calls the Gemini generation model to get an answer based on the prompt with retries."""
     if not GEMINI_API_KEY:
         raise ValueError("GEMINI_API_KEY must be set in environment variables.")
 
@@ -231,27 +232,42 @@ async def generate_answer_with_gemini(augmented_prompt: str) -> str:
         ]
     }
 
-    async with httpx.AsyncClient(timeout=30.0) as client: # Increased timeout to 30 seconds
-        try:
-            response = await client.post(GEMINI_GEN_URL, headers=headers, json=payload)
-            response.raise_for_status()
-            generation_data = response.json()
-            # Assume response structure like: {"candidates": [{"content": {"parts": [{"text": "..."}]}}]}}
-            if "candidates" in generation_data and len(generation_data["candidates"]) > 0:
-                candidate = generation_data["candidates"][0]
-                if "content" in candidate and "parts" in candidate["content"] and len(candidate["content"]["parts"]) > 0:
-                    return candidate["content"]["parts"][0]["text"]
-            
-            raise ValueError(f"Unexpected generation response format from Gemini API: {generation_data}")
-        except (httpx.ConnectTimeout, httpx.ReadTimeout) as e:
-            logger.error(f"Timeout error occurred while calling Gemini Generation API: {e}")
-            raise
-        except httpx.HTTPStatusError as e:
-            logger.error(f"HTTP error occurred while calling Gemini Generation API: {e.response.text}")
-            raise
-        except Exception as e:
-            logger.error(f"An unexpected error occurred while calling Gemini Generation API: {e}")
-            raise
+    retries = 3
+    delay = 2
+    for i in range(retries):
+        async with httpx.AsyncClient(timeout=30.0) as client:
+            try:
+                response = await client.post(GEMINI_GEN_URL, headers=headers, json=payload)
+                response.raise_for_status()
+                generation_data = response.json()
+                # Assume response structure like: {"candidates": [{"content": {"parts": [{"text": "..."}]}}]}}
+                if "candidates" in generation_data and len(generation_data["candidates"]) > 0:
+                    candidate = generation_data["candidates"][0]
+                    if "content" in candidate and "parts" in candidate["content"] and len(candidate["content"]["parts"]) > 0:
+                        return candidate["content"]["parts"][0]["text"]
+                
+                raise ValueError(f"Unexpected generation response format from Gemini API: {generation_data}")
+            except (httpx.ConnectTimeout, httpx.ReadTimeout, httpx.RemoteProtocolError) as e:
+                logger.error(f"Attempt {i+1}/{retries}: Timeout or connection error occurred while calling Gemini Generation API: {e}")
+                if i < retries - 1:
+                    await sleep(delay)
+                    delay *= 2
+                    continue
+                raise
+            except httpx.HTTPStatusError as e:
+                # Retry for rate limits (429) or temporary server errors (5xx)
+                if e.response.status_code in [429, 500, 502, 503, 504] and i < retries - 1:
+                    logger.warning(f"Attempt {i+1}/{retries}: Gemini API returned status {e.response.status_code}. Retrying in {delay}s...")
+                    await sleep(delay)
+                    delay *= 2
+                    continue
+                error_detail = f"Gemini Generation API Error: {e.response.text}"
+                logger.error(error_detail)
+                raise ValueError(error_detail)
+            except Exception as e:
+                logger.error(f"An unexpected error occurred while calling Gemini Generation API: {e}")
+                raise
+    raise Exception("Failed to generate answer after multiple retries.")
 
 async def generate_career_analysis(db: Session, user_id: int):
     # 0. Ambil data user secara langsung untuk konteks utama
