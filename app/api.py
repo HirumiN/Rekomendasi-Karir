@@ -897,9 +897,10 @@ async def adapt_roadmap_preview(
     db: Session = Depends(get_db),
     current_user: models.User = Depends(auth.get_current_active_user)
 ):
-    roadmap = db.query(models.Roadmap).filter_by(id=roadmap_id, id_user=current_user.id_user).first()
-    if not roadmap:
-        raise HTTPException(status_code=404, detail="Roadmap not found")
+    raise HTTPException(
+        status_code=400,
+        detail="Fitur AI Coach & Adaptasi Roadmap saat ini sedang dalam pengembangan (Coming Soon). Silakan hubungi Admin/Developer untuk informasi lebih lanjut."
+    )
 
     # Rate limit check 1: 30 seconds cooldown after roadmap generation
     from datetime import datetime, timedelta
@@ -950,9 +951,10 @@ async def adapt_roadmap_apply(
     db: Session = Depends(get_db),
     current_user: models.User = Depends(auth.get_current_active_user)
 ):
-    roadmap = db.query(models.Roadmap).filter_by(id=roadmap_id, id_user=current_user.id_user).first()
-    if not roadmap:
-        raise HTTPException(status_code=404, detail="Roadmap not found")
+    raise HTTPException(
+        status_code=400,
+        detail="Fitur AI Coach & Adaptasi Roadmap saat ini sedang dalam pengembangan (Coming Soon). Silakan hubungi Admin/Developer untuk informasi lebih lanjut."
+    )
 
     for change in changes:
         if change.action == "remove" and change.id:

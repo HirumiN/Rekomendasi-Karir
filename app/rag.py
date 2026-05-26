@@ -322,7 +322,7 @@ async def generate_answer_with_gemini(augmented_prompt: str) -> str:
                 raise
             except httpx.HTTPStatusError as e:
                 if e.response.status_code == 429:
-                    error_detail = "Batas Pemakaian API Terlampaui: Kuota/Token Gemini API gratis Anda telah habis untuk saat ini. Silakan coba lagi beberapa saat lagi atau ganti API Key Anda di berkas backend .env."
+                    error_detail = "Token API sedang habis. Silakan hubungi Developer/Admin untuk memperbaruinya."
                     logger.error(error_detail)
                     raise ValueError(error_detail)
                 # Retry for temporary server errors (5xx)
