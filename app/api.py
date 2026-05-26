@@ -325,8 +325,21 @@ async def generate_career_analysis_api(
     latest_roadmap = db.query(models.Roadmap).filter_by(id_user=user_id).order_by(models.Roadmap.created_at.desc()).first()
     if latest_roadmap:
         from datetime import datetime, timedelta
-        now_dt = datetime.now(latest_roadmap.created_at.tzinfo) if latest_roadmap.created_at.tzinfo else datetime.now()
-        time_diff = now_dt - latest_roadmap.created_at
+        created_at_val = latest_roadmap.created_at
+        if isinstance(created_at_val, str):
+            try:
+                created_at_val = datetime.strptime(created_at_val[:19], "%Y-%m-%d %H:%M:%S")
+            except Exception:
+                try:
+                    created_at_val = datetime.fromisoformat(created_at_val)
+                except Exception:
+                    created_at_val = datetime.now()
+        
+        if created_at_val.tzinfo is not None:
+            created_at_val = created_at_val.replace(tzinfo=None)
+            
+        now_dt = datetime.now()
+        time_diff = now_dt - created_at_val
         if time_diff < timedelta(days=7):
             days_left = 7 - time_diff.days
             hours_left = 24 - (time_diff.seconds // 3600)
@@ -366,8 +379,21 @@ async def save_career_analysis_api(
     latest_roadmap = db.query(models.Roadmap).filter_by(id_user=user_id).order_by(models.Roadmap.created_at.desc()).first()
     if latest_roadmap:
         from datetime import datetime, timedelta
-        now_dt = datetime.now(latest_roadmap.created_at.tzinfo) if latest_roadmap.created_at.tzinfo else datetime.now()
-        time_diff = now_dt - latest_roadmap.created_at
+        created_at_val = latest_roadmap.created_at
+        if isinstance(created_at_val, str):
+            try:
+                created_at_val = datetime.strptime(created_at_val[:19], "%Y-%m-%d %H:%M:%S")
+            except Exception:
+                try:
+                    created_at_val = datetime.fromisoformat(created_at_val)
+                except Exception:
+                    created_at_val = datetime.now()
+        
+        if created_at_val.tzinfo is not None:
+            created_at_val = created_at_val.replace(tzinfo=None)
+            
+        now_dt = datetime.now()
+        time_diff = now_dt - created_at_val
         if time_diff < timedelta(days=7):
             days_left = 7 - time_diff.days
             hours_left = 24 - (time_diff.seconds // 3600)
