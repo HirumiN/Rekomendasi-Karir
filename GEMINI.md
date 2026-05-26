@@ -197,7 +197,7 @@ pytest
 
 ```
 DATABASE_URL=postgresql://postgres:postgres@localhost:5432/ragdb
-GEMINI_API_KEY=AIzaSyBQDHHbIAE6DNjLXCd8vooOUhRv2NQNHK0
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 GEMINI_EMBED_URL=https://generativelanguage.googleapis.com/v1beta/models/embedding-001:embedText?key=YOUR_KEY
 GEMINI_GEN_URL=https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateText?key=YOUR_KEY
 ```
