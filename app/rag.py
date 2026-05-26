@@ -297,12 +297,18 @@ async def generate_answer_with_gemini(augmented_prompt: str) -> str:
         ]
     }
 
+    current_url = GEMINI_GEN_URL
     retries = 3
     delay = 2
     for i in range(retries):
         async with httpx.AsyncClient(timeout=30.0) as client:
             try:
-                response = await client.post(GEMINI_GEN_URL, headers=headers, json=payload)
+                response = await client.post(current_url, headers=headers, json=payload)
+                if response.status_code == 429 and "gemini-2.5-flash-lite" in current_url:
+                    logger.warning("Gemini 2.5-flash-lite reached quota limit. Switching to gemini-1.5-flash-latest fallback model.")
+                    current_url = current_url.replace("gemini-2.5-flash-lite", "gemini-1.5-flash-latest")
+                    response = await client.post(current_url, headers=headers, json=payload)
+
                 response.raise_for_status()
                 generation_data = response.json()
                 # Assume response structure like: {"candidates": [{"content": {"parts": [{"text": "..."}]}}]}}
@@ -322,6 +328,10 @@ async def generate_answer_with_gemini(augmented_prompt: str) -> str:
             except httpx.HTTPStatusError as e:
                 # Retry for rate limits (429) or temporary server errors (5xx)
                 if e.response.status_code in [429, 500, 502, 503, 504] and i < retries - 1:
+                    # Switch model if rate limited
+                    if e.response.status_code == 429 and "gemini-2.5-flash-lite" in current_url:
+                        logger.warning("Swapping model to gemini-1.5-flash-latest in retry step due to rate limit 429.")
+                        current_url = current_url.replace("gemini-2.5-flash-lite", "gemini-1.5-flash-latest")
                     logger.warning(f"Attempt {i+1}/{retries}: Gemini API returned status {e.response.status_code}. Retrying in {delay}s...")
                     await sleep(delay)
                     delay *= 2
