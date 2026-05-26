@@ -97,9 +97,10 @@ def augment_prompt(
     question: str, 
     context_docs: List[models.RAGSEmbedding], 
     client_local_time: Optional[datetime] = None,
-    user: Optional[models.User] = None
+    user: Optional[models.User] = None,
+    user_schedules: Optional[List[models.JadwalMatkul]] = None
 ) -> str:
-    """Constructs an augmented prompt with retrieved context, user profile, and optional client local time."""
+    """Constructs an augmented prompt with retrieved context, user profile, academic schedules, and optional client local time."""
     context_str = "\n\n".join([
         f"Source: {doc.source_type} (ID: {doc.source_id or doc.id_embedding})\nContent: {doc.text_original}"
         for doc in context_docs
@@ -127,6 +128,45 @@ def augment_prompt(
             "------------------\n\n"
         )
 
+    schedules_context = ""
+    if user_schedules:
+        schedules_list = []
+        # Sort schedules by day and start time
+        day_order = {"Senin": 1, "Selasa": 2, "Rabu": 3, "Kamis": 4, "Jumat": 5, "Sabtu": 6, "Minggu": 7}
+        sorted_schedules = sorted(
+            user_schedules,
+            key=lambda x: (day_order.get(x.hari, 8), str(x.jam_mulai))
+        )
+        
+        user_sem = int(user.semester_sekarang) if user and user.semester_sekarang and user.semester_sekarang.isdigit() else None
+        
+        for s in sorted_schedules:
+            if hasattr(s.jam_mulai, 'strftime') and s.jam_mulai:
+                start_str = s.jam_mulai.strftime('%H:%M')
+            else:
+                start_str = str(s.jam_mulai)[:5]
+                
+            if hasattr(s.jam_selesai, 'strftime') and s.jam_selesai:
+                end_str = s.jam_selesai.strftime('%H:%M')
+            else:
+                end_str = str(s.jam_selesai)[:5]
+                
+            time_str = f"{start_str} - {end_str}"
+            sem_info = f"Semester {s.semester_level}" if s.semester_level else "Umum"
+            
+            # Highlight if it matches user's current semester
+            is_current = " [SEMESTER AKTIF]" if user_sem and s.semester_level == user_sem else ""
+            
+            schedules_list.append(
+                f"- {s.hari}: {s.nama} ({time_str}) | {s.sks} SKS | {sem_info}{is_current}"
+            )
+        
+        schedules_context = (
+            "USER CLASS SCHEDULES (JADWAL KULIAH AKTIF):\n" +
+            "\n".join(schedules_list) +
+            "\n------------------\n\n"
+        )
+
     time_context = ""
     if client_local_time:
         formatted_time = client_local_time.strftime("%A, %d %B %Y, %H:%M:%S")
@@ -135,10 +175,10 @@ def augment_prompt(
     system_instruction = (
         "You are a smart, helpful personal AI Career Coach and Academic Assistant. "
         "You have DIRECT ACCESS to the user's personal profile and database.\n"
-        "IMPORTANT: You MUST answer based on the provided USER PROFILE and retrieved CONTEXT FROM DATABASE. "
+        "IMPORTANT: You MUST answer based on the provided USER PROFILE, USER CLASS SCHEDULES, and retrieved CONTEXT FROM DATABASE. "
         "Always tailor your advice, tone, and recommendations to the user's specific major, semester, university, career targets, interests, and skills. "
         "Do NOT say 'I cannot access your calendar' or 'I don't have access to your data'. "
-        "You HAVE all the user profile data in the context.\n"
+        "You HAVE all the user profile and schedule data in the context.\n"
         "Always be concise, professional, supportive, and actionable."
     )
 
@@ -149,6 +189,7 @@ def augment_prompt(
         f"{system_instruction}\n\n"
         "------------------\n\n"
         f"{user_profile_context}"
+        f"{schedules_context}"
         f"{time_context}\n\n"
         "RETRIEVED DATABASE CONTEXT:\n"
         "------------------\n"
@@ -156,7 +197,7 @@ def augment_prompt(
         "------------------\n\n"
         f"QUESTION: {question}\n\n"
         "------------------\n\n"
-        "Based on the user's profile and database context, provide a highly personalized, concise, and actionable answer in Bahasa Indonesia."
+        "Based on the user's profile, academic schedules, and database context, provide a highly personalized, concise, and actionable answer in Bahasa Indonesia."
     )
 
 def build_career_prompt(context_str: str, user_profile: dict, current_skills: str = "") -> str:

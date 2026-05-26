@@ -1,5 +1,5 @@
 from contextlib import asynccontextmanager
-from fastapi import FastAPI, Depends, Request, Form, HTTPException
+from fastapi import FastAPI, Depends, Request, Form, HTTPException, BackgroundTasks
 from fastapi.responses import HTMLResponse, RedirectResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
@@ -220,10 +220,128 @@ async def add_user(
         logger.error(traceback.format_exc())
         raise HTTPException(status_code=500, detail=str(e))
 
+# Background task to auto-generate and save career analysis and roadmap upon onboarding completion
+async def generate_and_save_career_roadmap_task(user_id: int):
+    from app.db import SessionLocal
+    from app import crud, models, rag, schemas, rag_service
+    import json
+    from datetime import datetime
+    import logging
+
+    db = SessionLocal()
+    try:
+        logging.info(f"Background task starting: generating career analysis and roadmap for user {user_id}")
+        
+        # 1. Generate career analysis
+        data = await rag.generate_career_analysis(db, user_id)
+        
+        # 2. Delete old roadmap data (same logic as save_career_analysis_api)
+        db.query(models.Roadmap).filter_by(id_user=user_id).delete()
+        db.query(models.CareerResult).filter_by(id_user=user_id).delete()
+        db.query(models.Todo).filter(
+            models.Todo.id_user == user_id, 
+            models.Todo.deskripsi == "Dari Analisis Karir AI."
+        ).delete()
+        db.query(models.UserSkillXP).filter_by(id_user=user_id).delete()
+        
+        # Save Career Result
+        careers_data = data.get("careers", [])
+        primary_career_id = None
+        career_name = "Kesuksesan Karir"
+        
+        if careers_data:
+            career_name = careers_data[0].get("name", career_name)
+            for c_idx, c_data in enumerate(careers_data):
+                c_id = crud.save_career_result(db, user_id, {"career": c_data})
+                if c_idx == 0:
+                    primary_career_id = c_id
+        elif "career" in data:
+            primary_career_id = crud.save_career_result(db, user_id, data)
+            career_name = data.get("career", {}).get("name", "Career Analysis")
+        else:
+            logging.error("Invalid generation data format inside background task")
+            return
+
+        # Insert Roadmap + Steps + Progress
+        db_roadmap = crud.create_roadmap(db, schemas.RoadmapCreate(
+            id_user=user_id,
+            id_career=primary_career_id,
+            title=f"Roadmap for {career_name}"
+        ))
+
+        step_global_order = 1
+        if "roadmap" in data and isinstance(data["roadmap"], list):
+            for phase_data in data["roadmap"]:
+                phase_name = phase_data.get("phase", "")
+                steps = phase_data.get("steps", [])
+                for step in steps:
+                    skill_tags_raw = step.get("skill_tags")
+                    if isinstance(skill_tags_raw, list):
+                        skill_tags_raw = json.dumps(skill_tags_raw)
+                    db_step = crud.create_roadmap_step(db, schemas.RoadmapStepCreate(
+                        id_roadmap=db_roadmap.id,
+                        phase=phase_name,
+                        step_order=step_global_order,
+                        title=step.get("title", ""),
+                        description=step.get("description", ""),
+                        skill_tags=skill_tags_raw,
+                        xp_reward=step.get("xp_reward", 10)
+                    ))
+                    step_global_order += 1
+                    
+                    # Create Progress Tracker
+                    crud.create_career_progress(db, schemas.CareerProgressCreate(
+                        id_user=user_id,
+                        id_roadmap_step=db_step.id
+                    ))
+
+        # Insert Tasks as Todos
+        todo_embedding_tasks = []
+        if "tasks" in data and isinstance(data["tasks"], list):
+            for task in data["tasks"]:
+                deadline_str = task.get("deadline", "")
+                parsed_deadline = None
+                if deadline_str:
+                    try:
+                        parsed_deadline = datetime.fromisoformat(deadline_str.replace("Z", "+00:00"))
+                    except ValueError:
+                        try:
+                            from datetime import date as _date
+                            d = _date.fromisoformat(deadline_str[:10])
+                            parsed_deadline = datetime(d.year, d.month, d.day)
+                        except Exception:
+                            pass
+
+                db_todo = crud.create_todo(db, schemas.TodoCreate(
+                    id_user=user_id,
+                    nama=task.get("task", ""),
+                    tipe=task.get("priority", "Menengah"),
+                    tenggat=parsed_deadline,
+                    deskripsi=f"Dari Analisis Karir AI."
+                ))
+                
+                # Collect for parallel embedding generation
+                todo_embedding_tasks.append(rag_service.update_todo_embedding(db, db_todo, commit=False))
+
+        # Perform all embeddings in parallel
+        if todo_embedding_tasks:
+            import asyncio
+            await asyncio.gather(*todo_embedding_tasks)
+
+        db.commit()
+        logging.info(f"Background task finished successfully: career analysis and roadmap saved for user {user_id}")
+    except Exception as e:
+        db.rollback()
+        logging.error(f"Error in background career generation task: {e}")
+    finally:
+        db.close()
+
+
 # POST /update-user/{user_id}
 @app.post("/update-user/{user_id}", response_class=RedirectResponse)
 async def update_user_route(
     user_id: int,
+    background_tasks: BackgroundTasks,
     nama: Optional[str] = Form(None),
     email: Optional[str] = Form(None),
     telepon: Optional[str] = Form(None),
@@ -321,6 +439,16 @@ async def update_user_route(
                                 ]
                                 await asyncio.gather(*embedding_tasks)
                                 db_session.commit()
+
+        # Check if onboarding just completed (user filled all major profile fields during this step)
+        is_onboarding_submission = (
+            umur is not None and
+            universitas is not None and
+            jurusan is not None and
+            target_karir is not None
+        )
+        if is_onboarding_submission:
+            background_tasks.add_task(generate_and_save_career_roadmap_task, user_id)
 
         return RedirectResponse(url="/", status_code=303)
     except Exception as e:
@@ -774,13 +902,23 @@ async def rag_query(query: schemas.RAGQuery, db_session: Session = Depends(get_d
         # 2. Find similar rows
         context_docs = rag.retrieve_similar_rags(db_session, query_embedding, query.top_k, query.id_user)
         
-        # 3. Fetch user profile for explicit omnipresent context
+        # 3. Fetch user profile and class schedules for explicit omnipresent context
         user_record = None
+        user_schedules = []
         if query.id_user:
             user_record = crud.get_user(db_session, query.id_user)
+            user_schedules = db_session.query(models.JadwalMatkul).filter(
+                models.JadwalMatkul.id_user == query.id_user
+            ).all()
 
-        # 4. Build augmented prompt with profile context
-        augmented_prompt = rag.augment_prompt(query.question, context_docs, query.client_local_time, user_record)
+        # 4. Build augmented prompt with profile & schedule context
+        augmented_prompt = rag.augment_prompt(
+            query.question, 
+            context_docs, 
+            query.client_local_time, 
+            user_record,
+            user_schedules
+        )
         
         # 5. Call Gemini generate
         answer = await rag.generate_answer_with_gemini(augmented_prompt)
