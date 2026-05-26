@@ -283,8 +283,15 @@ async def update_user_route(
             # Re-generate and update user embedding if user data was changed
             await rag_service.update_user_embedding(db_session, db_user)
             
-            # Trigger auto-connect curriculum if academic data just filled or changed
-            if academic_changed and db_user.universitas and db_user.jurusan and db_user.semester_sekarang:
+            # Trigger auto-connect curriculum if campus/department changed, OR if no schedules exist yet
+            existing_schedules = crud.get_jadwal_matkul_by_user(db_session, user_id)
+            campus_or_dept_changed = (
+                (universitas and universitas != current_db_user.universitas) or
+                (jurusan and jurusan != current_db_user.jurusan)
+            )
+            needs_curriculum_connect = (campus_or_dept_changed or not existing_schedules)
+
+            if needs_curriculum_connect and db_user.universitas and db_user.jurusan and db_user.semester_sekarang:
                 # Find matching curriculum
                 campus = db_session.query(models.Campus).filter(models.Campus.name == db_user.universitas).first()
                 if campus:
@@ -299,9 +306,21 @@ async def update_user_route(
                             crud.delete_all_user_jadwal(db_session, user_id)
                             
                             # 2. Auto connect for ALL semesters (1-8) walking through all curriculum types (Ganjil/Genap)
+                            new_schedules = []
                             for curr_obj in curricula:
                                 for s_l in range(1, 9):
-                                    crud.connect_curriculum_to_user(db_session, user_id, curr_obj.id, None, s_l)
+                                    created = crud.connect_curriculum_to_user(db_session, user_id, curr_obj.id, None, s_l)
+                                    new_schedules.extend(created)
+                            
+                            # 3. Generate embeddings in parallel for all newly connected schedules to allow immediate AI retrieval
+                            if new_schedules:
+                                import asyncio
+                                embedding_tasks = [
+                                    rag_service.update_jadwal_embedding(db_session, s, commit=False)
+                                    for s in new_schedules
+                                ]
+                                await asyncio.gather(*embedding_tasks)
+                                db_session.commit()
 
         return RedirectResponse(url="/", status_code=303)
     except Exception as e:
@@ -755,10 +774,15 @@ async def rag_query(query: schemas.RAGQuery, db_session: Session = Depends(get_d
         # 2. Find similar rows
         context_docs = rag.retrieve_similar_rags(db_session, query_embedding, query.top_k, query.id_user)
         
-        # 3. Build augmented prompt
-        augmented_prompt = rag.augment_prompt(query.question, context_docs, query.client_local_time)
+        # 3. Fetch user profile for explicit omnipresent context
+        user_record = None
+        if query.id_user:
+            user_record = crud.get_user(db_session, query.id_user)
+
+        # 4. Build augmented prompt with profile context
+        augmented_prompt = rag.augment_prompt(query.question, context_docs, query.client_local_time, user_record)
         
-        # 4. Call Gemini generate
+        # 5. Call Gemini generate
         answer = await rag.generate_answer_with_gemini(augmented_prompt)
 
         # 5. Save chat history (for user question)

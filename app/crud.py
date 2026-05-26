@@ -237,8 +237,12 @@ def delete_jadwal_matkul(db: Session, jadwal_id: int):
     return db_jadwal
 
 def delete_all_user_jadwal(db: Session, user_id: int):
-    """Delete ALL schedules for a specific user"""
+    """Delete ALL schedules for a specific user and their RAG embeddings"""
     db.query(models.JadwalMatkul).filter(models.JadwalMatkul.id_user == user_id).delete()
+    db.query(models.RAGSEmbedding).filter(
+        models.RAGSEmbedding.id_user == user_id,
+        models.RAGSEmbedding.source_type == "jadwal"
+    ).delete()
     db.commit()
 
 def get_jadwal_matkul_by_semester(db: Session, id_semester: int, skip: int = 0, limit: int = 100) -> List[models.JadwalMatkul]:

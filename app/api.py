@@ -812,7 +812,7 @@ def import_kurikulum_batch(
     return {"message": f"Successfully imported {len(results)} courses", "ids": results}
 
 @router.post("/connect-curriculum")
-def connect_curriculum(
+async def connect_curriculum(
     curriculum_id: int,
     id_semester: int,
     target_semester_level: int,
@@ -832,6 +832,16 @@ def connect_curriculum(
         id_semester, 
         target_semester_level
     )
+    
+    # Generate embeddings in parallel for all newly connected schedules to allow immediate AI retrieval
+    if results:
+        import asyncio
+        embedding_tasks = [
+            rag_service.update_jadwal_embedding(db, s, commit=False)
+            for s in results
+        ]
+        await asyncio.gather(*embedding_tasks)
+        db.commit()
     
     return {"message": f"Connected {len(results)} courses to your schedule", "count": len(results)}
 

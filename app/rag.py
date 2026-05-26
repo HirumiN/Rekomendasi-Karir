@@ -93,12 +93,39 @@ def retrieve_similar_rags(db: Session, query_vector: List[float], top_k: int, id
     
     return result
 
-def augment_prompt(question: str, context_docs: List[models.RAGSEmbedding], client_local_time: Optional[datetime] = None) -> str:
-    """Constructs an augmented prompt with retrieved context and optional client local time."""
+def augment_prompt(
+    question: str, 
+    context_docs: List[models.RAGSEmbedding], 
+    client_local_time: Optional[datetime] = None,
+    user: Optional[models.User] = None
+) -> str:
+    """Constructs an augmented prompt with retrieved context, user profile, and optional client local time."""
     context_str = "\n\n".join([
         f"Source: {doc.source_type} (ID: {doc.source_id or doc.id_embedding})\nContent: {doc.text_original}"
         for doc in context_docs
     ])
+
+    user_profile_context = ""
+    if user:
+        user_profile_context = (
+            f"USER PROFILE:\n"
+            f"- Nama: {user.nama}\n"
+            f"- Email: {user.email}\n"
+            f"- Telepon: {user.telepon or 'Tidak diisi'}\n"
+            f"- Umur: {user.umur or 'Tidak diisi'} tahun\n"
+            f"- Bio: {user.bio or 'Tidak diisi'}\n"
+            f"- Lokasi: {user.lokasi or 'Tidak diisi'}\n"
+            f"- Universitas: {user.universitas or 'Tidak diisi'}\n"
+            f"- Jurusan: {user.jurusan or 'Tidak diisi'}\n"
+            f"- Semester Saat Ini: {user.semester_sekarang or 'Tidak diisi'}\n"
+            f"- Target Karir: {user.target_karir or 'Tidak diisi'}\n"
+            f"- Minat: {user.minat or 'Tidak diisi'}\n"
+            f"- Keterampilan: {user.keterampilan or 'Tidak diisi'}\n"
+            f"- Kepribadian: {user.kepribadian or 'Tidak diisi'}\n"
+            f"- Gaya Belajar: {user.gaya_belajar or 'Tidak diisi'}\n"
+            f"- Waktu Luang: {user.waktu_luang or 'Tidak diisi'}\n"
+            "------------------\n\n"
+        )
 
     time_context = ""
     if client_local_time:
@@ -106,33 +133,30 @@ def augment_prompt(question: str, context_docs: List[models.RAGSEmbedding], clie
         time_context = f"For your information, the user's current local date and time is {formatted_time}. Please use this for any time-sensitive queries about schedules or deadlines."
 
     system_instruction = (
-        "You are a smart, helpful personal assistant. "
-        "You have DIRECT ACCESS to the user's personal database, which includes:\n"
-        "1. Complete Profile (Name, Email, Bio)\n"
-        "2. To-Do List (Tasks, Deadlines)\n"
-        "3. Class Schedule/Jadwal Matkul (Day, Time, SKS)\n"
-        "4. UKM Activities (Organization Name, Role)\n\n"
-        "IMPORTANT: You MUST answer based on the provided context below. "
+        "You are a smart, helpful personal AI Career Coach and Academic Assistant. "
+        "You have DIRECT ACCESS to the user's personal profile and database.\n"
+        "IMPORTANT: You MUST answer based on the provided USER PROFILE and retrieved CONTEXT FROM DATABASE. "
+        "Always tailor your advice, tone, and recommendations to the user's specific major, semester, university, career targets, interests, and skills. "
         "Do NOT say 'I cannot access your calendar' or 'I don't have access to your data'. "
-        "You HAVE the data in the context. "
-        "If the specific answer is not in the context, state 'Based on your saved data, I couldn't find that specific information.' "
-        "Always be concise and actionable."
+        "You HAVE all the user profile data in the context.\n"
+        "Always be concise, professional, supportive, and actionable."
     )
 
     if not context_docs:
-        context_str = "No relevant information found in the user's database to answer this question."
+        context_str = "No relevant schedule or task documents found in the user's database."
 
     return (
         f"{system_instruction}\n\n"
         "------------------\n\n"
+        f"{user_profile_context}"
         f"{time_context}\n\n"
-        "CONTEXT FROM DATABASE:\n"
+        "RETRIEVED DATABASE CONTEXT:\n"
         "------------------\n"
         f"{context_str}\n\n"
         "------------------\n\n"
         f"QUESTION: {question}\n\n"
         "------------------\n\n"
-        "Based on the context, provide a concise and actionable answer in Bahasa Indonesia."
+        "Based on the user's profile and database context, provide a highly personalized, concise, and actionable answer in Bahasa Indonesia."
     )
 
 def build_career_prompt(context_str: str, user_profile: dict, current_skills: str = "") -> str:
@@ -343,6 +367,16 @@ async def adapt_roadmap_preview(roadmap, steps, user, user_message: str):
     """
     import json as _json
 
+    # Gather all existing unique skill tags across all steps in the current roadmap
+    existing_tags = set()
+    for s in steps:
+        if s.skill_tags:
+            parts = [p.strip() for p in s.skill_tags.split(",") if p.strip()]
+            existing_tags.update(parts)
+
+    allowed_tags_list = list(existing_tags)
+    allowed_tags_str = ", ".join(allowed_tags_list) if allowed_tags_list else "Tidak ada tag sebelumnya"
+
     steps_summary = "\n".join([
         f"[{s.id}] Phase={s.phase}, Order={s.step_order}, Title={s.title}, Tags={s.skill_tags or '[]'}"
         for s in steps
@@ -361,7 +395,12 @@ Target karir pengguna: {user.target_karir or 'Belum ditentukan'}
 Pesan dari pengguna:
 "{user_message}"
 
+Daftar Skill Tags yang diperbolehkan (Hanya gunakan dari daftar ini, jangan tambahkan tag baru!):
+[{allowed_tags_str}]
+
 Tugasmu: Analisis pesan pengguna dan sarankan perubahan roadmap agar lebih sesuai dengan keinginan/kebutuhan mereka.
+
+ATURAN SANGAT KETAT: Kamu HANYA BOLEH menggunakan skill tags yang sudah ada pada daftar diperbolehkan di atas ([{allowed_tags_str}]). JANGAN PERNAH menambahkan atau menggunakan skill tag baru di luar daftar tersebut!
 
 Kembalikan HANYA JSON berikut tanpa penjelasan apapun. action bisa: "keep" (tidak diubah), "edit" (ubah konten), "add" (step baru), "remove" (hapus):
 
@@ -375,7 +414,7 @@ Kembalikan HANYA JSON berikut tanpa penjelasan apapun. action bisa: "keep" (tida
       "step_order": <integer>,
       "title": "<judul step>",
       "description": "<deskripsi>",
-      "skill_tags": ["<tag1>", "<tag2>", "<tag3>"], // STRICT RULE: 3-6 TAGS, MAX 6 TAGS
+      "skill_tags": ["<tag1>", "<tag2>", "<tag3>"], // HANYA gunakan tag dari daftar diperbolehkan!
       "xp_reward": <integer>
     }}
   ]
@@ -393,12 +432,29 @@ Sertakan semua step yang ADA (dengan action "keep" jika tidak ada perubahan) dan
             raw = raw[:-3].strip()
         data = _json.loads(raw)
         
-        # Enforce max 6 tags programmatically
+        # Programmatic filtering and mapping to ensure NO new tags are added
+        tag_lower_map = {t.lower(): t for t in existing_tags}
+        
         if "proposed_changes" in data and isinstance(data["proposed_changes"], list):
             for change in data["proposed_changes"]:
                 tags = change.get("skill_tags")
+                
+                # Convert string to list if AI returned a comma-separated string
+                if isinstance(tags, str):
+                    tags = [p.strip() for p in tags.split(",") if p.strip()]
+                    
                 if isinstance(tags, list):
-                    change["skill_tags"] = tags[:6]
+                    filtered_tags = []
+                    for t in tags:
+                        t_clean = t.strip()
+                        if t_clean.lower() in tag_lower_map:
+                            filtered_tags.append(tag_lower_map[t_clean.lower()])
+                    
+                    # Fallback to existing tags if all got filtered out to prevent empty tags
+                    if not filtered_tags and existing_tags:
+                        filtered_tags = list(existing_tags)[:3]
+                        
+                    change["skill_tags"] = filtered_tags[:6]
     except Exception:
         raise ValueError(f"Invalid JSON from Gemini adapt: {raw[:200]}")
 

@@ -12,11 +12,13 @@ engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 
-@event.listens_for(engine, "connect")
-def connect(dbapi_connection, connection_record):
-    cursor = dbapi_connection.cursor()
-    cursor.execute("CREATE EXTENSION IF NOT EXISTS vector")
-    cursor.close()
+# Execute CREATE EXTENSION once on module import to avoid connection overhead
+try:
+    with engine.connect() as _conn:
+        _conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))
+        _conn.commit()
+except Exception as _e:
+    print(f"Warning: Could not check/create vector extension: {_e}")
 
 def create_hnsw_index():
     with engine.connect() as conn:
