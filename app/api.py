@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from typing import List, Optional
-from datetime import datetime
+from datetime import datetime, timedelta
 import logging
 logger = logging.getLogger(__name__)
 
@@ -324,7 +324,6 @@ async def generate_career_analysis_api(
     # Rate limit check: 1 roadmap per week (7 days)
     latest_roadmap = db.query(models.Roadmap).filter_by(id_user=user_id).order_by(models.Roadmap.created_at.desc()).first()
     if latest_roadmap:
-        from datetime import datetime, timedelta
         created_at_val = latest_roadmap.created_at
         if isinstance(created_at_val, str):
             try:
@@ -378,7 +377,6 @@ async def save_career_analysis_api(
     # Rate limit check: 1 roadmap per week (7 days)
     latest_roadmap = db.query(models.Roadmap).filter_by(id_user=user_id).order_by(models.Roadmap.created_at.desc()).first()
     if latest_roadmap:
-        from datetime import datetime, timedelta
         created_at_val = latest_roadmap.created_at
         if isinstance(created_at_val, str):
             try:
@@ -929,7 +927,6 @@ async def adapt_roadmap_preview(
     )
 
     # Rate limit check 1: 30 seconds cooldown after roadmap generation
-    from datetime import datetime, timedelta
     now_dt = datetime.now(roadmap.created_at.tzinfo) if roadmap.created_at.tzinfo else datetime.now()
     time_since_creation = now_dt - roadmap.created_at
     if time_since_creation < timedelta(seconds=30):
