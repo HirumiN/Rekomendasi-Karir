@@ -321,6 +321,26 @@ async def generate_career_analysis_api(
     if user_id != current_user.id_user:
         raise HTTPException(status_code=403, detail="Not authorized")
 
+    # Rate limit check: 1 roadmap per week (7 days)
+    latest_roadmap = db.query(models.Roadmap).filter_by(id_user=user_id).order_by(models.Roadmap.created_at.desc()).first()
+    if latest_roadmap:
+        from datetime import datetime, timedelta
+        now_dt = datetime.now(latest_roadmap.created_at.tzinfo) if latest_roadmap.created_at.tzinfo else datetime.now()
+        time_diff = now_dt - latest_roadmap.created_at
+        if time_diff < timedelta(days=7):
+            days_left = 7 - time_diff.days
+            hours_left = 24 - (time_diff.seconds // 3600)
+            if days_left > 1:
+                time_str = f"{days_left} hari"
+            elif hours_left > 1:
+                time_str = f"{hours_left} jam"
+            else:
+                time_str = "beberapa menit"
+            raise HTTPException(
+                status_code=400,
+                detail=f"Batasi Pemakaian AI: Anda hanya dapat memperbarui atau membuat roadmap baru sekali dalam seminggu. Silakan tunggu {time_str} lagi untuk membuat analisis baru."
+            )
+
     # Only Generate analysis (don't save yet)
     data = await rag.generate_career_analysis(db, user_id)
 
@@ -341,6 +361,26 @@ async def save_career_analysis_api(
 ):
     if user_id != current_user.id_user:
         raise HTTPException(status_code=403, detail="Not authorized")
+
+    # Rate limit check: 1 roadmap per week (7 days)
+    latest_roadmap = db.query(models.Roadmap).filter_by(id_user=user_id).order_by(models.Roadmap.created_at.desc()).first()
+    if latest_roadmap:
+        from datetime import datetime, timedelta
+        now_dt = datetime.now(latest_roadmap.created_at.tzinfo) if latest_roadmap.created_at.tzinfo else datetime.now()
+        time_diff = now_dt - latest_roadmap.created_at
+        if time_diff < timedelta(days=7):
+            days_left = 7 - time_diff.days
+            hours_left = 24 - (time_diff.seconds // 3600)
+            if days_left > 1:
+                time_str = f"{days_left} hari"
+            elif hours_left > 1:
+                time_str = f"{hours_left} jam"
+            else:
+                time_str = "beberapa menit"
+            raise HTTPException(
+                status_code=400,
+                detail=f"Batasi Pemakaian AI: Anda hanya dapat memperbarui atau membuat roadmap baru sekali dalam seminggu. Silakan tunggu {time_str} lagi."
+            )
 
     # ONE ROADMAP PER USER: Delete old roadmap data
     # This ensures a fresh start whenever a new career is chosen
@@ -861,6 +901,40 @@ async def adapt_roadmap_preview(
     if not roadmap:
         raise HTTPException(status_code=404, detail="Roadmap not found")
 
+    # Rate limit check 1: 30 seconds cooldown after roadmap generation
+    from datetime import datetime, timedelta
+    now_dt = datetime.now(roadmap.created_at.tzinfo) if roadmap.created_at.tzinfo else datetime.now()
+    time_since_creation = now_dt - roadmap.created_at
+    if time_since_creation < timedelta(seconds=30):
+        seconds_left = 30 - int(time_since_creation.total_seconds())
+        raise HTTPException(
+            status_code=400,
+            detail=f"Batasi Pemakaian: AI Coach baru dapat digunakan setelah jeda 30 detik dari pembuatan roadmap. Silakan tunggu {seconds_left} detik lagi."
+        )
+
+    # Rate limit check 2: Once a week for roadmap adaptation
+    latest_adapt = db.query(models.AIChatHistory).filter(
+        models.AIChatHistory.id_user == current_user.id_user,
+        models.AIChatHistory.message.like("%[ROADMAP_ADAPTATION]%")
+    ).order_by(models.AIChatHistory.created_at.desc()).first()
+
+    if latest_adapt:
+        now_adapt_dt = datetime.now(latest_adapt.created_at.tzinfo) if latest_adapt.created_at.tzinfo else datetime.now()
+        time_since_adapt = now_adapt_dt - latest_adapt.created_at
+        if time_since_adapt < timedelta(days=7):
+            days_left = 7 - time_since_adapt.days
+            hours_left = 24 - (time_since_adapt.seconds // 3600)
+            if days_left > 1:
+                time_str = f"{days_left} hari"
+            elif hours_left > 1:
+                time_str = f"{hours_left} jam"
+            else:
+                time_str = "beberapa menit"
+            raise HTTPException(
+                status_code=400,
+                detail=f"Batasi Pemakaian AI: Anda hanya dapat menggunakan AI Coach / Adaptasi Roadmap sekali dalam seminggu. Silakan tunggu {time_str} lagi."
+            )
+
     steps = db.query(models.RoadmapStep).filter_by(id_roadmap=roadmap_id).order_by(
         models.RoadmapStep.step_order
     ).all()
@@ -912,6 +986,14 @@ async def adapt_roadmap_apply(
             db.add(new_step)
             db.flush()
             db.add(models.CareerProgress(id_user=current_user.id_user, id_roadmap_step=new_step.id))
+
+    # Save adaptation log
+    adapt_log = models.AIChatHistory(
+        id_user=current_user.id_user,
+        role="assistant",
+        message="[ROADMAP_ADAPTATION] Jalur karir dan roadmap diadaptasikan oleh AI Coach."
+    )
+    db.add(adapt_log)
 
     db.commit()
     return {"message": f"Applied {len(changes)} changes to roadmap"}

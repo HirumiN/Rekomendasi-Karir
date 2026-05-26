@@ -447,8 +447,6 @@ async def update_user_route(
             jurusan is not None and
             target_karir is not None
         )
-        if is_onboarding_submission:
-            background_tasks.add_task(generate_and_save_career_roadmap_task, user_id)
 
         return RedirectResponse(url="/", status_code=303)
     except Exception as e:
