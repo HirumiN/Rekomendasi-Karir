@@ -360,6 +360,19 @@ async def update_user_route(
     calendar_name: Optional[str] = Form(None),
     db_session: Session = Depends(get_db)
 ):
+    # Validation rules for age (umur) and current semester
+    if umur is not None and (umur < 15 or umur > 100):
+        raise HTTPException(status_code=400, detail="Umur harus berupa angka antara 15 dan 100 tahun.")
+        
+    if semester_sekarang:
+        sem_str = semester_sekarang.strip()
+        if sem_str:
+            if not sem_str.isdigit():
+                raise HTTPException(status_code=400, detail="Semester harus berupa angka bulat positif.")
+            sem_val = int(sem_str)
+            if sem_val < 1 or sem_val > 8:
+                raise HTTPException(status_code=400, detail="Semester harus bernilai antara semester 1 sampai 8.")
+
     try:
         # Check if name changed for sync trigger
         user_update_data = schemas.UserUpdate(
