@@ -330,7 +330,7 @@ def delete_rutinitas(db: Session, rutinitas_id: int):
 
 
 def get_chat_history(db: Session, user_id: int, skip: int = 0, limit: int = 100):
-    return db.query(models.AIChatHistory).filter(models.AIChatHistory.id_user == user_id).offset(skip).limit(limit).all()
+    return db.query(models.AIChatHistory).filter(models.AIChatHistory.id_user == user_id).order_by(models.AIChatHistory.created_at.asc()).offset(skip).limit(limit).all()
 
 def get_all_rags_embeddings(db: Session):
     return db.query(models.RAGSEmbedding).all()
