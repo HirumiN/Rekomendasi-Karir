@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 # Environment variables for Gemini API
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 GEMINI_EMBED_URL = os.getenv("GEMINI_EMBED_URL") or "https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:embedContent"
-GEMINI_GEN_URL = os.getenv("GEMINI_GEN_URL") or "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent"
+GEMINI_GEN_URL = os.getenv("GEMINI_GEN_URL") or "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent"
 
 from asyncio import sleep # Added for retry mechanism
 

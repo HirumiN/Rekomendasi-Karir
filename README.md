@@ -75,7 +75,7 @@ Let's break down the RAG process with the specific functions used in your `app/`
         *   This augmented prompt provides the LLM with relevant background information to generate a more accurate and personalized answer.
     *   **Generating the Answer (`app/rag.py`)**:
         *   The `generate_answer_with_gemini(augmented_prompt: str)` function is called with the newly constructed prompt.
-        *   This function makes an asynchronous HTTP `POST` request to the `GEMINI_GEN_URL` (e.g., `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent`).
+        *   This function makes an asynchronous HTTP `POST` request to the `GEMINI_GEN_URL` (e.g., `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent`).
         *   It sends a JSON payload containing the augmented prompt in the `contents` field.
         *   The Gemini LLM processes the prompt and generates a natural language answer.
         *   **Retry Mechanism**: Similar to embedding, this function also includes a retry mechanism for robustness.
