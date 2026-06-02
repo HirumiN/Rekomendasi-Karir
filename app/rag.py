@@ -25,15 +25,136 @@ GEMINI_GEN_URL = os.getenv("GEMINI_GEN_URL") or "https://generativelanguage.goog
 
 from asyncio import sleep # Added for retry mechanism
 
+# Persisted API Usage Logs file (JSON) to track Daily Quota (RPD) across server restarts
+USAGE_FILE = os.path.join(os.path.dirname(__file__), "api_usage_logs.json")
+
+def load_usage_logs() -> dict:
+    if not os.path.exists(USAGE_FILE):
+        return {"embedding": [], "generation": []}
+    try:
+        with open(USAGE_FILE, "r") as f:
+            return json.load(f)
+    except Exception as e:
+        logger.error(f"Error loading usage logs: {e}")
+        return {"embedding": [], "generation": []}
+
+def save_usage_logs(logs: dict):
+    try:
+        with open(USAGE_FILE, "w") as f:
+            json.dump(logs, f)
+    except Exception as e:
+        logger.error(f"Error saving usage logs: {e}")
+
 # Global variables for rate limiting
 EMBEDDING_LOCK = asyncio.Lock()
 EMBEDDING_HISTORY = []  # List of tuples: (timestamp, token_count)
 MAX_RPM = 100
 MAX_TPM = 30000
+MAX_RPD = 1000
+
+GENERATION_LOCK = asyncio.Lock()
+GENERATION_HISTORY = []  # List of tuples: (timestamp, token_count)
+MAX_GEN_RPM = 15
+MAX_GEN_TPM = 250000
+MAX_GEN_RPD = 500
 
 def estimate_tokens(text: str) -> int:
     """Estimates the token count of a given string (rough approximation for rate limiting)."""
     return max(1, len(text) // 3)
+
+async def check_and_queue_embedding(estimated_tokens: int):
+    """Checks embedding rate limits (RPM, TPM, RPD) and sleeps/queues or raises error if limits reached."""
+    acquired = False
+    while not acquired:
+        async with EMBEDDING_LOCK:
+            now = time.time()
+            
+            # Daily check (RPD)
+            logs = load_usage_logs()
+            embed_daily = [t for t in logs.get("embedding", []) if now - t < 86400.0]
+            
+            if len(embed_daily) >= MAX_RPD:
+                oldest_time = embed_daily[0]
+                hours_left = max(0.1, (86400.0 - (now - oldest_time)) / 3600.0)
+                raise ValueError(
+                    f"Batasi Pemakaian AI: Kuota harian untuk pencarian/embedding AI telah terpenuhi (Limit: {MAX_RPD} request/hari). "
+                    f"Silakan coba lagi dalam {hours_left:.1f} jam."
+                )
+            
+            # Short-term checks (RPM/TPM)
+            global EMBEDDING_HISTORY
+            EMBEDDING_HISTORY = [entry for entry in EMBEDDING_HISTORY if now - entry[0] < 60.0]
+            
+            current_rpm = len(EMBEDDING_HISTORY)
+            current_tpm = sum(entry[1] for entry in EMBEDDING_HISTORY)
+            
+            if current_rpm < MAX_RPM and (current_tpm + estimated_tokens) <= MAX_TPM:
+                EMBEDDING_HISTORY.append((now, estimated_tokens))
+                embed_daily.append(now)
+                logs["embedding"] = embed_daily
+                save_usage_logs(logs)
+                acquired = True
+            else:
+                if EMBEDDING_HISTORY:
+                    oldest_time = EMBEDDING_HISTORY[0][0]
+                    sleep_time = max(0.1, 60.0 - (now - oldest_time) + 0.1)
+                else:
+                    sleep_time = 0.5
+                
+                logger.warning(
+                    f"Embedding rate limit reached (Current RPM: {current_rpm}/{MAX_RPM}, "
+                    f"TPM: {current_tpm + estimated_tokens}/{MAX_TPM}). Queuing request. "
+                    f"Sleeping for {sleep_time:.2f}s..."
+                )
+        if not acquired:
+            await sleep(sleep_time)
+
+async def check_and_queue_generation(estimated_tokens: int):
+    """Checks generation rate limits (RPM, TPM, RPD) and sleeps/queues or raises error if limits reached."""
+    acquired = False
+    while not acquired:
+        async with GENERATION_LOCK:
+            now = time.time()
+            
+            # Daily check (RPD)
+            logs = load_usage_logs()
+            gen_daily = [t for t in logs.get("generation", []) if now - t < 86400.0]
+            
+            if len(gen_daily) >= MAX_GEN_RPD:
+                oldest_time = gen_daily[0]
+                hours_left = max(0.1, (86400.0 - (now - oldest_time)) / 3600.0)
+                raise ValueError(
+                    f"Batasi Pemakaian AI: Kuota harian untuk Chat/Roadmap AI telah terpenuhi (Limit: {MAX_GEN_RPD} request/hari). "
+                    f"Silakan coba lagi dalam {hours_left:.1f} jam."
+                )
+            
+            # Short-term checks (RPM/TPM)
+            global GENERATION_HISTORY
+            GENERATION_HISTORY = [entry for entry in GENERATION_HISTORY if now - entry[0] < 60.0]
+            
+            current_rpm = len(GENERATION_HISTORY)
+            current_tpm = sum(entry[1] for entry in GENERATION_HISTORY)
+            
+            if current_rpm < MAX_GEN_RPM and (current_tpm + estimated_tokens) <= MAX_GEN_TPM:
+                GENERATION_HISTORY.append((now, estimated_tokens))
+                gen_daily.append(now)
+                logs["generation"] = gen_daily
+                save_usage_logs(logs)
+                acquired = True
+            else:
+                if GENERATION_HISTORY:
+                    oldest_time = GENERATION_HISTORY[0][0]
+                    sleep_time = max(0.1, 60.0 - (now - oldest_time) + 0.1)
+                else:
+                    sleep_time = 0.5
+                
+                logger.warning(
+                    f"Generation rate limit reached (Current RPM: {current_rpm}/{MAX_GEN_RPM}, "
+                    f"TPM: {current_tpm + estimated_tokens}/{MAX_GEN_TPM}). Queuing request. "
+                    f"Sleeping for {sleep_time:.2f}s..."
+                )
+        if not acquired:
+            await sleep(sleep_time)
 
 async def embed_text_with_gemini(text: str) -> List[float]:
     """Calls the Gemini embeddings model to get the embedding for a given text with retries and rate limit queuing."""
@@ -44,37 +165,7 @@ async def embed_text_with_gemini(text: str) -> List[float]:
         raise ValueError("GEMINI_EMBED_URL must be set in environment variables.")
 
     estimated_tokens = estimate_tokens(text)
-
-    # Queue/Rate Limit check loop
-    acquired = False
-    while not acquired:
-        async with EMBEDDING_LOCK:
-            now = time.time()
-            # Clean up history older than 60 seconds
-            global EMBEDDING_HISTORY
-            EMBEDDING_HISTORY = [entry for entry in EMBEDDING_HISTORY if now - entry[0] < 60.0]
-
-            current_rpm = len(EMBEDDING_HISTORY)
-            current_tpm = sum(entry[1] for entry in EMBEDDING_HISTORY)
-
-            if current_rpm < MAX_RPM and (current_tpm + estimated_tokens) <= MAX_TPM:
-                EMBEDDING_HISTORY.append((now, estimated_tokens))
-                acquired = True
-            else:
-                # Calculate required sleep duration to free up space
-                if EMBEDDING_HISTORY:
-                    oldest_time = EMBEDDING_HISTORY[0][0]
-                    sleep_time = max(0.1, 60.0 - (now - oldest_time) + 0.1)
-                else:
-                    sleep_time = 0.5
-
-                logger.warning(
-                    f"Embedding rate limit reached (Current RPM: {current_rpm}/{MAX_RPM}, "
-                    f"TPM: {current_tpm + estimated_tokens}/{MAX_TPM}). Queuing request. "
-                    f"Sleeping for {sleep_time:.2f}s..."
-                )
-        if not acquired:
-            await sleep(sleep_time)
+    await check_and_queue_embedding(estimated_tokens)
 
     headers = {
         "x-goog-api-key": GEMINI_API_KEY,
@@ -340,6 +431,10 @@ async def generate_answer_with_gemini(augmented_prompt: str) -> str:
 
     if not GEMINI_GEN_URL:
         raise ValueError("GEMINI_GEN_URL must be set in environment variables.")
+
+    # Estimate input tokens + buffer for response
+    estimated_tokens = estimate_tokens(augmented_prompt) + 1000
+    await check_and_queue_generation(estimated_tokens)
 
     headers = {
         "x-goog-api-key": GEMINI_API_KEY,
