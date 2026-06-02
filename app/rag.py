@@ -8,6 +8,8 @@ import json
 from dotenv import load_dotenv
 import logging
 from datetime import datetime
+import asyncio
+import time
 
 from . import models, schemas
 
@@ -23,13 +25,56 @@ GEMINI_GEN_URL = os.getenv("GEMINI_GEN_URL") or "https://generativelanguage.goog
 
 from asyncio import sleep # Added for retry mechanism
 
+# Global variables for rate limiting
+EMBEDDING_LOCK = asyncio.Lock()
+EMBEDDING_HISTORY = []  # List of tuples: (timestamp, token_count)
+MAX_RPM = 100
+MAX_TPM = 30000
+
+def estimate_tokens(text: str) -> int:
+    """Estimates the token count of a given string (rough approximation for rate limiting)."""
+    return max(1, len(text) // 3)
+
 async def embed_text_with_gemini(text: str) -> List[float]:
-    """Calls the Gemini embeddings model to get the embedding for a given text with retries."""
+    """Calls the Gemini embeddings model to get the embedding for a given text with retries and rate limit queuing."""
     if not GEMINI_API_KEY:
         raise ValueError("GEMINI_API_KEY must be set in environment variables.")
 
     if not GEMINI_EMBED_URL:
         raise ValueError("GEMINI_EMBED_URL must be set in environment variables.")
+
+    estimated_tokens = estimate_tokens(text)
+
+    # Queue/Rate Limit check loop
+    acquired = False
+    while not acquired:
+        async with EMBEDDING_LOCK:
+            now = time.time()
+            # Clean up history older than 60 seconds
+            global EMBEDDING_HISTORY
+            EMBEDDING_HISTORY = [entry for entry in EMBEDDING_HISTORY if now - entry[0] < 60.0]
+
+            current_rpm = len(EMBEDDING_HISTORY)
+            current_tpm = sum(entry[1] for entry in EMBEDDING_HISTORY)
+
+            if current_rpm < MAX_RPM and (current_tpm + estimated_tokens) <= MAX_TPM:
+                EMBEDDING_HISTORY.append((now, estimated_tokens))
+                acquired = True
+            else:
+                # Calculate required sleep duration to free up space
+                if EMBEDDING_HISTORY:
+                    oldest_time = EMBEDDING_HISTORY[0][0]
+                    sleep_time = max(0.1, 60.0 - (now - oldest_time) + 0.1)
+                else:
+                    sleep_time = 0.5
+
+                logger.warning(
+                    f"Embedding rate limit reached (Current RPM: {current_rpm}/{MAX_RPM}, "
+                    f"TPM: {current_tpm + estimated_tokens}/{MAX_TPM}). Queuing request. "
+                    f"Sleeping for {sleep_time:.2f}s..."
+                )
+        if not acquired:
+            await sleep(sleep_time)
 
     headers = {
         "x-goog-api-key": GEMINI_API_KEY,
