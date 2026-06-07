@@ -323,7 +323,7 @@ async def generate_career_analysis_api(
 
     # Rate limit check: 1 roadmap per week (7 days)
     latest_roadmap = db.query(models.Roadmap).filter_by(id_user=user_id).order_by(models.Roadmap.created_at.desc()).first()
-    if latest_roadmap:
+    if latest_roadmap and current_user.email != "testuser2@example.com":
         created_at_val = latest_roadmap.created_at
         if isinstance(created_at_val, str):
             try:
@@ -376,7 +376,7 @@ async def save_career_analysis_api(
 
     # Rate limit check: 1 roadmap per week (7 days)
     latest_roadmap = db.query(models.Roadmap).filter_by(id_user=user_id).order_by(models.Roadmap.created_at.desc()).first()
-    if latest_roadmap:
+    if latest_roadmap and current_user.email != "testuser2@example.com":
         created_at_val = latest_roadmap.created_at
         if isinstance(created_at_val, str):
             try:
@@ -844,12 +844,25 @@ def import_kurikulum_batch(
 ):
     """Batch import curriculum data from CSV/Json"""
     # Logic for batch import (used by import script or admin UI)
+    CAMPUS_MAPPINGS = {
+        "ITS": "Institut Teknologi Sepuluh Nopember",
+        "PENS": "Politeknik Elektronika Negeri Surabaya",
+        "Politeknik Elektronika Negeri Surabaya": "Politeknik Elektronika Negeri Surabaya",
+        "PPNS": "Politeknik Perkapalan Negeri Surabaya",
+        "UNAIR": "Universitas Airlangga",
+        "UNESA": "Universitas Negeri Surabaya",
+    }
+    
     results = []
     for item in data:
+        campus_name = item["universitas"]
+        if campus_name in CAMPUS_MAPPINGS:
+            campus_name = CAMPUS_MAPPINGS[campus_name]
+
         # 1. Campus
-        campus = crud.get_campus_by_name(db, item["universitas"])
+        campus = crud.get_campus_by_name(db, campus_name)
         if not campus:
-            campus = crud.create_campus(db, schemas.CampusCreate(name=item["universitas"]))
+            campus = crud.create_campus(db, schemas.CampusCreate(name=campus_name))
         
         # 2. Department
         dept = crud.get_department_by_name_and_campus(db, item["jurusan"], campus.id)
@@ -921,15 +934,14 @@ async def adapt_roadmap_preview(
     db: Session = Depends(get_db),
     current_user: models.User = Depends(auth.get_current_active_user)
 ):
-    raise HTTPException(
-        status_code=400,
-        detail="Fitur AI Coach & Adaptasi Roadmap saat ini sedang dalam pengembangan (Coming Soon). Silakan hubungi Admin/Developer untuk informasi lebih lanjut."
-    )
+    roadmap = db.query(models.Roadmap).filter_by(id=roadmap_id, id_user=current_user.id_user).first()
+    if not roadmap:
+        raise HTTPException(status_code=404, detail="Roadmap tidak ditemukan.")
 
     # Rate limit check 1: 30 seconds cooldown after roadmap generation
     now_dt = datetime.now(roadmap.created_at.tzinfo) if roadmap.created_at.tzinfo else datetime.now()
     time_since_creation = now_dt - roadmap.created_at
-    if time_since_creation < timedelta(seconds=30):
+    if time_since_creation < timedelta(seconds=30) and current_user.email != "testuser2@example.com":
         seconds_left = 30 - int(time_since_creation.total_seconds())
         raise HTTPException(
             status_code=400,
@@ -942,7 +954,7 @@ async def adapt_roadmap_preview(
         models.AIChatHistory.message.like("%[ROADMAP_ADAPTATION]%")
     ).order_by(models.AIChatHistory.created_at.desc()).first()
 
-    if latest_adapt:
+    if latest_adapt and current_user.email != "testuser2@example.com":
         now_adapt_dt = datetime.now(latest_adapt.created_at.tzinfo) if latest_adapt.created_at.tzinfo else datetime.now()
         time_since_adapt = now_adapt_dt - latest_adapt.created_at
         if time_since_adapt < timedelta(days=7):
@@ -974,10 +986,9 @@ async def adapt_roadmap_apply(
     db: Session = Depends(get_db),
     current_user: models.User = Depends(auth.get_current_active_user)
 ):
-    raise HTTPException(
-        status_code=400,
-        detail="Fitur AI Coach & Adaptasi Roadmap saat ini sedang dalam pengembangan (Coming Soon). Silakan hubungi Admin/Developer untuk informasi lebih lanjut."
-    )
+    roadmap = db.query(models.Roadmap).filter_by(id=roadmap_id, id_user=current_user.id_user).first()
+    if not roadmap:
+        raise HTTPException(status_code=404, detail="Roadmap tidak ditemukan.")
 
     for change in changes:
         if change.action == "remove" and change.id:

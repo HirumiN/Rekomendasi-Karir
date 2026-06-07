@@ -387,7 +387,10 @@ Aturan Output:
   * Bidang Sosial/Pendidikan: "SPSS", "CBT Counseling", "Instructional Design", "Metodologi Riset Kualitatif"
   * Bidang Teknik/Sains: "AutoCAD", "SolidWorks", "MATLAB", "PLC Programming"
 - DILARANG KERAS menggunakan soft skills umum, istilah abstrak, atau skill yang terlalu dasar/umum (seperti "Teamwork", "Komunikasi", "Dasar-dasar", "Microsoft Word"). Harus berupa hard skill atau alat/metodologi praktis nyata. Gunakan ulang 6 skill teknis spesifik tersebut di semua step!
-- Roadmap: jadikan 'phase' sebagai Topik Kategori yang relevan (Misal: "Manajemen Keuangan Mikro" atau "Fundamental Konseling BKI"), dan setiap 'title' di dalam 'steps' WAJIB menyebut Spesifik Teknologi/Metode/Konsep Inti (Misal: "Analisis Arus Kas", "Metode Konseling Kognitif", "Perancangan Rencana Belajar").
+- Roadmap: buatlah roadmap pembelajaran yang komprehensif, sangat mendalam, dan terperinci dengan membaginya menjadi minimal 5 hingga 7 fase ('phase') terpisah yang berurutan secara logis (misalnya dari Fundamental/Basic, Intermediate, Advanced, Systems/Scalability, Integration, hingga Career Readiness/Portfolio/Certification). Jadikan nama 'phase' sebagai Topik Kategori yang relevan (Misal: "Fundamental Backend & Database" atau "Advanced System Scalability & Docker").
+- Setiap fase wajib memiliki minimal 4 hingga 6 langkah ('steps') detail agar materi pembelajaran sangat lengkap, kaya informasi, dan menuntun pengguna dari awal sampai akhir secara komprehensif.
+- Setiap 'title' di dalam 'steps' WAJIB menyebutkan secara spesifik apa yang harus dipelajari (misalnya nama spesifik teknologi, framework, pustaka, atau metodologi, contoh: "Mempelajari Framework Next.js & App Router", "Menguasai State Management Redux Toolkit", "Implementasi REST API dengan Express.js").
+- Setiap 'description' di dalam 'steps' WAJIB menjelaskan secara detail dan spesifik materi apa saja yang harus dipelajari, langkah-langkah praktis belajarnya, serta proyek latihan kecil atau hands-on yang harus dibuat oleh user untuk mempraktikkan materi tersebut (misalnya: "Mempelajari dasar routing Next.js, membuat dashboard e-commerce sederhana dengan fetching data dari server-side, dan deploy ke Vercel"). Buat instruksinya sangat konkrit dan terarah sehingga user tahu persis apa yang harus dilakukan.
 - Untuk setiap 'step', sertakan 'xp_reward' berdasarkan kesulitan: '20' (Mudah), '50' (Menengah), atau '100' (Sulit).
 
 Kembalikan HANYA JSON:
@@ -403,13 +406,31 @@ Kembalikan HANYA JSON:
   ],
   "roadmap": [
     {{
-      "phase": "",
+      "phase": "Nama Kategori Fase (Contoh: Fundamental Backend & Database)",
       "steps": [
         {{
-          "title": "",
-          "description": "",
-          "skill_tags": ["<tag1>", "<tag2>", "<tag3>"], // STRICT RULE: 3-6 TAGS, MAX 6 TAGS
+          "title": "Langkah 1: Spesifik Teknologi/Metodologi (Contoh: Mempelajari Framework Next.js & App Router)",
+          "description": "Detail materi belajar, panduan langkah praktis, dan proyek latihan nyata/hands-on.",
+          "skill_tags": ["<tag1>", "<tag2>", "<tag3>"],
           "xp_reward": 20
+        }},
+        {{
+          "title": "Langkah 2: Spesifik Teknologi/Metodologi",
+          "description": "Detail materi belajar, panduan langkah praktis, dan proyek latihan nyata/hands-on.",
+          "skill_tags": ["<tag1>", "<tag2>", "<tag3>"],
+          "xp_reward": 50
+        }},
+        {{
+          "title": "Langkah 3: Spesifik Teknologi/Metodologi",
+          "description": "Detail materi belajar, panduan langkah praktis, dan proyek latihan nyata/hands-on.",
+          "skill_tags": ["<tag1>", "<tag2>", "<tag3>"],
+          "xp_reward": 50
+        }},
+        {{
+          "title": "Langkah 4: Spesifik Teknologi/Metodologi",
+          "description": "Detail materi belajar, panduan langkah praktis, dan proyek latihan nyata/hands-on.",
+          "skill_tags": ["<tag1>", "<tag2>", "<tag3>"],
+          "xp_reward": 100
         }}
       ]
     }}
@@ -636,24 +657,7 @@ Sertakan semua step yang ADA (dengan action "keep" jika tidak ada perubahan) dan
         
         if "proposed_changes" in data and isinstance(data["proposed_changes"], list):
             for change in data["proposed_changes"]:
-                tags = change.get("skill_tags")
-                
-                # Convert string to list if AI returned a comma-separated string
-                if isinstance(tags, str):
-                    tags = [p.strip() for p in tags.split(",") if p.strip()]
-                    
-                if isinstance(tags, list):
-                    filtered_tags = []
-                    for t in tags:
-                        t_clean = t.strip()
-                        if t_clean.lower() in tag_lower_map:
-                            filtered_tags.append(tag_lower_map[t_clean.lower()])
-                    
-                    # Fallback to existing tags if all got filtered out to prevent empty tags
-                    if not filtered_tags and existing_tags:
-                        filtered_tags = list(existing_tags)[:3]
-                        
-                    change["skill_tags"] = filtered_tags[:6]
+                change["skill_tags"] = []
     except Exception:
         raise ValueError(f"Invalid JSON from Gemini adapt: {raw[:200]}")
 
